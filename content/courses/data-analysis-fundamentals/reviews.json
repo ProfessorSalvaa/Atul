@@ -1,0 +1,23 @@
+[
+  {
+    "id": "data-analysis-fundamentals-review-1",
+    "authorName": "Priya N.",
+    "authorInitials": "PN",
+    "rating": 5,
+    "quote": "The dataset walkthroughs finally made joins click for me."
+  },
+  {
+    "id": "data-analysis-fundamentals-review-2",
+    "authorName": "Sam T.",
+    "authorInitials": "ST",
+    "rating": 5,
+    "quote": "Went in knowing pivot tables, came out actually thinking like an analyst."
+  },
+  {
+    "id": "data-analysis-fundamentals-review-3",
+    "authorName": "Kwame B.",
+    "authorInitials": "KB",
+    "rating": 4,
+    "quote": "Excellent pacing. Wish there were two more modules on visualization."
+  }
+]

@@ -1,0 +1,65 @@
+slug: technical-writing-for-engineers
+title: Technical Writing for Engineers
+subtitle: Design docs, PR descriptions, and postmortems that people actually read — clarity as a
+  skill you can practice, not a personality trait.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 240
+tags:
+  - writing
+  - communication
+  - career
+skills:
+  - technical-writing
+  - design-docs
+  - postmortems
+careerPaths:
+  - software-engineer
+category: career-growth
+premium: false
+objectives:
+  - id: obj-1
+    text: "Understand: The One-Sentence Summary Test"
+  - id: obj-2
+    text: "Understand: Writing a Postmortem Nobody Dreads Reading"
+prerequisites: []
+instructor:
+  name: Renata Silva
+  title: Principal Engineer, ex-Datadog
+  bio: Renata Silva is Principal Engineer, ex-Datadog, teaching Technical Writing for Engineers on
+    Curitiq.
+  avatarInitials: RS
+modules:
+  - slug: clarity-is-a-structure-problem
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - career-systems-for-engineers
+seo:
+  title: Technical Writing for Engineers | Curitiq
+  description:
+    Design docs, PR descriptions, and postmortems that people actually read — clarity as a
+    skill you can practice, not a personality trait.
+  keywords: &a1
+    - Writing
+    - Communication
+    - Career
+  noIndex: false
+aiTutorContext:
+  summary: Design docs, PR descriptions, and postmortems that people actually read — clarity as a
+    skill you can practice, not a personality trait.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.6
+reviewCount: 489
+enrolledCount: 7020

@@ -6,7 +6,7 @@ import { CourseCard } from "@/components/learning/CourseCard";
 import { Container } from "@/components/shell/Container";
 import { cn } from "@/lib/cn";
 import { SITE_STATS, TESTIMONIALS } from "@/lib/sample-data/content";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { featuredCourses } from "@/lib/content/discovery";
 import styles from "./page.module.css";
 
 const VALUE_PROPS = [
@@ -31,7 +31,7 @@ const VALUE_PROPS = [
 ];
 
 export default function HomePage() {
-  const featured = SAMPLE_COURSES.slice(0, 3);
+  const featured = featuredCourses(3);
 
   return (
     <>
@@ -113,7 +113,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className={styles.courseGrid}>
-            {featured.map((course) => (
+            {featured.map(({ course }) => (
               <Link
                 key={course.slug}
                 href={`/courses/${course.slug}`}
@@ -121,9 +121,9 @@ export default function HomePage() {
               >
                 <CourseCard
                   title={course.title}
-                  description={course.description}
-                  level={course.level}
-                  durationLabel={`${course.durationHours} hrs`}
+                  description={course.subtitle}
+                  level={course.difficulty}
+                  durationLabel={`${Math.round(course.estimatedDurationMinutes / 60)} hrs`}
                   premium={course.premium}
                 />
               </Link>

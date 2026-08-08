@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getLessonBySlug, SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourseSlugs, getLessonBySlug, loadCourse } from "@/lib/content/loader";
 import { LessonContent } from "./LessonContent";
 
 interface PageProps {
@@ -8,9 +8,11 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return SAMPLE_COURSES.flatMap((course) =>
-    course.modules.flatMap((m) => m.lessons.map((l) => ({ slug: course.slug, lesson: l.slug }))),
-  );
+  return getAllCourseSlugs().flatMap((slug) => {
+    const loaded = loadCourse(slug);
+    if (!loaded) return [];
+    return loaded.modules.flatMap((m) => m.lessons.map((l) => ({ slug, lesson: l.lesson.slug })));
+  });
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -33,5 +35,12 @@ export default async function LessonPage({ params }: PageProps) {
   const found = getLessonBySlug(slug, lesson);
   if (!found) notFound();
 
-  return <LessonContent course={found.course} module={found.module} lesson={found.lesson} />;
+  return (
+    <LessonContent
+      course={found.course}
+      module={found.module}
+      lesson={found.lesson}
+      mdxSource={found.mdxSource}
+    />
+  );
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "writing-your-first-query-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Writing Your First Query\"?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Writing Your First Query\" is primarily about applying this idea in Data Analysis Fundamentals.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Writing Your First Query\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-your-first-query-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Writing Your First Query\" is meant to be understood, not just memorized.",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "spot-the-bias-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Spot the Bias: A Flashcard Drill\"?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Spot the Bias: A Flashcard Drill\" is primarily about applying this idea in Data Analysis Fundamentals.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Spot the Bias: A Flashcard Drill\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "spot-the-bias-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Spot the Bias: A Flashcard Drill\" is meant to be understood, not just memorized.",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

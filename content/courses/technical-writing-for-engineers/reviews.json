@@ -1,0 +1,16 @@
+[
+  {
+    "id": "technical-writing-for-engineers-review-1",
+    "authorName": "Ibrahim K.",
+    "authorInitials": "IK",
+    "rating": 5,
+    "quote": "My design docs get approved on the first pass now."
+  },
+  {
+    "id": "technical-writing-for-engineers-review-2",
+    "authorName": "Chloe A.",
+    "authorInitials": "CA",
+    "rating": 4,
+    "quote": "Short, practical, no fluff. Wish I'd had this five years ago."
+  }
+]

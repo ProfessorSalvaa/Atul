@@ -1,0 +1,67 @@
+slug: sql-for-product-thinking
+title: SQL for Product Thinking
+subtitle: Write SQL that answers real product questions — funnels, retention, and cohort analysis,
+  taught by working backward from decisions, not syntax.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 480
+tags:
+  - sql
+  - product
+  - analytics
+skills:
+  - sql-fundamentals
+  - cohort-analysis
+  - funnel-analysis
+careerPaths:
+  - data-analyst
+  - product-manager
+category: data-analytics
+premium: true
+objectives:
+  - id: obj-1
+    text: "Understand: Start With the Decision, Not the Table"
+  - id: obj-2
+    text: "Understand: Building a Funnel Query"
+prerequisites:
+  - description: Comfort with the fundamentals of this topic area
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching SQL for Product Thinking on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: questions-before-queries
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - data-analysis-fundamentals
+  - modern-product-design-foundations
+  - prompt-engineering-for-builders
+seo:
+  title: SQL for Product Thinking | Curitiq
+  description: Write SQL that answers real product questions — funnels, retention, and cohort
+    analysis, taught by working backward from decisions, not syntax.
+  keywords: &a1
+    - SQL
+    - Product
+    - Analytics
+  noIndex: false
+aiTutorContext:
+  summary: Write SQL that answers real product questions — funnels, retention, and cohort analysis,
+    taught by working backward from decisions, not syntax.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.7
+reviewCount: 612
+enrolledCount: 8130

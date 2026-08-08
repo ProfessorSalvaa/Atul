@@ -1,0 +1,16 @@
+[
+  {
+    "id": "restraint-as-a-skill-fc-1",
+    "front": "What's the core idea behind \"Restraint as a Skill\"?",
+    "back": "Recall it in your own words, then check it against the lesson body.",
+    "difficulty": "beginner",
+    "tags": ["design", "ux"]
+  },
+  {
+    "id": "restraint-as-a-skill-fc-2",
+    "front": "Why does \"Restraint as a Skill\" matter in practice?",
+    "back": "Because it's one of the recurring failure points learners hit without this grounding.",
+    "difficulty": "beginner",
+    "tags": ["design", "ux"]
+  }
+]

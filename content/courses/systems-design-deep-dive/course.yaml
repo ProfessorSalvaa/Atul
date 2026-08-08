@@ -1,0 +1,64 @@
+slug: systems-design-deep-dive
+title: Systems Design Deep Dive
+subtitle: Beyond the interview script — how real systems actually scale, degrade, and get debugged
+  at 2am. For engineers who already ship.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 660
+tags:
+  - systems
+  - architecture
+  - scale
+skills:
+  - distributed-systems
+  - caching-strategy
+  - capacity-planning
+careerPaths:
+  - software-engineer
+category: engineering
+premium: true
+objectives:
+  - id: obj-1
+    text: "Understand: Consistency Is a Spectrum, Not a Switch"
+  - id: obj-2
+    text: "Understand: Caching That Actually Holds Up"
+prerequisites:
+  - description: Comfort with the fundamentals of this topic area
+instructor:
+  name: Renata Silva
+  title: Principal Engineer, ex-Datadog
+  bio: Renata Silva is Principal Engineer, ex-Datadog, teaching Systems Design Deep Dive on Curitiq.
+  avatarInitials: RS
+modules:
+  - slug: foundations-worth-re-examining
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs: []
+seo:
+  title: Systems Design Deep Dive | Curitiq
+  description: Beyond the interview script — how real systems actually scale, degrade, and get
+    debugged at 2am. For engineers who already ship.
+  keywords: &a1
+    - Systems
+    - Architecture
+    - Scale
+  noIndex: false
+aiTutorContext:
+  summary:
+    Beyond the interview script — how real systems actually scale, degrade, and get debugged at
+    2am. For engineers who already ship.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.9
+reviewCount: 941
+enrolledCount: 11380

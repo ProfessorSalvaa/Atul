@@ -1,0 +1,14 @@
+slug: foundations-worth-re-examining
+title: Foundations Worth Re-Examining
+description: Foundations Worth Re-Examining — part of Systems Design Deep Dive.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Consistency Is a Spectrum, Not a Switch"
+  - id: mo-2
+    text: "Grasp: Caching That Actually Holds Up"
+lessons:
+  - slug: consistency-is-a-spectrum
+    order: 0
+  - slug: caching-that-actually-holds
+    order: 1

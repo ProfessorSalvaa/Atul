@@ -1,0 +1,38 @@
+[
+  {
+    "id": "reading-a-generated-diff-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Reading a Generated Diff Fast\"?",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Reading a Generated Diff Fast\" is primarily about applying this idea in AI Tooling for Developers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Reading a Generated Diff Fast\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reading-a-generated-diff-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Reading a Generated Diff Fast\" is meant to be understood, not just memorized.",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

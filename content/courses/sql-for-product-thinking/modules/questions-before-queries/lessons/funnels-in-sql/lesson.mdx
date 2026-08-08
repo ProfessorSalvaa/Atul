@@ -1,0 +1,31 @@
+---
+type: code
+title: Building a Funnel Query
+order: 1
+durationMinutes: 21
+objectives:
+  - Understand building a funnel query
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Building a Funnel Query."
+  keyConcepts:
+    - Building a Funnel Query
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+Generated diffs and unfamiliar code reward a different reading strategy than writing from scratch. Start by asking what changed in _intent_ — then verify only the lines that affect behavior you actually care about.
+
+```javascript
+function summarize(rows) {
+  return rows
+    .filter((r) => r.active)
+    .map((r) => r.value)
+    .reduce((sum, v) => sum + v, 0);
+}
+```
+
+Notice the filter-map-reduce chain reads almost like a sentence. That's not an accident — it's the fastest shape to verify at a glance, which matters most in exactly the situation this lesson is about: **Building a Funnel Query**.
+
+By the end of this lesson you should be able to apply this directly to your own work in sql for product thinking.

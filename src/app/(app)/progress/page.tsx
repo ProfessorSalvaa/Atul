@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/Card";
 import { Progress } from "@/components/ui/Progress";
 import { PageHeader } from "@/components/shell/PageHeader";
 import { USER_PROFILE } from "@/lib/sample-data/content";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourses } from "@/lib/content/loader";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -35,7 +35,7 @@ const TIMELINE: TimelineEntry[] = [
 ];
 
 export default function ProgressPage() {
-  const enrolled = SAMPLE_COURSES.filter((c) => c.slug in PROGRESS_BY_SLUG);
+  const enrolled = getAllCourses().filter((c) => c.course.slug in PROGRESS_BY_SLUG);
 
   return (
     <>
@@ -64,7 +64,7 @@ export default function ProgressPage() {
         <div>
           <h2 className={styles.sectionHeading}>Course progress</h2>
           <div className={styles.progressList}>
-            {enrolled.map((course) => (
+            {enrolled.map(({ course }) => (
               <Card key={course.slug} className={styles.progressCard}>
                 <p className={styles.courseTitle}>{course.title}</p>
                 <Progress value={PROGRESS_BY_SLUG[course.slug]} showValue />

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ai-tooling-for-developers-review-1",
+    "authorName": "Marcus D.",
+    "authorInitials": "MD",
+    "rating": 5,
+    "quote": "The review-discipline module alone paid for the subscription."
+  },
+  {
+    "id": "ai-tooling-for-developers-review-2",
+    "authorName": "Lina H.",
+    "authorInitials": "LH",
+    "rating": 5,
+    "quote": "First course on this topic that isn't just prompt trivia."
+  },
+  {
+    "id": "ai-tooling-for-developers-review-3",
+    "authorName": "Owen P.",
+    "authorInitials": "OP",
+    "rating": 5,
+    "quote": "Changed how my whole team reviews generated diffs."
+  }
+]

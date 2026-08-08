@@ -1,0 +1,38 @@
+[
+  {
+    "id": "when-to-throw-it-out-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"When to Throw It Out and Start Over\"?",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"When to Throw It Out and Start Over\" is primarily about applying this idea in AI Tooling for Developers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"When to Throw It Out and Start Over\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "when-to-throw-it-out-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"When to Throw It Out and Start Over\" is meant to be understood, not just memorized.",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

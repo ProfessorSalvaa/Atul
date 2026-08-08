@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CourseCard } from "@/components/learning/CourseCard";
 import { PageHeader } from "@/components/shell/PageHeader";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourses } from "@/lib/content/loader";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -19,8 +19,9 @@ const PROGRESS_BY_SLUG: Record<string, number> = {
 
 export default function LearnPage() {
   const enrolledSlugs = Object.keys(PROGRESS_BY_SLUG);
-  const enrolled = SAMPLE_COURSES.filter((c) => enrolledSlugs.includes(c.slug));
-  const notStarted = SAMPLE_COURSES.filter((c) => !enrolledSlugs.includes(c.slug));
+  const all = getAllCourses();
+  const enrolled = all.filter((c) => enrolledSlugs.includes(c.course.slug));
+  const notStarted = all.filter((c) => !enrolledSlugs.includes(c.course.slug));
 
   return (
     <>
@@ -29,12 +30,12 @@ export default function LearnPage() {
       <section className={styles.section}>
         <h2 className={styles.sectionHeading}>In progress</h2>
         <div className={styles.grid}>
-          {enrolled.map((course) => (
+          {enrolled.map(({ course }) => (
             <Link key={course.slug} href={`/courses/${course.slug}`} className={styles.link}>
               <CourseCard
                 title={course.title}
-                level={course.level}
-                durationLabel={`${course.durationHours} hrs`}
+                level={course.difficulty}
+                durationLabel={`${Math.round(course.estimatedDurationMinutes / 60)} hrs`}
                 progress={PROGRESS_BY_SLUG[course.slug]}
                 premium={course.premium}
               />
@@ -46,13 +47,13 @@ export default function LearnPage() {
       <section className={styles.section}>
         <h2 className={styles.sectionHeading}>Not started yet</h2>
         <div className={styles.grid}>
-          {notStarted.map((course) => (
+          {notStarted.map(({ course }) => (
             <Link key={course.slug} href={`/courses/${course.slug}`} className={styles.link}>
               <CourseCard
                 title={course.title}
-                description={course.description}
-                level={course.level}
-                durationLabel={`${course.durationHours} hrs`}
+                description={course.subtitle}
+                level={course.difficulty}
+                durationLabel={`${Math.round(course.estimatedDurationMinutes / 60)} hrs`}
                 premium={course.premium}
               />
             </Link>

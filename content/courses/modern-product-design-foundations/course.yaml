@@ -1,0 +1,65 @@
+slug: modern-product-design-foundations
+title: Modern Product Design Foundations
+subtitle: The judgment behind good product design — hierarchy, restraint, and how to critique your
+  own work before anyone else has to.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 360
+tags:
+  - design
+  - ux
+  - product
+skills:
+  - visual-hierarchy
+  - design-critique
+  - interaction-design
+careerPaths:
+  - product-designer
+category: design
+premium: false
+objectives:
+  - id: obj-1
+    text: "Understand: What's Actually First on the Page"
+  - id: obj-2
+    text: "Understand: Restraint as a Skill"
+prerequisites: []
+instructor:
+  name: Yuki Tanaka
+  title: Design Lead, ex-Notion
+  bio: Yuki Tanaka is Design Lead, ex-Notion, teaching Modern Product Design Foundations on Curitiq.
+  avatarInitials: YT
+modules:
+  - slug: seeing-hierarchy
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - prompt-engineering-for-builders
+  - sql-for-product-thinking
+  - career-systems-for-engineers
+seo:
+  title: Modern Product Design Foundations | Curitiq
+  description: The judgment behind good product design — hierarchy, restraint, and how to critique
+    your own work before anyone else has to.
+  keywords: &a1
+    - Design
+    - UX
+    - Product
+  noIndex: false
+aiTutorContext:
+  summary: The judgment behind good product design — hierarchy, restraint, and how to critique your
+    own work before anyone else has to.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.7
+reviewCount: 1567
+enrolledCount: 21990

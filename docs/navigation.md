@@ -164,3 +164,42 @@ any real backend. What changed, by category:
   and why a full Lighthouse run couldn't be executed in this sandbox.
 
 This supersedes the M2-era note above about a minimal shortcut set.
+
+## M2.75 addendum: Content Engine
+
+M2.75 replaced the courses/lessons half of `sample-data` with a
+schema-validated content engine — the application no longer hardcodes
+course data. See `docs/content/architecture.md` for the full design
+rationale; summary of what changed in the app itself:
+
+- **Course/lesson/quiz pages now read from `src/lib/content/loader.ts`**
+  instead of `sample-data/courses.ts`: the courses catalog, course
+  detail, lesson player, quiz flow, dashboard, learn, progress, search,
+  home (featured courses), and `sitemap.ts` all switched over. `getAllCourseSlugs`
+  replaces `SAMPLE_COURSES.map(c => c.slug)` for `generateStaticParams`
+  throughout — adding a course to `content/courses/` is now sufficient
+  to add its routes, with zero page-component changes.
+- **Lesson content is real MDX**, compiled server-side via
+  `next-mdx-remote/rsc` (`src/lib/content/mdx.tsx`). `LessonContent.tsx`
+  was split into a Server Component (resolves prev/next, compiles MDX)
+  and a new `LessonInteractive.tsx` Client Component (mark-complete,
+  toasts, pager) — MDX compilation only works in a Server Component,
+  which is why the split exists.
+- **Quiz questions are content-driven**: `QuizFlow.tsx` now takes a
+  `questions: QuizQuestion[]` prop loaded from each lesson's
+  `quiz.json` instead of a hardcoded 3-question array. Two of the
+  schema's nine question types (single-choice, true-false) render
+  today; the rest validate and load correctly and are documented as
+  schema-ready-not-yet-rendered in the component itself.
+- **`sample-data/content.ts` is unchanged and still in use** — blog
+  posts, achievements, notifications, testimonials, site stats, and the
+  user profile were out of scope for this migration (courses/lessons/
+  quizzes only, per the M2.75 brief). `sample-data/courses.ts` itself
+  is now only referenced by its own test file and by
+  `scripts/migrate-sample-data.mts` (kept as a migration record, not
+  meant to be re-run).
+- **Design-system freeze held**: `LessonCard`'s frozen 3-value `type`
+  prop (concept/code/flashcard) didn't grow to match the new 11-value
+  `Lesson["type"]` union — `src/lib/content/lessonCardAdapter.ts` maps
+  down to the closest icon instead, same compose-don't-modify pattern
+  as M2.5.

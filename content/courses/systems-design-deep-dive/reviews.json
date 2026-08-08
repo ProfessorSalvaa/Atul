@@ -1,0 +1,16 @@
+[
+  {
+    "id": "systems-design-deep-dive-review-1",
+    "authorName": "Jon K.",
+    "authorInitials": "JK",
+    "rating": 5,
+    "quote": "The caching module is the clearest explanation I've ever read."
+  },
+  {
+    "id": "systems-design-deep-dive-review-2",
+    "authorName": "Amara O.",
+    "authorInitials": "AO",
+    "rating": 5,
+    "quote": "Feels like debugging alongside someone who's actually been paged at 2am."
+  }
+]

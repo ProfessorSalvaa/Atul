@@ -1,0 +1,38 @@
+[
+  {
+    "id": "consistency-is-a-spectrum-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Consistency Is a Spectrum, Not a Switch\"?",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Consistency Is a Spectrum, Not a Switch\" is primarily about applying this idea in Systems Design Deep Dive.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Consistency Is a Spectrum, Not a Switch\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "consistency-is-a-spectrum-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Consistency Is a Spectrum, Not a Switch\" is meant to be understood, not just memorized.",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

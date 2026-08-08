@@ -1,0 +1,14 @@
+slug: clarity-is-a-structure-problem
+title: Clarity Is a Structure Problem
+description: Clarity Is a Structure Problem — part of Technical Writing for Engineers.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The One-Sentence Summary Test"
+  - id: mo-2
+    text: "Grasp: Writing a Postmortem Nobody Dreads Reading"
+lessons:
+  - slug: the-one-sentence-summary
+    order: 0
+  - slug: writing-a-postmortem
+    order: 1

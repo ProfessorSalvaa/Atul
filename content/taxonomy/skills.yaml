@@ -1,0 +1,44 @@
+- slug: data-cleaning
+  label: Data Cleaning
+- slug: sql-fundamentals
+  label: Sql Fundamentals
+- slug: data-storytelling
+  label: Data Storytelling
+- slug: prompt-engineering
+  label: Prompt Engineering
+- slug: code-review
+  label: Code Review
+- slug: ai-assisted-development
+  label: Ai Assisted Development
+- slug: distributed-systems
+  label: Distributed Systems
+- slug: caching-strategy
+  label: Caching Strategy
+- slug: capacity-planning
+  label: Capacity Planning
+- slug: visual-hierarchy
+  label: Visual Hierarchy
+- slug: design-critique
+  label: Design Critique
+- slug: interaction-design
+  label: Interaction Design
+- slug: prompt-testing
+  label: Prompt Testing
+- slug: llm-integration
+  label: Llm Integration
+- slug: cohort-analysis
+  label: Cohort Analysis
+- slug: funnel-analysis
+  label: Funnel Analysis
+- slug: technical-writing
+  label: Technical Writing
+- slug: design-docs
+  label: Design Docs
+- slug: postmortems
+  label: Postmortems
+- slug: career-planning
+  label: Career Planning
+- slug: scope-management
+  label: Scope Management
+- slug: visibility-building
+  label: Visibility Building

@@ -1,0 +1,69 @@
+slug: career-systems-for-engineers
+title: Career Systems for Engineers
+subtitle: Building a career you don't need to recover from — scope, visibility, and pace, treated as
+  systems you can design instead of just endure.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 300
+tags:
+  - career
+  - growth
+  - product
+skills:
+  - career-planning
+  - scope-management
+  - visibility-building
+careerPaths:
+  - software-engineer
+  - product-manager
+category: career-growth
+premium: true
+objectives:
+  - id: obj-1
+    text: "Understand: Scope as a Lever You Can Pull"
+  - id: obj-2
+    text: "Understand: Visibility Without Burnout"
+prerequisites:
+  - description: Comfort with the fundamentals of this topic area
+instructor:
+  name: Yuki Tanaka
+  title: Design Lead, ex-Notion
+  bio: Yuki Tanaka is Design Lead, ex-Notion, teaching Career Systems for Engineers on Curitiq.
+  avatarInitials: YT
+modules:
+  - slug: designing-not-enduring
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - modern-product-design-foundations
+  - prompt-engineering-for-builders
+  - sql-for-product-thinking
+seo:
+  title: Career Systems for Engineers | Curitiq
+  description:
+    Building a career you don't need to recover from — scope, visibility, and pace, treated
+    as systems you can design instead of just endure.
+  keywords: &a1
+    - Career
+    - Growth
+    - Product
+  noIndex: false
+aiTutorContext:
+  summary:
+    Building a career you don't need to recover from — scope, visibility, and pace, treated as
+    systems you can design instead of just endure.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.8
+reviewCount: 356
+enrolledCount: 5210

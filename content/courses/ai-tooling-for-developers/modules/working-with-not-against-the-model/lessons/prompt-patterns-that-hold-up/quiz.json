@@ -1,0 +1,38 @@
+[
+  {
+    "id": "prompt-patterns-that-hold-up-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Prompt Patterns That Hold Up Under Change\"?",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Prompt Patterns That Hold Up Under Change\" is primarily about applying this idea in AI Tooling for Developers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Prompt Patterns That Hold Up Under Change\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "prompt-patterns-that-hold-up-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Prompt Patterns That Hold Up Under Change\" is meant to be understood, not just memorized.",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

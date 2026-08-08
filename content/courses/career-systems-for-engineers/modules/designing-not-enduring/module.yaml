@@ -1,0 +1,14 @@
+slug: designing-not-enduring
+title: Designing, Not Enduring
+description: Designing, Not Enduring — part of Career Systems for Engineers.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Scope as a Lever You Can Pull"
+  - id: mo-2
+    text: "Grasp: Visibility Without Burnout"
+lessons:
+  - slug: scope-as-a-lever
+    order: 0
+  - slug: visibility-without-burnout
+    order: 1

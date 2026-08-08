@@ -1,0 +1,38 @@
+[
+  {
+    "id": "scope-as-a-lever-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Scope as a Lever You Can Pull\"?",
+    "difficulty": "intermediate",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Scope as a Lever You Can Pull\" is primarily about applying this idea in Career Systems for Engineers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Scope as a Lever You Can Pull\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "scope-as-a-lever-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Scope as a Lever You Can Pull\" is meant to be understood, not just memorized.",
+    "difficulty": "intermediate",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

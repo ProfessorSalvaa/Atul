@@ -1,13 +1,16 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo";
 import { BLOG_POSTS } from "@/lib/sample-data/content";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { allLessonsFlat, getAllCourses } from "@/lib/content/loader";
 
 /**
- * Static routes + one entry per sample course/blog post, matching P0 §18's
- * indexable set: home, pricing, catalog, course detail pages, the
+ * Static routes + one entry per published course/blog post, matching P0
+ * §18's indexable set: home, pricing, catalog, course detail pages, the
  * free-preview first lesson of each course, and blog. Everything else is
- * excluded per NOINDEX_ROUTE_PREFIXES (see robots.ts).
+ * excluded per NOINDEX_ROUTE_PREFIXES (see robots.ts). Course entries now
+ * come from the content engine (content/courses/**) rather than static
+ * sample-data — adding a course.yaml automatically adds it here, no code
+ * change required.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -20,14 +23,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
   ];
 
-  const courseRoutes: MetadataRoute.Sitemap = SAMPLE_COURSES.flatMap((course) => {
-    const freeLesson = course.modules.flatMap((m) => m.lessons).find((l) => l.free);
+  const courseRoutes: MetadataRoute.Sitemap = getAllCourses().flatMap((loaded) => {
+    const freeLesson = allLessonsFlat(loaded).find((l) => l.free);
     const entries: MetadataRoute.Sitemap = [
-      { url: `${SITE_URL}/courses/${course.slug}`, changeFrequency: "weekly", priority: 0.8 },
+      {
+        url: `${SITE_URL}/courses/${loaded.course.slug}`,
+        lastModified: loaded.course.updatedDate ?? loaded.course.publishedDate,
+        changeFrequency: "weekly",
+        priority: 0.8,
+      },
     ];
     if (freeLesson) {
       entries.push({
-        url: `${SITE_URL}/courses/${course.slug}/${freeLesson.slug}`,
+        url: `${SITE_URL}/courses/${loaded.course.slug}/${freeLesson.slug}`,
         changeFrequency: "monthly",
         priority: 0.6,
       });

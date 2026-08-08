@@ -1,0 +1,14 @@
+slug: exploring-a-real-dataset
+title: Exploring a Real Dataset
+description: Exploring a Real Dataset — part of Data Analysis Fundamentals.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Reading a Schema Like a Detective"
+  - id: mo-2
+    text: "Grasp: Writing Your First Query"
+lessons:
+  - slug: reading-a-schema
+    order: 0
+  - slug: writing-your-first-query
+    order: 1

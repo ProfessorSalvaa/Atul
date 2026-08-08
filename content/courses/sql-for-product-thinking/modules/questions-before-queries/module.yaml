@@ -1,0 +1,14 @@
+slug: questions-before-queries
+title: Questions Before Queries
+description: Questions Before Queries — part of SQL for Product Thinking.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Start With the Decision, Not the Table"
+  - id: mo-2
+    text: "Grasp: Building a Funnel Query"
+lessons:
+  - slug: start-with-the-decision
+    order: 0
+  - slug: funnels-in-sql
+    order: 1

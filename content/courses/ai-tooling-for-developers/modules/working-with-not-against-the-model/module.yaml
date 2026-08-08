@@ -1,0 +1,14 @@
+slug: working-with-not-against-the-model
+title: Working With, Not Against, the Model
+description: Working With, Not Against, the Model — part of AI Tooling for Developers.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Trust Boundary"
+  - id: mo-2
+    text: "Grasp: Prompt Patterns That Hold Up Under Change"
+lessons:
+  - slug: the-trust-boundary
+    order: 0
+  - slug: prompt-patterns-that-hold-up
+    order: 1

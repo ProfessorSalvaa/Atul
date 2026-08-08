@@ -1,0 +1,16 @@
+[
+  {
+    "id": "spot-the-bias-fc-1",
+    "front": "What's the core idea behind \"Spot the Bias: A Flashcard Drill\"?",
+    "back": "Recall it in your own words, then check it against the lesson body.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "spot-the-bias-fc-2",
+    "front": "Why does \"Spot the Bias: A Flashcard Drill\" matter in practice?",
+    "back": "Because it's one of the recurring failure points learners hit without this grounding.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  }
+]

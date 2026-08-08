@@ -1,0 +1,38 @@
+[
+  {
+    "id": "whats-actually-first-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"What's Actually First on the Page\"?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"What's Actually First on the Page\" is primarily about applying this idea in Modern Product Design Foundations.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"What's Actually First on the Page\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "whats-actually-first-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"What's Actually First on the Page\" is meant to be understood, not just memorized.",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

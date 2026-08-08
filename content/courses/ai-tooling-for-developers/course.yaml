@@ -1,0 +1,71 @@
+slug: ai-tooling-for-developers
+title: AI Tooling for Developers
+subtitle: Practical, opinionated guidance on working with modern AI coding tools — prompting
+  patterns, review discipline, and where to trust vs. verify.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 420
+tags:
+  - ai
+  - developer-tools
+  - workflow
+skills:
+  - prompt-engineering
+  - code-review
+  - ai-assisted-development
+careerPaths:
+  - software-engineer
+  - ai-engineer
+category: ai-development
+premium: true
+objectives:
+  - id: obj-1
+    text: "Understand: The Trust Boundary"
+  - id: obj-2
+    text: "Understand: Prompt Patterns That Hold Up Under Change"
+  - id: obj-3
+    text: "Understand: Reading a Generated Diff Fast"
+  - id: obj-4
+    text: "Understand: When to Throw It Out and Start Over"
+prerequisites:
+  - description: Comfort with the fundamentals of this topic area
+instructor:
+  name: Theo Marsh
+  title: Staff Engineer, ex-Vercel
+  bio: Theo Marsh is Staff Engineer, ex-Vercel, teaching AI Tooling for Developers on Curitiq.
+  avatarInitials: TM
+modules:
+  - slug: working-with-not-against-the-model
+    order: 0
+  - slug: review-discipline
+    order: 1
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - prompt-engineering-for-builders
+seo:
+  title: AI Tooling for Developers | Curitiq
+  description: Practical, opinionated guidance on working with modern AI coding tools — prompting
+    patterns, review discipline, and where to trust vs. verify.
+  keywords: &a1
+    - AI
+    - Developer Tools
+    - Workflow
+  noIndex: false
+aiTutorContext:
+  summary: Practical, opinionated guidance on working with modern AI coding tools — prompting
+    patterns, review discipline, and where to trust vs. verify.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.9
+reviewCount: 2113
+enrolledCount: 26710

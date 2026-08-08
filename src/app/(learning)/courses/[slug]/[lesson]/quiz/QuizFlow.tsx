@@ -2,66 +2,77 @@
 
 import { CheckCircle2, XCircle } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
+import { EmptyState } from "@/components/ui/EmptyState";
 import { useToast } from "@/components/shell/ToastHost";
 import { Progress } from "@/components/ui/Progress";
 import { RadioGroup, RadioItem } from "@/components/ui/Radio";
 import { cn } from "@/lib/cn";
-import type { SampleCourse, SampleLesson } from "@/lib/sample-data/courses";
+import type { Course, Lesson, QuizQuestion } from "@/lib/content/schema";
 import styles from "./page.module.css";
 
-interface Question {
+/**
+ * Renderable question shape once a `QuizQuestion` has been normalized —
+ * every quiz UI concern (radio list, correctness check) only needs to
+ * know about this shape, not about each discriminated-union variant.
+ *
+ * Currently `single-choice` and `true-false` are normalized (2 of the
+ * quiz engine's 9 schema-supported types — see schema/quiz.ts). The
+ * remaining 7 (multiple-choice, fill-in-blank, matching, ordering,
+ * code-output, scenario-based, explain-why) validate and load correctly
+ * but don't have a renderer here yet; unsupported questions are filtered
+ * out below rather than crashing the player. Extending this is additive:
+ * add a case to `normalizeQuestion`, no schema or loader changes needed.
+ */
+interface RenderableQuestion {
   id: string;
   prompt: string;
-  options: string[];
-  correctIndex: number;
-  feedback: { correct: string; incorrect: string };
+  options: { id: string; text: string }[];
+  correctOptionId: string;
+  explanation: string;
 }
 
-const QUESTIONS: Question[] = [
-  {
-    id: "q1",
-    prompt: "What's the recommended first step when reviewing a generated diff?",
-    options: [
-      "Read every line in file order",
-      "Understand the intent of the change before checking individual lines",
-      "Run the test suite and skip reading entirely",
-    ],
-    correctIndex: 1,
-    feedback: {
-      correct: "Right — intent first, then verify the lines that actually affect behavior.",
-      incorrect: "Not quite — reading line-by-line first is slower and easier to rubber-stamp.",
-    },
-  },
-  {
-    id: "q2",
-    prompt: "Why does Curitiq scope the AI tutor to the current lesson?",
-    options: [
-      "To reduce hallucination risk and keep answers grounded",
-      "Because a full knowledge base is too expensive to build",
-      "It doesn't — the tutor sees the entire course",
-    ],
-    correctIndex: 0,
-    feedback: {
-      correct: "Exactly — scoping keeps answers grounded in what you're actually reading.",
-      incorrect: "Close, but the real reason is grounding, not cost or scope of course access.",
-    },
-  },
-  {
-    id: "q3",
-    prompt: "What passing threshold does a Curitiq quiz typically use?",
-    options: ["50%", "70%", "100%, no retries allowed"],
-    correctIndex: 1,
-    feedback: {
-      correct: "70% is the default pass threshold, with unlimited retries — no punitive lockout.",
-      incorrect: "The default threshold is 70%, and retries are always unlimited.",
-    },
-  },
-];
+function normalizeQuestion(q: QuizQuestion): RenderableQuestion | null {
+  if (q.type === "single-choice") {
+    return {
+      id: q.id,
+      prompt: q.prompt,
+      options: q.options,
+      correctOptionId: q.correctOptionId,
+      explanation: q.explanation,
+    };
+  }
+  if (q.type === "true-false") {
+    return {
+      id: q.id,
+      prompt: q.prompt,
+      options: [
+        { id: "true", text: "True" },
+        { id: "false", text: "False" },
+      ],
+      correctOptionId: String(q.correctAnswer),
+      explanation: q.explanation,
+    };
+  }
+  return null;
+}
 
-export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: SampleLesson }) {
+export function QuizFlow({
+  course,
+  lesson,
+  questions: rawQuestions,
+}: {
+  course: Course;
+  lesson: Lesson;
+  questions: QuizQuestion[];
+}) {
+  const questions = useMemo(
+    () => rawQuestions.map(normalizeQuestion).filter((q): q is RenderableQuestion => q !== null),
+    [rawQuestions],
+  );
+
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
@@ -69,19 +80,28 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
   const [finished, setFinished] = useState(false);
   const { notify } = useToast();
 
-  const question = QUESTIONS[index];
-  const isLast = index === QUESTIONS.length - 1;
-  const isCorrect = revealed && Number(selected) === question.correctIndex;
+  if (questions.length === 0) {
+    return (
+      <EmptyState
+        title="No quiz yet for this lesson"
+        description="This lesson's quiz questions haven't been authored yet."
+      />
+    );
+  }
+
+  const question = questions[index];
+  const isLast = index === questions.length - 1;
+  const isCorrect = revealed && selected === question.correctOptionId;
 
   function handleCheck() {
     if (selected === null) return;
     setRevealed(true);
-    if (Number(selected) === question.correctIndex) setScore((s) => s + 1);
+    if (selected === question.correctOptionId) setScore((s) => s + 1);
   }
 
   function handleNext() {
     if (isLast) {
-      const percent = Math.round((score / QUESTIONS.length) * 100);
+      const percent = Math.round((score / questions.length) * 100);
       setFinished(true);
       notify({
         title: percent >= 70 ? "Quiz passed" : "Quiz not passed — try again anytime",
@@ -104,7 +124,7 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
   }
 
   if (finished) {
-    const percent = Math.round((score / QUESTIONS.length) * 100);
+    const percent = Math.round((score / questions.length) * 100);
     const passed = percent >= 70;
     return (
       <Card raised className={styles.summaryCard}>
@@ -138,8 +158,8 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
       <p className={styles.quizLabel}>Quiz: {lesson.title}</p>
       <Progress
         value={index + 1}
-        max={QUESTIONS.length}
-        label={`Question ${index + 1} of ${QUESTIONS.length}`}
+        max={questions.length}
+        label={`Question ${index + 1} of ${questions.length}`}
         className={styles.progress}
       />
       <Card raised className={styles.questionCard}>
@@ -149,8 +169,8 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
           value={selected ?? ""}
           onValueChange={(value) => !revealed && setSelected(value)}
         >
-          {question.options.map((option, i) => (
-            <RadioItem key={option} value={String(i)} label={option} disabled={revealed} />
+          {question.options.map((option) => (
+            <RadioItem key={option.id} value={option.id} label={option.text} disabled={revealed} />
           ))}
         </RadioGroup>
 
@@ -161,7 +181,7 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
               isCorrect ? styles.feedbackCorrect : styles.feedbackIncorrect,
             )}
           >
-            {isCorrect ? question.feedback.correct : question.feedback.incorrect}
+            {question.explanation}
           </p>
         )}
 

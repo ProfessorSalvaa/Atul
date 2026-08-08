@@ -1,0 +1,38 @@
+[
+  {
+    "id": "the-trust-boundary-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"The Trust Boundary\"?",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"The Trust Boundary\" is primarily about applying this idea in AI Tooling for Developers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"The Trust Boundary\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-trust-boundary-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"The Trust Boundary\" is meant to be understood, not just memorized.",
+    "difficulty": "advanced",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

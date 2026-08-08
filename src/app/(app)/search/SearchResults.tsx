@@ -3,21 +3,32 @@
 import { Search as SearchIcon } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { CourseCard } from "@/components/learning/CourseCard";
+import { CourseCard, type CourseLevel } from "@/components/learning/CourseCard";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Input } from "@/components/ui/Input";
 import { Skeleton } from "@/components/ui/Skeleton";
-import { allLessonsFlat, SAMPLE_COURSES } from "@/lib/sample-data/courses";
 import styles from "./page.module.css";
+
+export interface SearchableCourse {
+  slug: string;
+  title: string;
+  description: string;
+  level: CourseLevel;
+  durationHours: number;
+  premium: boolean;
+  tags: string[];
+  lessonTitles: string[];
+}
 
 /**
  * Fallback full-results page (P0 §11) — Cmd+K is the primary interface;
- * this is for deep queries. Filters the same static course/lesson data
- * client-side; `search.query` (Postgres full-text) replaces this in M5+.
- * A short artificial debounce drives a skeleton loading state so the page
- * demonstrates that state rather than always resolving instantly.
+ * this is for deep queries. Filters the course list (server-fetched from
+ * the content engine in page.tsx) client-side; `search.query` (Postgres
+ * full-text) replaces this in M5+. A short artificial debounce drives a
+ * skeleton loading state so the page demonstrates that state rather than
+ * always resolving instantly.
  */
-export function SearchResults() {
+export function SearchResults({ courses }: { courses: SearchableCourse[] }) {
   const [query, setQuery] = useState("");
   const [debouncedQuery, setDebouncedQuery] = useState("");
   const isSearching = query !== debouncedQuery;
@@ -31,13 +42,13 @@ export function SearchResults() {
 
   const results = useMemo(() => {
     const q = debouncedQuery.trim().toLowerCase();
-    if (!q) return SAMPLE_COURSES;
-    return SAMPLE_COURSES.filter((course) => {
+    if (!q) return courses;
+    return courses.filter((course) => {
       if (course.title.toLowerCase().includes(q)) return true;
       if (course.tags.some((t) => t.toLowerCase().includes(q))) return true;
-      return allLessonsFlat(course).some((l) => l.title.toLowerCase().includes(q));
+      return course.lessonTitles.some((t) => t.toLowerCase().includes(q));
     });
-  }, [debouncedQuery]);
+  }, [debouncedQuery, courses]);
 
   return (
     <>

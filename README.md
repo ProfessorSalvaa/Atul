@@ -2,7 +2,7 @@
 
 Help anyone master modern digital skills through beautifully designed, AI-powered learning experiences.
 
-This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations**, **M1 — Design System**, **M2 — Application Shell & Navigation**, and **M2.5 — Founder Demo Build** are complete: repo/tooling/CI, the full token + component library, every route from the P0 blueprint with rich, realistic demo data, and interaction polish (loading/success/error states, toasts, keyboard shortcuts) throughout — a full clickable product demo with no real backend yet. See `docs/component-inventory.md`, `docs/navigation.md`, and `docs/performance.md` for what exists. Real data, auth, and business logic start at M3+.
+This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations**, **M1 — Design System**, **M2 — Application Shell & Navigation**, **M2.5 — Founder Demo Build**, and **M2.75 — Content Engine** are complete: repo/tooling/CI, the full token + component library, every route from the P0 blueprint with rich, realistic demo data and interaction polish, and — as of M2.75 — a schema-validated content engine (`content/`, `src/lib/content/`) that the application reads from instead of hardcoded fixtures, built to scale to 500+ courses without further application code changes. See `docs/component-inventory.md`, `docs/navigation.md`, `docs/performance.md`, and `docs/content/architecture.md` for what exists. Real data, auth, and business logic start at M3+.
 
 ## Stack (decided in the roadmap, see repo docs)
 

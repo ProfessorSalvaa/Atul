@@ -1,0 +1,68 @@
+slug: prompt-engineering-for-builders
+title: Prompt Engineering for Builders
+subtitle: Structured, testable prompting for people shipping real features — not trivia, a
+  repeatable process for prompts that survive contact with users.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 300
+tags:
+  - ai
+  - product
+  - prompting
+skills:
+  - prompt-engineering
+  - prompt-testing
+  - llm-integration
+careerPaths:
+  - ai-engineer
+  - product-manager
+category: ai-development
+premium: true
+objectives:
+  - id: obj-1
+    text: "Understand: Prompts as Specifications"
+  - id: obj-2
+    text: "Understand: Testing a Prompt Like Code"
+prerequisites:
+  - description: Comfort with the fundamentals of this topic area
+instructor:
+  name: Theo Marsh
+  title: Staff Engineer, ex-Vercel
+  bio: Theo Marsh is Staff Engineer, ex-Vercel, teaching Prompt Engineering for Builders on Curitiq.
+  avatarInitials: TM
+modules:
+  - slug: a-process-not-a-trick
+    order: 0
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - ai-tooling-for-developers
+  - modern-product-design-foundations
+  - sql-for-product-thinking
+seo:
+  title: Prompt Engineering for Builders | Curitiq
+  description: Structured, testable prompting for people shipping real features — not trivia, a
+    repeatable process for prompts that survive contact with users.
+  keywords: &a1
+    - AI
+    - Product
+    - Prompting
+  noIndex: false
+aiTutorContext:
+  summary:
+    Structured, testable prompting for people shipping real features — not trivia, a repeatable
+    process for prompts that survive contact with users.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.8
+reviewCount: 803
+enrolledCount: 9640

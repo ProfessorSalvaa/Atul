@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CourseCard } from "@/components/learning/CourseCard";
 import { Container } from "@/components/shell/Container";
 import { PageHeader } from "@/components/shell/PageHeader";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourses } from "@/lib/content/loader";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -14,31 +14,35 @@ export const metadata: Metadata = {
 };
 
 export default function CourseCatalogPage() {
+  const courses = getAllCourses();
+
   return (
     <Container className={styles.wrap}>
       <PageHeader
         title="Course catalog"
-        description="Eight flagship courses. No padded catalog, no filler modules — depth over breadth."
+        description={`${courses.length} flagship courses. No padded catalog, no filler modules — depth over breadth.`}
       />
       <div className={styles.grid}>
-        {SAMPLE_COURSES.map((course) => (
+        {courses.map(({ course }) => (
           <Link key={course.slug} href={`/courses/${course.slug}`} className={styles.link}>
             <CourseCard
               title={course.title}
-              description={course.description}
-              level={course.level}
-              durationLabel={`${course.durationHours} hrs`}
+              description={course.subtitle}
+              level={course.difficulty}
+              durationLabel={`${Math.round(course.estimatedDurationMinutes / 60)} hrs`}
               premium={course.premium}
             />
             <div className={styles.meta}>
               <span className={styles.metaItem}>
                 <Star size={13} aria-hidden="true" className={styles.starIcon} />
-                {course.rating.toFixed(1)}
-                <span className={styles.metaMuted}>({course.reviewCount.toLocaleString()})</span>
+                {(course.rating ?? 0).toFixed(1)}
+                <span className={styles.metaMuted}>
+                  ({(course.reviewCount ?? 0).toLocaleString()})
+                </span>
               </span>
               <span className={styles.metaItem}>
                 <Users size={13} aria-hidden="true" />
-                {course.enrolledCount.toLocaleString()} learners
+                {(course.enrolledCount ?? 0).toLocaleString()} learners
               </span>
             </div>
           </Link>

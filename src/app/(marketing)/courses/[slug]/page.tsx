@@ -10,7 +10,9 @@ import { LessonCard } from "@/components/learning/LessonCard";
 import { ModuleCard } from "@/components/learning/ModuleCard";
 import { Container } from "@/components/shell/Container";
 import { cn } from "@/lib/cn";
-import { getCourseBySlug, SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourseSlugs, loadCourse } from "@/lib/content/loader";
+import { toCardLessonType } from "@/lib/content/lessonCardAdapter";
+import { courseMetadata } from "@/lib/content/seo";
 import styles from "./page.module.css";
 
 interface PageProps {
@@ -18,19 +20,14 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return SAMPLE_COURSES.map((course) => ({ slug: course.slug }));
+  return getAllCourseSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const course = getCourseBySlug(slug);
-  if (!course) return {};
-  return {
-    title: course.title,
-    description: course.description,
-    alternates: { canonical: `/courses/${course.slug}` },
-    openGraph: { title: course.title, description: course.description },
-  };
+  const loaded = loadCourse(slug);
+  if (!loaded) return {};
+  return courseMetadata(loaded);
 }
 
 const levelLabel = { beginner: "Beginner", intermediate: "Intermediate", advanced: "Advanced" };
@@ -43,16 +40,17 @@ const levelLabel = { beginner: "Beginner", intermediate: "Intermediate", advance
  */
 export default async function CourseDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const course = getCourseBySlug(slug);
-  if (!course) notFound();
+  const loaded = loadCourse(slug);
+  if (!loaded) notFound();
+  const { course, modules, reviews } = loaded;
 
-  const totalLessons = course.modules.reduce((sum, m) => sum + m.lessons.length, 0);
+  const totalLessons = modules.reduce((sum, m) => sum + m.lessons.length, 0);
 
   return (
     <Container className={styles.wrap}>
       <div className={styles.header}>
         <div className={styles.metaRow}>
-          <Badge tone="neutral">{levelLabel[course.level]}</Badge>
+          <Badge tone="neutral">{levelLabel[course.difficulty]}</Badge>
           {course.premium && (
             <Badge tone="brand">
               <Lock size={11} aria-hidden="true" /> Premium
@@ -60,19 +58,19 @@ export default async function CourseDetailPage({ params }: PageProps) {
           )}
         </div>
         <h1 className={styles.title}>{course.title}</h1>
-        <p className={styles.description}>{course.description}</p>
+        <p className={styles.description}>{course.subtitle}</p>
         <div className={styles.ratingRow}>
           <span className={styles.ratingScore}>
             <Star size={14} aria-hidden="true" className={styles.starIcon} />
-            {course.rating.toFixed(1)}
+            {(course.rating ?? 0).toFixed(1)}
           </span>
           <span className={styles.ratingCount}>
-            ({course.reviewCount.toLocaleString()} reviews) ·{" "}
-            {course.enrolledCount.toLocaleString()} learners enrolled
+            ({(course.reviewCount ?? 0).toLocaleString()} reviews) ·{" "}
+            {(course.enrolledCount ?? 0).toLocaleString()} learners enrolled
           </span>
         </div>
         <div className={styles.instructorRow}>
-          <Avatar fallback={course.instructor.initials} size="sm" />
+          <Avatar fallback={course.instructor.avatarInitials} size="sm" />
           <div>
             <p className={styles.instructorName}>{course.instructor.name}</p>
             <p className={styles.instructorTitle}>{course.instructor.title}</p>
@@ -80,8 +78,8 @@ export default async function CourseDetailPage({ params }: PageProps) {
         </div>
         <div className={styles.metaFooter}>
           <span className={styles.durationRow}>
-            <Clock size={14} aria-hidden="true" /> {course.durationHours} hours · {totalLessons}{" "}
-            lessons
+            <Clock size={14} aria-hidden="true" />{" "}
+            {Math.round(course.estimatedDurationMinutes / 60)} hours · {totalLessons} lessons
           </span>
           <div className={styles.tags}>
             {course.tags.map((tag) => (
@@ -103,9 +101,9 @@ export default async function CourseDetailPage({ params }: PageProps) {
 
       <div className={styles.outline}>
         <h2 className={styles.outlineHeading}>Course outline</h2>
-        {course.modules.map((mod) => (
-          <ModuleCard key={mod.title} title={mod.title} lessonCount={mod.lessons.length}>
-            {mod.lessons.map((lesson) =>
+        {modules.map(({ module: mod, lessons }) => (
+          <ModuleCard key={mod.slug} title={mod.title} lessonCount={lessons.length}>
+            {lessons.map(({ lesson }) =>
               lesson.free ? (
                 <Link
                   key={lesson.slug}
@@ -114,7 +112,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
                 >
                   <LessonCard
                     title={lesson.title}
-                    type={lesson.type}
+                    type={toCardLessonType(lesson.type)}
                     durationLabel={`${lesson.durationMinutes} min · Free preview`}
                   />
                 </Link>
@@ -122,7 +120,7 @@ export default async function CourseDetailPage({ params }: PageProps) {
                 <LessonCard
                   key={lesson.slug}
                   title={lesson.title}
-                  type={lesson.type}
+                  type={toCardLessonType(lesson.type)}
                   durationLabel={`${lesson.durationMinutes} min`}
                   locked
                 />
@@ -132,19 +130,19 @@ export default async function CourseDetailPage({ params }: PageProps) {
         ))}
       </div>
 
-      {course.reviews.length > 0 && (
+      {reviews.length > 0 && (
         <div className={styles.reviews}>
           <h2 className={styles.outlineHeading}>What learners say</h2>
           <div className={styles.reviewGrid}>
-            {course.reviews.map((review) => (
-              <Card key={review.name} className={styles.reviewCard}>
+            {reviews.map((review) => (
+              <Card key={review.id} className={styles.reviewCard}>
                 <div className={styles.reviewStars}>
                   {Array.from({ length: review.rating }).map((_, i) => (
                     <Star key={i} size={13} aria-hidden="true" className={styles.starIcon} />
                   ))}
                 </div>
-                <p className={styles.reviewQuote}>“{review.quote}”</p>
-                <p className={styles.reviewName}>{review.name}</p>
+                <p className={styles.reviewQuote}>&ldquo;{review.quote}&rdquo;</p>
+                <p className={styles.reviewName}>{review.authorName}</p>
               </Card>
             ))}
           </div>

@@ -15,7 +15,7 @@ import {
   STREAK,
   USER_PROFILE,
 } from "@/lib/sample-data/content";
-import { getCourseBySlug, SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import { getAllCourses, loadCourse } from "@/lib/content/loader";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
 
 export default function DashboardPage() {
   const recent = ACHIEVEMENTS.filter((a) => a.earned).slice(0, 4);
-  const enrolled = SAMPLE_COURSES.slice(0, 2);
-  const recommended = DASHBOARD_RECOMMENDED.map((slug) => getCourseBySlug(slug)).filter(
+  const enrolled = getAllCourses().slice(0, 2);
+  const recommended = DASHBOARD_RECOMMENDED.map((slug) => loadCourse(slug)).filter(
     (c) => c !== undefined,
   );
   const { courseSlug, courseTitle, lessonSlug, lessonTitle, progressPercent } =
@@ -79,12 +79,12 @@ export default function DashboardPage() {
           }
         />
         <div className={styles.courseGrid}>
-          {enrolled.map((course, i) => (
+          {enrolled.map(({ course }, i) => (
             <Link key={course.slug} href={`/courses/${course.slug}`} className={styles.courseLink}>
               <CourseCard
                 title={course.title}
-                level={course.level}
-                durationLabel={`${course.durationHours} hrs`}
+                level={course.difficulty}
+                durationLabel={`${Math.round(course.estimatedDurationMinutes / 60)} hrs`}
                 progress={i === 0 ? progressPercent : 24}
                 premium={course.premium}
               />
@@ -104,18 +104,18 @@ export default function DashboardPage() {
             }
           />
           <div className={styles.courseGrid}>
-            {recommended.map((course) => (
+            {recommended.map((loaded) => (
               <Link
-                key={course.slug}
-                href={`/courses/${course.slug}`}
+                key={loaded.course.slug}
+                href={`/courses/${loaded.course.slug}`}
                 className={styles.courseLink}
               >
                 <CourseCard
-                  title={course.title}
-                  description={course.description}
-                  level={course.level}
-                  durationLabel={`${course.durationHours} hrs`}
-                  premium={course.premium}
+                  title={loaded.course.title}
+                  description={loaded.course.subtitle}
+                  level={loaded.course.difficulty}
+                  durationLabel={`${Math.round(loaded.course.estimatedDurationMinutes / 60)} hrs`}
+                  premium={loaded.course.premium}
                 />
               </Link>
             ))}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "writing-a-postmortem-q1",
+    "type": "single-choice",
+    "prompt": "What's the main takeaway of \"Writing a Postmortem Nobody Dreads Reading\"?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": ["Think back to the lesson's opening paragraph."],
+    "explanation": "The lesson \"Writing a Postmortem Nobody Dreads Reading\" is primarily about applying this idea in Technical Writing for Engineers.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Applying \"Writing a Postmortem Nobody Dreads Reading\" directly to real work"
+      },
+      {
+        "id": "b",
+        "text": "Memorizing terminology without context"
+      },
+      {
+        "id": "c",
+        "text": "Skipping ahead without practicing"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-a-postmortem-q2",
+    "type": "true-false",
+    "prompt": "True or false: \"Writing a Postmortem Nobody Dreads Reading\" is meant to be understood, not just memorized.",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "Every Curitiq lesson favors durable understanding over rote memorization.",
+    "references": [],
+    "correctAnswer": true
+  }
+]

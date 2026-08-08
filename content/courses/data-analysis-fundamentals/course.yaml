@@ -1,0 +1,70 @@
+slug: data-analysis-fundamentals
+title: Data Analysis Fundamentals
+subtitle: Go from spreadsheets to real analytical thinking — clean, explore, and tell honest stories
+  with data, no prior stats background assumed.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 540
+tags:
+  - data
+  - analytics
+  - spreadsheets
+skills:
+  - data-cleaning
+  - sql-fundamentals
+  - data-storytelling
+careerPaths:
+  - data-analyst
+category: data-analytics
+premium: false
+objectives:
+  - id: obj-1
+    text: "Understand: Why Data Analysis, Not Just Charts"
+  - id: obj-2
+    text: "Understand: Clean vs. Dirty Data"
+  - id: obj-3
+    text: "Understand: Spot the Bias: A Flashcard Drill"
+  - id: obj-4
+    text: "Understand: Reading a Schema Like a Detective"
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Data Analysis Fundamentals on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: thinking-in-data
+    order: 0
+  - slug: exploring-a-real-dataset
+    order: 1
+projectSlugs: []
+assessmentSlugs: []
+resources: []
+relatedCourseSlugs:
+  - sql-for-product-thinking
+seo:
+  title: Data Analysis Fundamentals | Curitiq
+  description: Go from spreadsheets to real analytical thinking — clean, explore, and tell honest
+    stories with data, no prior stats background assumed.
+  keywords: &a1
+    - Data
+    - Analytics
+    - Spreadsheets
+  noIndex: false
+aiTutorContext:
+  summary:
+    Go from spreadsheets to real analytical thinking — clean, explore, and tell honest stories
+    with data, no prior stats background assumed.
+  keyConcepts: *a1
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Migrated from M2.5 sample-data fixtures into the M2.75 content engine.
+    changeType: created
+publishedDate: 2026-08-08
+rating: 4.8
+reviewCount: 1284
+enrolledCount: 18420

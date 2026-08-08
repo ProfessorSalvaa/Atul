@@ -1,0 +1,16 @@
+slug: thinking-in-data
+title: Thinking in Data
+description: Thinking in Data — part of Data Analysis Fundamentals.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Data Analysis, Not Just Charts"
+  - id: mo-2
+    text: "Grasp: Clean vs. Dirty Data"
+lessons:
+  - slug: why-data-analysis
+    order: 0
+  - slug: clean-vs-dirty-data
+    order: 1
+  - slug: spot-the-bias
+    order: 2

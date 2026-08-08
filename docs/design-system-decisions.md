@@ -64,3 +64,20 @@ the existing library from the outside:
 - Form success/error states use `Input`'s existing `invalid`/`helperText`
   props and `Button`'s existing `loading` prop — both already supported
   this in M1, they just weren't wired up to real state yet.
+
+## M2.75 addendum: zero further M1 edits
+
+M2.75 (the Content Engine) also touched no M1 component internals:
+
+- `LessonCard` keeps its frozen 3-value `type` prop (`concept | code |
+flashcard`); the content engine's 11-value `Lesson["type"]` union maps
+  down to it via `src/lib/content/lessonCardAdapter.ts` rather than
+  widening the component's prop type.
+- `EmptyState` (frozen, from M1) is reused as-is for the "no quiz yet"
+  state in `QuizFlow.tsx` when a lesson's quiz questions don't include
+  any of the currently-renderable types — no new component was written
+  for this state.
+- `RadioGroup`/`RadioItem`, `Progress`, `Card`, `Button` in the rewritten
+  `QuizFlow.tsx` are called exactly as M1 defined them; only the data
+  feeding them changed (content-engine `QuizQuestion[]` instead of a
+  hardcoded array), not the components themselves.

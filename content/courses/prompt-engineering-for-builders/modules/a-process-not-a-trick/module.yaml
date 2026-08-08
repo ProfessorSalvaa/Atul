@@ -1,0 +1,14 @@
+slug: a-process-not-a-trick
+title: A Process, Not a Trick
+description: A Process, Not a Trick — part of Prompt Engineering for Builders.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Prompts as Specifications"
+  - id: mo-2
+    text: "Grasp: Testing a Prompt Like Code"
+lessons:
+  - slug: prompts-as-specifications
+    order: 0
+  - slug: testing-a-prompt-like-code
+    order: 1

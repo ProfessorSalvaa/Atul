@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sql-for-product-thinking-review-1",
+    "authorName": "Felix W.",
+    "authorInitials": "FW",
+    "rating": 5,
+    "quote": "First SQL course that starts with the question, not the JOIN syntax."
+  },
+  {
+    "id": "sql-for-product-thinking-review-2",
+    "authorName": "Grace L.",
+    "authorInitials": "GL",
+    "rating": 4,
+    "quote": "The cohort analysis lesson alone was worth the module."
+  }
+]
