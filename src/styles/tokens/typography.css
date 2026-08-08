@@ -1,0 +1,39 @@
+:root {
+  --font-size-display-2xl: 64px;
+  --line-height-display-2xl: 1.05;
+  --font-size-display-xl: 48px;
+  --line-height-display-xl: 1.08;
+  --font-size-display-lg: 36px;
+  --line-height-display-lg: 1.12;
+  --font-size-display-md: 28px;
+  --line-height-display-md: 1.2;
+  --font-size-display-sm: 24px;
+  --line-height-display-sm: 1.25;
+  --font-size-heading-lg: 20px;
+  --line-height-heading-lg: 1.3;
+  --font-size-heading-md: 18px;
+  --line-height-heading-md: 1.35;
+  --font-size-heading-sm: 16px;
+  --line-height-heading-sm: 1.4;
+  --font-size-body-lg: 17px;
+  --line-height-body-lg: 1.55;
+  --font-size-body-md: 15px;
+  --line-height-body-md: 1.55;
+  --font-size-body-sm: 13px;
+  --line-height-body-sm: 1.5;
+  --font-size-caption: 12px;
+  --line-height-caption: 1.4;
+  --font-size-mono-md: 14px;
+  --line-height-mono-md: 1.6;
+  --font-size-mono-sm: 13px;
+  --line-height-mono-sm: 1.5;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.02em;
+  --letter-spacing-caps: 0.06em;
+}

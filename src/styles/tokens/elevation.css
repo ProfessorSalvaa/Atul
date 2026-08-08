@@ -1,0 +1,22 @@
+:root {
+  --shadow-xs: 0 1px 2px oklch(19% 0.012 260 / 0.05);
+  --shadow-sm: 0 1px 3px oklch(19% 0.012 260 / 0.07), 0 1px 2px oklch(19% 0.012 260 / 0.04);
+  --shadow-md: 0 4px 12px oklch(19% 0.012 260 / 0.08), 0 1px 2px oklch(19% 0.012 260 / 0.04);
+  --shadow-lg: 0 12px 32px oklch(19% 0.012 260 / 0.12), 0 2px 6px oklch(19% 0.012 260 / 0.05);
+  --shadow-xl: 0 24px 64px oklch(19% 0.012 260 / 0.16), 0 4px 10px oklch(19% 0.012 260 / 0.06);
+  --shadow-focus-ring: 0 0 0 3px oklch(68% 0.15 45 / 0.35);
+  --blur-sm: 8px;
+  --blur-md: 16px;
+  --blur-lg: 32px;
+  --glass-bg: oklch(100% 0 0 / 0.72);
+  --glass-border: oklch(100% 0 0 / 0.5);
+}
+[data-theme="dark"] {
+  --shadow-xs: 0 1px 2px oklch(0% 0 0 / 0.3);
+  --shadow-sm: 0 1px 3px oklch(0% 0 0 / 0.4), 0 1px 2px oklch(0% 0 0 / 0.3);
+  --shadow-md: 0 4px 12px oklch(0% 0 0 / 0.45), 0 1px 2px oklch(0% 0 0 / 0.3);
+  --shadow-lg: 0 12px 32px oklch(0% 0 0 / 0.55), 0 2px 6px oklch(0% 0 0 / 0.3);
+  --shadow-xl: 0 24px 64px oklch(0% 0 0 / 0.6), 0 4px 10px oklch(0% 0 0 / 0.35);
+  --glass-bg: oklch(19% 0.012 260 / 0.72);
+  --glass-border: oklch(100% 0 0 / 0.08);
+}

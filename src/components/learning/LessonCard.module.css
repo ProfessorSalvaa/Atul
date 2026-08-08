@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-standard);
+}
+
+.card:hover {
+  background: var(--interactive-hover-overlay);
+}
+
+.card:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus-ring);
+}
+
+.card[data-locked="true"] {
+  cursor: not-allowed;
+  opacity: var(--opacity-disabled);
+}
+
+.iconWrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  background: var(--bg-sunken);
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
+.iconWrap[data-completed="true"] {
+  background: var(--success-bg);
+  color: var(--success-fg);
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-body-md);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.meta {
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+  margin: 0;
+}

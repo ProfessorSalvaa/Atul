@@ -1,0 +1,15 @@
+/*
+ * Font tokens. The design system's source file loads Instrument Sans,
+ * Newsreader, and IBM Plex Mono from the Google Fonts CDN. We self-host
+ * instead via next/font (see src/app/fonts.ts + layout.tsx), which
+ * generates --font-instrument-sans / --font-newsreader / --font-ibm-plex-mono
+ * at build time. This file just aliases the design system's token names to
+ * those generated variables, so every component that references
+ * var(--font-primary) etc. keeps working unchanged.
+ */
+:root {
+  --font-primary:
+    var(--font-instrument-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-secondary: var(--font-newsreader), Georgia, serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, "SF Mono", Menlo, monospace;
+}

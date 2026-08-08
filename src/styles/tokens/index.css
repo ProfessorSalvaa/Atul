@@ -1,0 +1,12 @@
+/* Design token entry point — imports every token category verbatim from the
+ * approved Curitiq design system. Do not hand-edit values here; update the
+ * source design system and re-port instead. */
+@import "./fonts.css";
+@import "./colors.css";
+@import "./typography.css";
+@import "./spacing.css";
+@import "./radius.css";
+@import "./elevation.css";
+@import "./motion.css";
+@import "./borders.css";
+@import "./layout.css";

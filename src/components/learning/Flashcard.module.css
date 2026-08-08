@@ -1,0 +1,69 @@
+.scene {
+  perspective: 1200px;
+  width: 100%;
+  max-width: 360px;
+  height: 220px;
+}
+
+.card {
+  all: unset;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform var(--duration-slow) var(--ease-spring);
+}
+
+.card[data-flipped="true"] {
+  transform: rotateY(180deg);
+}
+
+.card:focus-visible {
+  outline: none;
+}
+
+.card:focus-visible .face {
+  box-shadow: var(--shadow-focus-ring);
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-6);
+  backface-visibility: hidden;
+  border-radius: var(--radius-xl);
+  border: var(--border-width-hairline) solid var(--border-subtle);
+  background: var(--bg-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.back {
+  transform: rotateY(180deg);
+  background: var(--surface-brand);
+  color: var(--text-inverse);
+  border-color: transparent;
+}
+
+.text {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-heading-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.hint {
+  margin: var(--space-2) 0 0;
+  text-align: center;
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}

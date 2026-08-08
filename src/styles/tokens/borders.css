@@ -1,0 +1,9 @@
+:root {
+  --border-width-hairline: 1px;
+  --border-width-thick: 1.5px;
+  --border-width-heavy: 2px;
+  --opacity-disabled: 0.42; /* @kind other */
+  --opacity-hover-overlay: 0.05; /* @kind other */
+  --opacity-press-overlay: 0.09; /* @kind other */
+  --opacity-backdrop: 0.42; /* @kind other */
+}
