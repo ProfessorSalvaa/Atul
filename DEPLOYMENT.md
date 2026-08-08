@@ -1,20 +1,14 @@
 # Deployment setup (manual, one-time)
 
-These steps need a human with GitHub/Vercel/Hostinger account access — they weren't done automatically because this repo was built in a credential-less sandbox.
+## 1. GitHub — done
 
-## 1. GitHub
+The repo is live at `github.com/<owner>/curitiq` (private) with the M0 commit pushed and CI running on push/PR. Still outstanding, one-time:
 
-1. Create a new **private** repository named `curitiq` under your account/org.
-2. From this project directory:
-   ```bash
-   git remote add origin git@github.com:<you>/curitiq.git
-   git push -u origin main
-   ```
-3. Repo Settings → Branches → add a branch protection rule for `main`:
+1. Repo Settings → Branches → add a branch protection rule for `main`:
    - Require a pull request before merging.
-   - Require status checks to pass before merging → select the `CI / Lint, typecheck, test, build` check once it's run once.
+   - Require status checks to pass before merging → select the `CI / Lint, typecheck, test, build` check once it's run at least once.
    - Require branches to be up to date before merging.
-4. Update `.github/CODEOWNERS` with real GitHub usernames as the team grows.
+2. Update `.github/CODEOWNERS` with real GitHub usernames as the team grows.
 
 ## 2. Vercel
 

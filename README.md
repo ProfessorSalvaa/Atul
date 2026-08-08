@@ -46,13 +46,10 @@ This will grow milestone by milestone — `src/components`, `src/server`, `src/d
 - **Preview** — one Vercel preview deployment per PR, environment variables set in Vercel project settings.
 - **Production** — `main` branch, deploys to the production Vercel environment.
 
-## Manual setup this repo cannot do for itself
+## Manual setup still outstanding
 
-This repo was built in an isolated environment without GitHub/Vercel credentials. Before M1 starts, the founder needs to:
+The GitHub repo is live and CI is running on push/PR. Still needs a human with account access (see `DEPLOYMENT.md` for exact steps):
 
-1. Create the GitHub repository and push this code (see `DEPLOYMENT.md`).
-2. Enable branch protection on `main` (require CI to pass + 1 review before merge).
-3. Link the Vercel project to the GitHub repo (auto-deploys previews + production from there).
-4. Point Hostinger DNS at Vercel once the domain is ready to go live (see `DEPLOYMENT.md`) — Hostinger stays the registrar, Vercel hosts the app.
-
-See `DEPLOYMENT.md` for exact steps.
+1. Enable branch protection on `main` (require CI to pass + 1 review before merge).
+2. Link the Vercel project to the GitHub repo (auto-deploys previews + production from there).
+3. Point Hostinger DNS at Vercel once the domain is ready to go live — Hostinger stays the registrar, Vercel hosts the app.
