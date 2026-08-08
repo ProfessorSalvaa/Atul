@@ -1,0 +1,40 @@
+[
+  {
+    "id": "breaking-down-silos-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Breaking Down the Dev/Ops Silo\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Historically, developers wrote code and a separate operations team deployed and ran it — this handoff created a gap where nobody felt fully responsible for production reliability\""
+    ],
+    "explanation": "Historically, developers wrote code and a separate operations team deployed and ran it — this handoff created a gap where nobody felt fully responsible for production reliability — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Historically, developers wrote code and a separate operations team deployed and ran it — this handoff created a gap where nobody felt fully responsible for production reliability"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "breaking-down-silos-q2",
+    "type": "true-false",
+    "prompt": "True or false: DevOps culture shares that responsibility — the people writing code also carry some responsibility for how it behaves in production, closing the feedback loop",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — DevOps culture shares that responsibility — the people writing code also carry some responsibility for how it behaves in production, closing the feedback loop",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "auction-mechanics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Auction Mechanics: Bid, Quality, and Relevance\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Most ad auctions (search and social) don't simply award placement to the highest bidder — a quality/relevance score combines with bid to determine both placement and actual cost paid\""
+    ],
+    "explanation": "Most ad auctions (search and social) don't simply award placement to the highest bidder — a quality/relevance score combines with bid to determine both placement and actual cost paid — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Most ad auctions (search and social) don't simply award placement to the highest bidder — a quality/relevance score combines with bid to determine both placement and actual cost paid"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "auction-mechanics-q2",
+    "type": "true-false",
+    "prompt": "True or false: A highly relevant, well-targeted ad with a lower bid can outperform a poorly targeted ad with a higher bid — this is why targeting and creative quality directly affect cost efficiency, not just reach",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A highly relevant, well-targeted ad with a lower bid can outperform a poorly targeted ad with a higher bid — this is why targeting and creative quality directly affect cost efficiency, not just reach",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "power-bi-glossary-fc-1",
+    "front": "Power Query",
+    "back": "Power BI's data transformation tool, used to clean and reshape data before it enters the report.",
+    "difficulty": "beginner",
+    "tags": ["dashboards", "data"]
+  },
+  {
+    "id": "power-bi-glossary-fc-2",
+    "front": "Star schema",
+    "back": "A data model design with a central fact table connected to multiple dimension tables via relationships.",
+    "difficulty": "beginner",
+    "tags": ["dashboards", "data"]
+  },
+  {
+    "id": "power-bi-glossary-fc-3",
+    "front": "Slicer",
+    "back": "An interactive filter control on a Power BI dashboard that lets users narrow down the displayed data.",
+    "difficulty": "beginner",
+    "tags": ["dashboards", "data"]
+  }
+]

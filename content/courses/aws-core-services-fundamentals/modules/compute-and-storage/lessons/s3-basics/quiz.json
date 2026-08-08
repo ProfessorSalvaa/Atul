@@ -1,0 +1,40 @@
+[
+  {
+    "id": "s3-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"S3 Basics: Buckets, Objects, and Access Control\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"S3 stores objects (files) inside buckets (containers) — bucket names must be globally unique across all of AWS, not just your account\""
+    ],
+    "explanation": "S3 stores objects (files) inside buckets (containers) — bucket names must be globally unique across all of AWS, not just your account — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "S3 stores objects (files) inside buckets (containers) — bucket names must be globally unique across all of AWS, not just your account"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "s3-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: By default, new S3 buckets block public access — this default exists because accidentally public buckets are one of the most common real-world cloud security incidents",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — By default, new S3 buckets block public access — this default exists because accidentally public buckets are one of the most common real-world cloud security incidents",
+    "references": [],
+    "correctAnswer": true
+  }
+]

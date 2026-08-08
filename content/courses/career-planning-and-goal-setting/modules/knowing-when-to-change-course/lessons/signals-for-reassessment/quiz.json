@@ -1,0 +1,40 @@
+[
+  {
+    "id": "signals-for-reassessment-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Signals It's Time to Reassess\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Sustained disengagement (not just a hard week, but months of consistent lack of energy for the work) is a signal worth taking seriously, not dismissing as a temporary phase\""
+    ],
+    "explanation": "Sustained disengagement (not just a hard week, but months of consistent lack of energy for the work) is a signal worth taking seriously, not dismissing as a temporary phase — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Sustained disengagement (not just a hard week, but months of consistent lack of energy for the work) is a signal worth taking seriously, not dismissing as a temporary phase"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "signals-for-reassessment-q2",
+    "type": "true-false",
+    "prompt": "True or false: A persistent mismatch between what the role actually rewards and what genuinely motivates you tends to compound over time rather than resolve on its own",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A persistent mismatch between what the role actually rewards and what genuinely motivates you tends to compound over time rather than resolve on its own",
+    "references": [],
+    "correctAnswer": true
+  }
+]

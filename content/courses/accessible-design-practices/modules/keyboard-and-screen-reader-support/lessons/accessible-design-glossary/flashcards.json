@@ -1,0 +1,23 @@
+[
+  {
+    "id": "accessible-design-glossary-fc-1",
+    "front": "WCAG AA contrast ratio",
+    "back": "The minimum required contrast (4.5:1 normal text, 3:1 large text) for accessible color choices.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "accessible-design-glossary-fc-2",
+    "front": "Focus trap",
+    "back": "Keeping keyboard focus contained within an open modal or dialog until it's closed.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "accessible-design-glossary-fc-3",
+    "front": "Color vision deficiency",
+    "back": "A visual condition affecting how a user perceives certain colors, requiring information not be conveyed by color alone.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  }
+]

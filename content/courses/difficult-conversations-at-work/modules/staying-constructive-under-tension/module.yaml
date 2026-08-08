@@ -1,0 +1,14 @@
+slug: staying-constructive-under-tension
+title: Staying Constructive Under Tension
+description: What to do when the conversation gets emotionally charged.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: De-escalating and Staying on Track"
+  - id: mo-2
+    text: "Grasp: Difficult Conversations Terms Flip Deck"
+lessons:
+  - slug: de-escalating-and-staying-on-track
+    order: 0
+  - slug: difficult-conversations-glossary
+    order: 1

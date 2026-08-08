@@ -1,0 +1,14 @@
+slug: common-experiment-pitfalls
+title: Common Experiment Pitfalls
+description: Mistakes that quietly invalidate a test's result, often without anyone noticing.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Pitfalls That Invalidate Experiment Results"
+  - id: mo-2
+    text: "Grasp: A/B Testing Terms Flip Deck"
+lessons:
+  - slug: experiment-pitfalls
+    order: 0
+  - slug: ab-testing-glossary
+    order: 1

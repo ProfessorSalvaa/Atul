@@ -1,0 +1,14 @@
+slug: building-reliable-automations
+title: Building Reliable Automations
+description: From a working demo to something you'd trust running unattended.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Defining Explicit Success and Failure Conditions"
+  - id: mo-2
+    text: "Grasp: Agents & Automation Terms"
+lessons:
+  - slug: success-failure-conditions
+    order: 0
+  - slug: automation-terms
+    order: 1

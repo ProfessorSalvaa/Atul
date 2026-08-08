@@ -1,0 +1,14 @@
+slug: responding-to-risk
+title: Responding to Risk
+description: Four standard response strategies, chosen deliberately rather than defaulted into.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Risk Response Strategies"
+  - id: mo-2
+    text: "Grasp: Risk Management Terms Flip Deck"
+lessons:
+  - slug: risk-response-strategies
+    order: 0
+  - slug: risk-management-glossary
+    order: 1

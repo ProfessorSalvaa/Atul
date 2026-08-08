@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-llms-are-good-and-bad-at-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What LLMs Are Good At — and What They Aren't\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Strong at: rephrasing, summarizing, drafting from a clear brief, translating between formats (bullet points to email, code to plain English)\""
+    ],
+    "explanation": "Strong at: rephrasing, summarizing, drafting from a clear brief, translating between formats (bullet points to email, code to plain English) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Strong at: rephrasing, summarizing, drafting from a clear brief, translating between formats (bullet points to email, code to plain English)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-llms-are-good-and-bad-at-q2",
+    "type": "true-false",
+    "prompt": "True or false: Weak at: precise arithmetic, up-to-the-minute facts, anything requiring a reliable external memory or ground truth it wasn't trained on",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Weak at: precise arithmetic, up-to-the-minute facts, anything requiring a reliable external memory or ground truth it wasn't trained on",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "editorial-calendar-and-quality-bar-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building an Editorial Calendar Without Sacrificing Quality\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An editorial calendar creates accountability and consistency, but a fixed cadence shouldn't force publishing content that hasn't met a real quality bar just to hit the schedule\""
+    ],
+    "explanation": "An editorial calendar creates accountability and consistency, but a fixed cadence shouldn't force publishing content that hasn't met a real quality bar just to hit the schedule — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An editorial calendar creates accountability and consistency, but a fixed cadence shouldn't force publishing content that hasn't met a real quality bar just to hit the schedule"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "editorial-calendar-and-quality-bar-q2",
+    "type": "true-false",
+    "prompt": "True or false: Batch similar production stages (all research, then all writing, then all editing) rather than fully producing one piece end-to-end before starting the next — this is often more efficient at scale",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Batch similar production stages (all research, then all writing, then all editing) rather than fully producing one piece end-to-end before starting the next — this is often more efficient at scale",
+    "references": [],
+    "correctAnswer": true
+  }
+]

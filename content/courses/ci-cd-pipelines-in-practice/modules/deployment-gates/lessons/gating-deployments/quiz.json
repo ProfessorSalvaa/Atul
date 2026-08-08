@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gating-deployments-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Gating Deployments Behind Tests and Approval\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A deployment gate is a required condition (all tests pass, a specific person approves) that must be satisfied before a pipeline proceeds to the next stage\""
+    ],
+    "explanation": "A deployment gate is a required condition (all tests pass, a specific person approves) that must be satisfied before a pipeline proceeds to the next stage — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A deployment gate is a required condition (all tests pass, a specific person approves) that must be satisfied before a pipeline proceeds to the next stage"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "gating-deployments-q2",
+    "type": "true-false",
+    "prompt": "True or false: Automate what can be automated (test pass/fail) and reserve human approval gates for genuinely judgment-requiring decisions, like a production deploy during a high-traffic period",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Automate what can be automated (test pass/fail) and reserve human approval gates for genuinely judgment-requiring decisions, like a production deploy during a high-traffic period",
+    "references": [],
+    "correctAnswer": true
+  }
+]

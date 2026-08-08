@@ -1,0 +1,14 @@
+slug: copywriting-structures
+title: Copywriting Structures That Work
+description: Proven frameworks for organizing persuasive copy, not starting from a blank page each time.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: AIDA and PAS Frameworks"
+  - id: mo-2
+    text: "Grasp: Copywriting Terms Flip Deck"
+lessons:
+  - slug: aida-and-pas
+    order: 0
+  - slug: copywriting-glossary
+    order: 1

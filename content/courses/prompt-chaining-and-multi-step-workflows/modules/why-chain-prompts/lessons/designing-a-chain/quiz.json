@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-a-chain-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing a Chain: Research → Draft → Critique\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A common effective pattern: one step extracts/structures raw information, a second step drafts from that structured input, a third step critiques the draft against explicit criteria\""
+    ],
+    "explanation": "A common effective pattern: one step extracts/structures raw information, a second step drafts from that structured input, a third step critiques the draft against explicit criteria — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A common effective pattern: one step extracts/structures raw information, a second step drafts from that structured input, a third step critiques the draft against explicit criteria"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-a-chain-q2",
+    "type": "true-false",
+    "prompt": "True or false: Pass structured data (JSON) between steps rather than freeform prose whenever a later step needs to reliably parse the earlier output",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Pass structured data (JSON) between steps rather than freeform prose whenever a later step needs to reliably parse the earlier output",
+    "references": [],
+    "correctAnswer": true
+  }
+]

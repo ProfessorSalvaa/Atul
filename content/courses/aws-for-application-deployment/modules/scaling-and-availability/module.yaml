@@ -1,0 +1,14 @@
+slug: scaling-and-availability
+title: Scaling and Availability
+description: Moving from one server to something that survives real traffic and failure.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Load Balancing and Auto Scaling"
+  - id: mo-2
+    text: "Grasp: Choosing Between EC2, ECS, and Elastic Beanstalk"
+lessons:
+  - slug: load-balancing-and-auto-scaling
+    order: 0
+  - slug: choosing-a-compute-option
+    order: 1

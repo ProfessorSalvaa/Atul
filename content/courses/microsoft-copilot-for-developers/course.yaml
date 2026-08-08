@@ -1,0 +1,77 @@
+slug: microsoft-copilot-for-developers
+title: Microsoft Copilot for Developers
+subtitle: Using GitHub Copilot effectively in your editor — for real code, not just autocomplete you
+  have to fight with.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - copilot
+  - ai
+  - developer-tools
+skills:
+  - copilot-workflows
+  - code-review
+  - ai-assisted-development
+careerPaths:
+  - ai-practitioner
+  - software-engineer
+category: microsoft-copilot
+premium: true
+objectives:
+  - id: obj-1
+    text: Write comments and function signatures that steer Copilot toward correct completions
+  - id: obj-2
+    text: Review Copilot-generated code with the same rigor as a human PR
+  - id: obj-3
+    text: Use Copilot Chat for explaining unfamiliar code and generating tests
+prerequisites: []
+instructor:
+  name: Theo Marsh
+  title: Staff Engineer, ex-Vercel
+  bio: Theo Marsh is Staff Engineer, ex-Vercel, teaching Microsoft Copilot for Developers on Curitiq.
+  avatarInitials: TM
+modules:
+  - slug: steering-completions
+    order: 0
+  - slug: copilot-chat-workflows
+    order: 1
+projectSlugs:
+  - copilot-reviewed-feature
+assessmentSlugs: []
+resources:
+  - title: GitHub Copilot Documentation
+    type: external-link
+    url: https://docs.github.com/copilot
+    description: Official GitHub Copilot documentation.
+certificate:
+  title: Microsoft Copilot for Developers — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the reviewed feature + tests
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Microsoft Copilot for Developers | Curitiq
+  description:
+    Using GitHub Copilot effectively in your editor — for real code, not just autocomplete
+    you have to fight with.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Using GitHub Copilot effectively in your editor — for real code, not just autocomplete you
+    have to fight with.
+  keyConcepts:
+    - Write comments and function signatures that steer Copilot toward correct completions
+    - Review Copilot-generated code with the same rigor as a human PR
+    - Use Copilot Chat for explaining unfamiliar code and generating tests
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

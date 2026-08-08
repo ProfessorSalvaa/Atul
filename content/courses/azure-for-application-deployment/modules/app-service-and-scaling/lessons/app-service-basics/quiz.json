@@ -1,0 +1,40 @@
+[
+  {
+    "id": "app-service-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Azure App Service Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"App Service is a managed PaaS for hosting web apps and APIs — Azure handles the underlying OS and runtime patching, letting you focus on application code\""
+    ],
+    "explanation": "App Service is a managed PaaS for hosting web apps and APIs — Azure handles the underlying OS and runtime patching, letting you focus on application code — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "App Service is a managed PaaS for hosting web apps and APIs — Azure handles the underlying OS and runtime patching, letting you focus on application code"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "app-service-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Autoscale rules can scale based on metrics (CPU, memory, request queue length) or a schedule (e.g. more instances during known business hours)",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Autoscale rules can scale based on metrics (CPU, memory, request queue length) or a schedule (e.g. more instances during known business hours)",
+    "references": [],
+    "correctAnswer": true
+  }
+]

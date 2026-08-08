@@ -1,0 +1,71 @@
+slug: interview-preparation-for-tech-roles
+title: Interview Preparation for Tech Roles
+subtitle: Preparing for the full arc of a tech interview loop — behavioral questions, technical
+  rounds, and the questions you should be asking the interviewer too.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 110
+tags: &a1
+  - career
+  - interview-prep
+skills:
+  - career-planning
+careerPaths: []
+category: career-growth
+premium: true
+objectives:
+  - id: obj-1
+    text: Structure behavioral answers using a consistent, evidence-based method
+  - id: obj-2
+    text: Prepare effectively for a technical interview round without over- or under-preparing
+  - id: obj-3
+    text: Ask interviewers questions that genuinely inform your own decision
+prerequisites: []
+instructor:
+  name: Priya Shah
+  title: Career Coach, ex-LinkedIn Talent Solutions
+  bio: Priya Shah is Career Coach, ex-LinkedIn Talent Solutions, teaching Interview Preparation for
+    Tech Roles on Curitiq.
+  avatarInitials: PS
+modules:
+  - slug: behavioral-interview-prep
+    order: 0
+  - slug: technical-rounds-and-your-own-questions
+    order: 1
+projectSlugs:
+  - interview-prep-kit
+assessmentSlugs: []
+resources:
+  - title: "Pramp: Technical Interview Practice"
+    type: external-link
+    url: https://www.pramp.com/
+    description: A platform for practicing technical interviews with peers.
+certificate:
+  title: Interview Preparation for Tech Roles — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the interview prep kit
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Interview Preparation for Tech Roles | Curitiq
+  description: Preparing for the full arc of a tech interview loop — behavioral questions, technical
+    rounds, and the questions you should be asking the interviewer too.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Preparing for the full arc of a tech interview loop — behavioral questions, technical
+    rounds, and the questions you should be asking the interviewer too.
+  keyConcepts:
+    - Structure behavioral answers using a consistent, evidence-based method
+    - Prepare effectively for a technical interview round without over- or under-preparing
+    - Ask interviewers questions that genuinely inform your own decision
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

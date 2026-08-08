@@ -1,0 +1,40 @@
+[
+  {
+    "id": "diagnosing-duplication-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Diagnosing Row-Duplication from Joins\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"If a join matches on a column that isn't unique on one side (e.g. joining orders to a table with multiple rows per order), each match multiplies the original rows — a classic silent double-count\""
+    ],
+    "explanation": "If a join matches on a column that isn't unique on one side (e.g. joining orders to a table with multiple rows per order), each match multiplies the original rows — a classic silent double-count — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "If a join matches on a column that isn't unique on one side (e.g. joining orders to a table with multiple rows per order), each match multiplies the original rows — a classic silent double-count"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "diagnosing-duplication-q2",
+    "type": "true-false",
+    "prompt": "True or false: Before trusting a joined query's totals, check the row count before and after the join against what you'd expect — an unexpected jump signals a one-to-many join fanning out",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Before trusting a joined query's totals, check the row count before and after the join against what you'd expect — an unexpected jump signals a one-to-many join fanning out",
+    "references": [],
+    "correctAnswer": true
+  }
+]

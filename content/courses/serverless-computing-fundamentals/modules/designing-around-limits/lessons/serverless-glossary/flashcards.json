@@ -1,0 +1,23 @@
+[
+  {
+    "id": "serverless-glossary-fc-1",
+    "front": "Cold start",
+    "back": "The added latency when a serverless function instance must initialize before handling its first request.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "serverless-glossary-fc-2",
+    "front": "Provisioned concurrency",
+    "back": "Keeping a set number of serverless function instances pre-warmed to avoid cold starts, at extra cost.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "serverless-glossary-fc-3",
+    "front": "Event-driven",
+    "back": "An architecture pattern where code executes in response to specific triggering events, common in serverless design.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  }
+]

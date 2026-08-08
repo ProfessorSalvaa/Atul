@@ -1,0 +1,14 @@
+slug: components-and-organization
+title: Components and File Organization
+description: Building things once and reusing them, and keeping a large file navigable.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Components and Variants"
+  - id: mo-2
+    text: "Grasp: Figma Terms Flip Deck"
+lessons:
+  - slug: components-and-variants
+    order: 0
+  - slug: figma-glossary
+    order: 1

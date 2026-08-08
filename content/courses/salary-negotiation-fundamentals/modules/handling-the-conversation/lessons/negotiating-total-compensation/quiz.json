@@ -1,0 +1,40 @@
+[
+  {
+    "id": "negotiating-total-compensation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Negotiating Beyond Base Salary\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Total compensation includes base, bonus, equity, and benefits — a company with limited flexibility on base salary may have more room on signing bonus, equity, or start date\""
+    ],
+    "explanation": "Total compensation includes base, bonus, equity, and benefits — a company with limited flexibility on base salary may have more room on signing bonus, equity, or start date — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Total compensation includes base, bonus, equity, and benefits — a company with limited flexibility on base salary may have more room on signing bonus, equity, or start date"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "negotiating-total-compensation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask what's flexible before assuming only base salary is negotiable — this question alone often reveals options you hadn't considered",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask what's flexible before assuming only base salary is negotiable — this question alone often reveals options you hadn't considered",
+    "references": [],
+    "correctAnswer": true
+  }
+]

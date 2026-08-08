@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cross-validation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Cross-Validation\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"K-fold cross-validation splits the data into k parts, training on k-1 and validating on the remaining part, rotating through all k combinations — this gives a performance estimate less dependent on one particular lucky or unlucky split\""
+    ],
+    "explanation": "K-fold cross-validation splits the data into k parts, training on k-1 and validating on the remaining part, rotating through all k combinations — this gives a performance estimate less dependent on one particular lucky or unlucky split — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "K-fold cross-validation splits the data into k parts, training on k-1 and validating on the remaining part, rotating through all k combinations — this gives a performance estimate less dependent on one particular lucky or unlucky split"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "cross-validation-q2",
+    "type": "true-false",
+    "prompt": "True or false: A single train/test split can produce a misleadingly optimistic or pessimistic result purely by chance, especially with a smaller dataset — cross-validation's average across multiple splits is more robust",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A single train/test split can produce a misleadingly optimistic or pessimistic result purely by chance, especially with a smaller dataset — cross-validation's average across multiple splits is more robust",
+    "references": [],
+    "correctAnswer": true
+  }
+]

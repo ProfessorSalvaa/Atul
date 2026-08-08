@@ -1,0 +1,40 @@
+[
+  {
+    "id": "on-page-optimization-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"On-Page SEO Optimization\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Title tags and meta descriptions matter for both ranking signal and click-through rate from the results page — a technically optimized but unappealing title still underperforms\""
+    ],
+    "explanation": "Title tags and meta descriptions matter for both ranking signal and click-through rate from the results page — a technically optimized but unappealing title still underperforms — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Title tags and meta descriptions matter for both ranking signal and click-through rate from the results page — a technically optimized but unappealing title still underperforms"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "on-page-optimization-q2",
+    "type": "true-false",
+    "prompt": "True or false: Header structure (a single clear H1, logically nested H2s/H3s) helps both search engines and readers understand content structure — this isn't just a stylistic choice",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Header structure (a single clear H1, logically nested H2s/H3s) helps both search engines and readers understand content structure — this isn't just a stylistic choice",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-makes-a-real-strategy-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What Makes a Real Strategy, Not Just a Vision Statement\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A vision states where you're going ('be the default tool for X') — a strategy makes specific, falsifiable bets about how you'll get there, and just as importantly, what you're choosing not to do\""
+    ],
+    "explanation": "A vision states where you're going ('be the default tool for X') — a strategy makes specific, falsifiable bets about how you'll get there, and just as importantly, what you're choosing not to do — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A vision states where you're going ('be the default tool for X') — a strategy makes specific, falsifiable bets about how you'll get there, and just as importantly, what you're choosing not to do"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-makes-a-real-strategy-q2",
+    "type": "true-false",
+    "prompt": "True or false: A strategy that doesn't rule anything out isn't really a strategy — if it can justify literally any roadmap decision, it's providing no actual guidance",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A strategy that doesn't rule anything out isn't really a strategy — if it can justify literally any roadmap decision, it's providing no actual guidance",
+    "references": [],
+    "correctAnswer": true
+  }
+]

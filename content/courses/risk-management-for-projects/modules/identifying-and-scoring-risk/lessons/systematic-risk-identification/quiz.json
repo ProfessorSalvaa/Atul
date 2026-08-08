@@ -1,0 +1,40 @@
+[
+  {
+    "id": "systematic-risk-identification-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Systematic Risk Identification\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Brainstorm risks across categories (technical, resource, schedule, external/market) systematically rather than relying only on whatever risks happen to come to mind first\""
+    ],
+    "explanation": "Brainstorm risks across categories (technical, resource, schedule, external/market) systematically rather than relying only on whatever risks happen to come to mind first — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Brainstorm risks across categories (technical, resource, schedule, external/market) systematically rather than relying only on whatever risks happen to come to mind first"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "systematic-risk-identification-q2",
+    "type": "true-false",
+    "prompt": "True or false: Review risks from past similar projects — the same categories of risk (a key dependency slipping, an underestimated task) tend to recur across projects at a given organization",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Review risks from past similar projects — the same categories of risk (a key dependency slipping, an underestimated task) tend to recur across projects at a given organization",
+    "references": [],
+    "correctAnswer": true
+  }
+]

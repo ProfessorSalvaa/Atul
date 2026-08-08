@@ -1,0 +1,40 @@
+[
+  {
+    "id": "fetching-and-sending-data-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Fetching and Sending Data Correctly\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"GET requests don't have a body; POST/PUT/PATCH typically do — set `Content-Type: application/json` explicitly when sending JSON, or the server may not parse it correctly\""
+    ],
+    "explanation": "GET requests don't have a body; POST/PUT/PATCH typically do — set `Content-Type: application/json` explicitly when sending JSON, or the server may not parse it correctly — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "GET requests don't have a body; POST/PUT/PATCH typically do — set `Content-Type: application/json` explicitly when sending JSON, or the server may not parse it correctly"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "fetching-and-sending-data-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always check `response.ok` (or the status code) before assuming a request succeeded — `fetch()` doesn't reject on a 404 or 500, only on network failure",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always check `response.ok` (or the status code) before assuming a request succeeded — `fetch()` doesn't reject on a 404 or 500, only on network failure",
+    "references": [],
+    "correctAnswer": true
+  }
+]

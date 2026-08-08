@@ -1,0 +1,73 @@
+slug: content-marketing-strategy
+title: Content Marketing Strategy
+subtitle: Building a content plan that compounds instead of a stream of disconnected posts — pillar
+  content, topic clusters, and content that actually earns an audience's trust.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - marketing
+  - seo
+skills:
+  - content-strategy
+careerPaths:
+  - digital-marketer
+category: digital-marketing
+premium: true
+objectives:
+  - id: obj-1
+    text: Structure content around pillar pages and topic clusters
+  - id: obj-2
+    text: Define a content strategy tied to specific business outcomes
+  - id: obj-3
+    text: Build an editorial calendar that balances consistency with quality
+prerequisites:
+  - courseSlug: seo-fundamentals
+instructor:
+  name: Rosa Delgado
+  title: Head of Growth Marketing, ex-HubSpot
+  bio: Rosa Delgado is Head of Growth Marketing, ex-HubSpot, teaching Content Marketing Strategy on
+    Curitiq.
+  avatarInitials: RD
+modules:
+  - slug: pillar-content-and-clusters
+    order: 0
+  - slug: sustainable-content-production
+    order: 1
+projectSlugs:
+  - content-strategy-and-calendar
+assessmentSlugs: []
+resources:
+  - title: "HubSpot: Topic Clusters"
+    type: external-link
+    url: https://blog.hubspot.com/marketing/topic-clusters-seo
+    description: A widely referenced explanation of the pillar-cluster content model.
+certificate:
+  title: Content Marketing Strategy — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the content strategy and calendar
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Content Marketing Strategy | Curitiq
+  description: Building a content plan that compounds instead of a stream of disconnected posts —
+    pillar content, topic clusters, and content that actually earns an audie
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Building a content plan that compounds instead of a stream of disconnected posts — pillar
+    content, topic clusters, and content that actually earns an audience's trust.
+  keyConcepts:
+    - Structure content around pillar pages and topic clusters
+    - Define a content strategy tied to specific business outcomes
+    - Build an editorial calendar that balances consistency with quality
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

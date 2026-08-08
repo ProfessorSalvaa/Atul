@@ -1,0 +1,40 @@
+[
+  {
+    "id": "your-first-select-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Your First SELECT Statement\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"SELECT chooses which columns to return, FROM specifies the table, WHERE filters rows before any aggregation happens\""
+    ],
+    "explanation": "SELECT chooses which columns to return, FROM specifies the table, WHERE filters rows before any aggregation happens — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "SELECT chooses which columns to return, FROM specifies the table, WHERE filters rows before any aggregation happens"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "your-first-select-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use SELECT * only for quick exploration — in real queries, name your columns explicitly so the query stays predictable if the table's structure changes",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use SELECT * only for quick exploration — in real queries, name your columns explicitly so the query stays predictable if the table's structure changes",
+    "references": [],
+    "correctAnswer": true
+  }
+]

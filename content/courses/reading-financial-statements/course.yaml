@@ -1,0 +1,71 @@
+slug: reading-financial-statements
+title: Reading Financial Statements
+subtitle: Making sense of the income statement, balance sheet, and cash flow statement — and why a
+  profitable company can still run out of cash.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - finance
+skills:
+  - financial-statements
+careerPaths: []
+category: finance
+premium: false
+objectives:
+  - id: obj-1
+    text: Read and interpret the three core financial statements
+  - id: obj-2
+    text: Explain why profit and cash flow can diverge significantly
+  - id: obj-3
+    text: Calculate and interpret basic financial ratios
+prerequisites: []
+instructor:
+  name: Nadia Okafor
+  title: FP&A Director, ex-Goldman Sachs
+  bio: Nadia Okafor is FP&A Director, ex-Goldman Sachs, teaching Reading Financial Statements on
+    Curitiq.
+  avatarInitials: NO
+modules:
+  - slug: the-three-core-statements
+    order: 0
+  - slug: basic-financial-ratios
+    order: 1
+projectSlugs:
+  - financial-statement-analysis
+assessmentSlugs: []
+resources:
+  - title: "SEC: Beginners' Guide to Financial Statements"
+    type: external-link
+    url: https://www.investor.gov/introduction-investing/investing-basics/how-read-financial-statement
+    description: The US SEC's official guide to reading financial statements.
+certificate:
+  title: Reading Financial Statements — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the financial statement analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Reading Financial Statements | Curitiq
+  description:
+    Making sense of the income statement, balance sheet, and cash flow statement — and why
+    a profitable company can still run out of cash.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Making sense of the income statement, balance sheet, and cash flow statement — and why a
+    profitable company can still run out of cash.
+  keyConcepts:
+    - Read and interpret the three core financial statements
+    - Explain why profit and cash flow can diverge significantly
+    - Calculate and interpret basic financial ratios
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

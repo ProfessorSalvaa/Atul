@@ -1,0 +1,40 @@
+[
+  {
+    "id": "core-paid-metrics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Core Paid Advertising Metrics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"CPC (cost per click) measures traffic cost, CTR (click-through rate) measures ad relevance/appeal, CPA (cost per acquisition) measures cost per actual result, and ROAS (return on ad spend) measures revenue generated per dollar spent\""
+    ],
+    "explanation": "CPC (cost per click) measures traffic cost, CTR (click-through rate) measures ad relevance/appeal, CPA (cost per acquisition) measures cost per actual result, and ROAS (return on ad spend) measures revenue generated per dollar spent — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "CPC (cost per click) measures traffic cost, CTR (click-through rate) measures ad relevance/appeal, CPA (cost per acquisition) measures cost per actual result, and ROAS (return on ad spend) measures revenue generated per dollar spent"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "core-paid-metrics-q2",
+    "type": "true-false",
+    "prompt": "True or false: A low CPC with a low CTR often means cheap but irrelevant traffic — a high CTR with a poor CPA often means an appealing ad that isn't converting once people land on the page",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A low CPC with a low CTR often means cheap but irrelevant traffic — a high CTR with a poor CPA often means an appealing ad that isn't converting once people land on the page",
+    "references": [],
+    "correctAnswer": true
+  }
+]

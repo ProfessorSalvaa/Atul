@@ -1,0 +1,23 @@
+[
+  {
+    "id": "copilot-excel-glossary-fc-1",
+    "front": "SUMIFS",
+    "back": "An Excel function that sums values matching multiple criteria across different columns.",
+    "difficulty": "beginner",
+    "tags": ["copilot", "ai"]
+  },
+  {
+    "id": "copilot-excel-glossary-fc-2",
+    "front": "Copilot grounding",
+    "back": "When Copilot draws on your organization's actual documents/data rather than general knowledge alone.",
+    "difficulty": "beginner",
+    "tags": ["copilot", "ai"]
+  },
+  {
+    "id": "copilot-excel-glossary-fc-3",
+    "front": "Cell reference",
+    "back": "The address (e.g. A1, D:D) that tells a formula which cells to use — a common source of silent errors when copied incorrectly.",
+    "difficulty": "beginner",
+    "tags": ["copilot", "ai"]
+  }
+]

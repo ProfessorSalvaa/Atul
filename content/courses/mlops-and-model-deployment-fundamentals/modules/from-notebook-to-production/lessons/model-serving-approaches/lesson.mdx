@@ -1,0 +1,32 @@
+---
+type: reading
+title: Model Serving Approaches
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand model serving approaches
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Model Serving Approaches."
+  keyConcepts:
+    - Real-time serving (a live API endpoint) fits use cases needing an
+      immediate prediction, like fraud detection at checkout — batch serving
+      (running predictions on a schedule) fits use cases where predictions can
+      be precomputed, like a weekly churn risk score
+    - Real-time serving has stricter latency and uptime requirements, generally
+      costing more in engineering complexity than batch serving for the same
+      underlying model
+    - Choose the serving approach based on the actual latency requirement of the
+      use case, not by default — over-engineering real-time serving for a use
+      case that only needed batch predictions wastes significant effort
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **From Notebook to Production** in _MLOps and Model Deployment Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Real-time serving (a live API endpoint) fits use cases needing an immediate prediction, like fraud detection at checkout — batch serving (running predictions on a schedule) fits use cases where predictions can be precomputed, like a weekly churn risk score
+- Real-time serving has stricter latency and uptime requirements, generally costing more in engineering complexity than batch serving for the same underlying model
+- Choose the serving approach based on the actual latency requirement of the use case, not by default — over-engineering real-time serving for a use case that only needed batch predictions wastes significant effort
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

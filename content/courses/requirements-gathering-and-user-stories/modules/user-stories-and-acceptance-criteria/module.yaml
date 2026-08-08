@@ -1,0 +1,14 @@
+slug: user-stories-and-acceptance-criteria
+title: User Stories and Acceptance Criteria
+description: The format that turns a requirement into something a team can build and verify.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing User Stories"
+  - id: mo-2
+    text: "Grasp: Requirements Gathering Terms Flip Deck"
+lessons:
+  - slug: writing-user-stories
+    order: 0
+  - slug: requirements-glossary
+    order: 1

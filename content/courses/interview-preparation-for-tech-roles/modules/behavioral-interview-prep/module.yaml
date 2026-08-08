@@ -1,0 +1,14 @@
+slug: behavioral-interview-prep
+title: Behavioral Interview Preparation
+description: Answering 'tell me about a time when' with substance instead of a vague summary.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The STAR Method"
+  - id: mo-2
+    text: "Grasp: Picking the Right Stories to Prepare"
+lessons:
+  - slug: the-star-method
+    order: 0
+  - slug: picking-the-right-stories
+    order: 1

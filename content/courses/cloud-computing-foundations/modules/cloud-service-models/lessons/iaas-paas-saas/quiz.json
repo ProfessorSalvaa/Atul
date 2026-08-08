@@ -1,0 +1,40 @@
+[
+  {
+    "id": "iaas-paas-saas-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"IaaS, PaaS, and SaaS Explained with Real Examples\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"IaaS (Infrastructure as a Service, e.g. raw EC2 virtual machines) gives you the most control and the most responsibility — you manage the OS, runtime, and everything above it\""
+    ],
+    "explanation": "IaaS (Infrastructure as a Service, e.g. raw EC2 virtual machines) gives you the most control and the most responsibility — you manage the OS, runtime, and everything above it — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "IaaS (Infrastructure as a Service, e.g. raw EC2 virtual machines) gives you the most control and the most responsibility — you manage the OS, runtime, and everything above it"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "iaas-paas-saas-q2",
+    "type": "true-false",
+    "prompt": "True or false: PaaS (Platform as a Service, e.g. a managed app-hosting platform) handles the OS and runtime for you — you focus on your application code, trading some control for less operational burden",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — PaaS (Platform as a Service, e.g. a managed app-hosting platform) handles the OS and runtime for you — you focus on your application code, trading some control for less operational burden",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "incident-response-glossary-fc-1",
+    "front": "Containment",
+    "back": "Actions taken to stop an active incident from spreading further, balanced against preserving forensic evidence.",
+    "difficulty": "advanced",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "incident-response-glossary-fc-2",
+    "front": "Eradication",
+    "back": "Removing the root cause of an incident, not just its visible symptoms.",
+    "difficulty": "advanced",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "incident-response-glossary-fc-3",
+    "front": "Blameless post-incident review",
+    "back": "A review process focused on conditions and root cause rather than assigning individual fault.",
+    "difficulty": "advanced",
+    "tags": ["cybersecurity"]
+  }
+]

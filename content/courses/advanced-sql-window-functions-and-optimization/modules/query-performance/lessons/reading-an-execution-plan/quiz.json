@@ -1,0 +1,40 @@
+[
+  {
+    "id": "reading-an-execution-plan-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reading a Query Execution Plan\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An execution plan (EXPLAIN in most databases) shows how the database will actually run your query — which tables it scans, in what order, and whether it uses an index\""
+    ],
+    "explanation": "An execution plan (EXPLAIN in most databases) shows how the database will actually run your query — which tables it scans, in what order, and whether it uses an index — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An execution plan (EXPLAIN in most databases) shows how the database will actually run your query — which tables it scans, in what order, and whether it uses an index"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reading-an-execution-plan-q2",
+    "type": "true-false",
+    "prompt": "True or false: A 'sequential scan' on a large table where you're filtering on a specific column is the most common red flag — it usually means a missing index",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A 'sequential scan' on a large table where you're filtering on a specific column is the most common red flag — it usually means a missing index",
+    "references": [],
+    "correctAnswer": true
+  }
+]

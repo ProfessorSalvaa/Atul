@@ -1,0 +1,39 @@
+---
+type: code
+title: Cross-Site Scripting (XSS)
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand cross-site scripting (xss)
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Cross-Site Scripting (XSS)."
+  keyConcepts:
+    - XSS happens when untrusted input is rendered into a page without proper
+      escaping, letting an attacker inject a script that runs in another user's
+      browser session
+    - Stored XSS (malicious input saved and served to other users) is generally
+      more dangerous than reflected XSS (requiring a crafted link to be
+      clicked), since it affects any visitor without extra action
+    - Modern frameworks auto-escape rendered content by default — most
+      real-world XSS bugs come from deliberately bypassing this default (e.g.
+      `dangerouslySetInnerHTML`) without adequately sanitizing the input first
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Injection and Cross-Site Scripting** in _Security for Web Applications_. By the end, you should be able to put the following into practice:
+
+- XSS happens when untrusted input is rendered into a page without proper escaping, letting an attacker inject a script that runs in another user's browser session
+- Stored XSS (malicious input saved and served to other users) is generally more dangerous than reflected XSS (requiring a crafted link to be clicked), since it affects any visitor without extra action
+- Modern frameworks auto-escape rendered content by default — most real-world XSS bugs come from deliberately bypassing this default (e.g. `dangerouslySetInnerHTML`) without adequately sanitizing the input first
+
+```text
+Vulnerable pattern: rendering raw user input as HTML without escaping
+Safe pattern: rely on the framework's default text-escaping rendering; if raw HTML is genuinely needed, sanitize with a dedicated library first
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

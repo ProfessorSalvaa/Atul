@@ -1,0 +1,40 @@
+[
+  {
+    "id": "reserved-vs-on-demand-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reserved/Committed Pricing vs. On-Demand\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Reserved or committed-use pricing offers a significant discount in exchange for a 1-3 year commitment to a certain usage level — appropriate for stable, predictable baseline workloads\""
+    ],
+    "explanation": "Reserved or committed-use pricing offers a significant discount in exchange for a 1-3 year commitment to a certain usage level — appropriate for stable, predictable baseline workloads — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Reserved or committed-use pricing offers a significant discount in exchange for a 1-3 year commitment to a certain usage level — appropriate for stable, predictable baseline workloads"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reserved-vs-on-demand-q2",
+    "type": "true-false",
+    "prompt": "True or false: On-demand pricing costs more per unit but has no commitment — appropriate for variable or unpredictable workloads where you can't confidently forecast usage",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — On-demand pricing costs more per unit but has no commitment — appropriate for variable or unpredictable workloads where you can't confidently forecast usage",
+    "references": [],
+    "correctAnswer": true
+  }
+]

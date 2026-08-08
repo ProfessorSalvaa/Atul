@@ -1,0 +1,14 @@
+slug: bias-variance-tradeoff
+title: The Bias-Variance Tradeoff
+description: The fundamental tension in model complexity, explained without heavy math.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Bias-Variance Tradeoff in Practice"
+  - id: mo-2
+    text: "Grasp: Supervised Learning Terms Flip Deck"
+lessons:
+  - slug: bias-variance-in-practice
+    order: 0
+  - slug: supervised-learning-glossary
+    order: 1

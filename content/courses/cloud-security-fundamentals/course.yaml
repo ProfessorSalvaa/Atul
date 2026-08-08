@@ -1,0 +1,74 @@
+slug: cloud-security-fundamentals
+title: Cloud Security Fundamentals
+subtitle: Security in the cloud is a shared responsibility — knowing exactly which parts are yours
+  to secure is the difference between a real defense and a false sense of safety.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - cybersecurity
+  - cloud
+skills:
+  - cloud-security
+careerPaths:
+  - cybersecurity-analyst
+  - cloud-engineer
+category: cybersecurity
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain the shared responsibility model and where it applies
+  - id: obj-2
+    text: Identify common cloud misconfigurations that lead to breaches
+  - id: obj-3
+    text: Apply IAM best practices in a cloud environment
+prerequisites:
+  - courseSlug: cybersecurity-foundations
+instructor:
+  name: Priya Nair
+  title: Security Engineer, ex-Cloudflare
+  bio: Priya Nair is Security Engineer, ex-Cloudflare, teaching Cloud Security Fundamentals on Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: shared-responsibility
+    order: 0
+  - slug: iam-best-practices
+    order: 1
+projectSlugs:
+  - cloud-security-audit
+assessmentSlugs: []
+resources:
+  - title: AWS Shared Responsibility Model
+    type: external-link
+    url: https://aws.amazon.com/compliance/shared-responsibility-model/
+    description: AWS's official explanation of the shared responsibility model.
+certificate:
+  title: Cloud Security Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the cloud security audit
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Cloud Security Fundamentals | Curitiq
+  description: Security in the cloud is a shared responsibility — knowing exactly which parts are
+    yours to secure is the difference between a real defense and a false sen
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Security in the cloud is a shared responsibility — knowing exactly which parts are yours to
+    secure is the difference between a real defense and a false sense of safety.
+  keyConcepts:
+    - Explain the shared responsibility model and where it applies
+    - Identify common cloud misconfigurations that lead to breaches
+    - Apply IAM best practices in a cloud environment
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,76 @@
+slug: chatgpt-for-data-analysis
+title: ChatGPT for Data Analysis
+subtitle: Using ChatGPT's code interpreter and file analysis to explore datasets, generate charts,
+  and sanity-check findings faster.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 110
+tags: &a1
+  - chatgpt
+  - ai
+  - analytics
+  - data
+skills:
+  - chatgpt-workflows
+  - data-cleaning
+careerPaths:
+  - ai-practitioner
+  - data-analyst
+category: chatgpt
+premium: true
+objectives:
+  - id: obj-1
+    text: Use ChatGPT's data-analysis features to explore a CSV without writing code by hand
+  - id: obj-2
+    text: Ask questions that produce genuinely checkable analysis rather than vague summaries
+  - id: obj-3
+    text: Verify AI-generated numbers against the source data before trusting them
+prerequisites:
+  - courseSlug: chatgpt-for-everyday-productivity
+instructor:
+  name: Priya Nair
+  title: Head of AI Enablement, Fieldstone
+  bio: Priya Nair is Head of AI Enablement, Fieldstone, teaching ChatGPT for Data Analysis on Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: exploring-data
+    order: 0
+  - slug: verifying-ai-analysis
+    order: 1
+projectSlugs:
+  - dataset-analysis-writeup
+assessmentSlugs: []
+resources:
+  - title: OpenAI Help Center — Data Analysis
+    type: external-link
+    url: https://help.openai.com
+    description: Documentation for ChatGPT's file and data-analysis features.
+certificate:
+  title: ChatGPT for Data Analysis — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the dataset analysis write-up
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: ChatGPT for Data Analysis | Curitiq
+  description: Using ChatGPT's code interpreter and file analysis to explore datasets, generate
+    charts, and sanity-check findings faster.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Using ChatGPT's code interpreter and file analysis to explore datasets, generate charts,
+    and sanity-check findings faster.
+  keyConcepts:
+    - Use ChatGPT's data-analysis features to explore a CSV without writing code by hand
+    - Ask questions that produce genuinely checkable analysis rather than vague summaries
+    - Verify AI-generated numbers against the source data before trusting them
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

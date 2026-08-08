@@ -1,0 +1,40 @@
+---
+type: case-study
+title: "Case Study: An Agent That Wouldn't Stop Calling a Tool"
+order: 1
+durationMinutes: 17
+objectives:
+  - "Understand case study: an agent that wouldn't stop calling a tool"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Case Study: An Agent That Wouldn't Stop Calling a Tool."
+  keyConcepts:
+    - A support-automation agent was given a 'search_knowledge_base' tool with
+      no limit on how many times it could call it per conversation
+    - On ambiguous questions, the agent would search, get a mediocre result,
+      then search again with a slightly reworded query — sometimes 20+ times in
+      a row
+    - This inflated API costs significantly and made response times unacceptable
+      for a chat interface
+    - "Root cause: no step budget and no instruction for what to do when search
+      results were 'good enough but not perfect'"
+    - "Fix: added a hard 3-call limit per turn, and an explicit instruction to
+      answer with the best available result after the limit rather than looping
+      indefinitely"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Agentic Workflows and Their Failure Modes** in _Building with Claude: Tool Use and Agents_. By the end, you should be able to put the following into practice:
+
+- A support-automation agent was given a 'search_knowledge_base' tool with no limit on how many times it could call it per conversation
+- On ambiguous questions, the agent would search, get a mediocre result, then search again with a slightly reworded query — sometimes 20+ times in a row
+- This inflated API costs significantly and made response times unacceptable for a chat interface
+- Root cause: no step budget and no instruction for what to do when search results were 'good enough but not perfect'
+- Fix: added a hard 3-call limit per turn, and an explicit instruction to answer with the best available result after the limit rather than looping indefinitely
+
+## Working through it
+
+Read each point above as a real decision someone had to make — not an abstract rule. The rest of this course builds on the reasoning here, not just the conclusion.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

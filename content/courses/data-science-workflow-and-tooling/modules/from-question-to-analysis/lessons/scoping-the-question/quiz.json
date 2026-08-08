@@ -1,0 +1,40 @@
+[
+  {
+    "id": "scoping-the-question-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Scoping a Vague Business Question\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'Why are sales down' is too vague to analyze directly — scope it into a specific, answerable question, like 'has the drop been concentrated in a specific region, product line, or customer segment'\""
+    ],
+    "explanation": "'Why are sales down' is too vague to analyze directly — scope it into a specific, answerable question, like 'has the drop been concentrated in a specific region, product line, or customer segment' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'Why are sales down' is too vague to analyze directly — scope it into a specific, answerable question, like 'has the drop been concentrated in a specific region, product line, or customer segment'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "scoping-the-question-q2",
+    "type": "true-false",
+    "prompt": "True or false: Clarify what decision the answer would actually inform — an analysis with no connected decision often produces an interesting but unused finding",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Clarify what decision the answer would actually inform — an analysis with no connected decision often produces an interesting but unused finding",
+    "references": [],
+    "correctAnswer": true
+  }
+]

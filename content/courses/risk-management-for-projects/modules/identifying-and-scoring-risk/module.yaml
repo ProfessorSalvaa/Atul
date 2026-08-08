@@ -1,0 +1,14 @@
+slug: identifying-and-scoring-risk
+title: Identifying and Scoring Risk
+description: Finding risks systematically, then deciding which ones actually deserve attention.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Systematic Risk Identification"
+  - id: mo-2
+    text: "Grasp: Scoring Risks by Probability and Impact"
+lessons:
+  - slug: systematic-risk-identification
+    order: 0
+  - slug: scoring-probability-and-impact
+    order: 1

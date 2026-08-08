@@ -1,0 +1,35 @@
+---
+type: reading
+title: The Agent Loop and Where It Breaks
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand the agent loop and where it breaks
+free: false
+aiTutorContext:
+  summary: "This lesson covers: The Agent Loop and Where It Breaks."
+  keyConcepts:
+    - "An agentic loop repeats: model reasons → calls a tool → gets a result →
+      reasons again → calls another tool, until it decides the task is done"
+    - "Failure mode 1: infinite or excessive looping — the model keeps calling
+      tools without converging, usually from an underspecified 'done' condition"
+    - "Failure mode 2: over-calling — using a tool when reasoning alone would've
+      sufficed, wasting time and cost"
+    - "Failure mode 3: silently ignoring a tool error and proceeding with a
+      hallucinated result instead of surfacing the failure"
+    - "Mitigation: set explicit step limits, require the model to state its plan
+      before executing, and always surface tool errors back into the model's
+      context rather than swallowing them"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Agentic Workflows and Their Failure Modes** in _Building with Claude: Tool Use and Agents_. By the end, you should be able to put the following into practice:
+
+- An agentic loop repeats: model reasons → calls a tool → gets a result → reasons again → calls another tool, until it decides the task is done
+- Failure mode 1: infinite or excessive looping — the model keeps calling tools without converging, usually from an underspecified 'done' condition
+- Failure mode 2: over-calling — using a tool when reasoning alone would've sufficed, wasting time and cost
+- Failure mode 3: silently ignoring a tool error and proceeding with a hallucinated result instead of surfacing the failure
+- Mitigation: set explicit step limits, require the model to state its plan before executing, and always surface tool errors back into the model's context rather than swallowing them
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

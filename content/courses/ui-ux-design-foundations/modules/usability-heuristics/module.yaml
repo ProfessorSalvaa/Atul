@@ -1,0 +1,14 @@
+slug: usability-heuristics
+title: Usability Heuristics
+description: A structured way to evaluate whether an interface is actually usable.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Nielsen's 10 Usability Heuristics"
+  - id: mo-2
+    text: "Grasp: UI/UX Foundations Flip Deck"
+lessons:
+  - slug: nielsens-heuristics
+    order: 0
+  - slug: ui-ux-foundations-glossary
+    order: 1

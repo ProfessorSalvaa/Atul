@@ -1,0 +1,76 @@
+slug: advanced-excel-formulas-and-automation
+title: Advanced Excel Formulas and Automation
+subtitle: Array formulas, dynamic ranges, and basic macro automation for analysts who've outgrown
+  simple spreadsheets.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 125
+tags: &a1
+  - spreadsheets
+  - excel
+  - data
+skills:
+  - excel-formulas
+  - excel-automation
+careerPaths:
+  - data-analyst
+category: excel
+premium: true
+objectives:
+  - id: obj-1
+    text: Use dynamic array formulas (FILTER, SORT, UNIQUE) to build self-updating analyses
+  - id: obj-2
+    text: Combine multiple functions to solve multi-step logic problems in one formula
+  - id: obj-3
+    text: Record and adapt a basic macro to automate a repeated task
+prerequisites:
+  - courseSlug: excel-for-data-analysis
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Advanced Excel Formulas and
+    Automation on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: dynamic-array-formulas
+    order: 0
+  - slug: automating-with-macros
+    order: 1
+projectSlugs:
+  - self-updating-report
+assessmentSlugs: []
+resources:
+  - title: "Microsoft: Dynamic Array Formulas"
+    type: external-link
+    url: https://support.microsoft.com/en-us/office/dynamic-array-formulas-and-spilled-array-behavior-205c6b06-03ba-4151-89a1-87a7eb36e531
+    description: Official reference on dynamic arrays in Excel.
+certificate:
+  title: Advanced Excel Formulas and Automation — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the self-updating report
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Advanced Excel Formulas and Automation | Curitiq
+  description:
+    Array formulas, dynamic ranges, and basic macro automation for analysts who've outgrown
+    simple spreadsheets.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Array formulas, dynamic ranges, and basic macro automation for analysts who've outgrown
+    simple spreadsheets.
+  keyConcepts:
+    - Use dynamic array formulas (FILTER, SORT, UNIQUE) to build self-updating analyses
+    - Combine multiple functions to solve multi-step logic problems in one formula
+    - Record and adapt a basic macro to automate a repeated task
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

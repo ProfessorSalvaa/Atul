@@ -1,0 +1,23 @@
+[
+  {
+    "id": "dsa-glossary-fc-1",
+    "front": "Big-O notation",
+    "back": "A way of describing how an algorithm's runtime or memory use grows as input size increases.",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "dsa-glossary-fc-2",
+    "front": "Base case",
+    "back": "The condition in a recursive function that stops further recursive calls.",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "dsa-glossary-fc-3",
+    "front": "Hash-based lookup",
+    "back": "The O(1) average-case lookup mechanism behind Python sets and dicts, much faster than scanning a list.",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  }
+]

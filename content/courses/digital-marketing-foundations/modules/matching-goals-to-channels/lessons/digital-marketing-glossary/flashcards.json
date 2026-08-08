@@ -1,0 +1,23 @@
+[
+  {
+    "id": "digital-marketing-glossary-fc-1",
+    "front": "Owned media",
+    "back": "Marketing channels a company fully controls, like its website or email list.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "digital-marketing-glossary-fc-2",
+    "front": "Earned media",
+    "back": "Attention gained without direct payment, like press coverage or organic word of mouth.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "digital-marketing-glossary-fc-3",
+    "front": "Retargeting",
+    "back": "Advertising specifically targeted at people who've already interacted with a brand, aimed at conversion.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  }
+]

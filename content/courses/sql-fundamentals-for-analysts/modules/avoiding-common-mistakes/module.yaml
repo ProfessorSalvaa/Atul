@@ -1,0 +1,14 @@
+slug: avoiding-common-mistakes
+title: Avoiding Common Beginner Mistakes
+description: The handful of errors that trip up almost everyone at first.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: NULL Handling and Off-By-Default Mistakes"
+  - id: mo-2
+    text: "Grasp: SQL Terms Flip Deck"
+lessons:
+  - slug: null-handling
+    order: 0
+  - slug: sql-glossary
+    order: 1

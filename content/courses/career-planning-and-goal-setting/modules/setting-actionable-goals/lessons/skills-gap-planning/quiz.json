@@ -1,0 +1,40 @@
+[
+  {
+    "id": "skills-gap-planning-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building a Skills Gap Plan\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Compare your current skills honestly against what a target role actually requires — this comparison, done specifically rather than vaguely, reveals exactly what to prioritize learning\""
+    ],
+    "explanation": "Compare your current skills honestly against what a target role actually requires — this comparison, done specifically rather than vaguely, reveals exactly what to prioritize learning — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Compare your current skills honestly against what a target role actually requires — this comparison, done specifically rather than vaguely, reveals exactly what to prioritize learning"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "skills-gap-planning-q2",
+    "type": "true-false",
+    "prompt": "True or false: Prioritize gaps by how much they block the target role — a nice-to-have skill matters less than one that's a genuine prerequisite for the next step",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Prioritize gaps by how much they block the target role — a nice-to-have skill matters less than one that's a genuine prerequisite for the next step",
+    "references": [],
+    "correctAnswer": true
+  }
+]

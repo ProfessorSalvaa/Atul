@@ -1,0 +1,23 @@
+[
+  {
+    "id": "social-media-glossary-fc-1",
+    "front": "Vanity metric",
+    "back": "A metric that's easy to track and feels good but doesn't clearly connect to a business outcome.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "social-media-glossary-fc-2",
+    "front": "Platform-native content",
+    "back": "Content produced specifically to fit a platform's dominant format and tone, rather than repurposed identically elsewhere.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "social-media-glossary-fc-3",
+    "front": "Engagement rate",
+    "back": "A metric measuring interaction relative to reach, generally a stronger signal than raw follower count.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  }
+]

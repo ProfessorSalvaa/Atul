@@ -1,0 +1,47 @@
+---
+type: code
+title: Designing a Tool Interface a Model Can Use Reliably
+order: 1
+durationMinutes: 19
+objectives:
+  - Understand designing a tool interface a model can use reliably
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Designing a Tool Interface a Model Can Use Reliably."
+  keyConcepts:
+    - Keep each tool narrowly scoped to one clear job — a tool that does 'search
+      OR create OR delete' based on a flag is far more error-prone than three
+      separate tools
+    - Write the tool's description the way you'd explain it to a new engineer
+      who's never seen your codebase — assume no shared context
+    - Return clear, structured error messages from tools on failure, not silent
+      nulls — the model can only recover gracefully if it knows something went
+      wrong
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: json
+---
+
+This lesson is part of **Tool Use Fundamentals** in _Building with Claude: Tool Use and Agents_. By the end, you should be able to put the following into practice:
+
+- Keep each tool narrowly scoped to one clear job — a tool that does 'search OR create OR delete' based on a flag is far more error-prone than three separate tools
+- Write the tool's description the way you'd explain it to a new engineer who's never seen your codebase — assume no shared context
+- Return clear, structured error messages from tools on failure, not silent nulls — the model can only recover gracefully if it knows something went wrong
+
+```json
+{
+  "name": "search_orders",
+  "description": "Search customer orders by email or order ID. Returns up to 10 matching orders with status and total.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "query": { "type": "string", "description": "Customer email or order ID" }
+    },
+    "required": ["query"]
+  }
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "zero-downtime-deployment-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Zero-Downtime Deployment Patterns\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A rolling deployment replaces instances gradually, keeping some old-version instances serving traffic until new ones pass health checks — avoids an all-at-once cutover risk\""
+    ],
+    "explanation": "A rolling deployment replaces instances gradually, keeping some old-version instances serving traffic until new ones pass health checks — avoids an all-at-once cutover risk — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A rolling deployment replaces instances gradually, keeping some old-version instances serving traffic until new ones pass health checks — avoids an all-at-once cutover risk"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "zero-downtime-deployment-q2",
+    "type": "true-false",
+    "prompt": "True or false: Blue-green deployment runs two full environments and switches traffic at once, allowing a fast rollback by simply switching back if the new version has problems",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Blue-green deployment runs two full environments and switches traffic at once, allowing a fast rollback by simply switching back if the new version has problems",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "uploading-and-profiling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Uploading a File and Getting an Honest First Look\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Start by asking for a data profile: row/column counts, data types, missing values per column — this catches obvious data-quality issues before any analysis happens\""
+    ],
+    "explanation": "Start by asking for a data profile: row/column counts, data types, missing values per column — this catches obvious data-quality issues before any analysis happens — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Start by asking for a data profile: row/column counts, data types, missing values per column — this catches obvious data-quality issues before any analysis happens"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "uploading-and-profiling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask ChatGPT to show you the actual code it ran, not just the result — this lets you verify the logic, not just trust the number",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask ChatGPT to show you the actual code it ran, not just the result — this lets you verify the logic, not just trust the number",
+    "references": [],
+    "correctAnswer": true
+  }
+]

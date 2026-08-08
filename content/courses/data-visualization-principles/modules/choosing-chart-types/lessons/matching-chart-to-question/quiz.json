@@ -1,0 +1,40 @@
+[
+  {
+    "id": "matching-chart-to-question-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Matching Chart Type to the Question Being Asked\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Trend over time → line chart. Comparing discrete categories → bar chart. Distribution of a single variable → histogram. Relationship between two numeric variables → scatter plot\""
+    ],
+    "explanation": "Trend over time → line chart. Comparing discrete categories → bar chart. Distribution of a single variable → histogram. Relationship between two numeric variables → scatter plot — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Trend over time → line chart. Comparing discrete categories → bar chart. Distribution of a single variable → histogram. Relationship between two numeric variables → scatter plot"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "matching-chart-to-question-q2",
+    "type": "true-false",
+    "prompt": "True or false: Pie charts are hard to read accurately beyond 3-4 slices — a sorted bar chart almost always communicates part-to-whole comparisons better",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Pie charts are hard to read accurately beyond 3-4 slices — a sorted bar chart almost always communicates part-to-whole comparisons better",
+    "references": [],
+    "correctAnswer": true
+  }
+]

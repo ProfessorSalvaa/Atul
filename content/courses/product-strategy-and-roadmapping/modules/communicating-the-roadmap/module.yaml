@@ -1,0 +1,14 @@
+slug: communicating-the-roadmap
+title: Communicating the Roadmap
+description: The same roadmap, told differently to different audiences, on purpose.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Presenting a Roadmap to Different Audiences"
+  - id: mo-2
+    text: "Grasp: Product Strategy Terms Flip Deck"
+lessons:
+  - slug: roadmap-for-different-audiences
+    order: 0
+  - slug: product-strategy-glossary
+    order: 1

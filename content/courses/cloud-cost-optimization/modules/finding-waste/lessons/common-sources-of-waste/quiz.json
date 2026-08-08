@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-sources-of-waste-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Sources of Cloud Waste\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Idle or forgotten resources (a test instance never shut down, an old snapshot nobody deleted) accumulate cost silently over months\""
+    ],
+    "explanation": "Idle or forgotten resources (a test instance never shut down, an old snapshot nobody deleted) accumulate cost silently over months — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Idle or forgotten resources (a test instance never shut down, an old snapshot nobody deleted) accumulate cost silently over months"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-sources-of-waste-q2",
+    "type": "true-false",
+    "prompt": "True or false: Over-provisioned instances (running a large instance type at 5% utilization) are extremely common when sizing was a guess rather than based on real usage data",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Over-provisioned instances (running a large instance type at 5% utilization) are extremely common when sizing was a guess rather than based on real usage data",
+    "references": [],
+    "correctAnswer": true
+  }
+]

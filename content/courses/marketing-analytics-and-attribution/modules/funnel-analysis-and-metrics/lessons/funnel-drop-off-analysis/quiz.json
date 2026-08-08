@@ -1,0 +1,40 @@
+[
+  {
+    "id": "funnel-drop-off-analysis-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Analyzing Funnel Drop-Off\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Map the full funnel (awareness, consideration, conversion, retention) and measure the conversion rate between each stage — the stage with the steepest relative drop-off usually deserves the most attention, not necessarily the stage with the largest absolute number lost\""
+    ],
+    "explanation": "Map the full funnel (awareness, consideration, conversion, retention) and measure the conversion rate between each stage — the stage with the steepest relative drop-off usually deserves the most attention, not necessarily the stage with the largest absolute number lost — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Map the full funnel (awareness, consideration, conversion, retention) and measure the conversion rate between each stage — the stage with the steepest relative drop-off usually deserves the most attention, not necessarily the stage with the largest absolute number lost"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "funnel-drop-off-analysis-q2",
+    "type": "true-false",
+    "prompt": "True or false: A drop-off between two specific stages points to a specific hypothesis to test — e.g. a big drop between 'added to cart' and 'completed purchase' points toward friction in the checkout flow specifically",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A drop-off between two specific stages points to a specific hypothesis to test — e.g. a big drop between 'added to cart' and 'completed purchase' points toward friction in the checkout flow specifically",
+    "references": [],
+    "correctAnswer": true
+  }
+]

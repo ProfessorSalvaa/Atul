@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bias-variance-in-practice-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Bias-Variance Tradeoff in Practice\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"High bias means a model is too simple to capture real patterns (underfitting) — high variance means a model is too sensitive to the specific training data's noise (overfitting)\""
+    ],
+    "explanation": "High bias means a model is too simple to capture real patterns (underfitting) — high variance means a model is too sensitive to the specific training data's noise (overfitting) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "High bias means a model is too simple to capture real patterns (underfitting) — high variance means a model is too sensitive to the specific training data's noise (overfitting)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "bias-variance-in-practice-q2",
+    "type": "true-false",
+    "prompt": "True or false: Increasing model complexity typically reduces bias but increases variance — the goal is finding the complexity level that minimizes total error, not simply maximizing or minimizing either one",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Increasing model complexity typically reduces bias but increases variance — the goal is finding the complexity level that minimizes total error, not simply maximizing or minimizing either one",
+    "references": [],
+    "correctAnswer": true
+  }
+]

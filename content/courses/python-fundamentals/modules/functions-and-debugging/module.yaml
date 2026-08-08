@@ -1,0 +1,16 @@
+slug: functions-and-debugging
+title: Functions and Debugging
+description: Writing reusable code and reading Python's error messages without dread.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing Functions with Clear Inputs and Outputs"
+  - id: mo-2
+    text: "Grasp: Reading a Traceback Without Panicking"
+lessons:
+  - slug: writing-good-functions
+    order: 0
+  - slug: reading-tracebacks
+    order: 1
+  - slug: python-glossary
+    order: 2

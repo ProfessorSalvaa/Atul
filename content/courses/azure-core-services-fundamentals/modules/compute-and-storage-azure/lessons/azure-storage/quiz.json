@@ -1,0 +1,40 @@
+[
+  {
+    "id": "azure-storage-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Azure Storage Accounts and Access Tiers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A Storage account can hold Blob storage (unstructured files), File shares, Queues, and Tables — Blob storage is the closest equivalent to AWS S3\""
+    ],
+    "explanation": "A Storage account can hold Blob storage (unstructured files), File shares, Queues, and Tables — Blob storage is the closest equivalent to AWS S3 — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A Storage account can hold Blob storage (unstructured files), File shares, Queues, and Tables — Blob storage is the closest equivalent to AWS S3"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "azure-storage-q2",
+    "type": "true-false",
+    "prompt": "True or false: Access tiers (Hot, Cool, Archive) trade storage cost against retrieval cost and latency — choosing the wrong tier for actual access patterns can quietly inflate costs",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Access tiers (Hot, Cool, Archive) trade storage cost against retrieval cost and latency — choosing the wrong tier for actual access patterns can quietly inflate costs",
+    "references": [],
+    "correctAnswer": true
+  }
+]

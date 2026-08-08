@@ -1,0 +1,41 @@
+---
+type: code
+title: Precision and Recall
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand precision and recall
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Precision and Recall."
+  keyConcepts:
+    - Precision answers 'of everything the model flagged as positive, how much
+      was actually positive' — recall answers 'of everything that was actually
+      positive, how much did the model catch'
+    - The right metric to prioritize depends on the actual cost of each error
+      type — a spam filter prioritizes precision (a false positive means losing
+      a real email), while a cancer screening test prioritizes recall (a false
+      negative means missing a real case)
+    - There's usually a tradeoff between precision and recall — adjusting a
+      model's decision threshold to increase one typically decreases the other,
+      so the choice should be a deliberate business decision, not a default
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Beyond Accuracy** in _Model Evaluation and Validation_. By the end, you should be able to put the following into practice:
+
+- Precision answers 'of everything the model flagged as positive, how much was actually positive' — recall answers 'of everything that was actually positive, how much did the model catch'
+- The right metric to prioritize depends on the actual cost of each error type — a spam filter prioritizes precision (a false positive means losing a real email), while a cancer screening test prioritizes recall (a false negative means missing a real case)
+- There's usually a tradeoff between precision and recall — adjusting a model's decision threshold to increase one typically decreases the other, so the choice should be a deliberate business decision, not a default
+
+```text
+Precision = True Positives / (True Positives + False Positives)
+Recall = True Positives / (True Positives + False Negatives)
+Fraud model that flags too aggressively: high recall, low precision (many false alarms)
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

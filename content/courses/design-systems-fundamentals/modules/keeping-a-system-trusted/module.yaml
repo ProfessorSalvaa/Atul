@@ -1,0 +1,14 @@
+slug: keeping-a-system-trusted
+title: Keeping a Design System Trusted
+description: The maintenance work that determines whether people actually use it.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Governance and Contribution Models"
+  - id: mo-2
+    text: "Grasp: Design Systems Terms Flip Deck"
+lessons:
+  - slug: governance-and-contribution
+    order: 0
+  - slug: design-systems-glossary
+    order: 1

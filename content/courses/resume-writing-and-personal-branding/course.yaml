@@ -1,0 +1,72 @@
+slug: resume-writing-and-personal-branding
+title: Resume Writing and Personal Branding
+subtitle: Writing a resume that survives both a human skim and an ATS filter, and building a
+  consistent professional story across LinkedIn and beyond.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - career
+skills:
+  - resume-writing
+  - personal-branding
+careerPaths: []
+category: career-growth
+premium: false
+objectives:
+  - id: obj-1
+    text: Write resume bullets that demonstrate impact, not just responsibility
+  - id: obj-2
+    text: Understand how ATS systems parse resumes and avoid common formatting pitfalls
+  - id: obj-3
+    text: Build a consistent personal brand across resume, LinkedIn, and portfolio
+prerequisites: []
+instructor:
+  name: Priya Shah
+  title: Career Coach, ex-LinkedIn Talent Solutions
+  bio:
+    Priya Shah is Career Coach, ex-LinkedIn Talent Solutions, teaching Resume Writing and Personal
+    Branding on Curitiq.
+  avatarInitials: PS
+modules:
+  - slug: writing-impact-driven-bullets
+    order: 0
+  - slug: building-a-consistent-brand
+    order: 1
+projectSlugs:
+  - resume-rewrite
+assessmentSlugs: []
+resources:
+  - title: LinkedIn Career Advice
+    type: external-link
+    url: https://www.linkedin.com/business/talent/blog
+    description: LinkedIn's official career and hiring insights.
+certificate:
+  title: Resume Writing and Personal Branding — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the resume rewrite
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Resume Writing and Personal Branding | Curitiq
+  description: Writing a resume that survives both a human skim and an ATS filter, and building a
+    consistent professional story across LinkedIn and beyond.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Writing a resume that survives both a human skim and an ATS filter, and building a
+    consistent professional story across LinkedIn and beyond.
+  keyConcepts:
+    - Write resume bullets that demonstrate impact, not just responsibility
+    - Understand how ATS systems parse resumes and avoid common formatting pitfalls
+    - Build a consistent personal brand across resume, LinkedIn, and portfolio
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

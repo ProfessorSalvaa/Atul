@@ -1,0 +1,40 @@
+[
+  {
+    "id": "reading-before-changing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Understand Before You Change\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Before modifying unfamiliar code, trace through what it currently does with a specific example input — guessing at intent and being wrong is how regressions happen\""
+    ],
+    "explanation": "Before modifying unfamiliar code, trace through what it currently does with a specific example input — guessing at intent and being wrong is how regressions happen — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Before modifying unfamiliar code, trace through what it currently does with a specific example input — guessing at intent and being wrong is how regressions happen"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reading-before-changing-q2",
+    "type": "true-false",
+    "prompt": "True or false: Good variable and function names are a form of documentation — if you find yourself unable to guess what something does from its name, that's a signal worth noting, not just a personal struggle",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Good variable and function names are a form of documentation — if you find yourself unable to guess what something does from its name, that's a signal worth noting, not just a personal struggle",
+    "references": [],
+    "correctAnswer": true
+  }
+]

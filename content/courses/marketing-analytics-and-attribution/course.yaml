@@ -1,0 +1,73 @@
+slug: marketing-analytics-and-attribution
+title: Marketing Analytics and Attribution
+subtitle: Figuring out which marketing actually drove a result — attribution models, funnel
+  analysis, and why 'which channel gets credit' is genuinely hard to answer.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - marketing
+skills:
+  - analytics-and-attribution
+careerPaths:
+  - digital-marketer
+category: digital-marketing
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain common attribution models and their tradeoffs
+  - id: obj-2
+    text: Analyze a marketing funnel to find the biggest drop-off point
+  - id: obj-3
+    text: Choose meaningful metrics for a given campaign goal
+prerequisites:
+  - courseSlug: digital-marketing-foundations
+instructor:
+  name: Rosa Delgado
+  title: Head of Growth Marketing, ex-HubSpot
+  bio: Rosa Delgado is Head of Growth Marketing, ex-HubSpot, teaching Marketing Analytics and
+    Attribution on Curitiq.
+  avatarInitials: RD
+modules:
+  - slug: attribution-models
+    order: 0
+  - slug: funnel-analysis-and-metrics
+    order: 1
+projectSlugs:
+  - funnel-and-attribution-analysis
+assessmentSlugs: []
+resources:
+  - title: "Google Analytics: Attribution Models"
+    type: external-link
+    url: https://support.google.com/analytics/answer/10596866
+    description: Google's overview of attribution modeling approaches.
+certificate:
+  title: Marketing Analytics and Attribution — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the funnel and attribution analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Marketing Analytics and Attribution | Curitiq
+  description: Figuring out which marketing actually drove a result — attribution models, funnel
+    analysis, and why 'which channel gets credit' is genuinely hard to answer
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Figuring out which marketing actually drove a result — attribution models, funnel analysis,
+    and why 'which channel gets credit' is genuinely hard to answer.
+  keyConcepts:
+    - Explain common attribution models and their tradeoffs
+    - Analyze a marketing funnel to find the biggest drop-off point
+    - Choose meaningful metrics for a given campaign goal
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

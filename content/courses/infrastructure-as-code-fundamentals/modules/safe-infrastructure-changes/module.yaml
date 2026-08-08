@@ -1,0 +1,14 @@
+slug: safe-infrastructure-changes
+title: Making Infrastructure Changes Safely
+description: Reviewing a change before it actually happens.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Reviewing a Plan Before Applying It"
+  - id: mo-2
+    text: "Grasp: Infrastructure as Code Terms"
+lessons:
+  - slug: plan-before-apply
+    order: 0
+  - slug: iac-glossary
+    order: 1

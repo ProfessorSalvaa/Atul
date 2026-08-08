@@ -1,0 +1,40 @@
+[
+  {
+    "id": "running-interviews-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Running a User Interview\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Silence after a question is uncomfortable but productive — resist the urge to fill it; participants often add their most valuable insight in the extra few seconds after they seem to have finished answering\""
+    ],
+    "explanation": "Silence after a question is uncomfortable but productive — resist the urge to fill it; participants often add their most valuable insight in the extra few seconds after they seem to have finished answering — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Silence after a question is uncomfortable but productive — resist the urge to fill it; participants often add their most valuable insight in the extra few seconds after they seem to have finished answering"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "running-interviews-q2",
+    "type": "true-false",
+    "prompt": "True or false: Follow up on specific, concrete details the participant mentions ('you said it took a while — how long, roughly?') rather than staying at a vague, general level",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Follow up on specific, concrete details the participant mentions ('you said it took a while — how long, roughly?') rather than staying at a vague, general level",
+    "references": [],
+    "correctAnswer": true
+  }
+]

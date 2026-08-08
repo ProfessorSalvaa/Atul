@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sql-glossary-fc-1",
+    "front": "GROUP BY",
+    "back": "A SQL clause that collapses rows sharing the same value into summary groups for aggregation.",
+    "difficulty": "beginner",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "sql-glossary-fc-2",
+    "front": "HAVING",
+    "back": "A clause that filters aggregated groups after GROUP BY, unlike WHERE which filters individual rows before grouping.",
+    "difficulty": "beginner",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "sql-glossary-fc-3",
+    "front": "NULL",
+    "back": "A special SQL value representing 'unknown' or 'missing' — not the same as zero or an empty string.",
+    "difficulty": "beginner",
+    "tags": ["sql", "data"]
+  }
+]

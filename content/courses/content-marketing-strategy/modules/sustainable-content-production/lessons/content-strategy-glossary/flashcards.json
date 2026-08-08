@@ -1,0 +1,23 @@
+[
+  {
+    "id": "content-strategy-glossary-fc-1",
+    "front": "Pillar page",
+    "back": "A comprehensive page covering a broad topic, linked to and reinforced by more specific cluster content.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "seo"]
+  },
+  {
+    "id": "content-strategy-glossary-fc-2",
+    "front": "Topic cluster",
+    "back": "A group of content pieces covering subtopics of a pillar page, internally linked to reinforce topical authority.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "seo"]
+  },
+  {
+    "id": "content-strategy-glossary-fc-3",
+    "front": "Content repurposing",
+    "back": "Adapting a single piece of researched content into multiple formats across channels.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "seo"]
+  }
+]

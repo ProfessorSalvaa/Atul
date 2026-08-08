@@ -1,0 +1,32 @@
+---
+type: reading
+title: Cross-Validation
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand cross-validation
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Cross-Validation."
+  keyConcepts:
+    - K-fold cross-validation splits the data into k parts, training on k-1 and
+      validating on the remaining part, rotating through all k combinations —
+      this gives a performance estimate less dependent on one particular lucky
+      or unlucky split
+    - A single train/test split can produce a misleadingly optimistic or
+      pessimistic result purely by chance, especially with a smaller dataset —
+      cross-validation's average across multiple splits is more robust
+    - Cross-validation costs more compute (training the model k times instead of
+      once) — this tradeoff is usually worth it for a more trustworthy estimate,
+      especially before finalizing an important model
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Getting a Reliable Performance Estimate** in _Model Evaluation and Validation_. By the end, you should be able to put the following into practice:
+
+- K-fold cross-validation splits the data into k parts, training on k-1 and validating on the remaining part, rotating through all k combinations — this gives a performance estimate less dependent on one particular lucky or unlucky split
+- A single train/test split can produce a misleadingly optimistic or pessimistic result purely by chance, especially with a smaller dataset — cross-validation's average across multiple splits is more robust
+- Cross-validation costs more compute (training the model k times instead of once) — this tradeoff is usually worth it for a more trustworthy estimate, especially before finalizing an important model
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

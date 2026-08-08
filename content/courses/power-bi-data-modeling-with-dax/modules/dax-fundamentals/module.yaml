@@ -1,0 +1,14 @@
+slug: dax-fundamentals
+title: DAX Fundamentals
+description: Measures vs. calculated columns, and why the distinction matters.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Measures vs. Calculated Columns"
+  - id: mo-2
+    text: "Grasp: CALCULATE and Filter Context"
+lessons:
+  - slug: measures-vs-columns
+    order: 0
+  - slug: calculate-and-filter-context
+    order: 1

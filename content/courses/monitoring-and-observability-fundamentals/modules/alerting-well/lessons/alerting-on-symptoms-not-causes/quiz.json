@@ -1,0 +1,40 @@
+[
+  {
+    "id": "alerting-on-symptoms-not-causes-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Alerting on Symptoms, Not Every Possible Cause\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Alert on user-facing symptoms (elevated error rate, high latency) rather than every possible internal cause — this reduces noise and keeps alerts meaningfully tied to actual impact\""
+    ],
+    "explanation": "Alert on user-facing symptoms (elevated error rate, high latency) rather than every possible internal cause — this reduces noise and keeps alerts meaningfully tied to actual impact — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Alert on user-facing symptoms (elevated error rate, high latency) rather than every possible internal cause — this reduces noise and keeps alerts meaningfully tied to actual impact"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "alerting-on-symptoms-not-causes-q2",
+    "type": "true-false",
+    "prompt": "True or false: Every alert should be actionable — if an alert fires and there's genuinely nothing to do about it, it shouldn't exist as a page-worthy alert",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Every alert should be actionable — if an alert fires and there's genuinely nothing to do about it, it shouldn't exist as a page-worthy alert",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: branching-strategies
+title: Branching Strategies for Teams
+description: How a team decides what 'main' means and how work flows into it.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Trunk-Based Development vs. Git Flow"
+  - id: mo-2
+    text: "Grasp: Writing a Pull Request That's Fast to Review"
+lessons:
+  - slug: trunk-based-vs-git-flow
+    order: 0
+  - slug: writing-reviewable-prs
+    order: 1

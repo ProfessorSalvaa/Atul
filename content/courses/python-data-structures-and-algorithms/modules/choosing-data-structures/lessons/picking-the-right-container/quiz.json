@@ -1,0 +1,40 @@
+[
+  {
+    "id": "picking-the-right-container-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Picking the Right Container for the Job\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Need fast membership checks ('is this item in the collection?') → use a set, not a list\""
+    ],
+    "explanation": "Need fast membership checks ('is this item in the collection?') → use a set, not a list — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Need fast membership checks ('is this item in the collection?') → use a set, not a list"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "picking-the-right-container-q2",
+    "type": "true-false",
+    "prompt": "True or false: Need to count occurrences of items → use `collections.Counter` rather than manually building a dict with a loop",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Need to count occurrences of items → use `collections.Counter` rather than manually building a dict with a loop",
+    "references": [],
+    "correctAnswer": true
+  }
+]

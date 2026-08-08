@@ -1,0 +1,40 @@
+[
+  {
+    "id": "scope-definition-and-creep-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Scope Definition and Scope Creep\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A scope statement should explicitly list what's out of scope, not just what's in — 'we didn't discuss X' is a much weaker defense against scope creep than 'X was explicitly listed as out of scope'\""
+    ],
+    "explanation": "A scope statement should explicitly list what's out of scope, not just what's in — 'we didn't discuss X' is a much weaker defense against scope creep than 'X was explicitly listed as out of scope' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A scope statement should explicitly list what's out of scope, not just what's in — 'we didn't discuss X' is a much weaker defense against scope creep than 'X was explicitly listed as out of scope'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "scope-definition-and-creep-q2",
+    "type": "true-false",
+    "prompt": "True or false: Scope creep is rarely one dramatic addition — it's usually many small, individually reasonable-sounding requests that collectively derail the schedule and budget",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Scope creep is rarely one dramatic addition — it's usually many small, individually reasonable-sounding requests that collectively derail the schedule and budget",
+    "references": [],
+    "correctAnswer": true
+  }
+]

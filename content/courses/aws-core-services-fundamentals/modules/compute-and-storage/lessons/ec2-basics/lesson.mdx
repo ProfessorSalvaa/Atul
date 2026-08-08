@@ -1,0 +1,31 @@
+---
+type: reading
+title: "EC2 Basics: Instances, Types, and Security Groups"
+order: 0
+durationMinutes: 17
+objectives:
+  - "Understand ec2 basics: instances, types, and security groups"
+free: true
+aiTutorContext:
+  summary: "This lesson covers: EC2 Basics: Instances, Types, and Security Groups."
+  keyConcepts:
+    - An EC2 instance is a virtual server — instance type (e.g. t3.micro)
+      determines its CPU, memory, and cost, and should match actual workload
+      needs rather than defaulting to 'bigger is safer'
+    - A security group acts as a virtual firewall controlling inbound/outbound
+      traffic to an instance — start with the minimum ports open (e.g. only 443
+      for HTTPS) and add more only as genuinely needed
+    - Never leave SSH (port 22) open to the entire internet (0.0.0.0/0) in a
+      real environment — restrict it to known IP ranges or use a bastion host /
+      Session Manager instead
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Compute and Storage** in _AWS Core Services Fundamentals_. By the end, you should be able to put the following into practice:
+
+- An EC2 instance is a virtual server — instance type (e.g. t3.micro) determines its CPU, memory, and cost, and should match actual workload needs rather than defaulting to 'bigger is safer'
+- A security group acts as a virtual firewall controlling inbound/outbound traffic to an instance — start with the minimum ports open (e.g. only 443 for HTTPS) and add more only as genuinely needed
+- Never leave SSH (port 22) open to the entire internet (0.0.0.0/0) in a real environment — restrict it to known IP ranges or use a bastion host / Session Manager instead
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

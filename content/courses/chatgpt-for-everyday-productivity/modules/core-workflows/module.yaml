@@ -1,0 +1,14 @@
+slug: core-workflows
+title: Core Workflows
+description: The handful of use cases that cover most of what people actually need day to day.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Drafting and Editing Faster"
+  - id: mo-2
+    text: "Grasp: Summarizing Long Content and Early-Stage Research"
+lessons:
+  - slug: drafting-and-editing
+    order: 0
+  - slug: summarizing-and-research
+    order: 1

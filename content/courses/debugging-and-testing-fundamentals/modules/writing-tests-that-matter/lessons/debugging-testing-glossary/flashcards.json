@@ -1,0 +1,23 @@
+[
+  {
+    "id": "debugging-testing-glossary-fc-1",
+    "front": "Breakpoint",
+    "back": "A marker that pauses program execution at a specific line, allowing inspection of variable state.",
+    "difficulty": "intermediate",
+    "tags": ["programming"]
+  },
+  {
+    "id": "debugging-testing-glossary-fc-2",
+    "front": "Regression",
+    "back": "A previously working feature that breaks due to a later change.",
+    "difficulty": "intermediate",
+    "tags": ["programming"]
+  },
+  {
+    "id": "debugging-testing-glossary-fc-3",
+    "front": "False confidence (testing)",
+    "back": "A misleading sense of safety from tests that only cover easy cases and miss real edge-case bugs.",
+    "difficulty": "intermediate",
+    "tags": ["programming"]
+  }
+]

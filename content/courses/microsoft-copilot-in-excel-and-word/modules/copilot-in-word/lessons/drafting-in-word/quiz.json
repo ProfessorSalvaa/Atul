@@ -1,0 +1,40 @@
+[
+  {
+    "id": "drafting-in-word-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Drafting and Rewriting in Word\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Copilot can draft from a short prompt referencing other documents in your organization (when connected) — this is different from a standalone chat tool since it can pull real context\""
+    ],
+    "explanation": "Copilot can draft from a short prompt referencing other documents in your organization (when connected) — this is different from a standalone chat tool since it can pull real context — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Copilot can draft from a short prompt referencing other documents in your organization (when connected) — this is different from a standalone chat tool since it can pull real context"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "drafting-in-word-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use the rewrite feature on a paragraph at a time rather than the whole document — targeted rewrites are easier to evaluate and keep",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use the rewrite feature on a paragraph at a time rather than the whole document — targeted rewrites are easier to evaluate and keep",
+    "references": [],
+    "correctAnswer": true
+  }
+]

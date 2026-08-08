@@ -1,0 +1,40 @@
+[
+  {
+    "id": "keyword-research-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Keyword Research Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Search volume alone is a poor targeting metric — a high-volume keyword with intent that doesn't match what you offer will rank you for traffic that never converts\""
+    ],
+    "explanation": "Search volume alone is a poor targeting metric — a high-volume keyword with intent that doesn't match what you offer will rank you for traffic that never converts — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Search volume alone is a poor targeting metric — a high-volume keyword with intent that doesn't match what you offer will rank you for traffic that never converts"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "keyword-research-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Long-tail keywords (longer, more specific phrases) have lower volume individually but collectively capture significant traffic, and often convert better because the searcher's intent is more specific",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Long-tail keywords (longer, more specific phrases) have lower volume individually but collectively capture significant traffic, and often convert better because the searcher's intent is more specific",
+    "references": [],
+    "correctAnswer": true
+  }
+]

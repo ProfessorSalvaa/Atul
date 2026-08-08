@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ec2-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"EC2 Basics: Instances, Types, and Security Groups\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An EC2 instance is a virtual server — instance type (e.g. t3.micro) determines its CPU, memory, and cost, and should match actual workload needs rather than defaulting to 'bigger is safer'\""
+    ],
+    "explanation": "An EC2 instance is a virtual server — instance type (e.g. t3.micro) determines its CPU, memory, and cost, and should match actual workload needs rather than defaulting to 'bigger is safer' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An EC2 instance is a virtual server — instance type (e.g. t3.micro) determines its CPU, memory, and cost, and should match actual workload needs rather than defaulting to 'bigger is safer'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "ec2-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: A security group acts as a virtual firewall controlling inbound/outbound traffic to an instance — start with the minimum ports open (e.g. only 443 for HTTPS) and add more only as genuinely needed",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A security group acts as a virtual firewall controlling inbound/outbound traffic to an instance — start with the minimum ports open (e.g. only 443 for HTTPS) and add more only as genuinely needed",
+    "references": [],
+    "correctAnswer": true
+  }
+]

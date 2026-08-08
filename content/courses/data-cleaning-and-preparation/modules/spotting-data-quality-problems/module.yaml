@@ -1,0 +1,14 @@
+slug: spotting-data-quality-problems
+title: Spotting Data Quality Problems
+description: What to check before you trust a single number from a new dataset.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Most Common Data Quality Problems"
+  - id: mo-2
+    text: "Grasp: A Repeatable Cleaning Process"
+lessons:
+  - slug: common-data-problems
+    order: 0
+  - slug: a-repeatable-cleaning-process
+    order: 1

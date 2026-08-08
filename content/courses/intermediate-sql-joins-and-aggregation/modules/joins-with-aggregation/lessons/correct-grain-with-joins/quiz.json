@@ -1,0 +1,40 @@
+[
+  {
+    "id": "correct-grain-with-joins-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Getting the Aggregation Grain Right\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Decide the grain (one row per what?) before writing the query — customer-level, order-level, and order-line-level questions need structurally different queries\""
+    ],
+    "explanation": "Decide the grain (one row per what?) before writing the query — customer-level, order-level, and order-line-level questions need structurally different queries — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Decide the grain (one row per what?) before writing the query — customer-level, order-level, and order-line-level questions need structurally different queries"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "correct-grain-with-joins-q2",
+    "type": "true-false",
+    "prompt": "True or false: When joining a one-to-many relationship (customer to orders) and then aggregating, be explicit about whether you're summing at the order-line grain or the order grain — mixing these up double-counts",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — When joining a one-to-many relationship (customer to orders) and then aggregating, be explicit about whether you're summing at the order-line grain or the order grain — mixing these up double-counts",
+    "references": [],
+    "correctAnswer": true
+  }
+]

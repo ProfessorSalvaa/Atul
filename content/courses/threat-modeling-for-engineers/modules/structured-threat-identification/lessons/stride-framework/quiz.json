@@ -1,0 +1,40 @@
+[
+  {
+    "id": "stride-framework-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The STRIDE Framework\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"STRIDE stands for Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege — six threat categories to systematically check against a system design\""
+    ],
+    "explanation": "STRIDE stands for Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege — six threat categories to systematically check against a system design — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "STRIDE stands for Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege — six threat categories to systematically check against a system design"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "stride-framework-q2",
+    "type": "true-false",
+    "prompt": "True or false: Applying STRIDE to each component and data flow in a system (not just the system as a whole) surfaces threats that a single high-level review would miss",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Applying STRIDE to each component and data flow in a system (not just the system as a whole) surfaces threats that a single high-level review would miss",
+    "references": [],
+    "correctAnswer": true
+  }
+]

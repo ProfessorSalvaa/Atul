@@ -1,0 +1,40 @@
+[
+  {
+    "id": "starting-with-a-baseline-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Starting With a Baseline\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A baseline (even something as simple as 'always predict the most common class' or 'predict the average value') establishes a floor — a sophisticated model that barely beats this baseline may not be worth its added complexity\""
+    ],
+    "explanation": "A baseline (even something as simple as 'always predict the most common class' or 'predict the average value') establishes a floor — a sophisticated model that barely beats this baseline may not be worth its added complexity — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A baseline (even something as simple as 'always predict the most common class' or 'predict the average value') establishes a floor — a sophisticated model that barely beats this baseline may not be worth its added complexity"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "starting-with-a-baseline-q2",
+    "type": "true-false",
+    "prompt": "True or false: Jumping straight to a complex model without a baseline makes it impossible to know how much value the complexity is actually adding versus a much simpler approach",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Jumping straight to a complex model without a baseline makes it impossible to know how much value the complexity is actually adding versus a much simpler approach",
+    "references": [],
+    "correctAnswer": true
+  }
+]

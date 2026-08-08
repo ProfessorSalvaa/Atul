@@ -1,0 +1,40 @@
+[
+  {
+    "id": "success-failure-conditions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Defining Explicit Success and Failure Conditions\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every automated step needs an explicit definition of 'done correctly' that can be checked programmatically, not just 'the model said it worked'\""
+    ],
+    "explanation": "Every automated step needs an explicit definition of 'done correctly' that can be checked programmatically, not just 'the model said it worked' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every automated step needs an explicit definition of 'done correctly' that can be checked programmatically, not just 'the model said it worked'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "success-failure-conditions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Build in a timeout and a maximum-retry count for every step — an automation with no limits can silently hang or loop indefinitely",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Build in a timeout and a maximum-retry count for every step — an automation with no limits can silently hang or loop indefinitely",
+    "references": [],
+    "correctAnswer": true
+  }
+]

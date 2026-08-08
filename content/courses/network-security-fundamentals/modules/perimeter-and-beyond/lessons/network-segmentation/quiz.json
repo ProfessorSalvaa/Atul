@@ -1,0 +1,40 @@
+[
+  {
+    "id": "network-segmentation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Network Segmentation and Zero Trust\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Segmentation divides a network into isolated zones, so a compromise in one zone doesn't automatically grant access to everything else — limiting lateral movement is often more valuable than trying to prevent all initial breaches\""
+    ],
+    "explanation": "Segmentation divides a network into isolated zones, so a compromise in one zone doesn't automatically grant access to everything else — limiting lateral movement is often more valuable than trying to prevent all initial breaches — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Segmentation divides a network into isolated zones, so a compromise in one zone doesn't automatically grant access to everything else — limiting lateral movement is often more valuable than trying to prevent all initial breaches"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "network-segmentation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Zero trust assumes no request should be automatically trusted based on network location alone — every request is authenticated and authorized regardless of whether it originates 'inside' the network",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Zero trust assumes no request should be automatically trusted based on network location alone — every request is authenticated and authorized regardless of whether it originates 'inside' the network",
+    "references": [],
+    "correctAnswer": true
+  }
+]

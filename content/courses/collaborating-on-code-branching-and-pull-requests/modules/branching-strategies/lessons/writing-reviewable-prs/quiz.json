@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-reviewable-prs-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing a Pull Request That's Fast to Review\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Keep pull requests small and focused on one change — a 2,000-line PR touching five unrelated things gets a slower, shallower review than five focused 400-line PRs\""
+    ],
+    "explanation": "Keep pull requests small and focused on one change — a 2,000-line PR touching five unrelated things gets a slower, shallower review than five focused 400-line PRs — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep pull requests small and focused on one change — a 2,000-line PR touching five unrelated things gets a slower, shallower review than five focused 400-line PRs"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-reviewable-prs-q2",
+    "type": "true-false",
+    "prompt": "True or false: Write a clear description: what changed, why, and how to test it — a reviewer shouldn't have to reverse-engineer intent from the diff alone",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Write a clear description: what changed, why, and how to test it — a reviewer shouldn't have to reverse-engineer intent from the diff alone",
+    "references": [],
+    "correctAnswer": true
+  }
+]

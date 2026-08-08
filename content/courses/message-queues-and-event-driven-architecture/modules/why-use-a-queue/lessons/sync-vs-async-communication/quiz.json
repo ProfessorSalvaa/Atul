@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sync-vs-async-communication-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Synchronous vs. Asynchronous Communication\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A synchronous call requires the caller to wait for the callee to respond — simple, but the caller is blocked (and can fail) if the callee is slow or down\""
+    ],
+    "explanation": "A synchronous call requires the caller to wait for the callee to respond — simple, but the caller is blocked (and can fail) if the callee is slow or down — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A synchronous call requires the caller to wait for the callee to respond — simple, but the caller is blocked (and can fail) if the callee is slow or down"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "sync-vs-async-communication-q2",
+    "type": "true-false",
+    "prompt": "True or false: A queue decouples the producer from the consumer — the producer publishes a message and moves on, and the consumer processes it whenever it's able to, even if temporarily behind or down",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A queue decouples the producer from the consumer — the producer publishes a message and moves on, and the consumer processes it whenever it's able to, even if temporarily behind or down",
+    "references": [],
+    "correctAnswer": true
+  }
+]

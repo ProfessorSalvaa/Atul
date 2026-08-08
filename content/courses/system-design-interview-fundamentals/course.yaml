@@ -1,0 +1,70 @@
+slug: system-design-interview-fundamentals
+title: System Design Interview Fundamentals
+subtitle: The building blocks behind every system design interview — scaling, the CAP theorem, and
+  the vocabulary you need before tackling a real design problem.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 120
+tags: &a1
+  - system-design
+skills:
+  - distributed-systems
+careerPaths:
+  - software-engineer
+category: system-design
+premium: false
+objectives:
+  - id: obj-1
+    text: Explain horizontal vs. vertical scaling and when each applies
+  - id: obj-2
+    text: Apply the CAP theorem to reason about a distributed system's tradeoffs
+  - id: obj-3
+    text: Use a consistent framework to approach an open-ended system design question
+prerequisites: []
+instructor:
+  name: Tomasz Wilk
+  title: Staff Engineer, ex-Uber
+  bio: Tomasz Wilk is Staff Engineer, ex-Uber, teaching System Design Interview Fundamentals on Curitiq.
+  avatarInitials: TW
+modules:
+  - slug: scaling-basics
+    order: 0
+  - slug: approaching-a-design-question
+    order: 1
+projectSlugs:
+  - high-level-system-design
+assessmentSlugs: []
+resources:
+  - title: System Design Primer (GitHub)
+    type: external-link
+    url: https://github.com/donnemartin/system-design-primer
+    description: A widely referenced open-source system design reference.
+certificate:
+  title: System Design Interview Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the high-level system design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: System Design Interview Fundamentals | Curitiq
+  description: The building blocks behind every system design interview — scaling, the CAP theorem,
+    and the vocabulary you need before tackling a real design problem.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The building blocks behind every system design interview — scaling, the CAP theorem, and
+    the vocabulary you need before tackling a real design problem.
+  keyConcepts:
+    - Explain horizontal vs. vertical scaling and when each applies
+    - Apply the CAP theorem to reason about a distributed system's tradeoffs
+    - Use a consistent framework to approach an open-ended system design question
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

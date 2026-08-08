@@ -1,0 +1,14 @@
+slug: asynchronous-javascript
+title: Asynchronous JavaScript
+description: The part of JavaScript that trips up almost everyone at first — and why it works the way it does.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Promises and async/await"
+  - id: mo-2
+    text: "Grasp: JavaScript Terms Flip Deck"
+lessons:
+  - slug: promises-and-async-await
+    order: 0
+  - slug: javascript-glossary
+    order: 1

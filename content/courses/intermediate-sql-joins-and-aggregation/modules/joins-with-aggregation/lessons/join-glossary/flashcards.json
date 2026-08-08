@@ -1,0 +1,23 @@
+[
+  {
+    "id": "join-glossary-fc-1",
+    "front": "Fan-out",
+    "back": "Unintended row duplication caused by joining on a non-unique column, inflating aggregated totals.",
+    "difficulty": "intermediate",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "join-glossary-fc-2",
+    "front": "CTE (Common Table Expression)",
+    "back": "A named temporary result set (WITH ... AS) used to break a complex query into readable steps.",
+    "difficulty": "intermediate",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "join-glossary-fc-3",
+    "front": "Grain",
+    "back": "The level of detail one row in a result set represents — e.g. per-order vs. per-order-line.",
+    "difficulty": "intermediate",
+    "tags": ["sql", "data"]
+  }
+]

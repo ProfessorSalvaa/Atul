@@ -1,0 +1,14 @@
+slug: semantic-html
+title: Semantic HTML
+description: Structure that means something, not just divs everywhere.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Semantic Elements Matter"
+  - id: mo-2
+    text: "Grasp: Forms and Basic Accessibility"
+lessons:
+  - slug: why-semantic-elements-matter
+    order: 0
+  - slug: forms-and-accessibility
+    order: 1

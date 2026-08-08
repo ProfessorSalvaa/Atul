@@ -1,0 +1,74 @@
+slug: requirements-gathering-and-user-stories
+title: Requirements Gathering and User Stories
+subtitle: Turning stakeholder conversations into requirements a team can actually build from — user
+  stories, acceptance criteria, and avoiding ambiguity that costs time later.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - business
+skills:
+  - requirements-gathering
+  - user-story-writing
+careerPaths:
+  - business-analyst
+  - product-manager
+category: business-analysis
+premium: true
+objectives:
+  - id: obj-1
+    text: Elicit requirements through structured stakeholder interviews and workshops
+  - id: obj-2
+    text: Write user stories with clear, testable acceptance criteria
+  - id: obj-3
+    text: Identify and resolve conflicting requirements between stakeholders
+prerequisites:
+  - courseSlug: business-analysis-fundamentals
+instructor:
+  name: Diane Foster
+  title: Senior Program Manager, ex-Deloitte
+  bio: Diane Foster is Senior Program Manager, ex-Deloitte, teaching Requirements Gathering and User
+    Stories on Curitiq.
+  avatarInitials: DF
+modules:
+  - slug: eliciting-requirements
+    order: 0
+  - slug: user-stories-and-acceptance-criteria
+    order: 1
+projectSlugs:
+  - requirements-and-user-stories
+assessmentSlugs: []
+resources:
+  - title: "Mountain Goat Software: User Stories"
+    type: external-link
+    url: https://www.mountaingoatsoftware.com/agile/user-stories
+    description: A widely referenced practical guide to writing user stories.
+certificate:
+  title: Requirements Gathering and User Stories — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the requirements and user stories
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Requirements Gathering and User Stories | Curitiq
+  description: Turning stakeholder conversations into requirements a team can actually build from —
+    user stories, acceptance criteria, and avoiding ambiguity that costs t
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Turning stakeholder conversations into requirements a team can actually build from — user
+    stories, acceptance criteria, and avoiding ambiguity that costs time later.
+  keyConcepts:
+    - Elicit requirements through structured stakeholder interviews and workshops
+    - Write user stories with clear, testable acceptance criteria
+    - Identify and resolve conflicting requirements between stakeholders
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

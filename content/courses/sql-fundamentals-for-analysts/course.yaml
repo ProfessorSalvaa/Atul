@@ -1,0 +1,75 @@
+slug: sql-fundamentals-for-analysts
+title: SQL Fundamentals for Analysts
+subtitle: Writing SQL to answer real business questions, starting from SELECT and building up to
+  your first genuinely useful queries.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 115
+tags: &a1
+  - sql
+  - data
+  - analytics
+skills:
+  - sql-fundamentals
+careerPaths:
+  - data-analyst
+category: sql
+premium: false
+objectives:
+  - id: obj-1
+    text: Write SELECT queries with filtering, sorting, and aggregation
+  - id: obj-2
+    text: Understand how GROUP BY changes what a query returns
+  - id: obj-3
+    text: Avoid the most common beginner SQL mistakes
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching SQL Fundamentals for Analysts on
+    Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: select-filter-sort
+    order: 0
+  - slug: avoiding-common-mistakes
+    order: 1
+projectSlugs:
+  - first-analytical-queries
+assessmentSlugs: []
+resources:
+  - title: PostgreSQL Tutorial
+    type: external-link
+    url: https://www.postgresqltutorial.com
+    description: A widely used free SQL tutorial and reference.
+certificate:
+  title: SQL Fundamentals for Analysts — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the 3 analytical queries
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: SQL Fundamentals for Analysts | Curitiq
+  description:
+    Writing SQL to answer real business questions, starting from SELECT and building up to
+    your first genuinely useful queries.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Writing SQL to answer real business questions, starting from SELECT and building up to your
+    first genuinely useful queries.
+  keyConcepts:
+    - Write SELECT queries with filtering, sorting, and aggregation
+    - Understand how GROUP BY changes what a query returns
+    - Avoid the most common beginner SQL mistakes
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

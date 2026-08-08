@@ -1,0 +1,40 @@
+[
+  {
+    "id": "managing-speaking-nerves-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Managing Speaking Nerves\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Physical preparation (slow breathing, a moment of stillness before starting) genuinely reduces the physiological nervousness response before speaking — it's not just a mental trick\""
+    ],
+    "explanation": "Physical preparation (slow breathing, a moment of stillness before starting) genuinely reduces the physiological nervousness response before speaking — it's not just a mental trick — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Physical preparation (slow breathing, a moment of stillness before starting) genuinely reduces the physiological nervousness response before speaking — it's not just a mental trick"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "managing-speaking-nerves-q2",
+    "type": "true-false",
+    "prompt": "True or false: Rehearsing out loud, not just reading through slides silently, is what actually builds comfort with the material — many speakers overestimate their readiness because silent review feels more thorough than it is",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Rehearsing out loud, not just reading through slides silently, is what actually builds comfort with the material — many speakers overestimate their readiness because silent review feels more thorough than it is",
+    "references": [],
+    "correctAnswer": true
+  }
+]

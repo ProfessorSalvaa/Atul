@@ -1,0 +1,40 @@
+[
+  {
+    "id": "when-serverless-fits-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"When Serverless Fits, and When It Doesn't\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Good fit: event-driven, short-lived tasks — processing an uploaded file, responding to a webhook, a lightweight API endpoint\""
+    ],
+    "explanation": "Good fit: event-driven, short-lived tasks — processing an uploaded file, responding to a webhook, a lightweight API endpoint — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Good fit: event-driven, short-lived tasks — processing an uploaded file, responding to a webhook, a lightweight API endpoint"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "when-serverless-fits-q2",
+    "type": "true-false",
+    "prompt": "True or false: Poor fit: long-running processes (most platforms cap execution time), workloads needing persistent in-memory state between requests, or extremely high-sustained-volume traffic where always-on compute is cheaper",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Poor fit: long-running processes (most platforms cap execution time), workloads needing persistent in-memory state between requests, or extremely high-sustained-volume traffic where always-on compute is cheaper",
+    "references": [],
+    "correctAnswer": true
+  }
+]

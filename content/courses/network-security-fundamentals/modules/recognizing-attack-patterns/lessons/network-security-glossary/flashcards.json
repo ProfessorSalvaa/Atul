@@ -1,0 +1,23 @@
+[
+  {
+    "id": "network-security-glossary-fc-1",
+    "front": "Network segmentation",
+    "back": "Dividing a network into isolated zones to limit lateral movement after a breach.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "network-security-glossary-fc-2",
+    "front": "Zero trust",
+    "back": "A security model where no request is automatically trusted based on network location alone.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "network-security-glossary-fc-3",
+    "front": "DDoS attack",
+    "back": "A distributed denial-of-service attack flooding a target with traffic from many sources at once.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  }
+]

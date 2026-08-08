@@ -1,0 +1,72 @@
+slug: data-analytics-foundations
+title: Data Analytics Foundations
+subtitle: "How to think like an analyst: framing questions, choosing the right metric, and telling
+  honest stories with data before touching any tool."
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - data
+  - analytics
+skills:
+  - data-cleaning
+  - data-storytelling
+careerPaths:
+  - data-analyst
+category: data-analytics
+premium: false
+objectives:
+  - id: obj-1
+    text: Frame a business question as an answerable analytical question
+  - id: obj-2
+    text: Distinguish correlation from causation in a real dataset
+  - id: obj-3
+    text: Choose metrics that actually match the decision being made
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Data Analytics Foundations on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: thinking-like-an-analyst
+    order: 0
+  - slug: choosing-good-metrics
+    order: 1
+projectSlugs:
+  - metric-framing-brief
+assessmentSlugs: []
+resources:
+  - title: Google's Data Analytics Certificate Overview
+    type: external-link
+    url: https://grow.google/certificates/data-analytics/
+    description: A broader reference on the data analytics field.
+certificate:
+  title: Data Analytics Foundations — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the metric framing brief
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Data Analytics Foundations | Curitiq
+  description: "How to think like an analyst: framing questions, choosing the right metric, and
+    telling honest stories with data before touching any tool."
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: "How to think like an analyst: framing questions, choosing the right metric, and telling
+    honest stories with data before touching any tool."
+  keyConcepts:
+    - Frame a business question as an answerable analytical question
+    - Distinguish correlation from causation in a real dataset
+    - Choose metrics that actually match the decision being made
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

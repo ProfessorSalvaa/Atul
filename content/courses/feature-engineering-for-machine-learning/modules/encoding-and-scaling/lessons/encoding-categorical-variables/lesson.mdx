@@ -1,0 +1,41 @@
+---
+type: code
+title: Encoding Categorical Variables
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand encoding categorical variables
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Encoding Categorical Variables."
+  keyConcepts:
+    - One-hot encoding creates a separate binary column per category — works
+      well for algorithms without an assumption of ordering, but can create many
+      columns for a high-cardinality feature
+    - Label encoding assigns each category an integer — appropriate for
+      tree-based models, but risky for algorithms like linear regression that
+      would incorrectly interpret the numbers as having a meaningful order or
+      magnitude
+    - For high-cardinality categorical features (e.g. thousands of distinct
+      product IDs), target encoding or embedding-based approaches often
+      outperform one-hot encoding, which would create an unwieldy number of
+      columns
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Encoding and Scaling** in _Feature Engineering for Machine Learning_. By the end, you should be able to put the following into practice:
+
+- One-hot encoding creates a separate binary column per category — works well for algorithms without an assumption of ordering, but can create many columns for a high-cardinality feature
+- Label encoding assigns each category an integer — appropriate for tree-based models, but risky for algorithms like linear regression that would incorrectly interpret the numbers as having a meaningful order or magnitude
+- For high-cardinality categorical features (e.g. thousands of distinct product IDs), target encoding or embedding-based approaches often outperform one-hot encoding, which would create an unwieldy number of columns
+
+```text
+One-hot: color=[red,blue,green] -> is_red, is_blue, is_green (3 binary columns)
+Label: color=[red,blue,green] -> 0, 1, 2  (risky for linear models: implies red < blue < green)
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,14 @@
+slug: from-vision-to-strategy
+title: From Vision to Strategy
+description: A vision without a strategy is just a slogan.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: What Makes a Real Strategy, Not Just a Vision Statement"
+  - id: mo-2
+    text: "Grasp: Outcome-Based Roadmaps"
+lessons:
+  - slug: what-makes-a-real-strategy
+    order: 0
+  - slug: outcome-based-roadmaps
+    order: 1

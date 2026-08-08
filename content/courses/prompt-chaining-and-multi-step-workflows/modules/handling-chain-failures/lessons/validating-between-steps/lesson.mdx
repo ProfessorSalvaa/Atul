@@ -1,0 +1,31 @@
+---
+type: reading
+title: Validating Output Between Steps
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand validating output between steps
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Validating Output Between Steps."
+  keyConcepts:
+    - Validate each step's output programmatically before passing it to the next
+      step — a malformed JSON or an empty result should halt the chain, not be
+      silently passed forward
+    - Decide per-step whether a failure should halt the whole chain, retry that
+      step, or fall back to a simpler default — this is a design decision, not
+      an afterthought
+    - Log the input and output of every step during development — debugging a
+      4-step chain without visibility into each intermediate result is close to
+      impossible
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Handling Failures Mid-Chain** in _Prompt Chaining and Multi-Step Workflows_. By the end, you should be able to put the following into practice:
+
+- Validate each step's output programmatically before passing it to the next step — a malformed JSON or an empty result should halt the chain, not be silently passed forward
+- Decide per-step whether a failure should halt the whole chain, retry that step, or fall back to a simpler default — this is a design decision, not an afterthought
+- Log the input and output of every step during development — debugging a 4-step chain without visibility into each intermediate result is close to impossible
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

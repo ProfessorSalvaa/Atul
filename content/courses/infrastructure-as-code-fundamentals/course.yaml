@@ -1,0 +1,75 @@
+slug: infrastructure-as-code-fundamentals
+title: Infrastructure as Code Fundamentals
+subtitle: Defining cloud infrastructure in version-controlled code instead of manual console clicks
+  — reproducible, reviewable, and safe to change.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - devops
+  - cloud
+skills:
+  - infrastructure-as-code
+careerPaths:
+  - cloud-engineer
+  - devops-engineer
+category: devops
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain why manual console changes cause configuration drift
+  - id: obj-2
+    text: Write a basic infrastructure definition that's declarative, not imperative
+  - id: obj-3
+    text: Review an infrastructure change plan before applying it
+prerequisites: []
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio:
+    Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Infrastructure as Code Fundamentals on
+    Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: why-iac
+    order: 0
+  - slug: safe-infrastructure-changes
+    order: 1
+projectSlugs:
+  - iac-definition-review
+assessmentSlugs: []
+resources:
+  - title: Terraform Documentation
+    type: external-link
+    url: https://developer.hashicorp.com/terraform/docs
+    description: Official Terraform documentation.
+certificate:
+  title: Infrastructure as Code Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the IaC definition + plan review
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Infrastructure as Code Fundamentals | Curitiq
+  description: Defining cloud infrastructure in version-controlled code instead of manual console
+    clicks — reproducible, reviewable, and safe to change.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Defining cloud infrastructure in version-controlled code instead of manual console clicks —
+    reproducible, reviewable, and safe to change.
+  keyConcepts:
+    - Explain why manual console changes cause configuration drift
+    - Write a basic infrastructure definition that's declarative, not imperative
+    - Review an infrastructure change plan before applying it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

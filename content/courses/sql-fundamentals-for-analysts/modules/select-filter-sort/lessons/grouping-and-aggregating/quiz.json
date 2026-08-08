@@ -1,0 +1,40 @@
+[
+  {
+    "id": "grouping-and-aggregating-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"GROUP BY and Aggregate Functions\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"GROUP BY collapses rows sharing the same value in a column into one summary row per group — used together with aggregate functions like SUM, COUNT, AVG\""
+    ],
+    "explanation": "GROUP BY collapses rows sharing the same value in a column into one summary row per group — used together with aggregate functions like SUM, COUNT, AVG — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "GROUP BY collapses rows sharing the same value in a column into one summary row per group — used together with aggregate functions like SUM, COUNT, AVG"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "grouping-and-aggregating-q2",
+    "type": "true-false",
+    "prompt": "True or false: Every column in the SELECT list that isn't inside an aggregate function must appear in the GROUP BY clause, or the query is ambiguous about what to show",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Every column in the SELECT list that isn't inside an aggregate function must appear in the GROUP BY clause, or the query is ambiguous about what to show",
+    "references": [],
+    "correctAnswer": true
+  }
+]

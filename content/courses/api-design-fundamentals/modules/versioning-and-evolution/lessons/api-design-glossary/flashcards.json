@@ -1,0 +1,23 @@
+[
+  {
+    "id": "api-design-glossary-fc-1",
+    "front": "Breaking change",
+    "back": "A change to an API that could cause existing client code to fail or behave incorrectly.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "apis"]
+  },
+  {
+    "id": "api-design-glossary-fc-2",
+    "front": "Resource-oriented design",
+    "back": "An API design approach modeling data as named resources acted on via standard HTTP methods.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "apis"]
+  },
+  {
+    "id": "api-design-glossary-fc-3",
+    "front": "Deprecation",
+    "back": "Marking an API version or field as no longer recommended, with a plan to eventually remove it.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "apis"]
+  }
+]

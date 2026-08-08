@@ -1,0 +1,14 @@
+slug: the-triple-constraint
+title: The Triple Constraint
+description: Scope, schedule, and budget — you can't change one without affecting the others.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Navigating Scope, Schedule, and Budget Tradeoffs"
+  - id: mo-2
+    text: "Grasp: Project Management Terms Flip Deck"
+lessons:
+  - slug: navigating-tradeoffs
+    order: 0
+  - slug: project-management-glossary
+    order: 1

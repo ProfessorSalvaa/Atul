@@ -1,0 +1,23 @@
+[
+  {
+    "id": "message-queues-glossary-fc-1",
+    "front": "At-least-once delivery",
+    "back": "A guarantee that a message will be delivered one or more times, but never zero times.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "message-queues-glossary-fc-2",
+    "front": "Idempotent handler",
+    "back": "A message handler that produces the same result whether it processes a message once or multiple times.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "message-queues-glossary-fc-3",
+    "front": "Publish/subscribe",
+    "back": "A messaging pattern where each published message is delivered to every subscriber, not just one consumer.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  }
+]

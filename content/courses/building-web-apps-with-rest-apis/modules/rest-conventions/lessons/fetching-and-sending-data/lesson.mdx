@@ -1,0 +1,45 @@
+---
+type: code
+title: Fetching and Sending Data Correctly
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand fetching and sending data correctly
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Fetching and Sending Data Correctly."
+  keyConcepts:
+    - "GET requests don't have a body; POST/PUT/PATCH typically do — set
+      `Content-Type: application/json` explicitly when sending JSON, or the
+      server may not parse it correctly"
+    - Always check `response.ok` (or the status code) before assuming a request
+      succeeded — `fetch()` doesn't reject on a 404 or 500, only on network
+      failure
+    - Parse the response body inside the same async function where you checked
+      the status, so error and success paths stay clearly separated
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+This lesson is part of **REST Conventions** in _Building Web Apps with REST APIs_. By the end, you should be able to put the following into practice:
+
+- GET requests don't have a body; POST/PUT/PATCH typically do — set `Content-Type: application/json` explicitly when sending JSON, or the server may not parse it correctly
+- Always check `response.ok` (or the status code) before assuming a request succeeded — `fetch()` doesn't reject on a 404 or 500, only on network failure
+- Parse the response body inside the same async function where you checked the status, so error and success paths stay clearly separated
+
+```javascript
+async function createUser(data) {
+  const res = await fetch("/api/users", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
+  });
+  if (!res.ok) throw new Error(`Create failed: ${res.status}`);
+  return res.json();
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

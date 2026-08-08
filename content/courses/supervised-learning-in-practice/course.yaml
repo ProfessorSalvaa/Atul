@@ -1,0 +1,73 @@
+slug: supervised-learning-in-practice
+title: Supervised Learning in Practice
+subtitle: Going from theory to an actual trained model — regression vs. classification, choosing a
+  baseline algorithm, and reading a model's real performance honestly.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 125
+tags: &a1
+  - machine-learning
+skills:
+  - supervised-learning
+careerPaths:
+  - ai-engineer
+  - data-scientist
+category: machine-learning
+premium: true
+objectives:
+  - id: obj-1
+    text: Distinguish regression and classification problems and match algorithms to each
+  - id: obj-2
+    text: Establish a baseline before reaching for a complex model
+  - id: obj-3
+    text: Explain the bias-variance tradeoff in practical terms
+prerequisites:
+  - courseSlug: machine-learning-fundamentals
+instructor:
+  name: Hana Kobayashi
+  title: ML Engineer, ex-DeepMind
+  bio: Hana Kobayashi is ML Engineer, ex-DeepMind, teaching Supervised Learning in Practice on Curitiq.
+  avatarInitials: HK
+modules:
+  - slug: regression-vs-classification
+    order: 0
+  - slug: bias-variance-tradeoff
+    order: 1
+projectSlugs:
+  - baseline-and-model-comparison
+assessmentSlugs: []
+resources:
+  - title: "scikit-learn: Choosing the Right Estimator"
+    type: external-link
+    url: https://scikit-learn.org/stable/machine_learning_map.html
+    description: A practical guide to choosing an appropriate algorithm for a given ML problem.
+certificate:
+  title: Supervised Learning in Practice — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the baseline and model comparison
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Supervised Learning in Practice | Curitiq
+  description:
+    Going from theory to an actual trained model — regression vs. classification, choosing
+    a baseline algorithm, and reading a model's real performance honestl
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Going from theory to an actual trained model — regression vs. classification, choosing a
+    baseline algorithm, and reading a model's real performance honestly.
+  keyConcepts:
+    - Distinguish regression and classification problems and match algorithms to each
+    - Establish a baseline before reaching for a complex model
+    - Explain the bias-variance tradeoff in practical terms
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

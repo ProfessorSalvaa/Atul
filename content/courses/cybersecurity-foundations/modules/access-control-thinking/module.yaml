@@ -1,0 +1,14 @@
+slug: access-control-thinking
+title: Access Control Thinking
+description: The principle that shapes almost every real security decision.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: The Principle of Least Privilege"
+  - id: mo-2
+    text: "Grasp: Cybersecurity Foundations Flip Deck"
+lessons:
+  - slug: principle-of-least-privilege
+    order: 0
+  - slug: cybersecurity-foundations-glossary
+    order: 1

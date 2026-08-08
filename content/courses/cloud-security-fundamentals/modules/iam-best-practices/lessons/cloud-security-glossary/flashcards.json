@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cloud-security-glossary-fc-1",
+    "front": "Shared responsibility model",
+    "back": "The division of security duties between a cloud provider (infrastructure) and the customer (data, configuration, access).",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "cloud"]
+  },
+  {
+    "id": "cloud-security-glossary-fc-2",
+    "front": "Overly permissive IAM policy",
+    "back": "An access policy granting more permissions than genuinely needed, increasing risk if compromised.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "cloud"]
+  },
+  {
+    "id": "cloud-security-glossary-fc-3",
+    "front": "Multi-factor authentication (MFA)",
+    "back": "Requiring a second independent verification factor beyond a password, blocking most credential-based attacks.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "cloud"]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "who-secures-what-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Who Secures What, and Where the Line Is\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The provider is responsible for security 'of' the cloud — physical data centers, host infrastructure, network hardware\""
+    ],
+    "explanation": "The provider is responsible for security 'of' the cloud — physical data centers, host infrastructure, network hardware — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The provider is responsible for security 'of' the cloud — physical data centers, host infrastructure, network hardware"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "who-secures-what-q2",
+    "type": "true-false",
+    "prompt": "True or false: You are responsible for security 'in' the cloud — how you configure access controls, encrypt your data, and secure your application code",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — You are responsible for security 'in' the cloud — how you configure access controls, encrypt your data, and secure your application code",
+    "references": [],
+    "correctAnswer": true
+  }
+]

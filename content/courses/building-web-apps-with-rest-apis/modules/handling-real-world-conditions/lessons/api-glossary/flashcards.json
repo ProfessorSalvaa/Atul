@@ -1,0 +1,23 @@
+[
+  {
+    "id": "api-glossary-fc-1",
+    "front": "Idempotent",
+    "back": "An HTTP method (like GET, PUT, DELETE) where making the same request multiple times has the same effect as making it once.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "javascript"]
+  },
+  {
+    "id": "api-glossary-fc-2",
+    "front": "Status code",
+    "back": "A 3-digit HTTP response code indicating the result of a request — 2xx success, 4xx client error, 5xx server error.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "javascript"]
+  },
+  {
+    "id": "api-glossary-fc-3",
+    "front": "Bearer token",
+    "back": "An authentication token sent in a request header, granting access without re-sending a password each time.",
+    "difficulty": "intermediate",
+    "tags": ["web-development", "javascript"]
+  }
+]

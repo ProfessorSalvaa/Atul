@@ -1,0 +1,14 @@
+slug: copilot-chat-workflows
+title: Copilot Chat Workflows
+description: "Beyond autocomplete: explaining, refactoring, and testing."
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Explaining Unfamiliar Code and Generating Tests"
+  - id: mo-2
+    text: "Grasp: Copilot for Developers Glossary"
+lessons:
+  - slug: explaining-and-testing
+    order: 0
+  - slug: copilot-dev-glossary
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "income-statement-and-balance-sheet-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Income Statement and Balance Sheet\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The income statement shows performance over a period — revenue, expenses, and the resulting profit or loss for that specific timeframe\""
+    ],
+    "explanation": "The income statement shows performance over a period — revenue, expenses, and the resulting profit or loss for that specific timeframe — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The income statement shows performance over a period — revenue, expenses, and the resulting profit or loss for that specific timeframe"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "income-statement-and-balance-sheet-q2",
+    "type": "true-false",
+    "prompt": "True or false: The balance sheet shows a snapshot at a single point in time — what the company owns (assets), owes (liabilities), and the difference (equity)",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The balance sheet shows a snapshot at a single point in time — what the company owns (assets), owes (liabilities), and the difference (equity)",
+    "references": [],
+    "correctAnswer": true
+  }
+]

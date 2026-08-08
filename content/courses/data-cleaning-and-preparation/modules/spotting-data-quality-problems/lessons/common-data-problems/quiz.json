@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-data-problems-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Most Common Data Quality Problems\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Missing values: are they truly missing, or coded as 0, blank string, or 'N/A' inconsistently across the dataset?\""
+    ],
+    "explanation": "Missing values: are they truly missing, or coded as 0, blank string, or 'N/A' inconsistently across the dataset? — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Missing values: are they truly missing, or coded as 0, blank string, or 'N/A' inconsistently across the dataset?"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-data-problems-q2",
+    "type": "true-false",
+    "prompt": "True or false: Duplicates: exact duplicates are easy to catch; near-duplicates from formatting differences (trailing spaces, case differences) are not",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Duplicates: exact duplicates are easy to catch; near-duplicates from formatting differences (trailing spaces, case differences) are not",
+    "references": [],
+    "correctAnswer": true
+  }
+]

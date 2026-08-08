@@ -1,0 +1,14 @@
+slug: documenting-data
+title: Documenting Data Faster
+description: Turning tribal knowledge into written documentation without starting from a blank page.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Generating Data Dictionaries and Docs from a Schema"
+  - id: mo-2
+    text: "Grasp: Data Prompting Terms"
+lessons:
+  - slug: generating-documentation
+    order: 0
+  - slug: data-prompting-terms
+    order: 1

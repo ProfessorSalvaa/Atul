@@ -1,0 +1,73 @@
+slug: debugging-and-testing-fundamentals
+title: Debugging and Testing Fundamentals
+subtitle: A systematic process for finding bugs faster, and writing tests that actually catch
+  regressions instead of just existing.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - programming
+skills:
+  - debugging
+  - testing-fundamentals
+careerPaths:
+  - software-engineer
+category: programming-fundamentals
+premium: true
+objectives:
+  - id: obj-1
+    text: Apply a systematic process for isolating the cause of a bug
+  - id: obj-2
+    text: Write unit tests that cover edge cases, not just the happy path
+  - id: obj-3
+    text: Recognize the difference between a test that passes and a test that actually verifies something
+prerequisites: []
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio:
+    Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Debugging and Testing Fundamentals
+    on Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: systematic-debugging
+    order: 0
+  - slug: writing-tests-that-matter
+    order: 1
+projectSlugs:
+  - bug-fix-with-tests
+assessmentSlugs: []
+resources:
+  - title: pytest Documentation
+    type: external-link
+    url: https://docs.pytest.org
+    description: Official documentation for the pytest testing framework.
+certificate:
+  title: Debugging and Testing Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the bug fix + regression tests
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Debugging and Testing Fundamentals | Curitiq
+  description: A systematic process for finding bugs faster, and writing tests that actually catch
+    regressions instead of just existing.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: A systematic process for finding bugs faster, and writing tests that actually catch
+    regressions instead of just existing.
+  keyConcepts:
+    - Apply a systematic process for isolating the cause of a bug
+    - Write unit tests that cover edge cases, not just the happy path
+    - Recognize the difference between a test that passes and a test that actually verifies something
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

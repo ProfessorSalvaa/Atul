@@ -1,0 +1,14 @@
+slug: choosing-good-metrics
+title: Choosing Metrics That Match the Decision
+description: A well-chosen metric prevents more bad decisions than any dashboard.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Common Metric Pitfalls"
+  - id: mo-2
+    text: "Grasp: Analytics Glossary"
+lessons:
+  - slug: metric-pitfalls
+    order: 0
+  - slug: analytics-glossary
+    order: 1

@@ -1,0 +1,31 @@
+---
+type: reading
+title: Database Replication
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand database replication
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Database Replication."
+  keyConcepts:
+    - Replication copies data across multiple database instances — a primary
+      handles writes while replicas handle reads, letting read capacity scale
+      independently of write capacity
+    - Replication lag (a delay before a write propagates to replicas) means a
+      read right after a write might return stale data — systems that can't
+      tolerate this need to read from the primary for that specific case
+    - Replication also improves durability and availability — if the primary
+      fails, a replica can be promoted, though this failover process introduces
+      its own complexity and brief unavailability
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Scaling a Database** in _Database Scaling and Caching Patterns_. By the end, you should be able to put the following into practice:
+
+- Replication copies data across multiple database instances — a primary handles writes while replicas handle reads, letting read capacity scale independently of write capacity
+- Replication lag (a delay before a write propagates to replicas) means a read right after a write might return stale data — systems that can't tolerate this need to read from the primary for that specific case
+- Replication also improves durability and availability — if the primary fails, a replica can be promoted, though this failover process introduces its own complexity and brief unavailability
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

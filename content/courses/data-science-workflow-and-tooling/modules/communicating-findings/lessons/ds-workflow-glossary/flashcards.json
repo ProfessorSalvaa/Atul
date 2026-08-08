@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ds-workflow-glossary-fc-1",
+    "front": "Question scoping",
+    "back": "Translating a vague business question into a specific, analyzable question tied to a decision.",
+    "difficulty": "beginner",
+    "tags": ["data-science"]
+  },
+  {
+    "id": "ds-workflow-glossary-fc-2",
+    "front": "Exploratory analysis",
+    "back": "The stage of investigating data to understand patterns before committing to a specific modeling approach.",
+    "difficulty": "beginner",
+    "tags": ["data-science"]
+  },
+  {
+    "id": "ds-workflow-glossary-fc-3",
+    "front": "Finding communication",
+    "back": "Presenting an analysis's results and implications clearly to a non-technical decision-maker.",
+    "difficulty": "beginner",
+    "tags": ["data-science"]
+  }
+]

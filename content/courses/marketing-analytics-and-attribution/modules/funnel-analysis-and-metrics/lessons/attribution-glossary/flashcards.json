@@ -1,0 +1,23 @@
+[
+  {
+    "id": "attribution-glossary-fc-1",
+    "front": "Last-click attribution",
+    "back": "An attribution model giving all credit to the final touchpoint before a conversion.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "attribution-glossary-fc-2",
+    "front": "Multi-touch attribution",
+    "back": "An attribution model distributing conversion credit across multiple touchpoints in the customer journey.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "attribution-glossary-fc-3",
+    "front": "Funnel drop-off",
+    "back": "The decline in conversion rate between two adjacent stages of a marketing or product funnel.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  }
+]

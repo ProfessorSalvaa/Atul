@@ -1,0 +1,40 @@
+[
+  {
+    "id": "specific-actionable-feedback-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Specific, Actionable, and Kind\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'This could be clearer' is not actionable; 'consider extracting this into a named function — it's doing three things' is — specificity is what makes feedback useful, not just accurate\""
+    ],
+    "explanation": "'This could be clearer' is not actionable; 'consider extracting this into a named function — it's doing three things' is — specificity is what makes feedback useful, not just accurate — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'This could be clearer' is not actionable; 'consider extracting this into a named function — it's doing three things' is — specificity is what makes feedback useful, not just accurate"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "specific-actionable-feedback-q2",
+    "type": "true-false",
+    "prompt": "True or false: Distinguish blocking issues (bugs, security problems) from suggestions (style preferences, minor improvements) explicitly, so the author knows what's required vs. optional",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Distinguish blocking issues (bugs, security problems) from suggestions (style preferences, minor improvements) explicitly, so the author knows what's required vs. optional",
+    "references": [],
+    "correctAnswer": true
+  }
+]

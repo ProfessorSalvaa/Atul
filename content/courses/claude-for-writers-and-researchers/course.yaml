@@ -1,0 +1,76 @@
+slug: claude-for-writers-and-researchers
+title: Claude for Writers and Researchers
+subtitle: Using Claude's long-context reasoning for careful writing, document analysis, and research
+  synthesis.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 105
+tags: &a1
+  - claude
+  - ai
+  - writing
+skills:
+  - claude-workflows
+  - prompt-engineering
+careerPaths:
+  - ai-practitioner
+category: claude-ai
+premium: false
+objectives:
+  - id: obj-1
+    text: Use Claude's long context window to work with entire documents at once
+  - id: obj-2
+    text: Get more careful, nuanced writing feedback by asking for structured critique
+  - id: obj-3
+    text: Use Claude for synthesizing multiple sources into a coherent summary
+prerequisites: []
+instructor:
+  name: Renata Silva
+  title: Principal Engineer, ex-Datadog
+  bio:
+    Renata Silva is Principal Engineer, ex-Datadog, teaching Claude for Writers and Researchers on
+    Curitiq.
+  avatarInitials: RS
+modules:
+  - slug: long-context-workflows
+    order: 0
+  - slug: research-synthesis
+    order: 1
+projectSlugs:
+  - research-synthesis-brief
+assessmentSlugs: []
+resources:
+  - title: Claude Docs
+    type: external-link
+    url: https://docs.claude.com
+    description: Official documentation for Claude.
+certificate:
+  title: Claude for Writers and Researchers — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the research synthesis brief
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Claude for Writers and Researchers | Curitiq
+  description: Using Claude's long-context reasoning for careful writing, document analysis, and
+    research synthesis.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Using Claude's long-context reasoning for careful writing, document analysis, and research
+    synthesis.
+  keyConcepts:
+    - Use Claude's long context window to work with entire documents at once
+    - Get more careful, nuanced writing feedback by asking for structured critique
+    - Use Claude for synthesizing multiple sources into a coherent summary
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

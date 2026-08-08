@@ -1,0 +1,40 @@
+[
+  {
+    "id": "consistent-professional-narrative-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"A Consistent Professional Narrative\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A recruiter or hiring manager often checks LinkedIn right after (or instead of) reading a resume — inconsistent titles, dates, or framing between the two raises unnecessary doubt\""
+    ],
+    "explanation": "A recruiter or hiring manager often checks LinkedIn right after (or instead of) reading a resume — inconsistent titles, dates, or framing between the two raises unnecessary doubt — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A recruiter or hiring manager often checks LinkedIn right after (or instead of) reading a resume — inconsistent titles, dates, or framing between the two raises unnecessary doubt"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "consistent-professional-narrative-q2",
+    "type": "true-false",
+    "prompt": "True or false: Your personal brand isn't a slogan — it's the specific, consistent story of what you're good at and what kind of role you're aiming for, reflected the same way across every professional surface",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Your personal brand isn't a slogan — it's the specific, consistent story of what you're good at and what kind of role you're aiming for, reflected the same way across every professional surface",
+    "references": [],
+    "correctAnswer": true
+  }
+]

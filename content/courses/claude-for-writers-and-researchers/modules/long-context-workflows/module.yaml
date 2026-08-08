@@ -1,0 +1,14 @@
+slug: long-context-workflows
+title: Working with Long Documents
+description: What changes when you can hand over an entire document instead of a snippet.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why a Large Context Window Changes What's Possible"
+  - id: mo-2
+    text: "Grasp: Getting Structured Writing Feedback"
+lessons:
+  - slug: why-long-context-matters
+    order: 0
+  - slug: structured-writing-feedback
+    order: 1

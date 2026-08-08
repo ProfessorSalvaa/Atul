@@ -1,0 +1,14 @@
+slug: iam-best-practices
+title: IAM Best Practices in the Cloud
+description: Identity and access management done well — the single highest-leverage cloud security control.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: IAM Best Practices"
+  - id: mo-2
+    text: "Grasp: Cloud Security Terms Flip Deck"
+lessons:
+  - slug: iam-in-practice
+    order: 0
+  - slug: cloud-security-glossary
+    order: 1

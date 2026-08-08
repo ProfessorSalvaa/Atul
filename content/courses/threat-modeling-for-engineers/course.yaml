@@ -1,0 +1,73 @@
+slug: threat-modeling-for-engineers
+title: Threat Modeling for Engineers
+subtitle: A structured way to ask 'how could this be attacked' before building something, using
+  STRIDE and attack trees rather than vague worry.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - cybersecurity
+skills:
+  - threat-modeling
+careerPaths:
+  - cybersecurity-analyst
+  - software-engineer
+category: cybersecurity
+premium: true
+objectives:
+  - id: obj-1
+    text: Apply the STRIDE framework to identify threats in a system design
+  - id: obj-2
+    text: Build a basic attack tree for a specific asset
+  - id: obj-3
+    text: Prioritize identified threats by likelihood and impact
+prerequisites:
+  - courseSlug: cybersecurity-foundations
+instructor:
+  name: Priya Nair
+  title: Security Engineer, ex-Cloudflare
+  bio: Priya Nair is Security Engineer, ex-Cloudflare, teaching Threat Modeling for Engineers on
+    Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: structured-threat-identification
+    order: 0
+  - slug: prioritizing-threats
+    order: 1
+projectSlugs:
+  - threat-model-for-a-feature
+assessmentSlugs: []
+resources:
+  - title: OWASP Threat Modeling
+    type: external-link
+    url: https://owasp.org/www-community/Threat_Modeling
+    description: OWASP's overview of threat modeling methodologies including STRIDE.
+certificate:
+  title: Threat Modeling for Engineers — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the feature threat model
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Threat Modeling for Engineers | Curitiq
+  description: A structured way to ask 'how could this be attacked' before building something, using
+    STRIDE and attack trees rather than vague worry.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: A structured way to ask 'how could this be attacked' before building something, using
+    STRIDE and attack trees rather than vague worry.
+  keyConcepts:
+    - Apply the STRIDE framework to identify threats in a system design
+    - Build a basic attack tree for a specific asset
+    - Prioritize identified threats by likelihood and impact
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

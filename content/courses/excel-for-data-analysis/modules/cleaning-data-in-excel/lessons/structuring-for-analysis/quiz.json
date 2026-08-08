@@ -1,0 +1,40 @@
+[
+  {
+    "id": "structuring-for-analysis-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Structuring a Spreadsheet for Analysis, Not Just Display\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"One row per record, one column per variable — merged cells and multi-row headers look nice but break every formula and pivot table built on top of them\""
+    ],
+    "explanation": "One row per record, one column per variable — merged cells and multi-row headers look nice but break every formula and pivot table built on top of them — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "One row per record, one column per variable — merged cells and multi-row headers look nice but break every formula and pivot table built on top of them"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "structuring-for-analysis-q2",
+    "type": "true-false",
+    "prompt": "True or false: Keep raw data and calculated/summary views in separate sheets — editing raw data directly under a formula is how analyses silently corrupt over time",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Keep raw data and calculated/summary views in separate sheets — editing raw data directly under a formula is how analyses silently corrupt over time",
+    "references": [],
+    "correctAnswer": true
+  }
+]

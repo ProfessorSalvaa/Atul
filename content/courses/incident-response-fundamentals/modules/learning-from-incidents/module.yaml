@@ -1,0 +1,14 @@
+slug: learning-from-incidents
+title: Learning From Incidents
+description: The step most teams skip, and the one that actually prevents repeats.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing a Blameless Post-Incident Review"
+  - id: mo-2
+    text: "Grasp: Incident Response Terms Flip Deck"
+lessons:
+  - slug: post-incident-review
+    order: 0
+  - slug: incident-response-glossary
+    order: 1

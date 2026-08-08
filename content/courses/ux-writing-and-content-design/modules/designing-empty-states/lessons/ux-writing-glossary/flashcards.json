@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ux-writing-glossary-fc-1",
+    "front": "Microcopy",
+    "back": "Short interface text — button labels, tooltips, helper text — that guides user action.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "ux-writing-glossary-fc-2",
+    "front": "Empty state",
+    "back": "The screen shown when there's no content yet, ideally guiding the user toward a next action.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "ux-writing-glossary-fc-3",
+    "front": "Zero-results state",
+    "back": "An empty state specifically caused by a search or filter finding no matches.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  }
+]

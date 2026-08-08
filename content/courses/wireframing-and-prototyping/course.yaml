@@ -1,0 +1,72 @@
+slug: wireframing-and-prototyping
+title: Wireframing and Prototyping
+subtitle: Going from a rough idea to a clickable prototype — low-fidelity wireframes, information
+  architecture, and testing a flow before investing in visual polish.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - ui-design
+skills:
+  - wireframing
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: true
+objectives:
+  - id: obj-1
+    text: Build a low-fidelity wireframe that communicates structure without visual distraction
+  - id: obj-2
+    text: Design a clear information architecture for a multi-screen flow
+  - id: obj-3
+    text: Build a clickable prototype to test a flow before visual design
+prerequisites:
+  - courseSlug: ui-ux-design-foundations
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching Wireframing and Prototyping on Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: low-fidelity-wireframing
+    order: 0
+  - slug: clickable-prototypes
+    order: 1
+projectSlugs:
+  - wireframed-flow-prototype
+assessmentSlugs: []
+resources:
+  - title: "Figma: Prototyping Basics"
+    type: external-link
+    url: https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma
+    description: Figma's official guide to building clickable prototypes.
+certificate:
+  title: Wireframing and Prototyping — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the wireframed flow prototype
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Wireframing and Prototyping | Curitiq
+  description:
+    Going from a rough idea to a clickable prototype — low-fidelity wireframes, information
+    architecture, and testing a flow before investing in visual polish.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Going from a rough idea to a clickable prototype — low-fidelity wireframes, information
+    architecture, and testing a flow before investing in visual polish.
+  keyConcepts:
+    - Build a low-fidelity wireframe that communicates structure without visual distraction
+    - Design a clear information architecture for a multi-screen flow
+    - Build a clickable prototype to test a flow before visual design
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

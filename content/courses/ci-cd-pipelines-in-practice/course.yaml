@@ -1,0 +1,75 @@
+slug: ci-cd-pipelines-in-practice
+title: CI/CD Pipelines in Practice
+subtitle: Building a real CI/CD pipeline — automated tests, build artifacts, and deployment stages —
+  not just the theory behind them.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 125
+tags: &a1
+  - devops
+  - ci-cd
+skills:
+  - ci-cd-pipelines
+careerPaths:
+  - cloud-engineer
+  - devops-engineer
+  - software-engineer
+category: devops
+premium: true
+objectives:
+  - id: obj-1
+    text: Configure a pipeline with build, test, and deploy stages
+  - id: obj-2
+    text: Use pipeline caching to keep build times reasonable
+  - id: obj-3
+    text: Gate a deployment behind passing tests and required approvals
+prerequisites:
+  - courseSlug: devops-foundations
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching CI/CD Pipelines in Practice on Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: pipeline-stages
+    order: 0
+  - slug: deployment-gates
+    order: 1
+projectSlugs:
+  - real-cicd-pipeline
+assessmentSlugs: []
+resources:
+  - title: GitHub Actions Documentation
+    type: external-link
+    url: https://docs.github.com/actions
+    description: Official documentation for GitHub Actions CI/CD.
+certificate:
+  title: CI/CD Pipelines in Practice — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the real CI/CD pipeline
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: CI/CD Pipelines in Practice | Curitiq
+  description: Building a real CI/CD pipeline — automated tests, build artifacts, and deployment
+    stages — not just the theory behind them.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Building a real CI/CD pipeline — automated tests, build artifacts, and deployment stages —
+    not just the theory behind them.
+  keyConcepts:
+    - Configure a pipeline with build, test, and deploy stages
+    - Use pipeline caching to keep build times reasonable
+    - Gate a deployment behind passing tests and required approvals
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

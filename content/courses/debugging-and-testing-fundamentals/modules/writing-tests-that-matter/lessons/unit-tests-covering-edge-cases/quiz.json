@@ -1,0 +1,40 @@
+[
+  {
+    "id": "unit-tests-covering-edge-cases-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Unit Tests That Cover Edge Cases\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A test suite that only covers the happy path gives false confidence — the bugs that matter usually live in edge cases: empty input, boundary values, unexpected types\""
+    ],
+    "explanation": "A test suite that only covers the happy path gives false confidence — the bugs that matter usually live in edge cases: empty input, boundary values, unexpected types — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A test suite that only covers the happy path gives false confidence — the bugs that matter usually live in edge cases: empty input, boundary values, unexpected types"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "unit-tests-covering-edge-cases-q2",
+    "type": "true-false",
+    "prompt": "True or false: Each test should verify one specific behavior and fail with a clear message when that behavior breaks — a test with 10 assertions that all fail together tells you far less than 10 separate focused tests",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Each test should verify one specific behavior and fail with a clear message when that behavior breaks — a test with 10 assertions that all fail together tells you far less than 10 separate focused tests",
+    "references": [],
+    "correctAnswer": true
+  }
+]

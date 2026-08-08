@@ -1,0 +1,40 @@
+[
+  {
+    "id": "anticipating-questions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Anticipating the Questions an Executive Will Ask\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Before presenting, list the 3-5 most likely questions a senior stakeholder will ask and make sure your material already answers them — being caught flat-footed on an obvious question undermines credibility disproportionately\""
+    ],
+    "explanation": "Before presenting, list the 3-5 most likely questions a senior stakeholder will ask and make sure your material already answers them — being caught flat-footed on an obvious question undermines credibility disproportionately — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Before presenting, list the 3-5 most likely questions a senior stakeholder will ask and make sure your material already answers them — being caught flat-footed on an obvious question undermines credibility disproportionately"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "anticipating-questions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Executives commonly ask about risk, cost, timeline, and what's needed from them — anticipate these categories specifically even if the presentation topic doesn't seem to obviously require it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Executives commonly ask about risk, cost, timeline, and what's needed from them — anticipate these categories specifically even if the presentation topic doesn't seem to obviously require it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,37 @@
+---
+type: code
+title: VLOOKUP and XLOOKUP
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand vlookup and xlookup
+free: false
+aiTutorContext:
+  summary: "This lesson covers: VLOOKUP and XLOOKUP."
+  keyConcepts:
+    - VLOOKUP only searches left-to-right and breaks if columns are inserted —
+      XLOOKUP is more flexible and is the better default in modern Excel
+    - Always use an exact match (the 4th argument FALSE in VLOOKUP, or XLOOKUP's
+      default) unless you specifically intend an approximate match — approximate
+      match is the most common silent-wrong-answer bug
+    - "Wrap lookups in IFERROR to handle 'not found' cases explicitly instead of
+      showing a raw #N/A error to end users"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Pivot Tables and Lookup Formulas** in _Excel for Data Analysis_. By the end, you should be able to put the following into practice:
+
+- VLOOKUP only searches left-to-right and breaks if columns are inserted — XLOOKUP is more flexible and is the better default in modern Excel
+- Always use an exact match (the 4th argument FALSE in VLOOKUP, or XLOOKUP's default) unless you specifically intend an approximate match — approximate match is the most common silent-wrong-answer bug
+- Wrap lookups in IFERROR to handle 'not found' cases explicitly instead of showing a raw #N/A error to end users
+
+```text
+=XLOOKUP(A2, ProductTable[SKU], ProductTable[Price], "Not found")
+// Exact match by default, clear fallback if the SKU isn't found
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

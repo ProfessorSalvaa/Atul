@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dashboard-narrative-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Structuring a Dashboard Around a Narrative\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Put the most important number top-left — that's where the eye lands first, and it should be the headline metric, not a minor detail\""
+    ],
+    "explanation": "Put the most important number top-left — that's where the eye lands first, and it should be the headline metric, not a minor detail — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Put the most important number top-left — that's where the eye lands first, and it should be the headline metric, not a minor detail"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "dashboard-narrative-q2",
+    "type": "true-false",
+    "prompt": "True or false: Group related visuals together and use clear section titles — a dashboard someone has to hunt through to find related numbers has failed at its job",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Group related visuals together and use clear section titles — a dashboard someone has to hunt through to find related numbers has failed at its job",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: designing-around-limits
+title: Designing Around Serverless Limits
+description: Cold starts and execution time — the two constraints that shape real serverless architecture.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Cold Starts and How to Mitigate Them"
+  - id: mo-2
+    text: "Grasp: Serverless Terms Flip Deck"
+lessons:
+  - slug: cold-starts
+    order: 0
+  - slug: serverless-glossary
+    order: 1

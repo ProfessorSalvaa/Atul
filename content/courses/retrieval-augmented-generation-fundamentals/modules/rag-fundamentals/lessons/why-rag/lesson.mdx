@@ -1,0 +1,34 @@
+---
+type: reading
+title: Why Retrieval Beats Relying on Model Memory Alone
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand why retrieval beats relying on model memory alone
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Why Retrieval Beats Relying on Model Memory Alone."
+  keyConcepts:
+    - A base LLM's 'knowledge' is frozen at training time and has no access to
+      your private documents — RAG retrieves relevant passages at query time and
+      includes them in the prompt as grounding
+    - This directly reduces hallucination on domain-specific questions, because
+      the model is answering from text it can literally see, not from a fuzzy
+      memory of similar-sounding training data
+    - RAG also makes answers auditable — you can show which source passage a
+      claim came from, which a base model alone cannot do
+    - RAG doesn't eliminate hallucination entirely — the model can still misread
+      or overgeneralize from the retrieved passages, especially if retrieval
+      returns weak or irrelevant matches
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Why and How RAG Works** in _Retrieval-Augmented Generation Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A base LLM's 'knowledge' is frozen at training time and has no access to your private documents — RAG retrieves relevant passages at query time and includes them in the prompt as grounding
+- This directly reduces hallucination on domain-specific questions, because the model is answering from text it can literally see, not from a fuzzy memory of similar-sounding training data
+- RAG also makes answers auditable — you can show which source passage a claim came from, which a base model alone cannot do
+- RAG doesn't eliminate hallucination entirely — the model can still misread or overgeneralize from the retrieved passages, especially if retrieval returns weak or irrelevant matches
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

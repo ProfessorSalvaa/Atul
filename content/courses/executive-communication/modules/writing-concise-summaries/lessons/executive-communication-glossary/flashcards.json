@@ -1,0 +1,23 @@
+[
+  {
+    "id": "executive-communication-glossary-fc-1",
+    "front": "Answer-first structure",
+    "back": "Leading a message with its conclusion or recommendation before the supporting reasoning.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  },
+  {
+    "id": "executive-communication-glossary-fc-2",
+    "front": "Executive summary",
+    "back": "A concise standalone summary that communicates the conclusion and key reasoning without requiring the full document.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  },
+  {
+    "id": "executive-communication-glossary-fc-3",
+    "front": "The ask",
+    "back": "The specific decision, approval, or resource a communication is requesting from its audience.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  }
+]

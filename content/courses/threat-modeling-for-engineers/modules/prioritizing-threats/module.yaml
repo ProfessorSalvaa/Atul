@@ -1,0 +1,14 @@
+slug: prioritizing-threats
+title: Prioritizing Identified Threats
+description: Not every threat deserves the same amount of effort.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Prioritizing by Likelihood and Impact"
+  - id: mo-2
+    text: "Grasp: Threat Modeling Terms Flip Deck"
+lessons:
+  - slug: likelihood-and-impact
+    order: 0
+  - slug: threat-modeling-glossary
+    order: 1

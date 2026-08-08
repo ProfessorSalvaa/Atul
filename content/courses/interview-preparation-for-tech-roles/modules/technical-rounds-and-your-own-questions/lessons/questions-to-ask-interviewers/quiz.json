@@ -1,0 +1,40 @@
+[
+  {
+    "id": "questions-to-ask-interviewers-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Questions Worth Asking the Interviewer\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Interviews are a two-way evaluation — ask specific, genuine questions that would actually inform your decision, not generic questions you already know the polished answer to\""
+    ],
+    "explanation": "Interviews are a two-way evaluation — ask specific, genuine questions that would actually inform your decision, not generic questions you already know the polished answer to — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Interviews are a two-way evaluation — ask specific, genuine questions that would actually inform your decision, not generic questions you already know the polished answer to"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "questions-to-ask-interviewers-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask about how success is actually measured in the role, and what's changed on the team recently — these tend to surface more honest, useful information than 'what's the culture like'",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask about how success is actually measured in the role, and what's changed on the team recently — these tend to surface more honest, useful information than 'what's the culture like'",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: perimeter-and-beyond
+title: Perimeter Defense and Its Limits
+description: Firewalls matter, but assuming the perimeter holds forever is a mistake.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Firewalls and What They Don't Protect Against"
+  - id: mo-2
+    text: "Grasp: Network Segmentation and Zero Trust"
+lessons:
+  - slug: firewalls-and-their-limits
+    order: 0
+  - slug: network-segmentation
+    order: 1

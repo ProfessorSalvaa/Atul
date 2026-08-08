@@ -1,0 +1,14 @@
+slug: deployment-gates
+title: Deployment Gates
+description: Making sure only verified, approved changes actually reach production.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Gating Deployments Behind Tests and Approval"
+  - id: mo-2
+    text: "Grasp: CI/CD Practice Terms Flip Deck"
+lessons:
+  - slug: gating-deployments
+    order: 0
+  - slug: cicd-practice-glossary
+    order: 1

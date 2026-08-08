@@ -1,0 +1,14 @@
+slug: rag-fundamentals
+title: Why and How RAG Works
+description: Grounding generation in retrieved, verifiable source text.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Retrieval Beats Relying on Model Memory Alone"
+  - id: mo-2
+    text: "Grasp: The RAG Pipeline: Chunk, Embed, Retrieve, Generate"
+lessons:
+  - slug: why-rag
+    order: 0
+  - slug: the-rag-pipeline
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "regression-and-classification-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Regression and Classification Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Regression predicts a continuous numeric value (predicted house price, predicted delivery time) — classification predicts a discrete category (spam or not spam, which of several product categories)\""
+    ],
+    "explanation": "Regression predicts a continuous numeric value (predicted house price, predicted delivery time) — classification predicts a discrete category (spam or not spam, which of several product categories) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Regression predicts a continuous numeric value (predicted house price, predicted delivery time) — classification predicts a discrete category (spam or not spam, which of several product categories)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "regression-and-classification-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Linear/logistic regression are simple, interpretable baseline algorithms for regression and classification respectively — they're often underrated as a starting point before jumping to more complex models",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Linear/logistic regression are simple, interpretable baseline algorithms for regression and classification respectively — they're often underrated as a starting point before jumping to more complex models",
+    "references": [],
+    "correctAnswer": true
+  }
+]

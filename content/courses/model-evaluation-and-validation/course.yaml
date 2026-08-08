@@ -1,0 +1,74 @@
+slug: model-evaluation-and-validation
+title: Model Evaluation and Validation
+subtitle: Why accuracy alone lies to you constantly — precision, recall, and cross-validation as the
+  actual tools for knowing if a model works.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - machine-learning
+skills:
+  - model-evaluation
+careerPaths:
+  - ai-engineer
+  - data-scientist
+category: machine-learning
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain why accuracy is misleading on imbalanced datasets
+  - id: obj-2
+    text: Choose between precision and recall based on the actual cost of different error types
+  - id: obj-3
+    text: Use cross-validation to get a more reliable performance estimate
+prerequisites:
+  - courseSlug: machine-learning-fundamentals
+instructor:
+  name: Hana Kobayashi
+  title: ML Engineer, ex-DeepMind
+  bio: Hana Kobayashi is ML Engineer, ex-DeepMind, teaching Model Evaluation and Validation on Curitiq.
+  avatarInitials: HK
+modules:
+  - slug: beyond-accuracy
+    order: 0
+  - slug: getting-a-reliable-estimate
+    order: 1
+projectSlugs:
+  - metric-selection-and-evaluation
+assessmentSlugs: []
+resources:
+  - title: "scikit-learn: Model Evaluation"
+    type: external-link
+    url: https://scikit-learn.org/stable/modules/model_evaluation.html
+    description: scikit-learn's documentation on model evaluation metrics.
+certificate:
+  title: Model Evaluation and Validation — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the metric selection and evaluation plan
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Model Evaluation and Validation | Curitiq
+  description:
+    Why accuracy alone lies to you constantly — precision, recall, and cross-validation as
+    the actual tools for knowing if a model works.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Why accuracy alone lies to you constantly — precision, recall, and cross-validation as the
+    actual tools for knowing if a model works.
+  keyConcepts:
+    - Explain why accuracy is misleading on imbalanced datasets
+    - Choose between precision and recall based on the actual cost of different error types
+    - Use cross-validation to get a more reliable performance estimate
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

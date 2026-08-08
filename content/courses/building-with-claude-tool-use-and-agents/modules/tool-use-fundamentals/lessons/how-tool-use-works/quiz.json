@@ -1,0 +1,40 @@
+[
+  {
+    "id": "how-tool-use-works-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"How Tool Use Actually Works\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"You describe available tools (name, description, input schema) to the model; the model decides when to call one and with what arguments, based on the conversation\""
+    ],
+    "explanation": "You describe available tools (name, description, input schema) to the model; the model decides when to call one and with what arguments, based on the conversation — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "You describe available tools (name, description, input schema) to the model; the model decides when to call one and with what arguments, based on the conversation"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "how-tool-use-works-q2",
+    "type": "true-false",
+    "prompt": "True or false: The model doesn't execute the tool itself — your code receives the tool call request, runs it, and sends the result back for the model to continue reasoning with",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The model doesn't execute the tool itself — your code receives the tool call request, runs it, and sends the result back for the model to continue reasoning with",
+    "references": [],
+    "correctAnswer": true
+  }
+]

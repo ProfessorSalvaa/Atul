@@ -1,0 +1,15 @@
+slug: agents-vs-automation
+title: Agents vs. Simple Automation
+description: Not every AI-driven workflow is an 'agent' — knowing the difference shapes how much
+  autonomy is safe to grant.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: What Actually Makes Something an Agent"
+  - id: mo-2
+    text: "Grasp: Designing Human-in-the-Loop Checkpoints"
+lessons:
+  - slug: what-makes-something-an-agent
+    order: 0
+  - slug: human-in-the-loop-checkpoints
+    order: 1

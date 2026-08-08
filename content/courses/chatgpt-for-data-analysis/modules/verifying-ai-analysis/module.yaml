@@ -1,0 +1,14 @@
+slug: verifying-ai-analysis
+title: Verifying AI-Generated Analysis
+description: The habits that keep AI-assisted analysis from quietly becoming wrong analysis.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Common Ways AI Analysis Goes Wrong"
+  - id: mo-2
+    text: "Grasp: ChatGPT Data Analysis Terms"
+lessons:
+  - slug: spotting-analysis-errors
+    order: 0
+  - slug: chatgpt-analysis-terms
+    order: 1

@@ -1,0 +1,14 @@
+slug: designing-a-valid-experiment
+title: Designing a Valid Experiment
+description: The setup decisions that determine whether a test's result can actually be trusted.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Defining a Hypothesis and Success Metric"
+  - id: mo-2
+    text: "Grasp: Sample Size and Statistical Significance"
+lessons:
+  - slug: hypothesis-and-success-metric
+    order: 0
+  - slug: sample-size-and-significance
+    order: 1

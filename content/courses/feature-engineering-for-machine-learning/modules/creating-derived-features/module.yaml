@@ -1,0 +1,14 @@
+slug: creating-derived-features
+title: Creating Derived Features
+description: Sometimes the most valuable feature isn't in the raw data at all — it has to be built.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Deriving Features That Expose Signal"
+  - id: mo-2
+    text: "Grasp: Feature Engineering Terms Flip Deck"
+lessons:
+  - slug: deriving-useful-features
+    order: 0
+  - slug: feature-engineering-glossary
+    order: 1

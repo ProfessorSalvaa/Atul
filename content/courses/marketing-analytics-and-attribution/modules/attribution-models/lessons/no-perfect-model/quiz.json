@@ -1,0 +1,40 @@
+[
+  {
+    "id": "no-perfect-model-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why No Attribution Model Is Perfectly Correct\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every attribution model makes a simplifying assumption about how influence actually works across a customer's journey — none of them perfectly captures reality\""
+    ],
+    "explanation": "Every attribution model makes a simplifying assumption about how influence actually works across a customer's journey — none of them perfectly captures reality — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every attribution model makes a simplifying assumption about how influence actually works across a customer's journey — none of them perfectly captures reality"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "no-perfect-model-q2",
+    "type": "true-false",
+    "prompt": "True or false: Cross-device and offline touchpoints (a customer sees an ad on their phone, converts later on a laptop, or hears about you from a friend) are often invisible to tracking entirely, understating true impact",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Cross-device and offline touchpoints (a customer sees an ad on their phone, converts later on a laptop, or hears about you from a friend) are often invisible to tracking entirely, understating true impact",
+    "references": [],
+    "correctAnswer": true
+  }
+]

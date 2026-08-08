@@ -1,0 +1,40 @@
+[
+  {
+    "id": "prototyping-for-testing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Prototyping to Test a Flow\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A clickable prototype linking wireframes together lets you test whether a flow actually makes sense before any code is written — catching a confusing flow here is vastly cheaper than catching it after development\""
+    ],
+    "explanation": "A clickable prototype linking wireframes together lets you test whether a flow actually makes sense before any code is written — catching a confusing flow here is vastly cheaper than catching it after development — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A clickable prototype linking wireframes together lets you test whether a flow actually makes sense before any code is written — catching a confusing flow here is vastly cheaper than catching it after development"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "prototyping-for-testing-q2",
+    "type": "true-false",
+    "prompt": "True or false: Prototype fidelity should match what you're testing — testing a flow's logic needs only linked low-fidelity screens; testing visual perception needs higher fidelity",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Prototype fidelity should match what you're testing — testing a flow's logic needs only linked low-fidelity screens; testing visual perception needs higher fidelity",
+    "references": [],
+    "correctAnswer": true
+  }
+]

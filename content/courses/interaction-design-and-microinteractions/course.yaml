@@ -1,0 +1,73 @@
+slug: interaction-design-and-microinteractions
+title: Interaction Design and Microinteractions
+subtitle: The small moments — a button press, a loading state, a toggle animation — that quietly
+  determine whether a product feels responsive or broken.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 105
+tags: &a1
+  - ui-design
+skills:
+  - interaction-design
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: true
+objectives:
+  - id: obj-1
+    text: Design feedback states for every interactive element's full lifecycle
+  - id: obj-2
+    text: "Apply the anatomy of a microinteraction: trigger, rules, feedback, loops"
+  - id: obj-3
+    text: Use motion deliberately, not decoratively
+prerequisites:
+  - courseSlug: ui-ux-design-foundations
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching Interaction Design and
+    Microinteractions on Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: the-anatomy-of-feedback
+    order: 0
+  - slug: using-motion-deliberately
+    order: 1
+projectSlugs:
+  - microinteraction-states-spec
+assessmentSlugs: []
+resources:
+  - title: "Material Design: Motion"
+    type: external-link
+    url: https://m3.material.io/styles/motion/overview
+    description: Google's Material Design guidance on motion principles.
+certificate:
+  title: Interaction Design and Microinteractions — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the microinteraction states spec
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Interaction Design and Microinteractions | Curitiq
+  description:
+    The small moments — a button press, a loading state, a toggle animation — that quietly
+    determine whether a product feels responsive or broken.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The small moments — a button press, a loading state, a toggle animation — that quietly
+    determine whether a product feels responsive or broken.
+  keyConcepts:
+    - Design feedback states for every interactive element's full lifecycle
+    - "Apply the anatomy of a microinteraction: trigger, rules, feedback, loops"
+    - Use motion deliberately, not decoratively
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

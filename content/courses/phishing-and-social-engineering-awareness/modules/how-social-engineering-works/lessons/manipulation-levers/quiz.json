@@ -1,0 +1,40 @@
+[
+  {
+    "id": "manipulation-levers-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Urgency, Authority, and the Manipulation Levers Attackers Use\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Urgency ('your account will be suspended in 1 hour') pushes people to act before thinking carefully — legitimate organizations rarely create this kind of artificial time pressure\""
+    ],
+    "explanation": "Urgency ('your account will be suspended in 1 hour') pushes people to act before thinking carefully — legitimate organizations rarely create this kind of artificial time pressure — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Urgency ('your account will be suspended in 1 hour') pushes people to act before thinking carefully — legitimate organizations rarely create this kind of artificial time pressure"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "manipulation-levers-q2",
+    "type": "true-false",
+    "prompt": "True or false: Impersonating authority (a CEO, IT department, a bank) exploits the social instinct to comply with requests from perceived authority without questioning them",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Impersonating authority (a CEO, IT department, a bank) exploits the social instinct to comply with requests from perceived authority without questioning them",
+    "references": [],
+    "correctAnswer": true
+  }
+]

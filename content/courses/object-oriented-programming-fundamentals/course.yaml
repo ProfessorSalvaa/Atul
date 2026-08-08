@@ -1,0 +1,73 @@
+slug: object-oriented-programming-fundamentals
+title: Object-Oriented Programming Fundamentals
+subtitle: Organizing code around objects and responsibilities, using Python — the design habit that
+  scales far better than one giant script.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - python
+  - programming
+skills:
+  - object-oriented-design
+careerPaths:
+  - software-engineer
+category: python
+premium: true
+objectives:
+  - id: obj-1
+    text: Design a class with clear responsibilities and a sensible interface
+  - id: obj-2
+    text: Use inheritance appropriately, and recognize when composition is the better choice
+  - id: obj-3
+    text: Explain encapsulation in terms of what it actually prevents
+prerequisites:
+  - courseSlug: python-fundamentals
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Object-Oriented Programming
+    Fundamentals on Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: classes-and-objects
+    order: 0
+  - slug: inheritance-vs-composition
+    order: 1
+projectSlugs:
+  - small-oop-system
+assessmentSlugs: []
+resources:
+  - title: Python Classes Documentation
+    type: external-link
+    url: https://docs.python.org/3/tutorial/classes.html
+    description: Official Python documentation on classes.
+certificate:
+  title: Object-Oriented Programming Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the small OOP system project
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Object-Oriented Programming Fundamentals | Curitiq
+  description: Organizing code around objects and responsibilities, using Python — the design habit
+    that scales far better than one giant script.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Organizing code around objects and responsibilities, using Python — the design habit that
+    scales far better than one giant script.
+  keyConcepts:
+    - Design a class with clear responsibilities and a sensible interface
+    - Use inheritance appropriately, and recognize when composition is the better choice
+    - Explain encapsulation in terms of what it actually prevents
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

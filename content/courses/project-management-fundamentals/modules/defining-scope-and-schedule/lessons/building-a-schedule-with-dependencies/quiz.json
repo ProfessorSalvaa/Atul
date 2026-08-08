@@ -1,0 +1,40 @@
+[
+  {
+    "id": "building-a-schedule-with-dependencies-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building a Schedule With Dependencies\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Identify task dependencies before estimating a schedule — a task that can't start until another finishes determines the project's critical path, and delays anywhere on that path delay the whole project\""
+    ],
+    "explanation": "Identify task dependencies before estimating a schedule — a task that can't start until another finishes determines the project's critical path, and delays anywhere on that path delay the whole project — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Identify task dependencies before estimating a schedule — a task that can't start until another finishes determines the project's critical path, and delays anywhere on that path delay the whole project"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "building-a-schedule-with-dependencies-q2",
+    "type": "true-false",
+    "prompt": "True or false: The critical path is the longest sequence of dependent tasks — tasks not on the critical path have slack (can slip somewhat without delaying the project), but critical path tasks have none",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The critical path is the longest sequence of dependent tasks — tasks not on the critical path have slack (can slip somewhat without delaying the project), but critical path tasks have none",
+    "references": [],
+    "correctAnswer": true
+  }
+]

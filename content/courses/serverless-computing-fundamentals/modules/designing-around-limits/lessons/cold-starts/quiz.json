@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cold-starts-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Cold Starts and How to Mitigate Them\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A cold start is the extra latency incurred when a new function instance has to initialize before handling its first request, especially noticeable in latency-sensitive user-facing paths\""
+    ],
+    "explanation": "A cold start is the extra latency incurred when a new function instance has to initialize before handling its first request, especially noticeable in latency-sensitive user-facing paths — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A cold start is the extra latency incurred when a new function instance has to initialize before handling its first request, especially noticeable in latency-sensitive user-facing paths"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "cold-starts-q2",
+    "type": "true-false",
+    "prompt": "True or false: Smaller deployment packages and fewer heavy dependencies loaded at startup reduce cold start time meaningfully",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Smaller deployment packages and fewer heavy dependencies loaded at startup reduce cold start time meaningfully",
+    "references": [],
+    "correctAnswer": true
+  }
+]

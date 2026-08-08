@@ -1,0 +1,40 @@
+[
+  {
+    "id": "firewalls-and-their-limits-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Firewalls and What They Don't Protect Against\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A firewall filters traffic based on rules (source/destination, port, protocol) — it's effective against unsolicited external connections but does nothing against an attacker who's already inside, or a legitimate-looking connection carrying malicious payload\""
+    ],
+    "explanation": "A firewall filters traffic based on rules (source/destination, port, protocol) — it's effective against unsolicited external connections but does nothing against an attacker who's already inside, or a legitimate-looking connection carrying malicious payload — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A firewall filters traffic based on rules (source/destination, port, protocol) — it's effective against unsolicited external connections but does nothing against an attacker who's already inside, or a legitimate-looking connection carrying malicious payload"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "firewalls-and-their-limits-q2",
+    "type": "true-false",
+    "prompt": "True or false: Assuming a strong perimeter means the inside is safe is the single most dangerous network security assumption — modern security assumes breach and defends in layers",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Assuming a strong perimeter means the inside is safe is the single most dangerous network security assumption — modern security assumes breach and defends in layers",
+    "references": [],
+    "correctAnswer": true
+  }
+]

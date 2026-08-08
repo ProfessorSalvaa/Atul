@@ -1,0 +1,40 @@
+[
+  {
+    "id": "running-a-usability-test-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Planning and Running a Usability Test\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Give participants realistic tasks to complete ('find and book a flight to Chicago'), not instructions on how to use the interface — the goal is observing natural struggle, not confirming they can follow steps\""
+    ],
+    "explanation": "Give participants realistic tasks to complete ('find and book a flight to Chicago'), not instructions on how to use the interface — the goal is observing natural struggle, not confirming they can follow steps — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Give participants realistic tasks to complete ('find and book a flight to Chicago'), not instructions on how to use the interface — the goal is observing natural struggle, not confirming they can follow steps"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "running-a-usability-test-q2",
+    "type": "true-false",
+    "prompt": "True or false: Watch for hesitation, backtracking, and confused facial expressions, not just whether the task was eventually completed — 'they got there eventually after 3 wrong turns' is still a usability problem worth fixing",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Watch for hesitation, backtracking, and confused facial expressions, not just whether the task was eventually completed — 'they got there eventually after 3 wrong turns' is still a usability problem worth fixing",
+    "references": [],
+    "correctAnswer": true
+  }
+]

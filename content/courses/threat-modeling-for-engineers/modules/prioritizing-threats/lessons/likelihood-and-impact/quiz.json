@@ -1,0 +1,40 @@
+[
+  {
+    "id": "likelihood-and-impact-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Prioritizing by Likelihood and Impact\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A threat with low likelihood and low impact may reasonably be accepted rather than mitigated — treating every threat as equally urgent wastes effort that should go to the ones that matter\""
+    ],
+    "explanation": "A threat with low likelihood and low impact may reasonably be accepted rather than mitigated — treating every threat as equally urgent wastes effort that should go to the ones that matter — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A threat with low likelihood and low impact may reasonably be accepted rather than mitigated — treating every threat as equally urgent wastes effort that should go to the ones that matter"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "likelihood-and-impact-q2",
+    "type": "true-false",
+    "prompt": "True or false: A threat's impact should account for both direct damage and downstream consequences (regulatory penalties, reputational harm), not just the immediate technical effect",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A threat's impact should account for both direct damage and downstream consequences (regulatory penalties, reputational harm), not just the immediate technical effect",
+    "references": [],
+    "correctAnswer": true
+  }
+]

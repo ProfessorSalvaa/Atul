@@ -1,0 +1,23 @@
+[
+  {
+    "id": "copilot-dev-glossary-fc-1",
+    "front": "Ghost text",
+    "back": "Copilot's inline gray-text suggestion shown before you accept it.",
+    "difficulty": "intermediate",
+    "tags": ["copilot", "ai"]
+  },
+  {
+    "id": "copilot-dev-glossary-fc-2",
+    "front": "Copilot Chat",
+    "back": "A conversational interface for asking questions about code, distinct from inline autocomplete.",
+    "difficulty": "intermediate",
+    "tags": ["copilot", "ai"]
+  },
+  {
+    "id": "copilot-dev-glossary-fc-3",
+    "front": "Happy path",
+    "back": "The expected, error-free flow through a piece of code — tests that only cover this miss real bugs.",
+    "difficulty": "intermediate",
+    "tags": ["copilot", "ai"]
+  }
+]

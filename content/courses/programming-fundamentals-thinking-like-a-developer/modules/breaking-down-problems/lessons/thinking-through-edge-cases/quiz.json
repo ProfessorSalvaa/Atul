@@ -1,0 +1,40 @@
+[
+  {
+    "id": "thinking-through-edge-cases-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Thinking Through Edge Cases Before You Code\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Ask explicitly: what happens with empty input? The largest possible input? A negative number, if the domain allows one?\""
+    ],
+    "explanation": "Ask explicitly: what happens with empty input? The largest possible input? A negative number, if the domain allows one? — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask explicitly: what happens with empty input? The largest possible input? A negative number, if the domain allows one?"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "thinking-through-edge-cases-q2",
+    "type": "true-false",
+    "prompt": "True or false: Edge cases found before coding are cheap to handle; edge cases found by a user in production are expensive — the 5 minutes spent thinking about them upfront is rarely wasted",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Edge cases found before coding are cheap to handle; edge cases found by a user in production are expensive — the 5 minutes spent thinking about them upfront is rarely wasted",
+    "references": [],
+    "correctAnswer": true
+  }
+]

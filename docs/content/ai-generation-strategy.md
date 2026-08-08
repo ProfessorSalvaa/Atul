@@ -5,11 +5,15 @@
 > Generate 25 courses. Review. Approve. Publish. Repeat forever. No
 > application code should change.
 
-This document is the strategy for getting there safely. **M2.75 builds
-the engine that makes this possible — it does not turn the generator
-on.** No new content beyond the 8 migrated reference courses ships in
-this milestone; that's an explicit founder instruction this document
-respects.
+This document is the strategy for getting there safely. **M2.75 built
+the engine; M2.8 exercised it.** M2.8 shipped 100 new courses using the
+`CourseSpec → generate-courses.mts → content:validate` pipeline
+described below — with a human directly authoring every `CourseSpec`'s
+teaching content, not an LLM. See `launch-library.md` for what was
+actually generated, in what volume, and the exact daily-publishing
+pipeline that reuses this same mechanism. The one thing M2.8 still
+doesn't do is call an LLM in the loop — `CourseSpec` is proven as the
+generation _contract_, but nothing yet produces one automatically.
 
 ## Why the schema-first architecture is what makes this safe
 
@@ -85,5 +89,12 @@ production. Curitiq's content engine inverts that risk:
 - Automated slug-collision or duplicate-content detection beyond what
   `validate-content.ts` already checks.
 
-These are natural M3+/M4+ follow-ups once the engine itself has been
-exercised with more real content.
+These are natural M3+/M4+ follow-ups now that the engine has been
+exercised with 100 real courses in M2.8 (see `launch-library.md`).
+Specifically, M2.8 proved out steps 2-3 of the pipeline above exactly
+as designed (`generate-courses.mts` as the mechanical expansion step,
+`content:validate` as the pre-review gate) using human-authored
+`CourseSpec` objects in place of LLM output — the natural next step is
+wiring an actual LLM call to produce `CourseSpec` JSON against a
+prompt grounded in the schema, with everything downstream of that
+(validation, staging, review, publishing) unchanged.

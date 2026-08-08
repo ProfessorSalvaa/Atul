@@ -1,0 +1,40 @@
+[
+  {
+    "id": "azure-rbac-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Role-Based Access Control (RBAC)\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"RBAC assigns roles (built-in or custom) to users, groups, or service principals, scoped to a specific resource, resource group, or subscription\""
+    ],
+    "explanation": "RBAC assigns roles (built-in or custom) to users, groups, or service principals, scoped to a specific resource, resource group, or subscription — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "RBAC assigns roles (built-in or custom) to users, groups, or service principals, scoped to a specific resource, resource group, or subscription"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "azure-rbac-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use built-in roles like Reader or Contributor where they fit rather than defaulting to Owner — Owner grants far more than most tasks require",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use built-in roles like Reader or Contributor where they fit rather than defaulting to Owner — Owner grants far more than most tasks require",
+    "references": [],
+    "correctAnswer": true
+  }
+]

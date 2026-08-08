@@ -1,0 +1,14 @@
+slug: problems-vs-solutions
+title: Problems vs. Prematurely Assumed Solutions
+description: "The most common failure in business analysis: skipping straight to a fix."
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Separating the Problem From a Premature Solution"
+  - id: mo-2
+    text: "Grasp: Process Mapping Basics"
+lessons:
+  - slug: separating-problem-from-solution
+    order: 0
+  - slug: process-mapping-basics
+    order: 1

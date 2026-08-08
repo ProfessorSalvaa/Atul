@@ -1,0 +1,47 @@
+---
+type: code
+title: Getting the Aggregation Grain Right
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand getting the aggregation grain right
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Getting the Aggregation Grain Right."
+  keyConcepts:
+    - Decide the grain (one row per what?) before writing the query —
+      customer-level, order-level, and order-line-level questions need
+      structurally different queries
+    - When joining a one-to-many relationship (customer to orders) and then
+      aggregating, be explicit about whether you're summing at the order-line
+      grain or the order grain — mixing these up double-counts
+    - Use a subquery or CTE to pre-aggregate the many-side table to the grain
+      you need before joining, rather than joining raw and hoping GROUP BY sorts
+      it out
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Combining Joins with Aggregation** in _Intermediate SQL: Joins and Aggregation_. By the end, you should be able to put the following into practice:
+
+- Decide the grain (one row per what?) before writing the query — customer-level, order-level, and order-line-level questions need structurally different queries
+- When joining a one-to-many relationship (customer to orders) and then aggregating, be explicit about whether you're summing at the order-line grain or the order grain — mixing these up double-counts
+- Use a subquery or CTE to pre-aggregate the many-side table to the grain you need before joining, rather than joining raw and hoping GROUP BY sorts it out
+
+```sql
+-- Pre-aggregate order lines to order-level before joining, to avoid fan-out:
+WITH order_totals AS (
+  SELECT order_id, SUM(line_total) AS order_total
+  FROM order_lines
+  GROUP BY order_id
+)
+SELECT c.customer_id, SUM(ot.order_total) AS lifetime_value
+FROM customers c
+JOIN order_totals ot ON c.customer_id = ot.customer_id
+GROUP BY c.customer_id;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

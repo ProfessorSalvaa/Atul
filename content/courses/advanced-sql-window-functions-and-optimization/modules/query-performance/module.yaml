@@ -1,0 +1,14 @@
+slug: query-performance
+title: Query Performance Basics
+description: Enough to diagnose an obviously slow query without being a DBA.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Reading a Query Execution Plan"
+  - id: mo-2
+    text: "Grasp: Advanced SQL Terms Flip Deck"
+lessons:
+  - slug: reading-an-execution-plan
+    order: 0
+  - slug: advanced-sql-glossary
+    order: 1

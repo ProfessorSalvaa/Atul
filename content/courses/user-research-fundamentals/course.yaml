@@ -1,0 +1,70 @@
+slug: user-research-fundamentals
+title: User Research Fundamentals
+subtitle: Finding out what users actually need instead of guessing — interviews, usability testing,
+  and turning messy qualitative data into real design decisions.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 115
+tags: &a1
+  - ui-design
+skills:
+  - user-research
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: false
+objectives:
+  - id: obj-1
+    text: Write unbiased interview questions that avoid leading the participant
+  - id: obj-2
+    text: Plan and run a basic usability test
+  - id: obj-3
+    text: Synthesize research notes into actionable insights
+prerequisites: []
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching User Research Fundamentals on Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: talking-to-users
+    order: 0
+  - slug: usability-testing-and-synthesis
+    order: 1
+projectSlugs:
+  - research-plan-and-synthesis
+assessmentSlugs: []
+resources:
+  - title: "Nielsen Norman Group: User Interviews"
+    type: external-link
+    url: https://www.nngroup.com/articles/user-interviews/
+    description: A practical guide to conducting effective user interviews.
+certificate:
+  title: User Research Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the research plan and synthesis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: User Research Fundamentals | Curitiq
+  description: Finding out what users actually need instead of guessing — interviews, usability
+    testing, and turning messy qualitative data into real design decisions.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Finding out what users actually need instead of guessing — interviews, usability testing,
+    and turning messy qualitative data into real design decisions.
+  keyConcepts:
+    - Write unbiased interview questions that avoid leading the participant
+    - Plan and run a basic usability test
+    - Synthesize research notes into actionable insights
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "preparing-for-technical-rounds-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Preparing for Technical Interview Rounds\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Practice explaining your thinking out loud while solving a problem — many technical interviews evaluate reasoning process as much as the final answer, and silent problem-solving gives the interviewer nothing to assess\""
+    ],
+    "explanation": "Practice explaining your thinking out loud while solving a problem — many technical interviews evaluate reasoning process as much as the final answer, and silent problem-solving gives the interviewer nothing to assess — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Practice explaining your thinking out loud while solving a problem — many technical interviews evaluate reasoning process as much as the final answer, and silent problem-solving gives the interviewer nothing to assess"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "preparing-for-technical-rounds-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask clarifying questions before diving into a solution — this is expected, not a sign of weakness, and jumping straight to code on an ambiguous problem often produces the wrong solution efficiently",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask clarifying questions before diving into a solution — this is expected, not a sign of weakness, and jumping straight to code on an ambiguous problem often produces the wrong solution efficiently",
+    "references": [],
+    "correctAnswer": true
+  }
+]

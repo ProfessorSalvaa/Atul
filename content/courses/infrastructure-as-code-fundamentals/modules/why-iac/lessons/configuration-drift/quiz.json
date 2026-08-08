@@ -1,0 +1,40 @@
+[
+  {
+    "id": "configuration-drift-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Configuration Drift and Why It's Dangerous\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Configuration drift happens when the real infrastructure state diverges from what's documented — usually from manual console changes made 'just this once' during an incident and never recorded\""
+    ],
+    "explanation": "Configuration drift happens when the real infrastructure state diverges from what's documented — usually from manual console changes made 'just this once' during an incident and never recorded — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Configuration drift happens when the real infrastructure state diverges from what's documented — usually from manual console changes made 'just this once' during an incident and never recorded"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "configuration-drift-q2",
+    "type": "true-false",
+    "prompt": "True or false: Drift makes environments unpredictable — 'it works in staging' stops being reliable evidence when staging and production have silently diverged in undocumented ways",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Drift makes environments unpredictable — 'it works in staging' stops being reliable evidence when staging and production have silently diverged in undocumented ways",
+    "references": [],
+    "correctAnswer": true
+  }
+]

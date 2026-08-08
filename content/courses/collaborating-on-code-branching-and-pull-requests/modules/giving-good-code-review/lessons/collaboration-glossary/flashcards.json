@@ -1,0 +1,23 @@
+[
+  {
+    "id": "collaboration-glossary-fc-1",
+    "front": "Trunk-based development",
+    "back": "A branching strategy favoring short-lived branches merged frequently into a single main branch.",
+    "difficulty": "intermediate",
+    "tags": ["git", "github"]
+  },
+  {
+    "id": "collaboration-glossary-fc-2",
+    "front": "Feature flag",
+    "back": "A toggle allowing incomplete or risky code to be merged and deployed while disabled, then enabled when ready.",
+    "difficulty": "intermediate",
+    "tags": ["git", "github"]
+  },
+  {
+    "id": "collaboration-glossary-fc-3",
+    "front": "Blocking comment",
+    "back": "Code review feedback that must be addressed before a pull request can be merged, as opposed to an optional suggestion.",
+    "difficulty": "intermediate",
+    "tags": ["git", "github"]
+  }
+]

@@ -1,0 +1,14 @@
+slug: how-ad-auctions-work
+title: How Ad Auctions Work
+description: Paid placement isn't just about who bids highest.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Auction Mechanics: Bid, Quality, and Relevance"
+  - id: mo-2
+    text: "Grasp: Audience Targeting Approaches"
+lessons:
+  - slug: auction-mechanics
+    order: 0
+  - slug: audience-targeting
+    order: 1

@@ -1,0 +1,70 @@
+slug: career-planning-and-goal-setting
+title: Career Planning and Goal Setting
+subtitle: Building a career direction deliberately instead of reactively — setting goals you'll
+  actually revisit, and recognizing when it's time to change course.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 95
+tags: &a1
+  - career
+skills:
+  - career-planning
+careerPaths: []
+category: career-growth
+premium: false
+objectives:
+  - id: obj-1
+    text: Set career goals that are specific enough to actually act on
+  - id: obj-2
+    text: Build a skills gap plan connecting current abilities to a target role
+  - id: obj-3
+    text: Recognize signals that indicate it's time to reassess a career direction
+prerequisites: []
+instructor:
+  name: Priya Shah
+  title: Career Coach, ex-LinkedIn Talent Solutions
+  bio: Priya Shah is Career Coach, ex-LinkedIn Talent Solutions, teaching Career Planning and Goal
+    Setting on Curitiq.
+  avatarInitials: PS
+modules:
+  - slug: setting-actionable-goals
+    order: 0
+  - slug: knowing-when-to-change-course
+    order: 1
+projectSlugs:
+  - career-plan-with-skills-gap
+assessmentSlugs: []
+resources:
+  - title: "80,000 Hours: Career Planning"
+    type: external-link
+    url: https://80000hours.org/career-guide/
+    description: A widely referenced framework for thinking about career decisions.
+certificate:
+  title: Career Planning and Goal Setting — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the career plan with skills gap analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Career Planning and Goal Setting | Curitiq
+  description: Building a career direction deliberately instead of reactively — setting goals you'll
+    actually revisit, and recognizing when it's time to change course.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Building a career direction deliberately instead of reactively — setting goals you'll
+    actually revisit, and recognizing when it's time to change course.
+  keyConcepts:
+    - Set career goals that are specific enough to actually act on
+    - Build a skills gap plan connecting current abilities to a target role
+    - Recognize signals that indicate it's time to reassess a career direction
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

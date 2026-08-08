@@ -1,0 +1,40 @@
+[
+  {
+    "id": "few-shot-prompting-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Few-Shot Prompting: Show, Don't Just Tell\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A zero-shot prompt asks directly with no example; a few-shot prompt includes 1-3 examples of the input/output pattern you want\""
+    ],
+    "explanation": "A zero-shot prompt asks directly with no example; a few-shot prompt includes 1-3 examples of the input/output pattern you want — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A zero-shot prompt asks directly with no example; a few-shot prompt includes 1-3 examples of the input/output pattern you want"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "few-shot-prompting-q2",
+    "type": "true-false",
+    "prompt": "True or false: Few-shot prompting is the single highest-leverage technique for controlling tone and structure — models imitate the pattern you show far more reliably than a text description of the pattern",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Few-shot prompting is the single highest-leverage technique for controlling tone and structure — models imitate the pattern you show far more reliably than a text description of the pattern",
+    "references": [],
+    "correctAnswer": true
+  }
+]

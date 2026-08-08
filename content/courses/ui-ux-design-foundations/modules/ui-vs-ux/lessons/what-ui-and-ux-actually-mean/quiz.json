@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-ui-and-ux-actually-mean-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What UI and UX Actually Mean\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"UX (user experience) is about whether the product actually solves the user's problem well — the flow, the logic, whether it makes sense; UI (user interface) is the specific visual and interactive layer the user touches\""
+    ],
+    "explanation": "UX (user experience) is about whether the product actually solves the user's problem well — the flow, the logic, whether it makes sense; UI (user interface) is the specific visual and interactive layer the user touches — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "UX (user experience) is about whether the product actually solves the user's problem well — the flow, the logic, whether it makes sense; UI (user interface) is the specific visual and interactive layer the user touches"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-ui-and-ux-actually-mean-q2",
+    "type": "true-false",
+    "prompt": "True or false: A product can have beautiful UI and terrible UX (a gorgeous form that asks for information in a confusing order) — visual polish doesn't fix a broken flow",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A product can have beautiful UI and terrible UX (a gorgeous form that asks for information in a confusing order) — visual polish doesn't fix a broken flow",
+    "references": [],
+    "correctAnswer": true
+  }
+]

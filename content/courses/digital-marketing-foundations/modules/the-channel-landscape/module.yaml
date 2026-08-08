@@ -1,0 +1,14 @@
+slug: the-channel-landscape
+title: The Channel Landscape
+description: Search, social, email, and content — different tools for different jobs.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Major Digital Marketing Channels"
+  - id: mo-2
+    text: "Grasp: Paid, Owned, and Earned Media"
+lessons:
+  - slug: major-channels-overview
+    order: 0
+  - slug: paid-owned-earned-media
+    order: 1

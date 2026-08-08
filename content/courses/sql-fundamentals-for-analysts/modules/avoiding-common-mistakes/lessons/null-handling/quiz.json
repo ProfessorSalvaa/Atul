@@ -1,0 +1,40 @@
+[
+  {
+    "id": "null-handling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"NULL Handling and Off-By-Default Mistakes\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"NULL means 'unknown', not zero or empty string — comparisons like `= NULL` never match anything; use `IS NULL` / `IS NOT NULL` instead\""
+    ],
+    "explanation": "NULL means 'unknown', not zero or empty string — comparisons like `= NULL` never match anything; use `IS NULL` / `IS NOT NULL` instead — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "NULL means 'unknown', not zero or empty string — comparisons like `= NULL` never match anything; use `IS NULL` / `IS NOT NULL` instead"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "null-handling-q2",
+    "type": "true-false",
+    "prompt": "True or false: COUNT(*) counts all rows including NULLs; COUNT(column_name) only counts non-null values in that column — mixing these up silently changes your denominator",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — COUNT(*) counts all rows including NULLs; COUNT(column_name) only counts non-null values in that column — mixing these up silently changes your denominator",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-threat-categories-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Threat Categories\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Malware (viruses, ransomware, spyware) is malicious software that infiltrates a system — ransomware specifically encrypts data and demands payment for the decryption key\""
+    ],
+    "explanation": "Malware (viruses, ransomware, spyware) is malicious software that infiltrates a system — ransomware specifically encrypts data and demands payment for the decryption key — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Malware (viruses, ransomware, spyware) is malicious software that infiltrates a system — ransomware specifically encrypts data and demands payment for the decryption key"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-threat-categories-q2",
+    "type": "true-false",
+    "prompt": "True or false: Phishing manipulates people rather than exploiting a technical flaw — it's consistently one of the most effective attack vectors precisely because it targets human trust, not code",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Phishing manipulates people rather than exploiting a technical flaw — it's consistently one of the most effective attack vectors precisely because it targets human trust, not code",
+    "references": [],
+    "correctAnswer": true
+  }
+]

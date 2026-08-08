@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-makes-a-good-commit-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What Makes a Good Commit\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"One commit should represent one logical change — a commit that mixes an unrelated bug fix with a new feature makes history harder to read and harder to revert selectively\""
+    ],
+    "explanation": "One commit should represent one logical change — a commit that mixes an unrelated bug fix with a new feature makes history harder to read and harder to revert selectively — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "One commit should represent one logical change — a commit that mixes an unrelated bug fix with a new feature makes history harder to read and harder to revert selectively"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-makes-a-good-commit-q2",
+    "type": "true-false",
+    "prompt": "True or false: Write commit messages in the imperative mood ('Fix login redirect', not 'Fixed' or 'Fixes') — this matches Git's own generated messages and is the de facto convention",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Write commit messages in the imperative mood ('Fix login redirect', not 'Fixed' or 'Fixes') — this matches Git's own generated messages and is the de facto convention",
+    "references": [],
+    "correctAnswer": true
+  }
+]

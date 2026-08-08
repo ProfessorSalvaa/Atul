@@ -1,0 +1,41 @@
+---
+type: code
+title: Selecting and Updating the DOM
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand selecting and updating the dom
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Selecting and Updating the DOM."
+  keyConcepts:
+    - "`document.querySelector`/`querySelectorAll` are the modern default for
+      selecting elements, using familiar CSS selector syntax"
+    - Add event listeners with `addEventListener` rather than inline `onclick`
+      attributes — this keeps behavior separate from markup and allows multiple
+      listeners on one element
+    - Batch DOM updates where possible — repeatedly triggering layout
+      recalculation in a tight loop is a common, avoidable source of janky
+      performance
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+This lesson is part of **JavaScript Basics and the DOM** in _JavaScript Fundamentals_. By the end, you should be able to put the following into practice:
+
+- `document.querySelector`/`querySelectorAll` are the modern default for selecting elements, using familiar CSS selector syntax
+- Add event listeners with `addEventListener` rather than inline `onclick` attributes — this keeps behavior separate from markup and allows multiple listeners on one element
+- Batch DOM updates where possible — repeatedly triggering layout recalculation in a tight loop is a common, avoidable source of janky performance
+
+```javascript
+const button = document.querySelector("#submit");
+button.addEventListener("click", () => {
+  const input = document.querySelector("#name").value;
+  document.querySelector("#greeting").textContent = `Hello, ${input}!`;
+});
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

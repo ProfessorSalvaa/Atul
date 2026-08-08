@@ -1,0 +1,23 @@
+[
+  {
+    "id": "database-scaling-glossary-fc-1",
+    "front": "Replication lag",
+    "back": "The delay before a write on a primary database propagates to its replicas.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "database-scaling-glossary-fc-2",
+    "front": "Hot shard",
+    "back": "A database shard receiving disproportionately more load than others due to a poor shard key choice.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "database-scaling-glossary-fc-3",
+    "front": "Cache-aside",
+    "back": "A caching pattern where the application checks the cache first and falls back to the database on a miss.",
+    "difficulty": "intermediate",
+    "tags": ["system-design"]
+  }
+]

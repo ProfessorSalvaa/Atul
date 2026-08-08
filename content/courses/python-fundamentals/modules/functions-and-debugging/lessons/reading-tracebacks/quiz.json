@@ -1,0 +1,40 @@
+[
+  {
+    "id": "reading-tracebacks-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reading a Traceback Without Panicking\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Read a Python traceback from the bottom up — the last line names the actual error, and the lines above trace the call path that led there\""
+    ],
+    "explanation": "Read a Python traceback from the bottom up — the last line names the actual error, and the lines above trace the call path that led there — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Read a Python traceback from the bottom up — the last line names the actual error, and the lines above trace the call path that led there"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reading-tracebacks-q2",
+    "type": "true-false",
+    "prompt": "True or false: The line number and file shown for each frame tell you exactly where to look — you rarely need to guess where an error happened",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The line number and file shown for each frame tell you exactly where to look — you rarely need to guess where an error happened",
+    "references": [],
+    "correctAnswer": true
+  }
+]

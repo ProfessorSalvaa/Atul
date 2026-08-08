@@ -1,0 +1,76 @@
+slug: python-data-structures-and-algorithms
+title: Python Data Structures and Algorithms
+subtitle: The core data structures and algorithmic thinking that show up constantly in real code and
+  technical interviews alike.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 135
+tags: &a1
+  - python
+  - programming
+skills:
+  - python-data-structures
+  - debugging
+careerPaths:
+  - software-engineer
+category: python
+premium: true
+objectives:
+  - id: obj-1
+    text: Choose the right data structure based on the operations a problem needs
+  - id: obj-2
+    text: Explain the time complexity of common operations in plain terms
+  - id: obj-3
+    text: Solve problems using recursion and understand when it's the wrong tool
+prerequisites:
+  - courseSlug: python-fundamentals
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Python Data Structures and
+    Algorithms on Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: choosing-data-structures
+    order: 0
+  - slug: recursion-and-problem-solving
+    order: 1
+projectSlugs:
+  - algorithm-practice-set
+assessmentSlugs: []
+resources:
+  - title: Python Time Complexity Reference
+    type: external-link
+    url: https://wiki.python.org/moin/TimeComplexity
+    description: Official reference for the time complexity of Python's built-in operations.
+certificate:
+  title: Python Data Structures and Algorithms — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the algorithm practice set
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Python Data Structures and Algorithms | Curitiq
+  description:
+    The core data structures and algorithmic thinking that show up constantly in real code
+    and technical interviews alike.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The core data structures and algorithmic thinking that show up constantly in real code and
+    technical interviews alike.
+  keyConcepts:
+    - Choose the right data structure based on the operations a problem needs
+    - Explain the time complexity of common operations in plain terms
+    - Solve problems using recursion and understand when it's the wrong tool
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cohort-funnel-glossary-fc-1",
+    "front": "Cohort",
+    "back": "A group of users defined by a shared starting event (e.g. signup month), tracked over time.",
+    "difficulty": "advanced",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "cohort-funnel-glossary-fc-2",
+    "front": "Retention curve",
+    "back": "A chart showing what percentage of a cohort remains active over successive time periods.",
+    "difficulty": "advanced",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "cohort-funnel-glossary-fc-3",
+    "front": "Funnel",
+    "back": "A defined sequence of steps a user takes toward a goal, analyzed for drop-off at each step.",
+    "difficulty": "advanced",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "cohort-funnel-glossary-fc-4",
+    "front": "Step-to-step conversion",
+    "back": "The conversion rate from one specific funnel step to the very next one, as opposed to overall conversion from the first step.",
+    "difficulty": "advanced",
+    "tags": ["data", "analytics"]
+  }
+]

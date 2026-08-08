@@ -1,0 +1,40 @@
+[
+  {
+    "id": "generating-documentation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Generating Data Dictionaries and Docs from a Schema\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Paste in a table schema and ask for a first-draft data dictionary (column name, inferred purpose, likely data quality caveats) — this is a strong starting point, not a finished artifact\""
+    ],
+    "explanation": "Paste in a table schema and ask for a first-draft data dictionary (column name, inferred purpose, likely data quality caveats) — this is a strong starting point, not a finished artifact — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Paste in a table schema and ask for a first-draft data dictionary (column name, inferred purpose, likely data quality caveats) — this is a strong starting point, not a finished artifact"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "generating-documentation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Have a human with real domain knowledge review and correct the inferred purposes — the model is guessing from naming conventions, not from ground truth",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Have a human with real domain knowledge review and correct the inferred purposes — the model is guessing from naming conventions, not from ground truth",
+    "references": [],
+    "correctAnswer": true
+  }
+]

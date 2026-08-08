@@ -1,0 +1,40 @@
+[
+  {
+    "id": "prioritization-frameworks-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Prioritization Frameworks\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"RICE (Reach, Impact, Confidence, Effort) scores each candidate feature to produce a comparable number, forcing explicit reasoning about tradeoffs instead of an unstated gut ranking\""
+    ],
+    "explanation": "RICE (Reach, Impact, Confidence, Effort) scores each candidate feature to produce a comparable number, forcing explicit reasoning about tradeoffs instead of an unstated gut ranking — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "RICE (Reach, Impact, Confidence, Effort) scores each candidate feature to produce a comparable number, forcing explicit reasoning about tradeoffs instead of an unstated gut ranking"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "prioritization-frameworks-q2",
+    "type": "true-false",
+    "prompt": "True or false: A framework's real value is the conversation it forces, not the exact number it produces — two people scoring the same feature differently is a useful signal to discuss, not a bug in the framework",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A framework's real value is the conversation it forces, not the exact number it produces — two people scoring the same feature differently is a useful signal to discuss, not a bug in the framework",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,36 @@
+---
+type: code
+title: Combining Functions for Multi-Step Logic
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand combining functions for multi-step logic
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Combining Functions for Multi-Step Logic."
+  keyConcepts:
+    - Break a complex requirement into steps first, then combine — trying to
+      write a 5-condition nested formula in one pass is how errors creep in
+    - IFS is cleaner than nested IF statements for multiple conditions, and
+      easier for someone else to read and debug later
+    - Name your ranges (Formulas > Define Name) for formulas that will be read
+      by others — SUM(Revenue) is far more maintainable than SUM(C2:C847)
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Dynamic Array Formulas** in _Advanced Excel Formulas and Automation_. By the end, you should be able to put the following into practice:
+
+- Break a complex requirement into steps first, then combine — trying to write a 5-condition nested formula in one pass is how errors creep in
+- IFS is cleaner than nested IF statements for multiple conditions, and easier for someone else to read and debug later
+- Name your ranges (Formulas > Define Name) for formulas that will be read by others — SUM(Revenue) is far more maintainable than SUM(C2:C847)
+
+```text
+=IFS(D2>=90,"A", D2>=80,"B", D2>=70,"C", TRUE,"F")
+// Cleaner than nested IF() for grading-style multi-tier logic
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

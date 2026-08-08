@@ -1,0 +1,40 @@
+[
+  {
+    "id": "handling-a-no-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Handling a Firm 'No'\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"If an employer says a number is truly fixed, believe them and decide based on the offer as it stands, rather than repeating the same ask — persistence past a genuine 'no' damages the relationship without changing the outcome\""
+    ],
+    "explanation": "If an employer says a number is truly fixed, believe them and decide based on the offer as it stands, rather than repeating the same ask — persistence past a genuine 'no' damages the relationship without changing the outcome — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "If an employer says a number is truly fixed, believe them and decide based on the offer as it stands, rather than repeating the same ask — persistence past a genuine 'no' damages the relationship without changing the outcome"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "handling-a-no-q2",
+    "type": "true-false",
+    "prompt": "True or false: Consider non-monetary asks (title, start date, remote flexibility, a scheduled review date) when compensation itself is firm — these can still meaningfully improve the offer",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Consider non-monetary asks (title, start date, remote flexibility, a scheduled review date) when compensation itself is firm — these can still meaningfully improve the offer",
+    "references": [],
+    "correctAnswer": true
+  }
+]

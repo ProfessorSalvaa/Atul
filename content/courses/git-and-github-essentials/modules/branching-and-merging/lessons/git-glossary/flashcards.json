@@ -1,0 +1,23 @@
+[
+  {
+    "id": "git-glossary-fc-1",
+    "front": "Commit",
+    "back": "A saved snapshot of changes in a Git repository, with a message describing what changed.",
+    "difficulty": "beginner",
+    "tags": ["git", "github"]
+  },
+  {
+    "id": "git-glossary-fc-2",
+    "front": "Branch",
+    "back": "An independent line of development, allowing work to happen in isolation before merging.",
+    "difficulty": "beginner",
+    "tags": ["git", "github"]
+  },
+  {
+    "id": "git-glossary-fc-3",
+    "front": "Merge conflict",
+    "back": "A situation where Git can't automatically combine changes because the same lines were edited differently on two branches.",
+    "difficulty": "beginner",
+    "tags": ["git", "github"]
+  }
+]

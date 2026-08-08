@@ -1,0 +1,40 @@
+[
+  {
+    "id": "scoring-probability-and-impact-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Scoring Risks by Probability and Impact\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Score each risk on probability (how likely) and impact (how bad if it happens) — a risk matrix combining these two dimensions helps prioritize where response effort actually goes\""
+    ],
+    "explanation": "Score each risk on probability (how likely) and impact (how bad if it happens) — a risk matrix combining these two dimensions helps prioritize where response effort actually goes — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Score each risk on probability (how likely) and impact (how bad if it happens) — a risk matrix combining these two dimensions helps prioritize where response effort actually goes"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "scoring-probability-and-impact-q2",
+    "type": "true-false",
+    "prompt": "True or false: A low-probability, high-impact risk (a key vendor going out of business) still deserves a response plan, even though it's easy to deprioritize because it 'probably won't happen'",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A low-probability, high-impact risk (a key vendor going out of business) still deserves a response plan, even though it's easy to deprioritize because it 'probably won't happen'",
+    "references": [],
+    "correctAnswer": true
+  }
+]

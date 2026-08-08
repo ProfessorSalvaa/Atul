@@ -1,0 +1,14 @@
+slug: alerting-well
+title: Alerting Without Alert Fatigue
+description: An alert that fires constantly and means nothing gets ignored, which defeats the point.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Alerting on Symptoms, Not Every Possible Cause"
+  - id: mo-2
+    text: "Grasp: Observability Terms Flip Deck"
+lessons:
+  - slug: alerting-on-symptoms-not-causes
+    order: 0
+  - slug: observability-glossary
+    order: 1

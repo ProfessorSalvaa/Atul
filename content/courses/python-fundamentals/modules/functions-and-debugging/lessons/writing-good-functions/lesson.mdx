@@ -1,0 +1,39 @@
+---
+type: code
+title: Writing Functions with Clear Inputs and Outputs
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand writing functions with clear inputs and outputs
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Writing Functions with Clear Inputs and Outputs."
+  keyConcepts:
+    - A function should do one clear thing — if you can't summarize what it does
+      in one sentence without 'and', it's probably doing too much
+    - Use default arguments for optional parameters, but avoid mutable default
+      arguments (like `def f(x, items=[])`) — this is a classic Python gotcha
+      that causes shared state bugs
+    - Raise a specific, descriptive exception when input is invalid rather than
+      letting the function fail confusingly three lines later
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Functions and Debugging** in _Python Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A function should do one clear thing — if you can't summarize what it does in one sentence without 'and', it's probably doing too much
+- Use default arguments for optional parameters, but avoid mutable default arguments (like `def f(x, items=[])`) — this is a classic Python gotcha that causes shared state bugs
+- Raise a specific, descriptive exception when input is invalid rather than letting the function fail confusingly three lines later
+
+```python
+def calculate_discount(price, percent):
+    if not 0 <= percent <= 100:
+        raise ValueError(f"percent must be between 0 and 100, got {percent}")
+    return price * (1 - percent / 100)
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

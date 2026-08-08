@@ -1,0 +1,14 @@
+slug: from-question-to-analysis
+title: From Business Question to Analysis
+description: The step most new data scientists skip past too quickly.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Scoping a Vague Business Question"
+  - id: mo-2
+    text: "Grasp: The Data Science Project Lifecycle"
+lessons:
+  - slug: scoping-the-question
+    order: 0
+  - slug: the-ds-project-lifecycle
+    order: 1

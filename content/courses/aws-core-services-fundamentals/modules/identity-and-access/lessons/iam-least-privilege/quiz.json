@@ -1,0 +1,40 @@
+[
+  {
+    "id": "iam-least-privilege-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"IAM and the Principle of Least Privilege\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"IAM policies define what actions a user, role, or service can perform on which resources — grant only the specific permissions a task actually requires, not broad admin access for convenience\""
+    ],
+    "explanation": "IAM policies define what actions a user, role, or service can perform on which resources — grant only the specific permissions a task actually requires, not broad admin access for convenience — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "IAM policies define what actions a user, role, or service can perform on which resources — grant only the specific permissions a task actually requires, not broad admin access for convenience"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "iam-least-privilege-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use IAM roles (not long-lived access keys) for services and applications wherever possible — roles provide temporary, automatically-rotated credentials, which is significantly safer",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use IAM roles (not long-lived access keys) for services and applications wherever possible — roles provide temporary, automatically-rotated credentials, which is significantly safer",
+    "references": [],
+    "correctAnswer": true
+  }
+]

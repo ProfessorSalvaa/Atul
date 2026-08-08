@@ -1,0 +1,40 @@
+[
+  {
+    "id": "nested-logic-formulas-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Combining Functions for Multi-Step Logic\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Break a complex requirement into steps first, then combine — trying to write a 5-condition nested formula in one pass is how errors creep in\""
+    ],
+    "explanation": "Break a complex requirement into steps first, then combine — trying to write a 5-condition nested formula in one pass is how errors creep in — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Break a complex requirement into steps first, then combine — trying to write a 5-condition nested formula in one pass is how errors creep in"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "nested-logic-formulas-q2",
+    "type": "true-false",
+    "prompt": "True or false: IFS is cleaner than nested IF statements for multiple conditions, and easier for someone else to read and debug later",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — IFS is cleaner than nested IF statements for multiple conditions, and easier for someone else to read and debug later",
+    "references": [],
+    "correctAnswer": true
+  }
+]

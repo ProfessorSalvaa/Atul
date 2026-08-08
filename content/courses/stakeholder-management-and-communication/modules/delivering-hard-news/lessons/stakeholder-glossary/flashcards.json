@@ -1,0 +1,23 @@
+[
+  {
+    "id": "stakeholder-glossary-fc-1",
+    "front": "Stakeholder mapping",
+    "back": "Categorizing stakeholders by influence and interest to prioritize communication effort appropriately.",
+    "difficulty": "intermediate",
+    "tags": ["project-management", "communication"]
+  },
+  {
+    "id": "stakeholder-glossary-fc-2",
+    "front": "Status: at risk",
+    "back": "A project status indicating a risk exists that could impact delivery if unaddressed, short of already off track.",
+    "difficulty": "intermediate",
+    "tags": ["project-management", "communication"]
+  },
+  {
+    "id": "stakeholder-glossary-fc-3",
+    "front": "Tailored communication",
+    "back": "Adjusting the content, detail, and frequency of updates to match each stakeholder's actual needs.",
+    "difficulty": "intermediate",
+    "tags": ["project-management", "communication"]
+  }
+]

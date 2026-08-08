@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-so-what-test-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The 'So What' Test\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Before finalizing a chart, ask: could someone glance at this for 5 seconds and state the finding correctly? If not, the chart needs simplifying, not more annotation\""
+    ],
+    "explanation": "Before finalizing a chart, ask: could someone glance at this for 5 seconds and state the finding correctly? If not, the chart needs simplifying, not more annotation — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Before finalizing a chart, ask: could someone glance at this for 5 seconds and state the finding correctly? If not, the chart needs simplifying, not more annotation"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-so-what-test-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use color deliberately to highlight the one series or category that matters, and gray out the rest — color applied uniformly draws attention to nothing in particular",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use color deliberately to highlight the one series or category that matters, and gray out the rest — color applied uniformly draws attention to nothing in particular",
+    "references": [],
+    "correctAnswer": true
+  }
+]

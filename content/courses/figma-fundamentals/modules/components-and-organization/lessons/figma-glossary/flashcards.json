@@ -1,0 +1,23 @@
+[
+  {
+    "id": "figma-glossary-fc-1",
+    "front": "Auto layout",
+    "back": "A Figma feature that makes elements reflow automatically based on content, similar to flexbox in CSS.",
+    "difficulty": "beginner",
+    "tags": ["ui-design", "figma"]
+  },
+  {
+    "id": "figma-glossary-fc-2",
+    "front": "Component variant",
+    "back": "A grouped, switchable version of a component representing a different state or configuration.",
+    "difficulty": "beginner",
+    "tags": ["ui-design", "figma"]
+  },
+  {
+    "id": "figma-glossary-fc-3",
+    "front": "Constraint",
+    "back": "A setting defining how an element behaves when its parent frame is resized.",
+    "difficulty": "beginner",
+    "tags": ["ui-design", "figma"]
+  }
+]

@@ -1,0 +1,44 @@
+---
+type: code
+title: Building an Attack Tree
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand building an attack tree
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Building an Attack Tree."
+  keyConcepts:
+    - An attack tree starts from a specific goal (e.g. 'access customer payment
+      data') and breaks it down into the different paths an attacker could take
+      to achieve it
+    - Each path can be broken down further into sub-steps, revealing which
+      specific weak points would need to hold for the attack to fail
+    - Attack trees make it obvious where a single control (e.g. one exposed
+      endpoint) is a single point of failure for multiple attack paths,
+      prioritizing where to invest defense effort
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Structured Threat Identification** in _Threat Modeling for Engineers_. By the end, you should be able to put the following into practice:
+
+- An attack tree starts from a specific goal (e.g. 'access customer payment data') and breaks it down into the different paths an attacker could take to achieve it
+- Each path can be broken down further into sub-steps, revealing which specific weak points would need to hold for the attack to fail
+- Attack trees make it obvious where a single control (e.g. one exposed endpoint) is a single point of failure for multiple attack paths, prioritizing where to invest defense effort
+
+```text
+Goal: Access customer payment data
+├── Compromise application server
+│   ├── Exploit unpatched vulnerability
+│   └── Steal admin credentials (phishing)
+├── Intercept data in transit
+│   └── Man-in-the-middle on unencrypted connection
+└── Compromise database directly
+    └── SQL injection via unvalidated input
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

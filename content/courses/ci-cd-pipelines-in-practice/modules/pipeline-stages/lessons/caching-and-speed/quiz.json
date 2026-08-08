@@ -1,0 +1,40 @@
+[
+  {
+    "id": "caching-and-speed-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Caching Dependencies to Keep Builds Fast\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Re-downloading and reinstalling dependencies on every single pipeline run wastes significant time — cache dependency directories keyed on a lockfile hash\""
+    ],
+    "explanation": "Re-downloading and reinstalling dependencies on every single pipeline run wastes significant time — cache dependency directories keyed on a lockfile hash — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Re-downloading and reinstalling dependencies on every single pipeline run wastes significant time — cache dependency directories keyed on a lockfile hash"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "caching-and-speed-q2",
+    "type": "true-false",
+    "prompt": "True or false: A slow pipeline directly discourages frequent commits and small changes, undermining the whole point of CI — pipeline speed is a real product decision, not just an engineering nicety",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A slow pipeline directly discourages frequent commits and small changes, undermining the whole point of CI — pipeline speed is a real product decision, not just an engineering nicety",
+    "references": [],
+    "correctAnswer": true
+  }
+]

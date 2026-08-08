@@ -34,3 +34,93 @@
   label: Career
 - slug: growth
   label: Growth
+- slug: generative-ai
+  label: Generative AI
+- slug: chatgpt
+  label: ChatGPT
+- slug: claude
+  label: Claude
+- slug: copilot
+  label: Copilot
+- slug: llm
+  label: LLM
+- slug: excel
+  label: Excel
+- slug: power-bi
+  label: Power BI
+- slug: dashboards
+  label: Dashboards
+- slug: python
+  label: Python
+- slug: programming
+  label: Programming
+- slug: web-development
+  label: Web Development
+- slug: javascript
+  label: JavaScript
+- slug: html-css
+  label: HTML & CSS
+- slug: git
+  label: Git
+- slug: github
+  label: GitHub
+- slug: version-control
+  label: Version Control
+- slug: cloud
+  label: Cloud
+- slug: aws
+  label: AWS
+- slug: azure
+  label: Azure
+- slug: devops
+  label: DevOps
+- slug: ci-cd
+  label: CI/CD
+- slug: containers
+  label: Containers
+- slug: security
+  label: Security
+- slug: cybersecurity
+  label: Cybersecurity
+- slug: networking
+  label: Networking
+- slug: figma
+  label: Figma
+- slug: ui-design
+  label: UI Design
+- slug: user-research
+  label: User Research
+- slug: project-management
+  label: Project Management
+- slug: agile
+  label: Agile
+- slug: marketing
+  label: Marketing
+- slug: seo
+  label: SEO
+- slug: content-marketing
+  label: Content Marketing
+- slug: business
+  label: Business
+- slug: finance
+  label: Finance
+- slug: budgeting
+  label: Budgeting
+- slug: leadership
+  label: Leadership
+- slug: interview-prep
+  label: Interview Prep
+- slug: machine-learning
+  label: Machine Learning
+- slug: data-science
+  label: Data Science
+- slug: statistics
+  label: Statistics
+- slug: system-design
+  label: System Design
+- slug: apis
+  label: APIs
+- slug: databases
+  label: Databases
+- slug: design-systems
+  label: Design Systems

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "impact-over-responsibility-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Impact Over Responsibility\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'Responsible for managing social media accounts' describes a duty — 'grew Instagram following 40% in 6 months through a redesigned content calendar' demonstrates a measurable result, and the second is what actually gets attention\""
+    ],
+    "explanation": "'Responsible for managing social media accounts' describes a duty — 'grew Instagram following 40% in 6 months through a redesigned content calendar' demonstrates a measurable result, and the second is what actually gets attention — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'Responsible for managing social media accounts' describes a duty — 'grew Instagram following 40% in 6 months through a redesigned content calendar' demonstrates a measurable result, and the second is what actually gets attention"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "impact-over-responsibility-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use the format: action verb + what you did + measurable result — even an approximate or estimated number is usually stronger than no number at all",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use the format: action verb + what you did + measurable result — even an approximate or estimated number is usually stronger than no number at all",
+    "references": [],
+    "correctAnswer": true
+  }
+]

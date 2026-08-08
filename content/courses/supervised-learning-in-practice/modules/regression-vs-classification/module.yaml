@@ -1,0 +1,14 @@
+slug: regression-vs-classification
+title: Regression vs. Classification
+description: Predicting a number and predicting a category are genuinely different problems.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Regression and Classification Basics"
+  - id: mo-2
+    text: "Grasp: Starting With a Baseline"
+lessons:
+  - slug: regression-and-classification-basics
+    order: 0
+  - slug: starting-with-a-baseline
+    order: 1

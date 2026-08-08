@@ -1,0 +1,70 @@
+slug: financial-modeling-fundamentals
+title: Financial Modeling Fundamentals
+subtitle: Building a financial model that actually answers a real business question — assumptions,
+  drivers, and knowing what to trust in the output.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - finance
+skills:
+  - financial-modeling
+careerPaths: []
+category: finance
+premium: true
+objectives:
+  - id: obj-1
+    text: Structure a financial model around clearly separated inputs, calculations, and outputs
+  - id: obj-2
+    text: Identify the key drivers that actually determine a model's outcome
+  - id: obj-3
+    text: Stress-test a model with sensitivity analysis before trusting its conclusions
+prerequisites: []
+instructor:
+  name: Nadia Okafor
+  title: FP&A Director, ex-Goldman Sachs
+  bio: Nadia Okafor is FP&A Director, ex-Goldman Sachs, teaching Financial Modeling Fundamentals on
+    Curitiq.
+  avatarInitials: NO
+modules:
+  - slug: model-structure
+    order: 0
+  - slug: sensitivity-and-trust
+    order: 1
+projectSlugs:
+  - revenue-model-with-sensitivity
+assessmentSlugs: []
+resources:
+  - title: "CFI: Financial Modeling Guidelines"
+    type: external-link
+    url: https://corporatefinanceinstitute.com/resources/financial-modeling/financial-modeling-guidelines/
+    description: A widely referenced overview of financial modeling best practices.
+certificate:
+  title: Financial Modeling Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the revenue model with sensitivity analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Financial Modeling Fundamentals | Curitiq
+  description: Building a financial model that actually answers a real business question —
+    assumptions, drivers, and knowing what to trust in the output.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Building a financial model that actually answers a real business question — assumptions,
+    drivers, and knowing what to trust in the output.
+  keyConcepts:
+    - Structure a financial model around clearly separated inputs, calculations, and outputs
+    - Identify the key drivers that actually determine a model's outcome
+    - Stress-test a model with sensitivity analysis before trusting its conclusions
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

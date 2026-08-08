@@ -1,0 +1,40 @@
+[
+  {
+    "id": "declarative-vs-imperative-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Declarative vs. Imperative Infrastructure Definitions\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A declarative approach states the desired end state ('there should be 3 web servers behind a load balancer') and lets the tool figure out how to get there\""
+    ],
+    "explanation": "A declarative approach states the desired end state ('there should be 3 web servers behind a load balancer') and lets the tool figure out how to get there — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A declarative approach states the desired end state ('there should be 3 web servers behind a load balancer') and lets the tool figure out how to get there"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "declarative-vs-imperative-q2",
+    "type": "true-false",
+    "prompt": "True or false: An imperative approach specifies exact steps to run in order — this is more fragile, since running the same steps twice can produce a different or broken result",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — An imperative approach specifies exact steps to run in order — this is more fragile, since running the same steps twice can produce a different or broken result",
+    "references": [],
+    "correctAnswer": true
+  }
+]

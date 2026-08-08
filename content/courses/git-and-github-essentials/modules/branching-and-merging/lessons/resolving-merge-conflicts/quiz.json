@@ -1,0 +1,40 @@
+[
+  {
+    "id": "resolving-merge-conflicts-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Resolving a Simple Merge Conflict\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A conflict happens when the same lines were changed differently on two branches — Git marks the conflicting section in the file with `<<<<<<<`, `=======`, and `>>>>>>>` markers\""
+    ],
+    "explanation": "A conflict happens when the same lines were changed differently on two branches — Git marks the conflicting section in the file with `<<<<<<<`, `=======`, and `>>>>>>>` markers — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A conflict happens when the same lines were changed differently on two branches — Git marks the conflicting section in the file with `<<<<<<<`, `=======`, and `>>>>>>>` markers"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "resolving-merge-conflicts-q2",
+    "type": "true-false",
+    "prompt": "True or false: Read both versions carefully and decide the correct combined result — resolving a conflict is a decision about intent, not a mechanical text merge",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Read both versions carefully and decide the correct combined result — resolving a conflict is a decision about intent, not a mechanical text merge",
+    "references": [],
+    "correctAnswer": true
+  }
+]

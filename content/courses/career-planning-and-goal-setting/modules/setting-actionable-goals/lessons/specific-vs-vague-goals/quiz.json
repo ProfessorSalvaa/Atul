@@ -1,0 +1,40 @@
+[
+  {
+    "id": "specific-vs-vague-goals-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Specific Goals vs. Vague Aspirations\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'Become a senior engineer within 2 years' is specific enough to plan against — 'advance my career' isn't, because it doesn't tell you what to actually do differently tomorrow\""
+    ],
+    "explanation": "'Become a senior engineer within 2 years' is specific enough to plan against — 'advance my career' isn't, because it doesn't tell you what to actually do differently tomorrow — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'Become a senior engineer within 2 years' is specific enough to plan against — 'advance my career' isn't, because it doesn't tell you what to actually do differently tomorrow"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "specific-vs-vague-goals-q2",
+    "type": "true-false",
+    "prompt": "True or false: A good career goal specifies a target role or capability and a rough timeframe — this doesn't need to be rigid, but it needs to be concrete enough to check progress against",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A good career goal specifies a target role or capability and a rough timeframe — this doesn't need to be rigid, but it needs to be concrete enough to check progress against",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,75 @@
+slug: statistics-for-data-analysts
+title: Statistics for Data Analysts
+subtitle: The core statistical concepts analysts actually use day to day — distributions,
+  significance, and confidence — explained without a math degree.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - data
+  - analytics
+skills:
+  - statistical-inference
+careerPaths:
+  - data-analyst
+  - data-scientist
+category: data-analytics
+premium: true
+objectives:
+  - id: obj-1
+    text: Interpret mean, median, and standard deviation correctly, including when each is misleading
+  - id: obj-2
+    text: Explain statistical significance in plain language, without misrepresenting what a p-value
+      means
+  - id: obj-3
+    text: Recognize sample-size and selection-bias problems in a dataset
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Statistics for Data Analysts on
+    Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: describing-data
+    order: 0
+  - slug: significance-in-plain-language
+    order: 1
+projectSlugs:
+  - statistical-claims-audit
+assessmentSlugs: []
+resources:
+  - title: Seeing Theory
+    type: external-link
+    url: https://seeing-theory.brown.edu
+    description: A visual introduction to probability and statistics.
+certificate:
+  title: Statistics for Data Analysts — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the statistical claims audit
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Statistics for Data Analysts | Curitiq
+  description: The core statistical concepts analysts actually use day to day — distributions,
+    significance, and confidence — explained without a math degree.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The core statistical concepts analysts actually use day to day — distributions,
+    significance, and confidence — explained without a math degree.
+  keyConcepts:
+    - Interpret mean, median, and standard deviation correctly, including when each is misleading
+    - Explain statistical significance in plain language, without misrepresenting what a p-value
+      means
+    - Recognize sample-size and selection-bias problems in a dataset
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

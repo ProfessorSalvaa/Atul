@@ -1,0 +1,74 @@
+slug: incident-response-fundamentals
+title: Incident Response Fundamentals
+subtitle: What actually happens during a security incident — detection, containment, eradication,
+  and the post-incident review that determines if it happens again.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 125
+tags: &a1
+  - cybersecurity
+skills:
+  - incident-response
+careerPaths:
+  - cybersecurity-analyst
+category: cybersecurity
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain the standard incident response lifecycle
+  - id: obj-2
+    text: Make sound containment decisions under time pressure
+  - id: obj-3
+    text: Write a post-incident review that improves future response
+prerequisites:
+  - courseSlug: cybersecurity-foundations
+instructor:
+  name: Priya Nair
+  title: Security Engineer, ex-Cloudflare
+  bio: Priya Nair is Security Engineer, ex-Cloudflare, teaching Incident Response Fundamentals on
+    Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: the-incident-lifecycle
+    order: 0
+  - slug: learning-from-incidents
+    order: 1
+projectSlugs:
+  - incident-response-writeup
+assessmentSlugs: []
+resources:
+  - title: NIST Computer Security Incident Handling Guide (SP 800-61)
+    type: external-link
+    url: https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final
+    description: NIST's official incident handling guidance.
+certificate:
+  title: Incident Response Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the incident response plan and review
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Incident Response Fundamentals | Curitiq
+  description:
+    What actually happens during a security incident — detection, containment, eradication,
+    and the post-incident review that determines if it happens again.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    What actually happens during a security incident — detection, containment, eradication, and
+    the post-incident review that determines if it happens again.
+  keyConcepts:
+    - Explain the standard incident response lifecycle
+    - Make sound containment decisions under time pressure
+    - Write a post-incident review that improves future response
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

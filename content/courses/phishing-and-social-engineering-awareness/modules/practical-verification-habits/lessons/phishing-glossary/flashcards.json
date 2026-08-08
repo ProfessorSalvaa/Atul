@@ -1,0 +1,23 @@
+[
+  {
+    "id": "phishing-glossary-fc-1",
+    "front": "Phishing",
+    "back": "A social engineering attack using deceptive messages to trick someone into revealing information or taking a harmful action.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "phishing-glossary-fc-2",
+    "front": "Vishing",
+    "back": "Voice phishing — a social engineering attack conducted over a phone call.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "phishing-glossary-fc-3",
+    "front": "Verify through a separate channel",
+    "back": "Confirming an unexpected sensitive request via a known, independent communication path rather than replying directly.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  }
+]

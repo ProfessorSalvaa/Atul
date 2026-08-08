@@ -1,0 +1,23 @@
+[
+  {
+    "id": "feature-engineering-glossary-fc-1",
+    "front": "One-hot encoding",
+    "back": "Representing a categorical variable as separate binary columns, one per category.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "feature-engineering-glossary-fc-2",
+    "front": "Feature scaling",
+    "back": "Transforming features onto a comparable numeric range so no feature dominates purely due to its raw scale.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "feature-engineering-glossary-fc-3",
+    "front": "Derived feature",
+    "back": "A new feature computed from existing raw data to expose signal not directly present in the raw columns.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "building-a-cohort-table-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building a Cohort Retention Table\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A cohort groups users by a shared starting point (e.g. signup month), then tracks a behavior (e.g. still active) over subsequent periods since that start\""
+    ],
+    "explanation": "A cohort groups users by a shared starting point (e.g. signup month), then tracks a behavior (e.g. still active) over subsequent periods since that start — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A cohort groups users by a shared starting point (e.g. signup month), then tracks a behavior (e.g. still active) over subsequent periods since that start"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "building-a-cohort-table-q2",
+    "type": "true-false",
+    "prompt": "True or false: The classic triangular retention table format (cohort month down the side, periods-since-signup across the top) makes it easy to compare cohorts of different ages fairly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The classic triangular retention table format (cohort month down the side, periods-since-signup across the top) makes it easy to compare cohorts of different ages fairly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

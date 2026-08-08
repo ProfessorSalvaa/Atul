@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-a-dockerfile-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing a Dockerfile\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Each instruction in a Dockerfile creates a new layer — ordering instructions from least-to-most-frequently-changing (dependencies before application code) lets Docker's build cache skip unchanged layers on rebuild\""
+    ],
+    "explanation": "Each instruction in a Dockerfile creates a new layer — ordering instructions from least-to-most-frequently-changing (dependencies before application code) lets Docker's build cache skip unchanged layers on rebuild — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Each instruction in a Dockerfile creates a new layer — ordering instructions from least-to-most-frequently-changing (dependencies before application code) lets Docker's build cache skip unchanged layers on rebuild"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-a-dockerfile-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use a specific base image tag (e.g. `python:3.12-slim`), not `latest` — `latest` is a moving target that can silently change your build's behavior over time",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use a specific base image tag (e.g. `python:3.12-slim`), not `latest` — `latest` is a moving target that can silently change your build's behavior over time",
+    "references": [],
+    "correctAnswer": true
+  }
+]

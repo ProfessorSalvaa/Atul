@@ -1,0 +1,40 @@
+[
+  {
+    "id": "running-totals-and-lag-lead-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Running Totals with SUM() OVER, and LAG/LEAD\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"SUM(...) OVER (ORDER BY date) with no explicit frame defaults to a running total up to the current row — a very common way to build cumulative charts directly in SQL\""
+    ],
+    "explanation": "SUM(...) OVER (ORDER BY date) with no explicit frame defaults to a running total up to the current row — a very common way to build cumulative charts directly in SQL — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "SUM(...) OVER (ORDER BY date) with no explicit frame defaults to a running total up to the current row — a very common way to build cumulative charts directly in SQL"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "running-totals-and-lag-lead-q2",
+    "type": "true-false",
+    "prompt": "True or false: LAG and LEAD let you reference a previous or next row's value directly (e.g. this month's revenue vs. last month's) without a self-join",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — LAG and LEAD let you reference a previous or next row's value directly (e.g. this month's revenue vs. last month's) without a self-join",
+    "references": [],
+    "correctAnswer": true
+  }
+]

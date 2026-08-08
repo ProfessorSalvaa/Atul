@@ -1,0 +1,23 @@
+[
+  {
+    "id": "chaining-glossary-fc-1",
+    "front": "Prompt chaining",
+    "back": "Breaking a task into a sequence of smaller prompts, where each step's output feeds the next.",
+    "difficulty": "advanced",
+    "tags": ["prompting", "ai"]
+  },
+  {
+    "id": "chaining-glossary-fc-2",
+    "front": "Step validation",
+    "back": "Programmatically checking a chain step's output before passing it downstream, to prevent silent failure propagation.",
+    "difficulty": "advanced",
+    "tags": ["prompting", "ai"]
+  },
+  {
+    "id": "chaining-glossary-fc-3",
+    "front": "Fallback strategy",
+    "back": "A predefined simpler action taken when a chain step fails, instead of halting entirely or guessing.",
+    "difficulty": "advanced",
+    "tags": ["prompting", "ai"]
+  }
+]

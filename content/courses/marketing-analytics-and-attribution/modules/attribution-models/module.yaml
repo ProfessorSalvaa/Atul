@@ -1,0 +1,15 @@
+slug: attribution-models
+title: Attribution Models
+description: A customer typically touches multiple channels before converting — deciding who gets
+  credit is genuinely contested.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Common Attribution Models"
+  - id: mo-2
+    text: "Grasp: Why No Attribution Model Is Perfectly Correct"
+lessons:
+  - slug: common-attribution-models
+    order: 0
+  - slug: no-perfect-model
+    order: 1

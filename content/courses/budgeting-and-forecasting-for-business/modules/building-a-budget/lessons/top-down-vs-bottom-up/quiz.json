@@ -1,0 +1,40 @@
+[
+  {
+    "id": "top-down-vs-bottom-up-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Top-Down vs. Bottom-Up Budgeting\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Top-down budgeting starts from a target (e.g. a revenue or margin goal) and allocates down to departments — fast, but can set unrealistic targets disconnected from what's actually achievable\""
+    ],
+    "explanation": "Top-down budgeting starts from a target (e.g. a revenue or margin goal) and allocates down to departments — fast, but can set unrealistic targets disconnected from what's actually achievable — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Top-down budgeting starts from a target (e.g. a revenue or margin goal) and allocates down to departments — fast, but can set unrealistic targets disconnected from what's actually achievable"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "top-down-vs-bottom-up-q2",
+    "type": "true-false",
+    "prompt": "True or false: Bottom-up budgeting builds from department-level detail up to a total — more accurate to reality, but can lack strategic coherence if departments aren't aligned to shared priorities",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Bottom-up budgeting builds from department-level detail up to a total — more accurate to reality, but can lack strategic coherence if departments aren't aligned to shared priorities",
+    "references": [],
+    "correctAnswer": true
+  }
+]

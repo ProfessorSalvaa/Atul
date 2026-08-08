@@ -1,0 +1,14 @@
+slug: delivery-guarantees
+title: Delivery Guarantees and Idempotency
+description: What 'the message was delivered' actually promises, and why that's rarely exactly-once.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: At-Least-Once Delivery and Idempotent Handling"
+  - id: mo-2
+    text: "Grasp: Message Queues Terms Flip Deck"
+lessons:
+  - slug: at-least-once-and-idempotency
+    order: 0
+  - slug: message-queues-glossary
+    order: 1

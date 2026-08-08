@@ -1,0 +1,40 @@
+[
+  {
+    "id": "flexbox-and-grid-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Flexbox and Grid Fundamentals\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Flexbox is for one-dimensional layout (a row or a column of items); Grid is for two-dimensional layout (rows and columns together) — picking the wrong one makes simple layouts unnecessarily hard\""
+    ],
+    "explanation": "Flexbox is for one-dimensional layout (a row or a column of items); Grid is for two-dimensional layout (rows and columns together) — picking the wrong one makes simple layouts unnecessarily hard — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Flexbox is for one-dimensional layout (a row or a column of items); Grid is for two-dimensional layout (rows and columns together) — picking the wrong one makes simple layouts unnecessarily hard"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "flexbox-and-grid-q2",
+    "type": "true-false",
+    "prompt": "True or false: `justify-content` controls alignment along the main axis, `align-items` controls the cross axis — mixing these up is one of the most common Flexbox confusions",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — `justify-content` controls alignment along the main axis, `align-items` controls the cross axis — mixing these up is one of the most common Flexbox confusions",
+    "references": [],
+    "correctAnswer": true
+  }
+]

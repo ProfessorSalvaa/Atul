@@ -1,0 +1,40 @@
+[
+  {
+    "id": "faas-billing-and-scaling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Functions-as-a-Service Billing and Scaling\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"You're billed per invocation and execution time, not for idle capacity — an idle serverless function costs nothing, unlike an idle always-on server\""
+    ],
+    "explanation": "You're billed per invocation and execution time, not for idle capacity — an idle serverless function costs nothing, unlike an idle always-on server — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "You're billed per invocation and execution time, not for idle capacity — an idle serverless function costs nothing, unlike an idle always-on server"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "faas-billing-and-scaling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Scaling is automatic and near-instant in response to invocation volume — the platform runs as many concurrent instances as needed, within account limits",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Scaling is automatic and near-instant in response to invocation volume — the platform runs as many concurrent instances as needed, within account limits",
+    "references": [],
+    "correctAnswer": true
+  }
+]

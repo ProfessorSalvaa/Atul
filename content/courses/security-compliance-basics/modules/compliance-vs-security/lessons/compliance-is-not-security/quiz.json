@@ -1,0 +1,40 @@
+[
+  {
+    "id": "compliance-is-not-security-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Compliance Isn't the Same as Security\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A company can pass a compliance audit and still be genuinely insecure — compliance frameworks set a baseline of documented, auditable controls, not a guarantee against every possible attack\""
+    ],
+    "explanation": "A company can pass a compliance audit and still be genuinely insecure — compliance frameworks set a baseline of documented, auditable controls, not a guarantee against every possible attack — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A company can pass a compliance audit and still be genuinely insecure — compliance frameworks set a baseline of documented, auditable controls, not a guarantee against every possible attack"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "compliance-is-not-security-q2",
+    "type": "true-false",
+    "prompt": "True or false: Treating compliance as the end goal instead of a byproduct of good security practice leads to checkbox-driven controls that satisfy an auditor without meaningfully reducing risk",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Treating compliance as the end goal instead of a byproduct of good security practice leads to checkbox-driven controls that satisfy an auditor without meaningfully reducing risk",
+    "references": [],
+    "correctAnswer": true
+  }
+]

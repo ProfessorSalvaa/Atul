@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ui-ux-foundations-glossary-fc-1",
+    "front": "UX design",
+    "back": "Designing the overall experience and flow of a product to solve a user's problem effectively.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "ui-ux-foundations-glossary-fc-2",
+    "front": "Visual hierarchy",
+    "back": "Guiding the eye to what matters most through size, weight, color, and position.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "ui-ux-foundations-glossary-fc-3",
+    "front": "Usability heuristic",
+    "back": "A general, research-based rule of thumb used to evaluate an interface's usability.",
+    "difficulty": "beginner",
+    "tags": ["ui-design"]
+  }
+]

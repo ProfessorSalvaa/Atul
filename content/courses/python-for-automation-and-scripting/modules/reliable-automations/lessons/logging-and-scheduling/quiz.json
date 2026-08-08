@@ -1,0 +1,40 @@
+[
+  {
+    "id": "logging-and-scheduling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Logging Failures and Scheduling Runs\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use Python's `logging` module instead of scattered `print()` statements — logs can be filtered by severity and persisted, unlike print output that disappears\""
+    ],
+    "explanation": "Use Python's `logging` module instead of scattered `print()` statements — logs can be filtered by severity and persisted, unlike print output that disappears — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use Python's `logging` module instead of scattered `print()` statements — logs can be filtered by severity and persisted, unlike print output that disappears"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "logging-and-scheduling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Any scheduled automation (via cron, Task Scheduler, or a workflow tool) needs a way to alert someone on failure — a silently-failing scheduled script is worse than no automation at all",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Any scheduled automation (via cron, Task Scheduler, or a workflow tool) needs a way to alert someone on failure — a silently-failing scheduled script is worse than no automation at all",
+    "references": [],
+    "correctAnswer": true
+  }
+]

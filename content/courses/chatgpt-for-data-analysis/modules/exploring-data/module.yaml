@@ -1,0 +1,14 @@
+slug: exploring-data
+title: Exploring a Dataset with ChatGPT
+description: From raw file upload to a first honest look at what's in the data.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Uploading a File and Getting an Honest First Look"
+  - id: mo-2
+    text: "Grasp: Asking Questions That Produce Checkable Answers"
+lessons:
+  - slug: uploading-and-profiling
+    order: 0
+  - slug: asking-good-analysis-questions
+    order: 1

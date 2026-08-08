@@ -1,0 +1,40 @@
+[
+  {
+    "id": "supervised-unsupervised-reinforcement-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Supervised, Unsupervised, and Reinforcement Learning\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Supervised learning trains on labeled examples (input paired with the correct output) to predict outputs for new inputs — most real-world business ML applications are supervised\""
+    ],
+    "explanation": "Supervised learning trains on labeled examples (input paired with the correct output) to predict outputs for new inputs — most real-world business ML applications are supervised — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Supervised learning trains on labeled examples (input paired with the correct output) to predict outputs for new inputs — most real-world business ML applications are supervised"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "supervised-unsupervised-reinforcement-q2",
+    "type": "true-false",
+    "prompt": "True or false: Unsupervised learning finds structure in unlabeled data (clustering similar items, reducing dimensionality) without being told the 'correct' answer in advance",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Unsupervised learning finds structure in unlabeled data (clustering similar items, reducing dimensionality) without being told the 'correct' answer in advance",
+    "references": [],
+    "correctAnswer": true
+  }
+]

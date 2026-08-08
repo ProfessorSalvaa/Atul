@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-pillar-cluster-model-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Pillar-Cluster Content Model\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A pillar page comprehensively covers a broad topic, and cluster content covers specific subtopics in depth, all internally linked back to the pillar — this structure signals topical authority to both readers and search engines\""
+    ],
+    "explanation": "A pillar page comprehensively covers a broad topic, and cluster content covers specific subtopics in depth, all internally linked back to the pillar — this structure signals topical authority to both readers and search engines — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A pillar page comprehensively covers a broad topic, and cluster content covers specific subtopics in depth, all internally linked back to the pillar — this structure signals topical authority to both readers and search engines"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-pillar-cluster-model-q2",
+    "type": "true-false",
+    "prompt": "True or false: This model beats a stream of disconnected, one-off blog posts because each new cluster piece reinforces the pillar's authority, compounding value rather than existing in isolation",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This model beats a stream of disconnected, one-off blog posts because each new cluster piece reinforces the pillar's authority, compounding value rather than existing in isolation",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "filter-sort-unique-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"FILTER, SORT, and UNIQUE\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"FILTER returns only rows matching a condition, and 'spills' into as many cells as needed — no more manually copying formulas down as data grows\""
+    ],
+    "explanation": "FILTER returns only rows matching a condition, and 'spills' into as many cells as needed — no more manually copying formulas down as data grows — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "FILTER returns only rows matching a condition, and 'spills' into as many cells as needed — no more manually copying formulas down as data grows"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "filter-sort-unique-q2",
+    "type": "true-false",
+    "prompt": "True or false: Combine FILTER with SORT to get, for example, the top 10 by revenue, automatically updating as the source data changes",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Combine FILTER with SORT to get, for example, the top 10 by revenue, automatically updating as the source data changes",
+    "references": [],
+    "correctAnswer": true
+  }
+]

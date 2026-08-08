@@ -1,0 +1,40 @@
+[
+  {
+    "id": "frames-and-auto-layout-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Frames and Auto Layout\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A frame is Figma's container for a screen or section — unlike a plain group, frames support clipping, constraints, and auto layout\""
+    ],
+    "explanation": "A frame is Figma's container for a screen or section — unlike a plain group, frames support clipping, constraints, and auto layout — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A frame is Figma's container for a screen or section — unlike a plain group, frames support clipping, constraints, and auto layout"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "frames-and-auto-layout-q2",
+    "type": "true-false",
+    "prompt": "True or false: Auto layout makes elements reflow automatically as content changes (like flexbox in CSS) — this is essential for anything with variable-length content, like a button whose label might change",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Auto layout makes elements reflow automatically as content changes (like flexbox in CSS) — this is essential for anything with variable-length content, like a button whose label might change",
+    "references": [],
+    "correctAnswer": true
+  }
+]

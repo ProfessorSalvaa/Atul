@@ -1,0 +1,75 @@
+slug: building-web-apps-with-rest-apis
+title: Building Web Apps with REST APIs
+subtitle: Connecting a front end to a real backend — fetching, sending, and handling data over HTTP
+  the way production apps actually do it.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 125
+tags: &a1
+  - web-development
+  - javascript
+  - apis
+skills:
+  - rest-apis
+  - javascript-fundamentals
+careerPaths:
+  - software-engineer
+category: web-development
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain REST conventions (resources, HTTP methods, status codes) and use them correctly
+  - id: obj-2
+    text: Handle API errors and loading states in a front-end app gracefully
+  - id: obj-3
+    text: Send authenticated requests using tokens correctly and securely
+prerequisites:
+  - courseSlug: javascript-fundamentals
+instructor:
+  name: Elena Rossi
+  title: Frontend Engineer, ex-Shopify
+  bio: Elena Rossi is Frontend Engineer, ex-Shopify, teaching Building Web Apps with REST APIs on
+    Curitiq.
+  avatarInitials: ER
+modules:
+  - slug: rest-conventions
+    order: 0
+  - slug: handling-real-world-conditions
+    order: 1
+projectSlugs:
+  - api-connected-app
+assessmentSlugs: []
+resources:
+  - title: "MDN: Using Fetch"
+    type: external-link
+    url: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    description: MDN's guide to the Fetch API.
+certificate:
+  title: Building Web Apps with REST APIs — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the API-connected app project
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Building Web Apps with REST APIs | Curitiq
+  description: Connecting a front end to a real backend — fetching, sending, and handling data over
+    HTTP the way production apps actually do it.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Connecting a front end to a real backend — fetching, sending, and handling data over HTTP
+    the way production apps actually do it.
+  keyConcepts:
+    - Explain REST conventions (resources, HTTP methods, status codes) and use them correctly
+    - Handle API errors and loading states in a front-end app gracefully
+    - Send authenticated requests using tokens correctly and securely
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

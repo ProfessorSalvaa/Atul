@@ -1,0 +1,40 @@
+[
+  {
+    "id": "diagnosing-bad-output-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Diagnosing Why an Output Went Wrong\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Wrong tone → the role or audience wasn't specified clearly enough\""
+    ],
+    "explanation": "Wrong tone → the role or audience wasn't specified clearly enough — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Wrong tone → the role or audience wasn't specified clearly enough"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "diagnosing-bad-output-q2",
+    "type": "true-false",
+    "prompt": "True or false: Too vague or generic → missing context, or the task verb was too broad",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Too vague or generic → missing context, or the task verb was too broad",
+    "references": [],
+    "correctAnswer": true
+  }
+]

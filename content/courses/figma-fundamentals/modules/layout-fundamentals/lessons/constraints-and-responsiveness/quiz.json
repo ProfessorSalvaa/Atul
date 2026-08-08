@@ -1,0 +1,40 @@
+[
+  {
+    "id": "constraints-and-responsiveness-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Constraints and Responsive Behavior\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Constraints define how an element behaves when its parent frame is resized — pinned to a side, scaled proportionally, or centered\""
+    ],
+    "explanation": "Constraints define how an element behaves when its parent frame is resized — pinned to a side, scaled proportionally, or centered — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Constraints define how an element behaves when its parent frame is resized — pinned to a side, scaled proportionally, or centered"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "constraints-and-responsiveness-q2",
+    "type": "true-false",
+    "prompt": "True or false: Testing a design at multiple frame sizes early catches responsive problems before they surface in actual development handoff",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Testing a design at multiple frame sizes early catches responsive problems before they surface in actual development handoff",
+    "references": [],
+    "correctAnswer": true
+  }
+]

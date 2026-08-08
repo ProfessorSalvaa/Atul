@@ -1,0 +1,74 @@
+slug: security-for-web-applications
+title: Security for Web Applications
+subtitle: The vulnerabilities that show up again and again in real web applications — injection,
+  broken auth, XSS — and how to actually prevent them.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 130
+tags: &a1
+  - cybersecurity
+  - web-development
+skills:
+  - application-security
+careerPaths:
+  - cybersecurity-analyst
+  - software-engineer
+category: cybersecurity
+premium: true
+objectives:
+  - id: obj-1
+    text: Identify and prevent SQL injection and cross-site scripting (XSS)
+  - id: obj-2
+    text: Explain common authentication and session management mistakes
+  - id: obj-3
+    text: Apply the OWASP Top Ten as a review checklist
+prerequisites: []
+instructor:
+  name: Priya Nair
+  title: Security Engineer, ex-Cloudflare
+  bio: Priya Nair is Security Engineer, ex-Cloudflare, teaching Security for Web Applications on
+    Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: injection-and-xss
+    order: 0
+  - slug: auth-and-owasp-review
+    order: 1
+projectSlugs:
+  - web-app-security-review
+assessmentSlugs: []
+resources:
+  - title: OWASP Top Ten
+    type: external-link
+    url: https://owasp.org/www-project-top-ten/
+    description: The industry-standard list of top web application security risks.
+certificate:
+  title: Security for Web Applications — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the web app security review
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Security for Web Applications | Curitiq
+  description:
+    The vulnerabilities that show up again and again in real web applications — injection,
+    broken auth, XSS — and how to actually prevent them.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The vulnerabilities that show up again and again in real web applications — injection,
+    broken auth, XSS — and how to actually prevent them.
+  keyConcepts:
+    - Identify and prevent SQL injection and cross-site scripting (XSS)
+    - Explain common authentication and session management mistakes
+    - Apply the OWASP Top Ten as a review checklist
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

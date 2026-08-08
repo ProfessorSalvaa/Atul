@@ -8,3 +8,61 @@
   label: Design
 - slug: career-growth
   label: Career Growth
+- slug: generative-ai
+  label: Generative AI
+- slug: prompt-engineering
+  label: Prompt Engineering
+- slug: chatgpt
+  label: ChatGPT
+- slug: claude-ai
+  label: Claude
+- slug: microsoft-copilot
+  label: Microsoft Copilot
+- slug: excel
+  label: Excel
+- slug: power-bi
+  label: Power BI
+- slug: sql
+  label: SQL
+- slug: python
+  label: Python
+- slug: programming-fundamentals
+  label: Programming Fundamentals
+- slug: web-development
+  label: Web Development
+- slug: git-github
+  label: Git & GitHub
+- slug: cloud-computing
+  label: Cloud Computing
+- slug: aws
+  label: AWS
+- slug: azure
+  label: Azure
+- slug: devops
+  label: DevOps
+- slug: cybersecurity
+  label: Cybersecurity
+- slug: ui-ux-design
+  label: UI/UX Design
+- slug: figma
+  label: Figma
+- slug: product-management
+  label: Product Management
+- slug: project-management
+  label: Project Management
+- slug: digital-marketing
+  label: Digital Marketing
+- slug: seo
+  label: SEO
+- slug: business-analysis
+  label: Business Analysis
+- slug: finance
+  label: Finance
+- slug: communication
+  label: Communication
+- slug: system-design
+  label: System Design
+- slug: machine-learning
+  label: Machine Learning
+- slug: data-science
+  label: Data Science

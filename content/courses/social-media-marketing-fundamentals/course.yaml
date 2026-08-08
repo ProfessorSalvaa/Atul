@@ -1,0 +1,71 @@
+slug: social-media-marketing-fundamentals
+title: Social Media Marketing Fundamentals
+subtitle: Choosing the right platforms, building content that fits how each one actually gets used,
+  and measuring what genuinely matters beyond vanity metrics.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 105
+tags: &a1
+  - marketing
+skills:
+  - social-media-marketing
+careerPaths:
+  - digital-marketer
+category: digital-marketing
+premium: false
+objectives:
+  - id: obj-1
+    text: Choose social platforms based on audience fit, not popularity alone
+  - id: obj-2
+    text: Adapt content format and tone to how each platform is actually used
+  - id: obj-3
+    text: Distinguish vanity metrics from metrics tied to real business outcomes
+prerequisites: []
+instructor:
+  name: Rosa Delgado
+  title: Head of Growth Marketing, ex-HubSpot
+  bio: Rosa Delgado is Head of Growth Marketing, ex-HubSpot, teaching Social Media Marketing
+    Fundamentals on Curitiq.
+  avatarInitials: RD
+modules:
+  - slug: platform-selection
+    order: 0
+  - slug: measuring-what-matters
+    order: 1
+projectSlugs:
+  - platform-strategy-and-metrics
+assessmentSlugs: []
+resources:
+  - title: "Sprout Social: Social Media Metrics That Matter"
+    type: external-link
+    url: https://sproutsocial.com/insights/social-media-metrics/
+    description: An overview of meaningful vs. vanity social media metrics.
+certificate:
+  title: Social Media Marketing Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the platform strategy and metrics
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Social Media Marketing Fundamentals | Curitiq
+  description: Choosing the right platforms, building content that fits how each one actually gets
+    used, and measuring what genuinely matters beyond vanity metrics.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Choosing the right platforms, building content that fits how each one actually gets used,
+    and measuring what genuinely matters beyond vanity metrics.
+  keyConcepts:
+    - Choose social platforms based on audience fit, not popularity alone
+    - Adapt content format and tone to how each platform is actually used
+    - Distinguish vanity metrics from metrics tied to real business outcomes
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "risk-management-glossary-fc-1",
+    "front": "Risk register",
+    "back": "A documented log of identified project risks, their scores, owners, and current status.",
+    "difficulty": "intermediate",
+    "tags": ["project-management"]
+  },
+  {
+    "id": "risk-management-glossary-fc-2",
+    "front": "Risk matrix",
+    "back": "A tool combining probability and impact scores to prioritize which risks need active response.",
+    "difficulty": "intermediate",
+    "tags": ["project-management"]
+  },
+  {
+    "id": "risk-management-glossary-fc-3",
+    "front": "Contingency plan",
+    "back": "A prepared response plan for a risk, ready to execute if that risk actually occurs.",
+    "difficulty": "intermediate",
+    "tags": ["project-management"]
+  }
+]

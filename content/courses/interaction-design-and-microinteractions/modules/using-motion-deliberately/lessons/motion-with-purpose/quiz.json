@@ -1,0 +1,40 @@
+[
+  {
+    "id": "motion-with-purpose-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Motion With Purpose, Not Decoration\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Motion should communicate relationship and continuity — an element that slides in from where it was triggered helps users track what just happened, rather than appearing from nowhere\""
+    ],
+    "explanation": "Motion should communicate relationship and continuity — an element that slides in from where it was triggered helps users track what just happened, rather than appearing from nowhere — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Motion should communicate relationship and continuity — an element that slides in from where it was triggered helps users track what just happened, rather than appearing from nowhere"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "motion-with-purpose-q2",
+    "type": "true-false",
+    "prompt": "True or false: Duration and easing matter more than most designers initially assume — a 300ms+ animation on a frequent interaction starts to feel sluggish; fast, subtle motion (150-200ms) usually reads as more polished",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Duration and easing matter more than most designers initially assume — a 300ms+ animation on a frequent interaction starts to feel sluggish; fast, subtle motion (150-200ms) usually reads as more polished",
+    "references": [],
+    "correctAnswer": true
+  }
+]

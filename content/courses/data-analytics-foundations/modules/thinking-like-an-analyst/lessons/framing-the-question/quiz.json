@@ -1,0 +1,40 @@
+[
+  {
+    "id": "framing-the-question-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Framing a Vague Ask as an Answerable Question\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"\"Why are sales down?\" isn't answerable directly — break it into checkable sub-questions: down vs. what baseline, for which segment, over what time window\""
+    ],
+    "explanation": "\"Why are sales down?\" isn't answerable directly — break it into checkable sub-questions: down vs. what baseline, for which segment, over what time window — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "\"Why are sales down?\" isn't answerable directly — break it into checkable sub-questions: down vs. what baseline, for which segment, over what time window"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "framing-the-question-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask what decision the answer will actually inform — this determines what level of precision and what timeframe actually matters",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask what decision the answer will actually inform — this determines what level of precision and what timeframe actually matters",
+    "references": [],
+    "correctAnswer": true
+  }
+]

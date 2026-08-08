@@ -1,0 +1,78 @@
+slug: building-with-claude-tool-use-and-agents
+title: "Building with Claude: Tool Use and Agents"
+subtitle: How to give Claude access to tools and build simple agentic workflows that take real
+  actions, not just generate text.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 140
+tags: &a1
+  - claude
+  - ai
+  - developer-tools
+skills:
+  - ai-agents
+  - llm-integration
+careerPaths:
+  - ai-practitioner
+  - software-engineer
+category: claude-ai
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain how tool use (function calling) lets a model take real actions
+  - id: obj-2
+    text: Design a tool interface a model can use reliably
+  - id: obj-3
+    text: Recognize the failure modes specific to agentic loops (looping, over-calling, silent tool
+      errors)
+prerequisites:
+  - courseSlug: claude-for-writers-and-researchers
+instructor:
+  name: Renata Silva
+  title: Principal Engineer, ex-Datadog
+  bio: "Renata Silva is Principal Engineer, ex-Datadog, teaching Building with Claude: Tool Use and
+    Agents on Curitiq."
+  avatarInitials: RS
+modules:
+  - slug: tool-use-fundamentals
+    order: 0
+  - slug: agentic-workflows
+    order: 1
+projectSlugs:
+  - simple-tool-using-agent
+assessmentSlugs: []
+resources:
+  - title: Claude Tool Use Documentation
+    type: external-link
+    url: https://docs.claude.com/en/docs/build-with-claude/tool-use
+    description: Official documentation for building tool-using agents with Claude.
+certificate:
+  title: "Building with Claude: Tool Use and Agents — Certificate of Completion"
+  criteria:
+    - Complete both modules
+    - Submit a working tool-using agent
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: "Building with Claude: Tool Use and Agents | Curitiq"
+  description: How to give Claude access to tools and build simple agentic workflows that take real
+    actions, not just generate text.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: How to give Claude access to tools and build simple agentic workflows that take real
+    actions, not just generate text.
+  keyConcepts:
+    - Explain how tool use (function calling) lets a model take real actions
+    - Design a tool interface a model can use reliably
+    - Recognize the failure modes specific to agentic loops (looping, over-calling, silent tool
+      errors)
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

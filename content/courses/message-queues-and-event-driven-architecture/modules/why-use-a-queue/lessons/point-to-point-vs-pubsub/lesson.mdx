@@ -1,0 +1,30 @@
+---
+type: reading
+title: Point-to-Point Queues vs. Publish/Subscribe
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand point-to-point queues vs. publish/subscribe
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Point-to-Point Queues vs. Publish/Subscribe."
+  keyConcepts:
+    - A point-to-point queue delivers each message to exactly one consumer —
+      appropriate for work distribution, like a pool of workers processing jobs
+    - Publish/subscribe delivers each message to every subscriber — appropriate
+      when multiple independent services all need to know about the same event
+    - Choosing the wrong pattern is a common design mistake — using pub/sub for
+      work distribution means every worker processes every job redundantly,
+      while using point-to-point for an event multiple services need misses that
+      other services never see it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Why Use a Queue** in _Message Queues and Event-Driven Architecture_. By the end, you should be able to put the following into practice:
+
+- A point-to-point queue delivers each message to exactly one consumer — appropriate for work distribution, like a pool of workers processing jobs
+- Publish/subscribe delivers each message to every subscriber — appropriate when multiple independent services all need to know about the same event
+- Choosing the wrong pattern is a common design mistake — using pub/sub for work distribution means every worker processes every job redundantly, while using point-to-point for an event multiple services need misses that other services never see it
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

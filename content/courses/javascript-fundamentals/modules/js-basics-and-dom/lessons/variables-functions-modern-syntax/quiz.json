@@ -1,0 +1,40 @@
+[
+  {
+    "id": "variables-functions-modern-syntax-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Variables, Functions, and Modern Syntax\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use `const` by default, `let` only when a variable needs to be reassigned — avoid `var`, which has confusing scoping behavior that causes real bugs\""
+    ],
+    "explanation": "Use `const` by default, `let` only when a variable needs to be reassigned — avoid `var`, which has confusing scoping behavior that causes real bugs — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use `const` by default, `let` only when a variable needs to be reassigned — avoid `var`, which has confusing scoping behavior that causes real bugs"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "variables-functions-modern-syntax-q2",
+    "type": "true-false",
+    "prompt": "True or false: Arrow functions (`(x) => x * 2`) are more concise and don't rebind `this`, which matters especially inside callbacks and class methods",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Arrow functions (`(x) => x * 2`) are more concise and don't rebind `this`, which matters especially inside callbacks and class methods",
+    "references": [],
+    "correctAnswer": true
+  }
+]

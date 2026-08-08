@@ -1,0 +1,14 @@
+slug: preparing-to-negotiate
+title: Preparing to Negotiate
+description: Most negotiation outcomes are determined before the conversation even starts.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Researching a Realistic Range"
+  - id: mo-2
+    text: "Grasp: Anchoring Effectively"
+lessons:
+  - slug: researching-your-range
+    order: 0
+  - slug: anchoring-effectively
+    order: 1

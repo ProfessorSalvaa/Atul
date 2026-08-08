@@ -1,0 +1,31 @@
+---
+type: reading
+title: When Serverless Fits, and When It Doesn't
+order: 1
+durationMinutes: 16
+objectives:
+  - Understand when serverless fits, and when it doesn't
+free: false
+aiTutorContext:
+  summary: "This lesson covers: When Serverless Fits, and When It Doesn't."
+  keyConcepts:
+    - "Good fit: event-driven, short-lived tasks — processing an uploaded file,
+      responding to a webhook, a lightweight API endpoint"
+    - "Poor fit: long-running processes (most platforms cap execution time),
+      workloads needing persistent in-memory state between requests, or
+      extremely high-sustained-volume traffic where always-on compute is
+      cheaper"
+    - Serverless doesn't eliminate operational thinking — it shifts it from
+      server management to concerns like cold starts, concurrency limits, and
+      cost-per-invocation modeling
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **How Serverless Actually Works** in _Serverless Computing Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Good fit: event-driven, short-lived tasks — processing an uploaded file, responding to a webhook, a lightweight API endpoint
+- Poor fit: long-running processes (most platforms cap execution time), workloads needing persistent in-memory state between requests, or extremely high-sustained-volume traffic where always-on compute is cheaper
+- Serverless doesn't eliminate operational thinking — it shifts it from server management to concerns like cold starts, concurrency limits, and cost-per-invocation modeling
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

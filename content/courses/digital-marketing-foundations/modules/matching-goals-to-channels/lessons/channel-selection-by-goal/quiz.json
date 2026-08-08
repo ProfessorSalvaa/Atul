@@ -1,0 +1,40 @@
+[
+  {
+    "id": "channel-selection-by-goal-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Selecting Channels by Marketing Goal\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Awareness goals favor channels with broad reach (social, display ads, PR) — conversion goals favor channels that reach people already close to a decision (search ads, retargeting, email)\""
+    ],
+    "explanation": "Awareness goals favor channels with broad reach (social, display ads, PR) — conversion goals favor channels that reach people already close to a decision (search ads, retargeting, email) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Awareness goals favor channels with broad reach (social, display ads, PR) — conversion goals favor channels that reach people already close to a decision (search ads, retargeting, email)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "channel-selection-by-goal-q2",
+    "type": "true-false",
+    "prompt": "True or false: A limited budget spread thin across every channel usually underperforms a focused budget concentrated on the one or two channels best matched to the specific goal and audience",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A limited budget spread thin across every channel usually underperforms a focused budget concentrated on the one or two channels best matched to the specific goal and audience",
+    "references": [],
+    "correctAnswer": true
+  }
+]

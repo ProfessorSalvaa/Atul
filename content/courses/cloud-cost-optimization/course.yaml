@@ -1,0 +1,70 @@
+slug: cloud-cost-optimization
+title: Cloud Cost Optimization
+subtitle: Finding and fixing the most common sources of wasted cloud spend, without sacrificing the
+  reliability you actually need.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 110
+tags: &a1
+  - cloud
+skills:
+  - cloud-fundamentals
+careerPaths:
+  - cloud-engineer
+category: cloud-computing
+premium: true
+objectives:
+  - id: obj-1
+    text: Identify the most common sources of unnecessary cloud spend
+  - id: obj-2
+    text: Right-size compute resources based on actual utilization data
+  - id: obj-3
+    text: Use reserved/committed pricing appropriately without over-committing
+prerequisites: []
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Cloud Cost Optimization on Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: finding-waste
+    order: 0
+  - slug: pricing-models
+    order: 1
+projectSlugs:
+  - cost-optimization-audit
+assessmentSlugs: []
+resources:
+  - title: AWS Cost Optimization Pillar
+    type: external-link
+    url: https://aws.amazon.com/architecture/cost-optimization/
+    description: AWS's official guidance on cost optimization.
+certificate:
+  title: Cloud Cost Optimization — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the cost optimization audit
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Cloud Cost Optimization | Curitiq
+  description: Finding and fixing the most common sources of wasted cloud spend, without sacrificing
+    the reliability you actually need.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Finding and fixing the most common sources of wasted cloud spend, without sacrificing the
+    reliability you actually need.
+  keyConcepts:
+    - Identify the most common sources of unnecessary cloud spend
+    - Right-size compute resources based on actual utilization data
+    - Use reserved/committed pricing appropriately without over-committing
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

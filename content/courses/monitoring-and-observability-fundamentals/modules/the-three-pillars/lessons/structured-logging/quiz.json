@@ -1,0 +1,40 @@
+[
+  {
+    "id": "structured-logging-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Structured Logging\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Structured logs (JSON with consistent fields) are searchable and filterable in ways plain text log lines aren't — this matters enormously once log volume grows past what a human can scroll through\""
+    ],
+    "explanation": "Structured logs (JSON with consistent fields) are searchable and filterable in ways plain text log lines aren't — this matters enormously once log volume grows past what a human can scroll through — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Structured logs (JSON with consistent fields) are searchable and filterable in ways plain text log lines aren't — this matters enormously once log volume grows past what a human can scroll through"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "structured-logging-q2",
+    "type": "true-false",
+    "prompt": "True or false: Include a request/trace ID in every log line related to a single request — this is what lets you reconstruct the full story of one request across multiple services",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Include a request/trace ID in every log line related to a single request — this is what lets you reconstruct the full story of one request across multiple services",
+    "references": [],
+    "correctAnswer": true
+  }
+]

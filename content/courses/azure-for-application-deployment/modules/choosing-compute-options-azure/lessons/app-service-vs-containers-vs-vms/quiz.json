@@ -1,0 +1,40 @@
+[
+  {
+    "id": "app-service-vs-containers-vs-vms-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"App Service vs. Container Apps vs. VMs\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"App Service is the fastest path for a standard web app or API with no unusual OS-level requirements\""
+    ],
+    "explanation": "App Service is the fastest path for a standard web app or API with no unusual OS-level requirements — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "App Service is the fastest path for a standard web app or API with no unusual OS-level requirements"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "app-service-vs-containers-vs-vms-q2",
+    "type": "true-false",
+    "prompt": "True or false: Azure Container Apps fits teams already using Docker who want managed container orchestration without the full complexity of Kubernetes",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Azure Container Apps fits teams already using Docker who want managed container orchestration without the full complexity of Kubernetes",
+    "references": [],
+    "correctAnswer": true
+  }
+]

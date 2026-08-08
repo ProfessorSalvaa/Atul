@@ -1,0 +1,40 @@
+[
+  {
+    "id": "roles-artifacts-ceremonies-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Scrum Roles, Artifacts, and Ceremonies\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The three Scrum roles are Product Owner (owns the backlog and priorities), Scrum Master (owns the process and removes blockers), and the Development Team (builds the work) — conflating these roles is a common source of dysfunction\""
+    ],
+    "explanation": "The three Scrum roles are Product Owner (owns the backlog and priorities), Scrum Master (owns the process and removes blockers), and the Development Team (builds the work) — conflating these roles is a common source of dysfunction — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The three Scrum roles are Product Owner (owns the backlog and priorities), Scrum Master (owns the process and removes blockers), and the Development Team (builds the work) — conflating these roles is a common source of dysfunction"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "roles-artifacts-ceremonies-q2",
+    "type": "true-false",
+    "prompt": "True or false: The key artifacts are the product backlog (everything that could be built), the sprint backlog (what's committed for this sprint), and the increment (the actual working output of the sprint)",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The key artifacts are the product backlog (everything that could be built), the sprint backlog (what's committed for this sprint), and the increment (the actual working output of the sprint)",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,41 @@
+---
+type: code
+title: Flexbox and Grid Fundamentals
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand flexbox and grid fundamentals
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Flexbox and Grid Fundamentals."
+  keyConcepts:
+    - Flexbox is for one-dimensional layout (a row or a column of items); Grid
+      is for two-dimensional layout (rows and columns together) — picking the
+      wrong one makes simple layouts unnecessarily hard
+    - "`justify-content` controls alignment along the main axis, `align-items`
+      controls the cross axis — mixing these up is one of the most common
+      Flexbox confusions"
+    - Grid's `fr` unit distributes remaining space proportionally, making
+      flexible layouts far simpler than manually calculating percentages
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: css
+---
+
+This lesson is part of **Layout with CSS** in _Web Development Foundations: HTML and CSS_. By the end, you should be able to put the following into practice:
+
+- Flexbox is for one-dimensional layout (a row or a column of items); Grid is for two-dimensional layout (rows and columns together) — picking the wrong one makes simple layouts unnecessarily hard
+- `justify-content` controls alignment along the main axis, `align-items` controls the cross axis — mixing these up is one of the most common Flexbox confusions
+- Grid's `fr` unit distributes remaining space proportionally, making flexible layouts far simpler than manually calculating percentages
+
+```css
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

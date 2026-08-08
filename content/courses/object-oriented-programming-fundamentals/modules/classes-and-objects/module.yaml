@@ -1,0 +1,14 @@
+slug: classes-and-objects
+title: Classes and Objects
+description: Bundling data and behavior together with a clear purpose.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Designing a Class with a Clear Responsibility"
+  - id: mo-2
+    text: "Grasp: Encapsulation: What It Prevents"
+lessons:
+  - slug: designing-a-class
+    order: 0
+  - slug: encapsulation
+    order: 1

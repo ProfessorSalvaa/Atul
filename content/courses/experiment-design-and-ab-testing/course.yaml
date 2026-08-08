@@ -1,0 +1,71 @@
+slug: experiment-design-and-ab-testing
+title: Experiment Design and A/B Testing
+subtitle: Running an experiment that actually proves what you think it proves — sample size,
+  statistical significance, and the traps that invalidate results silently.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - data-science
+skills:
+  - experiment-design
+careerPaths:
+  - data-scientist
+category: data-science
+premium: true
+objectives:
+  - id: obj-1
+    text: Design an A/B test with a clear hypothesis and success metric
+  - id: obj-2
+    text: Calculate an appropriate sample size before running a test
+  - id: obj-3
+    text: Recognize common experiment design mistakes that invalidate results
+prerequisites: []
+instructor:
+  name: Hana Kobayashi
+  title: ML Engineer, ex-DeepMind
+  bio: Hana Kobayashi is ML Engineer, ex-DeepMind, teaching Experiment Design and A/B Testing on
+    Curitiq.
+  avatarInitials: HK
+modules:
+  - slug: designing-a-valid-experiment
+    order: 0
+  - slug: common-experiment-pitfalls
+    order: 1
+projectSlugs:
+  - ab-test-design
+assessmentSlugs: []
+resources:
+  - title: "Optimizely: A/B Testing Statistics"
+    type: external-link
+    url: https://www.optimizely.com/optimization-glossary/ab-testing-statistics/
+    description: A practical guide to the statistics behind A/B testing.
+certificate:
+  title: Experiment Design and A/B Testing — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the A/B test design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Experiment Design and A/B Testing | Curitiq
+  description: Running an experiment that actually proves what you think it proves — sample size,
+    statistical significance, and the traps that invalidate results silently
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Running an experiment that actually proves what you think it proves — sample size,
+    statistical significance, and the traps that invalidate results silently.
+  keyConcepts:
+    - Design an A/B test with a clear hypothesis and success metric
+    - Calculate an appropriate sample size before running a test
+    - Recognize common experiment design mistakes that invalidate results
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "wireframing-glossary-fc-1",
+    "front": "Low-fidelity wireframe",
+    "back": "A rough, unstyled layout used to communicate structure and flow without visual distraction.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "wireframing-glossary-fc-2",
+    "front": "Information architecture",
+    "back": "The structure and labeling of content and navigation within a product.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "wireframing-glossary-fc-3",
+    "front": "Card sort",
+    "back": "A research method where users group and label content themselves to reveal their natural mental model.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  }
+]

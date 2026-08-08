@@ -1,0 +1,30 @@
+[
+  {
+    "id": "html-css-glossary-fc-1",
+    "front": "Semantic HTML",
+    "back": "Using HTML elements that convey meaning about their content, not just visual appearance.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "html-css"]
+  },
+  {
+    "id": "html-css-glossary-fc-2",
+    "front": "Flexbox",
+    "back": "A CSS layout model for arranging items in a single row or column, with flexible sizing and alignment.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "html-css"]
+  },
+  {
+    "id": "html-css-glossary-fc-3",
+    "front": "CSS Grid",
+    "back": "A CSS layout model for arranging items in two dimensions, rows and columns simultaneously.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "html-css"]
+  },
+  {
+    "id": "html-css-glossary-fc-4",
+    "front": "Mobile-first design",
+    "back": "Designing base styles for small screens first, then progressively enhancing for larger viewports.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "html-css"]
+  }
+]

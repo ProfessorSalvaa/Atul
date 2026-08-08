@@ -1,0 +1,75 @@
+slug: azure-core-services-fundamentals
+title: Azure Core Services Fundamentals
+subtitle: The core Azure building blocks — Virtual Machines, Storage, and Azure Active Directory —
+  and how Microsoft's cloud maps to the concepts you already know.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 115
+tags: &a1
+  - cloud
+  - azure
+skills:
+  - azure-core-services
+  - iam-and-security
+careerPaths:
+  - cloud-engineer
+category: azure
+premium: false
+objectives:
+  - id: obj-1
+    text: Deploy and configure a basic Azure Virtual Machine with appropriate network security
+  - id: obj-2
+    text: Use Azure Storage accounts and understand access tiers
+  - id: obj-3
+    text: Apply role-based access control (RBAC) correctly
+prerequisites:
+  - courseSlug: cloud-computing-foundations
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Azure Core Services Fundamentals on
+    Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: compute-and-storage-azure
+    order: 0
+  - slug: azure-identity
+    order: 1
+projectSlugs:
+  - secure-azure-environment-design
+assessmentSlugs: []
+resources:
+  - title: Microsoft Azure Architecture Center
+    type: external-link
+    url: https://learn.microsoft.com/azure/architecture/
+    description: Official Azure architecture guidance.
+certificate:
+  title: Azure Core Services Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the secure Azure environment design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Azure Core Services Fundamentals | Curitiq
+  description:
+    The core Azure building blocks — Virtual Machines, Storage, and Azure Active Directory
+    — and how Microsoft's cloud maps to the concepts you already know.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The core Azure building blocks — Virtual Machines, Storage, and Azure Active Directory —
+    and how Microsoft's cloud maps to the concepts you already know.
+  keyConcepts:
+    - Deploy and configure a basic Azure Virtual Machine with appropriate network security
+    - Use Azure Storage accounts and understand access tiers
+    - Apply role-based access control (RBAC) correctly
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

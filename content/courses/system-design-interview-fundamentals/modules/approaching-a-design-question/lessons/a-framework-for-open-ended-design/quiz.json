@@ -1,0 +1,40 @@
+[
+  {
+    "id": "a-framework-for-open-ended-design-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"A Framework for Open-Ended Design Questions\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Start by clarifying requirements and scale (how many users, how much data, read-heavy or write-heavy) — designing before understanding scale produces a plausible-sounding answer that doesn't actually fit the real constraints\""
+    ],
+    "explanation": "Start by clarifying requirements and scale (how many users, how much data, read-heavy or write-heavy) — designing before understanding scale produces a plausible-sounding answer that doesn't actually fit the real constraints — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Start by clarifying requirements and scale (how many users, how much data, read-heavy or write-heavy) — designing before understanding scale produces a plausible-sounding answer that doesn't actually fit the real constraints"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "a-framework-for-open-ended-design-q2",
+    "type": "true-false",
+    "prompt": "True or false: Sketch a high-level architecture before diving into any one component's detail — this avoids over-engineering one part while leaving major pieces of the system unaddressed",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Sketch a high-level architecture before diving into any one component's detail — this avoids over-engineering one part while leaving major pieces of the system unaddressed",
+    "references": [],
+    "correctAnswer": true
+  }
+]

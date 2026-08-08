@@ -1,0 +1,40 @@
+[
+  {
+    "id": "undoing-mistakes-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Undoing Mistakes Without Panic\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"`git restore` reverts uncommitted changes to a file; `git reset` moves the current branch pointer, which is more powerful and more dangerous — know which one you actually need\""
+    ],
+    "explanation": "`git restore` reverts uncommitted changes to a file; `git reset` moves the current branch pointer, which is more powerful and more dangerous — know which one you actually need — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "`git restore` reverts uncommitted changes to a file; `git reset` moves the current branch pointer, which is more powerful and more dangerous — know which one you actually need"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "undoing-mistakes-q2",
+    "type": "true-false",
+    "prompt": "True or false: `git revert` creates a new commit undoing a previous one, safely, without rewriting history — this is almost always the right choice on a shared branch",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — `git revert` creates a new commit undoing a previous one, safely, without rewriting history — this is almost always the right choice on a shared branch",
+    "references": [],
+    "correctAnswer": true
+  }
+]

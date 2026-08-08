@@ -1,0 +1,40 @@
+---
+type: code
+title: Running Totals with SUM() OVER, and LAG/LEAD
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand running totals with sum() over, and lag/lead
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Running Totals with SUM() OVER, and LAG/LEAD."
+  keyConcepts:
+    - SUM(...) OVER (ORDER BY date) with no explicit frame defaults to a running
+      total up to the current row — a very common way to build cumulative charts
+      directly in SQL
+    - LAG and LEAD let you reference a previous or next row's value directly
+      (e.g. this month's revenue vs. last month's) without a self-join
+    - Always specify ORDER BY inside the OVER() clause explicitly for running
+      totals — without it, the running order is undefined and results can be
+      inconsistent
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Window Functions** in _Advanced SQL: Window Functions and Optimization_. By the end, you should be able to put the following into practice:
+
+- SUM(...) OVER (ORDER BY date) with no explicit frame defaults to a running total up to the current row — a very common way to build cumulative charts directly in SQL
+- LAG and LEAD let you reference a previous or next row's value directly (e.g. this month's revenue vs. last month's) without a self-join
+- Always specify ORDER BY inside the OVER() clause explicitly for running totals — without it, the running order is undefined and results can be inconsistent
+
+```sql
+SELECT month, revenue,
+  SUM(revenue) OVER (ORDER BY month) AS running_total,
+  revenue - LAG(revenue) OVER (ORDER BY month) AS mom_change
+FROM monthly_revenue;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

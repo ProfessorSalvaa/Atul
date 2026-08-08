@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-document-cleaning-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Every Cleaning Decision Needs a Written Reason\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A cleaning decision made silently is a decision someone else (including future you) can't evaluate or question later\""
+    ],
+    "explanation": "A cleaning decision made silently is a decision someone else (including future you) can't evaluate or question later — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A cleaning decision made silently is a decision someone else (including future you) can't evaluate or question later"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-document-cleaning-q2",
+    "type": "true-false",
+    "prompt": "True or false: Document what you changed, why, and how many rows it affected — this turns 'I think I removed some bad rows' into an auditable, defensible choice",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Document what you changed, why, and how many rows it affected — this turns 'I think I removed some bad rows' into an auditable, defensible choice",
+    "references": [],
+    "correctAnswer": true
+  }
+]

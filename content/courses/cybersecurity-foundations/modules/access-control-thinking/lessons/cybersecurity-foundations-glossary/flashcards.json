@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cybersecurity-foundations-glossary-fc-1",
+    "front": "CIA triad",
+    "back": "Confidentiality, Integrity, and Availability — the three core properties security aims to protect.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "cybersecurity-foundations-glossary-fc-2",
+    "front": "Principle of least privilege",
+    "back": "Granting only the minimum access necessary for a task, nothing more.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "cybersecurity-foundations-glossary-fc-3",
+    "front": "Supply-chain attack",
+    "back": "An attack that compromises a trusted third-party component to reach the real target indirectly.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  }
+]

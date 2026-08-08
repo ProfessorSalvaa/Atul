@@ -1,0 +1,76 @@
+slug: agile-and-scrum-fundamentals
+title: Agile and Scrum Fundamentals
+subtitle: The actual mechanics of running (or working within) a Scrum team — sprints, ceremonies,
+  and the difference between doing Scrum and being agile.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 105
+tags: &a1
+  - project-management
+  - agile
+skills:
+  - agile-fundamentals
+  - sprint-planning
+careerPaths:
+  - project-manager
+  - product-manager
+category: project-management
+premium: false
+objectives:
+  - id: obj-1
+    text: Explain the Scrum roles, artifacts, and ceremonies and what each is for
+  - id: obj-2
+    text: Run an effective sprint planning session and retrospective
+  - id: obj-3
+    text: Distinguish being agile from performing Scrum rituals
+prerequisites: []
+instructor:
+  name: Marcus Webb
+  title: Group Product Manager, ex-Stripe
+  bio: Marcus Webb is Group Product Manager, ex-Stripe, teaching Agile and Scrum Fundamentals on
+    Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: scrum-mechanics
+    order: 0
+  - slug: agile-vs-scrum-theater
+    order: 1
+projectSlugs:
+  - sprint-plan-and-retro
+assessmentSlugs: []
+resources:
+  - title: The Scrum Guide
+    type: external-link
+    url: https://scrumguides.org/
+    description: The official, definitive guide to Scrum.
+certificate:
+  title: Agile and Scrum Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the sprint plan and retrospective
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Agile and Scrum Fundamentals | Curitiq
+  description:
+    The actual mechanics of running (or working within) a Scrum team — sprints, ceremonies,
+    and the difference between doing Scrum and being agile.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The actual mechanics of running (or working within) a Scrum team — sprints, ceremonies, and
+    the difference between doing Scrum and being agile.
+  keyConcepts:
+    - Explain the Scrum roles, artifacts, and ceremonies and what each is for
+    - Run an effective sprint planning session and retrospective
+    - Distinguish being agile from performing Scrum rituals
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

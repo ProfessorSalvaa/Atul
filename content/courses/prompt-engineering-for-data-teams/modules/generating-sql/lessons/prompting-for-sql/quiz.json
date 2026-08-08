@@ -1,0 +1,40 @@
+[
+  {
+    "id": "prompting-for-sql-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Prompting for Correct SQL, Not Just Runnable SQL\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Always include the actual table/column names and types in your prompt — a model guessing at your schema will produce plausible-looking but wrong SQL\""
+    ],
+    "explanation": "Always include the actual table/column names and types in your prompt — a model guessing at your schema will produce plausible-looking but wrong SQL — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Always include the actual table/column names and types in your prompt — a model guessing at your schema will produce plausible-looking but wrong SQL"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "prompting-for-sql-q2",
+    "type": "true-false",
+    "prompt": "True or false: State the exact business logic explicitly ('active' means status = 'active' AND deleted_at IS NULL) — models will guess at undefined terms, often incorrectly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — State the exact business logic explicitly ('active' means status = 'active' AND deleted_at IS NULL) — models will guess at undefined terms, often incorrectly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

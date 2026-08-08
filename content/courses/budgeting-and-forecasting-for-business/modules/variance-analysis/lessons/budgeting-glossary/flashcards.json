@@ -1,0 +1,23 @@
+[
+  {
+    "id": "budgeting-glossary-fc-1",
+    "front": "Rolling forecast",
+    "back": "A continuously updated forecast projecting a fixed horizon forward, rather than a static annual plan.",
+    "difficulty": "beginner",
+    "tags": ["finance", "budgeting"]
+  },
+  {
+    "id": "budgeting-glossary-fc-2",
+    "front": "Timing variance",
+    "back": "A budget variance caused by spending happening earlier or later than planned, which nets out over time.",
+    "difficulty": "beginner",
+    "tags": ["finance", "budgeting"]
+  },
+  {
+    "id": "budgeting-glossary-fc-3",
+    "front": "Bottom-up budgeting",
+    "back": "Building a budget total from detailed department-level estimates rather than a top-down target.",
+    "difficulty": "beginner",
+    "tags": ["finance", "budgeting"]
+  }
+]

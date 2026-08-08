@@ -1,0 +1,46 @@
+---
+type: code
+title: Promises and async/await
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand promises and async/await
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Promises and async/await."
+  keyConcepts:
+    - A Promise represents a value that isn't available yet but will be (or will
+      fail) — `async`/`await` is syntax that makes working with Promises read
+      like synchronous code
+    - Always handle rejection — an `await`ed call that fails needs a
+      `try`/`catch`, or the error is silently unhandled and hard to trace
+    - JavaScript is single-threaded with an event loop — async code doesn't run
+      in parallel threads, it's interleaved; understanding this prevents a lot
+      of confusion about execution order
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+This lesson is part of **Asynchronous JavaScript** in _JavaScript Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A Promise represents a value that isn't available yet but will be (or will fail) — `async`/`await` is syntax that makes working with Promises read like synchronous code
+- Always handle rejection — an `await`ed call that fails needs a `try`/`catch`, or the error is silently unhandled and hard to trace
+- JavaScript is single-threaded with an event loop — async code doesn't run in parallel threads, it's interleaved; understanding this prevents a lot of confusion about execution order
+
+```javascript
+async function loadUser(id) {
+  try {
+    const res = await fetch(`/api/users/${id}`);
+    if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    console.error("Failed to load user:", err.message);
+    return null;
+  }
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

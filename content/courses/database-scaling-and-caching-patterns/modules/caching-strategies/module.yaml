@@ -1,0 +1,14 @@
+slug: caching-strategies
+title: Caching Strategies
+description: The fastest way to make a system faster, and the hardest thing to get right.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Cache Strategies and Invalidation"
+  - id: mo-2
+    text: "Grasp: Database Scaling Terms Flip Deck"
+lessons:
+  - slug: cache-strategies-and-invalidation
+    order: 0
+  - slug: database-scaling-glossary
+    order: 1

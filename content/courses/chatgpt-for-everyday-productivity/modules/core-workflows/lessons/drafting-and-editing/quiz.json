@@ -1,0 +1,40 @@
+[
+  {
+    "id": "drafting-and-editing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Drafting and Editing Faster\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"For drafting, give ChatGPT the point you're trying to make and the audience — let it produce the first pass, then you edit, rather than staring at a blank page\""
+    ],
+    "explanation": "For drafting, give ChatGPT the point you're trying to make and the audience — let it produce the first pass, then you edit, rather than staring at a blank page — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "For drafting, give ChatGPT the point you're trying to make and the audience — let it produce the first pass, then you edit, rather than staring at a blank page"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "drafting-and-editing-q2",
+    "type": "true-false",
+    "prompt": "True or false: For editing existing text, ask for specific passes: 'tighten for length', 'flag anything that could be misread', 'match this to a more formal tone' — one pass at a time beats one vague 'make this better'",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — For editing existing text, ask for specific passes: 'tighten for length', 'flag anything that could be misread', 'match this to a more formal tone' — one pass at a time beats one vague 'make this better'",
+    "references": [],
+    "correctAnswer": true
+  }
+]

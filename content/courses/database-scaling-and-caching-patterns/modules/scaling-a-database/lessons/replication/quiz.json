@@ -1,0 +1,40 @@
+[
+  {
+    "id": "replication-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Database Replication\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Replication copies data across multiple database instances — a primary handles writes while replicas handle reads, letting read capacity scale independently of write capacity\""
+    ],
+    "explanation": "Replication copies data across multiple database instances — a primary handles writes while replicas handle reads, letting read capacity scale independently of write capacity — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Replication copies data across multiple database instances — a primary handles writes while replicas handle reads, letting read capacity scale independently of write capacity"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "replication-q2",
+    "type": "true-false",
+    "prompt": "True or false: Replication lag (a delay before a write propagates to replicas) means a read right after a write might return stale data — systems that can't tolerate this need to read from the primary for that specific case",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Replication lag (a delay before a write propagates to replicas) means a read right after a write might return stale data — systems that can't tolerate this need to read from the primary for that specific case",
+    "references": [],
+    "correctAnswer": true
+  }
+]

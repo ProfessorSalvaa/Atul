@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ab-testing-glossary-fc-1",
+    "front": "Statistical significance",
+    "back": "A measure of how unlikely an observed effect is to be due to random chance alone.",
+    "difficulty": "intermediate",
+    "tags": ["data-science"]
+  },
+  {
+    "id": "ab-testing-glossary-fc-2",
+    "front": "Peeking",
+    "back": "Checking test results repeatedly and stopping early once significance appears, which inflates false positives.",
+    "difficulty": "intermediate",
+    "tags": ["data-science"]
+  },
+  {
+    "id": "ab-testing-glossary-fc-3",
+    "front": "Novelty effect",
+    "back": "A temporary performance boost from a change simply being new, not reflecting its true long-term effect.",
+    "difficulty": "intermediate",
+    "tags": ["data-science"]
+  }
+]

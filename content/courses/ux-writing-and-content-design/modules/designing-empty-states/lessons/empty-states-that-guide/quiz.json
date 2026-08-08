@@ -1,0 +1,40 @@
+[
+  {
+    "id": "empty-states-that-guide-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Empty States That Guide Instead of Just Stating Absence\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A first-use empty state (nothing here yet because the user hasn't acted) should explain what will appear here and prompt the next action — a plain 'No items' misses the opportunity to guide someone\""
+    ],
+    "explanation": "A first-use empty state (nothing here yet because the user hasn't acted) should explain what will appear here and prompt the next action — a plain 'No items' misses the opportunity to guide someone — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A first-use empty state (nothing here yet because the user hasn't acted) should explain what will appear here and prompt the next action — a plain 'No items' misses the opportunity to guide someone"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "empty-states-that-guide-q2",
+    "type": "true-false",
+    "prompt": "True or false: A zero-results empty state (a search or filter that found nothing) should explain why and suggest a next step, like adjusting filters — distinct from a first-use empty state, and often confused with it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A zero-results empty state (a search or filter that found nothing) should explain why and suggest a next step, like adjusting filters — distinct from a first-use empty state, and often confused with it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

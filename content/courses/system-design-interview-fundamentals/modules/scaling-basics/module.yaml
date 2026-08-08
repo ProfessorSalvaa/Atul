@@ -1,0 +1,14 @@
+slug: scaling-basics
+title: Scaling Basics
+description: The two directions a system can grow, and why one runs out of room faster.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Horizontal vs. Vertical Scaling"
+  - id: mo-2
+    text: "Grasp: The CAP Theorem"
+lessons:
+  - slug: horizontal-vs-vertical-scaling
+    order: 0
+  - slug: the-cap-theorem
+    order: 1

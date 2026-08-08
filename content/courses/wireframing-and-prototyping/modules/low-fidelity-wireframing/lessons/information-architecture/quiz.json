@@ -1,0 +1,40 @@
+[
+  {
+    "id": "information-architecture-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Information Architecture for Multi-Screen Flows\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Information architecture is the structure and labeling of content and navigation — a card sort (asking users to group and label content themselves) reveals how they naturally expect information to be organized\""
+    ],
+    "explanation": "Information architecture is the structure and labeling of content and navigation — a card sort (asking users to group and label content themselves) reveals how they naturally expect information to be organized — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Information architecture is the structure and labeling of content and navigation — a card sort (asking users to group and label content themselves) reveals how they naturally expect information to be organized"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "information-architecture-q2",
+    "type": "true-false",
+    "prompt": "True or false: A flow diagram mapping every screen and the transitions between them catches missing states (empty states, error states, loading states) before they become a problem during actual design",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A flow diagram mapping every screen and the transitions between them catches missing states (empty states, error states, loading states) before they become a problem during actual design",
+    "references": [],
+    "correctAnswer": true
+  }
+]

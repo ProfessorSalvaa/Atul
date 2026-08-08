@@ -1,0 +1,40 @@
+[
+  {
+    "id": "structuring-a-pipeline-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Structuring Build, Test, and Deploy Stages\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The build stage compiles/packages the application into a deployable artifact — this artifact should be the exact same one promoted through every later stage, not rebuilt at each step\""
+    ],
+    "explanation": "The build stage compiles/packages the application into a deployable artifact — this artifact should be the exact same one promoted through every later stage, not rebuilt at each step — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The build stage compiles/packages the application into a deployable artifact — this artifact should be the exact same one promoted through every later stage, not rebuilt at each step"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "structuring-a-pipeline-q2",
+    "type": "true-false",
+    "prompt": "True or false: The test stage runs automated tests against the build artifact — a pipeline that deploys before tests finish defeats the entire purpose of having them",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The test stage runs automated tests against the build artifact — a pipeline that deploys before tests finish defeats the entire purpose of having them",
+    "references": [],
+    "correctAnswer": true
+  }
+]

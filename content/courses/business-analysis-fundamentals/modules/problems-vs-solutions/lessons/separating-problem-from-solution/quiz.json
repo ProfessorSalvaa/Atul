@@ -1,0 +1,40 @@
+[
+  {
+    "id": "separating-problem-from-solution-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Separating the Problem From a Premature Solution\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'We need a new CRM' is a solution, not a problem — the actual problem might be 'sales reps lose track of follow-ups,' which could be solved several different ways, not necessarily by a new tool\""
+    ],
+    "explanation": "'We need a new CRM' is a solution, not a problem — the actual problem might be 'sales reps lose track of follow-ups,' which could be solved several different ways, not necessarily by a new tool — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'We need a new CRM' is a solution, not a problem — the actual problem might be 'sales reps lose track of follow-ups,' which could be solved several different ways, not necessarily by a new tool"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "separating-problem-from-solution-q2",
+    "type": "true-false",
+    "prompt": "True or false: Stakeholders often present solutions because that's how the problem occurred to them — a business analyst's job includes asking 'what problem would this solve' to get back to the actual underlying need",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Stakeholders often present solutions because that's how the problem occurred to them — a business analyst's job includes asking 'what problem would this solve' to get back to the actual underlying need",
+    "references": [],
+    "correctAnswer": true
+  }
+]

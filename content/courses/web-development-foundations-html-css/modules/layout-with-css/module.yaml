@@ -1,0 +1,16 @@
+slug: layout-with-css
+title: Layout with CSS
+description: Flexbox, Grid, and making a layout that survives a smaller screen.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Flexbox and Grid Fundamentals"
+  - id: mo-2
+    text: "Grasp: Responsive Design Basics"
+lessons:
+  - slug: flexbox-and-grid
+    order: 0
+  - slug: responsive-design-basics
+    order: 1
+  - slug: html-css-glossary
+    order: 2

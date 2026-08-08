@@ -1,0 +1,43 @@
+---
+type: code
+title: Motion With Purpose, Not Decoration
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand motion with purpose, not decoration
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Motion With Purpose, Not Decoration."
+  keyConcepts:
+    - Motion should communicate relationship and continuity — an element that
+      slides in from where it was triggered helps users track what just
+      happened, rather than appearing from nowhere
+    - Duration and easing matter more than most designers initially assume — a
+      300ms+ animation on a frequent interaction starts to feel sluggish; fast,
+      subtle motion (150-200ms) usually reads as more polished
+    - Respect reduced-motion accessibility preferences — some users experience
+      discomfort or distraction from animation and have explicitly opted out at
+      the OS level; the interface should honor that
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: css
+---
+
+This lesson is part of **Using Motion Deliberately** in _Interaction Design and Microinteractions_. By the end, you should be able to put the following into practice:
+
+- Motion should communicate relationship and continuity — an element that slides in from where it was triggered helps users track what just happened, rather than appearing from nowhere
+- Duration and easing matter more than most designers initially assume — a 300ms+ animation on a frequent interaction starts to feel sluggish; fast, subtle motion (150-200ms) usually reads as more polished
+- Respect reduced-motion accessibility preferences — some users experience discomfort or distraction from animation and have explicitly opted out at the OS level; the interface should honor that
+
+```css
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

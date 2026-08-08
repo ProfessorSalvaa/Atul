@@ -1,0 +1,23 @@
+[
+  {
+    "id": "paid-advertising-glossary-fc-1",
+    "front": "Quality/relevance score",
+    "back": "A metric ad platforms use alongside bid to determine ad placement and actual cost paid.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "paid-advertising-glossary-fc-2",
+    "front": "Lookalike audience",
+    "back": "A targeting approach finding new people similar to an existing high-value audience.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "paid-advertising-glossary-fc-3",
+    "front": "ROAS",
+    "back": "Return on ad spend — revenue generated per dollar of advertising spend.",
+    "difficulty": "intermediate",
+    "tags": ["marketing"]
+  }
+]

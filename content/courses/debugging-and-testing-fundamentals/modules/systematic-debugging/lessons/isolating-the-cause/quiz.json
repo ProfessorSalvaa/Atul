@@ -1,0 +1,40 @@
+[
+  {
+    "id": "isolating-the-cause-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Isolating the Cause Before Guessing at a Fix\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Reproduce the bug reliably first — a bug you can't consistently trigger is very hard to confirm you've actually fixed\""
+    ],
+    "explanation": "Reproduce the bug reliably first — a bug you can't consistently trigger is very hard to confirm you've actually fixed — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Reproduce the bug reliably first — a bug you can't consistently trigger is very hard to confirm you've actually fixed"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "isolating-the-cause-q2",
+    "type": "true-false",
+    "prompt": "True or false: Binary search the problem space: comment out or bypass half the suspect code, check if the bug persists, and repeat — this narrows the cause far faster than reading every line hoping to spot it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Binary search the problem space: comment out or bypass half the suspect code, check if the bug persists, and repeat — this narrows the cause far faster than reading every line hoping to spot it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

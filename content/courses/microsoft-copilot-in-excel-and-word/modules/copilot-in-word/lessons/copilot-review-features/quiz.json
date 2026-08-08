@@ -1,0 +1,40 @@
+[
+  {
+    "id": "copilot-review-features-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Using Copilot for Review and Feedback\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Ask Copilot to summarize a long document's key points before a meeting — faster than skimming, but verify against the source for anything you'll act on\""
+    ],
+    "explanation": "Ask Copilot to summarize a long document's key points before a meeting — faster than skimming, but verify against the source for anything you'll act on — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask Copilot to summarize a long document's key points before a meeting — faster than skimming, but verify against the source for anything you'll act on"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "copilot-review-features-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use it to check tone consistency across a long document written over multiple sittings",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use it to check tone consistency across a long document written over multiple sittings",
+    "references": [],
+    "correctAnswer": true
+  }
+]

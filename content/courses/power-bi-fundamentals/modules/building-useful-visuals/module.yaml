@@ -1,0 +1,16 @@
+slug: building-useful-visuals
+title: Building Visuals That Answer Questions
+description: Choosing the right chart for the question, and arranging a dashboard that tells a story.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Choosing the Right Visual for the Question"
+  - id: mo-2
+    text: "Grasp: Structuring a Dashboard Around a Narrative"
+lessons:
+  - slug: choosing-the-right-visual
+    order: 0
+  - slug: dashboard-narrative
+    order: 1
+  - slug: power-bi-glossary
+    order: 2

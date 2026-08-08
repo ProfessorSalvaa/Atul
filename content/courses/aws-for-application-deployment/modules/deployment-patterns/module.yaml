@@ -1,0 +1,14 @@
+slug: deployment-patterns
+title: Deployment Patterns
+description: Shipping a new version without taking the whole app down.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Zero-Downtime Deployment Patterns"
+  - id: mo-2
+    text: "Grasp: AWS Deployment Terms Flip Deck"
+lessons:
+  - slug: zero-downtime-deployment
+    order: 0
+  - slug: aws-deployment-glossary
+    order: 1

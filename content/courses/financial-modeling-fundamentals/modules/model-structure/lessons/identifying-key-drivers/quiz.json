@@ -1,0 +1,40 @@
+[
+  {
+    "id": "identifying-key-drivers-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Identifying the Key Drivers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Not every input matters equally — identify which 2-3 assumptions actually drive most of the variance in the output, and spend proportionally more scrutiny on getting those right\""
+    ],
+    "explanation": "Not every input matters equally — identify which 2-3 assumptions actually drive most of the variance in the output, and spend proportionally more scrutiny on getting those right — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Not every input matters equally — identify which 2-3 assumptions actually drive most of the variance in the output, and spend proportionally more scrutiny on getting those right"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "identifying-key-drivers-q2",
+    "type": "true-false",
+    "prompt": "True or false: A model with 30 inputs but only 3 that meaningfully move the outcome creates false precision — the other 27 give an illusion of rigor without adding real accuracy",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A model with 30 inputs but only 3 that meaningfully move the outcome creates false precision — the other 27 give an illusion of rigor without adding real accuracy",
+    "references": [],
+    "correctAnswer": true
+  }
+]

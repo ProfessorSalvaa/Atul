@@ -1,0 +1,43 @@
+---
+type: code
+title: Writing Unit Tests That Cover Edge Cases
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand writing unit tests that cover edge cases
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Writing Unit Tests That Cover Edge Cases."
+  keyConcepts:
+    - "A test suite that only covers the happy path gives false confidence — the
+      bugs that matter usually live in edge cases: empty input, boundary values,
+      unexpected types"
+    - Each test should verify one specific behavior and fail with a clear
+      message when that behavior breaks — a test with 10 assertions that all
+      fail together tells you far less than 10 separate focused tests
+    - Write a test that fails first (for a bug you're fixing, or a feature
+      you're adding) before writing the fix — this confirms the test actually
+      catches the problem, not just that it exists
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Writing Tests That Actually Matter** in _Debugging and Testing Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A test suite that only covers the happy path gives false confidence — the bugs that matter usually live in edge cases: empty input, boundary values, unexpected types
+- Each test should verify one specific behavior and fail with a clear message when that behavior breaks — a test with 10 assertions that all fail together tells you far less than 10 separate focused tests
+- Write a test that fails first (for a bug you're fixing, or a feature you're adding) before writing the fix — this confirms the test actually catches the problem, not just that it exists
+
+```python
+def test_divide_by_zero_raises():
+    with pytest.raises(ZeroDivisionError):
+        divide(10, 0)
+
+def test_divide_normal_case():
+    assert divide(10, 2) == 5
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

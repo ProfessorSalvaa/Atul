@@ -1,0 +1,70 @@
+slug: public-speaking-and-presentation-skills
+title: Public Speaking and Presentation Skills
+subtitle: Structuring a talk people actually follow, and managing the nerves that make even
+  well-prepared speakers freeze up.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - communication
+skills:
+  - public-speaking
+careerPaths: []
+category: communication
+premium: false
+objectives:
+  - id: obj-1
+    text: Structure a presentation around one clear core message
+  - id: obj-2
+    text: Manage speaking nerves with concrete, practiced techniques
+  - id: obj-3
+    text: Handle Q&A confidently, including questions you don't fully know the answer to
+prerequisites: []
+instructor:
+  name: James Okonkwo
+  title: Executive Communication Coach
+  bio: James Okonkwo is Executive Communication Coach, teaching Public Speaking and Presentation
+    Skills on Curitiq.
+  avatarInitials: JO
+modules:
+  - slug: structuring-a-talk
+    order: 0
+  - slug: delivery-and-nerves
+    order: 1
+projectSlugs:
+  - structured-talk-outline
+assessmentSlugs: []
+resources:
+  - title: "Toastmasters International: Speaking Resources"
+    type: external-link
+    url: https://www.toastmasters.org/resources
+    description: Public speaking resources from a well-known speaking organization.
+certificate:
+  title: Public Speaking and Presentation Skills — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the structured talk outline
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Public Speaking and Presentation Skills | Curitiq
+  description: Structuring a talk people actually follow, and managing the nerves that make even
+    well-prepared speakers freeze up.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Structuring a talk people actually follow, and managing the nerves that make even
+    well-prepared speakers freeze up.
+  keyConcepts:
+    - Structure a presentation around one clear core message
+    - Manage speaking nerves with concrete, practiced techniques
+    - Handle Q&A confidently, including questions you don't fully know the answer to
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

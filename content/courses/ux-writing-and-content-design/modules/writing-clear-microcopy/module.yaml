@@ -1,0 +1,14 @@
+slug: writing-clear-microcopy
+title: Writing Clear Microcopy
+description: Buttons, labels, and short strings that carry more weight than their length suggests.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Clarity Over Cleverness"
+  - id: mo-2
+    text: "Grasp: Writing Error Messages That Actually Help"
+lessons:
+  - slug: clarity-over-cleverness
+    order: 0
+  - slug: error-messages-that-help
+    order: 1

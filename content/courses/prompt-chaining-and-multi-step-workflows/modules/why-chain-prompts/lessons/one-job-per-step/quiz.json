@@ -1,0 +1,40 @@
+[
+  {
+    "id": "one-job-per-step-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"One Job Per Step\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A single giant prompt asking a model to research, analyze, and format all at once tends to do all three worse than three focused prompts done in sequence\""
+    ],
+    "explanation": "A single giant prompt asking a model to research, analyze, and format all at once tends to do all three worse than three focused prompts done in sequence — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A single giant prompt asking a model to research, analyze, and format all at once tends to do all three worse than three focused prompts done in sequence"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "one-job-per-step-q2",
+    "type": "true-false",
+    "prompt": "True or false: Chaining works well when a later step genuinely depends on a structured, verifiable output from an earlier step — not just as a way to 'organize' an otherwise simple task",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Chaining works well when a later step genuinely depends on a structured, verifiable output from an earlier step — not just as a way to 'organize' an otherwise simple task",
+    "references": [],
+    "correctAnswer": true
+  }
+]

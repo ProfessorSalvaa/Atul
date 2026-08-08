@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chunking-strategy-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Chunking Strategy in Practice\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Chunk by semantic boundary (paragraph, section) rather than a fixed character count when possible — arbitrary cuts mid-sentence hurt retrieval quality\""
+    ],
+    "explanation": "Chunk by semantic boundary (paragraph, section) rather than a fixed character count when possible — arbitrary cuts mid-sentence hurt retrieval quality — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Chunk by semantic boundary (paragraph, section) rather than a fixed character count when possible — arbitrary cuts mid-sentence hurt retrieval quality"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "chunking-strategy-q2",
+    "type": "true-false",
+    "prompt": "True or false: Overlapping chunks (e.g. 10-20% overlap between consecutive chunks) reduce the risk of splitting a key fact exactly at a chunk boundary",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Overlapping chunks (e.g. 10-20% overlap between consecutive chunks) reduce the risk of splitting a key fact exactly at a chunk boundary",
+    "references": [],
+    "correctAnswer": true
+  }
+]

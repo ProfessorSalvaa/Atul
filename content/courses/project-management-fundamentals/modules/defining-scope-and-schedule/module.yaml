@@ -1,0 +1,14 @@
+slug: defining-scope-and-schedule
+title: Defining Scope and Schedule
+description: What's in, what's out, and in what order it happens.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Scope Definition and Scope Creep"
+  - id: mo-2
+    text: "Grasp: Building a Schedule With Dependencies"
+lessons:
+  - slug: scope-definition-and-creep
+    order: 0
+  - slug: building-a-schedule-with-dependencies
+    order: 1

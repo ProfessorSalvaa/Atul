@@ -1,0 +1,14 @@
+slug: writing-concise-summaries
+title: Writing Concise Executive Summaries
+description: A summary that works even if it's the only part someone reads.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Structuring an Executive Summary"
+  - id: mo-2
+    text: "Grasp: Executive Communication Terms Flip Deck"
+lessons:
+  - slug: executive-summary-structure
+    order: 0
+  - slug: executive-communication-glossary
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "synthesizing-research-notes-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Synthesizing Research Into Actionable Insights\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Affinity mapping — grouping similar observations across multiple sessions into clusters — turns scattered notes into visible patterns worth acting on\""
+    ],
+    "explanation": "Affinity mapping — grouping similar observations across multiple sessions into clusters — turns scattered notes into visible patterns worth acting on — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Affinity mapping — grouping similar observations across multiple sessions into clusters — turns scattered notes into visible patterns worth acting on"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "synthesizing-research-notes-q2",
+    "type": "true-false",
+    "prompt": "True or false: An insight is only actionable if it points toward a specific design implication — 'users found the checkout confusing' is an observation; 'users didn't notice the shipping cost until the final step, causing cart abandonment' is an actionable insight",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — An insight is only actionable if it points toward a specific design implication — 'users found the checkout confusing' is an observation; 'users didn't notice the shipping cost until the final step, causing cart abandonment' is an actionable insight",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,42 @@
+---
+type: code
+title: Reviewing a Plan Before Applying It
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand reviewing a plan before applying it
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Reviewing a Plan Before Applying It."
+  keyConcepts:
+    - Most IaC tools separate 'plan' (show what would change) from 'apply'
+      (actually make the change) — always review the plan output before
+      applying, especially for anything touching production
+    - A plan showing an unexpected resource deletion or replacement is a signal
+      to stop and investigate before proceeding, not to apply and hope
+    - Store infrastructure state remotely and lock it during changes — two
+      people applying conflicting changes simultaneously without locking is a
+      real, damaging failure mode
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Making Infrastructure Changes Safely** in _Infrastructure as Code Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Most IaC tools separate 'plan' (show what would change) from 'apply' (actually make the change) — always review the plan output before applying, especially for anything touching production
+- A plan showing an unexpected resource deletion or replacement is a signal to stop and investigate before proceeding, not to apply and hope
+- Store infrastructure state remotely and lock it during changes — two people applying conflicting changes simultaneously without locking is a real, damaging failure mode
+
+```text
+$ terraform plan
+  # aws_instance.web will be updated in-place
+  ~ instance_type = "t3.micro" -> "t3.small"
+
+  # aws_security_group.web will be destroyed and recreated  <- investigate before applying!
+-/+ resource "aws_security_group" "web" { ... }
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

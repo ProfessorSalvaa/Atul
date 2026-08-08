@@ -1,0 +1,40 @@
+---
+type: code
+title: Detecting Model and Data Drift
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand detecting model and data drift
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Detecting Model and Data Drift."
+  keyConcepts:
+    - Data drift happens when the real-world input distribution shifts away from
+      what the model was trained on (e.g. new customer behavior post-launch of a
+      competitor) — the model's assumptions quietly become less valid over time
+    - Model performance can degrade even without an obvious code change — this
+      is why production ML needs ongoing performance monitoring, not just a
+      one-time evaluation before deployment
+    - Monitor both prediction distribution (is the model suddenly predicting
+      very differently than before) and, where possible, actual outcome accuracy
+      once ground truth becomes available — the former gives an early warning
+      before the latter confirms a real problem
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Monitoring Deployed Models** in _MLOps and Model Deployment Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Data drift happens when the real-world input distribution shifts away from what the model was trained on (e.g. new customer behavior post-launch of a competitor) — the model's assumptions quietly become less valid over time
+- Model performance can degrade even without an obvious code change — this is why production ML needs ongoing performance monitoring, not just a one-time evaluation before deployment
+- Monitor both prediction distribution (is the model suddenly predicting very differently than before) and, where possible, actual outcome accuracy once ground truth becomes available — the former gives an early warning before the latter confirms a real problem
+
+```text
+Signal: model's predicted positive rate jumps from 5% to 22% with no known change in the underlying business
+Likely cause: data drift, or an upstream data pipeline change feeding the model different-looking input than it was trained on
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

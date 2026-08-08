@@ -1,0 +1,14 @@
+slug: the-central-challenge
+title: "The Central Challenge: Overfitting"
+description: A model that memorizes its training data isn't actually learning anything generalizable.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Overfitting and Generalization"
+  - id: mo-2
+    text: "Grasp: Machine Learning Fundamentals Flip Deck"
+lessons:
+  - slug: overfitting-and-generalization
+    order: 0
+  - slug: ml-fundamentals-glossary
+    order: 1

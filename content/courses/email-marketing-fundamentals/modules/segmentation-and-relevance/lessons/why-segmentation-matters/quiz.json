@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-segmentation-matters-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why List Segmentation Matters\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Sending the same email to your entire list regardless of their interests or stage in the relationship with you produces mediocre results for almost everyone on it\""
+    ],
+    "explanation": "Sending the same email to your entire list regardless of their interests or stage in the relationship with you produces mediocre results for almost everyone on it — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Sending the same email to your entire list regardless of their interests or stage in the relationship with you produces mediocre results for almost everyone on it"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-segmentation-matters-q2",
+    "type": "true-false",
+    "prompt": "True or false: Segment by behavior (recent purchase, engagement level, content interest) rather than just demographics — behavioral segments tend to be more predictive of what someone actually wants to receive",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Segment by behavior (recent purchase, engagement level, content interest) rather than just demographics — behavioral segments tend to be more predictive of what someone actually wants to receive",
+    "references": [],
+    "correctAnswer": true
+  }
+]

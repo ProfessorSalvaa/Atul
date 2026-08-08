@@ -1,0 +1,14 @@
+slug: cleaning-data-in-excel
+title: Cleaning Data in Excel
+description: Most analysis time goes here — worth doing properly.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Structuring a Spreadsheet for Analysis, Not Just Display"
+  - id: mo-2
+    text: "Grasp: Common Cleaning Tasks: Duplicates, Blanks, and Inconsistent Text"
+lessons:
+  - slug: structuring-for-analysis
+    order: 0
+  - slug: common-cleaning-tasks
+    order: 1

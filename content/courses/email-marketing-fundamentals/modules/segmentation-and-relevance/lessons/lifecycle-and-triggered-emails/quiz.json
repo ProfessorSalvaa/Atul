@@ -1,0 +1,40 @@
+[
+  {
+    "id": "lifecycle-and-triggered-emails-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Lifecycle and Triggered Emails\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A triggered email (sent automatically based on a specific action, like an abandoned cart) is generally far more effective than a scheduled broadcast, because it's relevant to something the recipient just did\""
+    ],
+    "explanation": "A triggered email (sent automatically based on a specific action, like an abandoned cart) is generally far more effective than a scheduled broadcast, because it's relevant to something the recipient just did — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A triggered email (sent automatically based on a specific action, like an abandoned cart) is generally far more effective than a scheduled broadcast, because it's relevant to something the recipient just did"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "lifecycle-and-triggered-emails-q2",
+    "type": "true-false",
+    "prompt": "True or false: A welcome sequence for new subscribers sets expectations and builds engagement early — the first few emails someone receives disproportionately shape whether they stay engaged long-term",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A welcome sequence for new subscribers sets expectations and builds engagement early — the first few emails someone receives disproportionately shape whether they stay engaged long-term",
+    "references": [],
+    "correctAnswer": true
+  }
+]

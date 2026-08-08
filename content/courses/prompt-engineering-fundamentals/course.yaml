@@ -1,0 +1,74 @@
+slug: prompt-engineering-fundamentals
+title: Prompt Engineering Fundamentals
+subtitle: A repeatable process for writing prompts that get useful output on the first or second
+  try, instead of guessing.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - prompting
+  - ai
+  - generative-ai
+skills:
+  - prompt-engineering
+careerPaths:
+  - ai-practitioner
+category: prompt-engineering
+premium: false
+objectives:
+  - id: obj-1
+    text: Structure a prompt with role, task, context, and format
+  - id: obj-2
+    text: Use examples (few-shot prompting) to steer output style reliably
+  - id: obj-3
+    text: Debug a bad output by identifying which part of the prompt caused it
+prerequisites: []
+instructor:
+  name: Theo Marsh
+  title: Staff Engineer, ex-Vercel
+  bio: Theo Marsh is Staff Engineer, ex-Vercel, teaching Prompt Engineering Fundamentals on Curitiq.
+  avatarInitials: TM
+modules:
+  - slug: anatomy-of-a-prompt
+    order: 0
+  - slug: iterating-on-prompts
+    order: 1
+projectSlugs:
+  - prompt-template-pack
+assessmentSlugs: []
+resources:
+  - title: Anthropic Prompt Engineering Guide
+    type: external-link
+    url: https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview
+    description: Official prompting documentation.
+certificate:
+  title: Prompt Engineering Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the prompt template pack
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Prompt Engineering Fundamentals | Curitiq
+  description:
+    A repeatable process for writing prompts that get useful output on the first or second
+    try, instead of guessing.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    A repeatable process for writing prompts that get useful output on the first or second try,
+    instead of guessing.
+  keyConcepts:
+    - Structure a prompt with role, task, context, and format
+    - Use examples (few-shot prompting) to steer output style reliably
+    - Debug a bad output by identifying which part of the prompt caused it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

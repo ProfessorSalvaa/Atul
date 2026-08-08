@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-for-keyboard-navigation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing for Keyboard-Only Navigation\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every interactive element needs a visible focus state and a logical tab order — a design where tabbing jumps unpredictably around the page is unusable for keyboard-only users\""
+    ],
+    "explanation": "Every interactive element needs a visible focus state and a logical tab order — a design where tabbing jumps unpredictably around the page is unusable for keyboard-only users — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every interactive element needs a visible focus state and a logical tab order — a design where tabbing jumps unpredictably around the page is unusable for keyboard-only users"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-for-keyboard-navigation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Custom interactive components (a custom dropdown, a modal) need the same keyboard support as their native HTML equivalents — this often gets lost when designers and engineers build custom components without considering keyboard behavior",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Custom interactive components (a custom dropdown, a modal) need the same keyboard support as their native HTML equivalents — this often gets lost when designers and engineers build custom components without considering keyboard behavior",
+    "references": [],
+    "correctAnswer": true
+  }
+]

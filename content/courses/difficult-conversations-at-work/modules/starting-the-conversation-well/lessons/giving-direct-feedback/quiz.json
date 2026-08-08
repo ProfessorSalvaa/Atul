@@ -1,0 +1,40 @@
+[
+  {
+    "id": "giving-direct-feedback-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Giving Direct, Specific Feedback\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Vague feedback ('try to be more proactive') is comfortable to give but useless to act on — specific feedback ('in the last three standups, blockers weren't raised until the day they became urgent') is uncomfortable but actionable\""
+    ],
+    "explanation": "Vague feedback ('try to be more proactive') is comfortable to give but useless to act on — specific feedback ('in the last three standups, blockers weren't raised until the day they became urgent') is uncomfortable but actionable — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Vague feedback ('try to be more proactive') is comfortable to give but useless to act on — specific feedback ('in the last three standups, blockers weren't raised until the day they became urgent') is uncomfortable but actionable"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "giving-direct-feedback-q2",
+    "type": "true-false",
+    "prompt": "True or false: Softening hard feedback into vagueness to avoid discomfort is a common, well-intentioned mistake that actually does the other person a disservice by leaving them without what they need to improve",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Softening hard feedback into vagueness to avoid discomfort is a common, well-intentioned mistake that actually does the other person a disservice by leaving them without what they need to improve",
+    "references": [],
+    "correctAnswer": true
+  }
+]

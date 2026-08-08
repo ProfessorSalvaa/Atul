@@ -1,0 +1,14 @@
+slug: prioritization-and-requirements
+title: Prioritization and Requirements
+description: Deciding what to build next, and writing it down clearly enough to actually build.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Prioritization Frameworks"
+  - id: mo-2
+    text: "Grasp: Writing Clear, Testable Requirements"
+lessons:
+  - slug: prioritization-frameworks
+    order: 0
+  - slug: writing-clear-requirements
+    order: 1

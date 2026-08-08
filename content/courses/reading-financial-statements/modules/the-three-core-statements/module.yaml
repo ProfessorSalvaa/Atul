@@ -1,0 +1,14 @@
+slug: the-three-core-statements
+title: The Three Core Statements
+description: Income statement, balance sheet, and cash flow — each answering a different question.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Income Statement and Balance Sheet"
+  - id: mo-2
+    text: "Grasp: Why Cash Flow and Profit Diverge"
+lessons:
+  - slug: income-statement-and-balance-sheet
+    order: 0
+  - slug: cash-flow-vs-profit
+    order: 1

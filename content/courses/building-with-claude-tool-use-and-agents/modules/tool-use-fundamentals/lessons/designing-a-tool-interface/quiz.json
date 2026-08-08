@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-a-tool-interface-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing a Tool Interface a Model Can Use Reliably\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Keep each tool narrowly scoped to one clear job — a tool that does 'search OR create OR delete' based on a flag is far more error-prone than three separate tools\""
+    ],
+    "explanation": "Keep each tool narrowly scoped to one clear job — a tool that does 'search OR create OR delete' based on a flag is far more error-prone than three separate tools — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Keep each tool narrowly scoped to one clear job — a tool that does 'search OR create OR delete' based on a flag is far more error-prone than three separate tools"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-a-tool-interface-q2",
+    "type": "true-false",
+    "prompt": "True or false: Write the tool's description the way you'd explain it to a new engineer who's never seen your codebase — assume no shared context",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Write the tool's description the way you'd explain it to a new engineer who's never seen your codebase — assume no shared context",
+    "references": [],
+    "correctAnswer": true
+  }
+]

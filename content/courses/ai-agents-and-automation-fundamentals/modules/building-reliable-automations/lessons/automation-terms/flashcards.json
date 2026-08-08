@@ -1,0 +1,23 @@
+[
+  {
+    "id": "automation-terms-fc-1",
+    "front": "Human-in-the-loop",
+    "back": "A design pattern where a human must approve an action before an automated system executes it.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "automation-terms-fc-2",
+    "front": "Idempotency",
+    "back": "A property where running an action multiple times has the same effect as running it once — critical for safe retries.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "automation-terms-fc-3",
+    "front": "Failure mode",
+    "back": "A specific, predictable way a system can go wrong, ideally identified and designed against in advance.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  }
+]

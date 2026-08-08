@@ -1,0 +1,14 @@
+slug: the-pm-role
+title: The Product Manager Role
+description: What PMs actually spend their time on, and what they don't own.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: What Product Managers Actually Do"
+  - id: mo-2
+    text: "Grasp: Working With Engineering and Design"
+lessons:
+  - slug: what-pms-actually-do
+    order: 0
+  - slug: working-with-engineering-and-design
+    order: 1

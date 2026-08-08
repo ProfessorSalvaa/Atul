@@ -1,0 +1,32 @@
+---
+type: reading
+title: "The RAG Pipeline: Chunk, Embed, Retrieve, Generate"
+order: 1
+durationMinutes: 18
+objectives:
+  - "Understand the rag pipeline: chunk, embed, retrieve, generate"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: The RAG Pipeline: Chunk, Embed, Retrieve, Generate."
+  keyConcepts:
+    - "Chunking: documents are split into smaller passages — chunk size is a
+      real design decision; too small loses context, too large dilutes relevance
+      and wastes context window"
+    - "Embedding: each chunk is converted into a vector representation capturing
+      its semantic meaning, stored in a vector database for similarity search"
+    - "Retrieval: the user's query is embedded the same way, and the most
+      similar chunks (by vector distance) are pulled back"
+    - "Generation: retrieved chunks are inserted into the prompt as context, and
+      the model generates an answer grounded in them"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Why and How RAG Works** in _Retrieval-Augmented Generation Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Chunking: documents are split into smaller passages — chunk size is a real design decision; too small loses context, too large dilutes relevance and wastes context window
+- Embedding: each chunk is converted into a vector representation capturing its semantic meaning, stored in a vector database for similarity search
+- Retrieval: the user's query is embedded the same way, and the most similar chunks (by vector distance) are pulled back
+- Generation: retrieved chunks are inserted into the prompt as context, and the model generates an answer grounded in them
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-payloads-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing Request and Response Payloads\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Return only what the client actually needs by default, with a way to request more (fields parameter, or a dedicated detail endpoint) rather than always returning everything\""
+    ],
+    "explanation": "Return only what the client actually needs by default, with a way to request more (fields parameter, or a dedicated detail endpoint) rather than always returning everything — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Return only what the client actually needs by default, with a way to request more (fields parameter, or a dedicated detail endpoint) rather than always returning everything"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-payloads-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use consistent field naming and casing across every endpoint — inconsistency (camelCase in one endpoint, snake_case in another) is a constant source of integration friction",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use consistent field naming and casing across every endpoint — inconsistency (camelCase in one endpoint, snake_case in another) is a constant source of integration friction",
+    "references": [],
+    "correctAnswer": true
+  }
+]

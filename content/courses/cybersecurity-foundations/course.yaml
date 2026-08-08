@@ -1,0 +1,74 @@
+slug: cybersecurity-foundations
+title: Cybersecurity Foundations
+subtitle: The core concepts behind protecting systems and data — threats, the CIA triad, and how
+  security thinking differs from feature thinking.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - cybersecurity
+skills:
+  - security-fundamentals
+careerPaths:
+  - cybersecurity-analyst
+category: cybersecurity
+premium: false
+objectives:
+  - id: obj-1
+    text: Explain the CIA triad and why it's the backbone of security thinking
+  - id: obj-2
+    text:
+      "Distinguish common threat categories: malware, phishing, insider threats, and supply-chain
+      attacks"
+  - id: obj-3
+    text: Apply the principle of least privilege to a basic access decision
+prerequisites: []
+instructor:
+  name: Priya Nair
+  title: Security Engineer, ex-Cloudflare
+  bio: Priya Nair is Security Engineer, ex-Cloudflare, teaching Cybersecurity Foundations on Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: core-security-concepts
+    order: 0
+  - slug: access-control-thinking
+    order: 1
+projectSlugs:
+  - threat-and-access-review
+assessmentSlugs: []
+resources:
+  - title: OWASP Top Ten
+    type: external-link
+    url: https://owasp.org/www-project-top-ten/
+    description: The industry-standard list of top web application security risks.
+certificate:
+  title: Cybersecurity Foundations — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the threat and access review
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Cybersecurity Foundations | Curitiq
+  description:
+    The core concepts behind protecting systems and data — threats, the CIA triad, and how
+    security thinking differs from feature thinking.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The core concepts behind protecting systems and data — threats, the CIA triad, and how
+    security thinking differs from feature thinking.
+  keyConcepts:
+    - Explain the CIA triad and why it's the backbone of security thinking
+    - "Distinguish common threat categories: malware, phishing, insider threats, and supply-chain
+      attacks"
+    - Apply the principle of least privilege to a basic access decision
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

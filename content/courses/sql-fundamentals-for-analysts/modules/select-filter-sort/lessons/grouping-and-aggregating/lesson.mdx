@@ -1,0 +1,42 @@
+---
+type: code
+title: GROUP BY and Aggregate Functions
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand group by and aggregate functions
+free: false
+aiTutorContext:
+  summary: "This lesson covers: GROUP BY and Aggregate Functions."
+  keyConcepts:
+    - GROUP BY collapses rows sharing the same value in a column into one
+      summary row per group — used together with aggregate functions like SUM,
+      COUNT, AVG
+    - Every column in the SELECT list that isn't inside an aggregate function
+      must appear in the GROUP BY clause, or the query is ambiguous about what
+      to show
+    - HAVING filters groups after aggregation (e.g. 'only categories with total
+      revenue over $10,000') — WHERE can't do this, since WHERE filters rows
+      before grouping happens
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **SELECT, Filter, and Sort** in _SQL Fundamentals for Analysts_. By the end, you should be able to put the following into practice:
+
+- GROUP BY collapses rows sharing the same value in a column into one summary row per group — used together with aggregate functions like SUM, COUNT, AVG
+- Every column in the SELECT list that isn't inside an aggregate function must appear in the GROUP BY clause, or the query is ambiguous about what to show
+- HAVING filters groups after aggregation (e.g. 'only categories with total revenue over $10,000') — WHERE can't do this, since WHERE filters rows before grouping happens
+
+```sql
+SELECT category, SUM(total) AS revenue
+FROM orders
+GROUP BY category
+HAVING SUM(total) > 10000
+ORDER BY revenue DESC;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "agent-terms-fc-1",
+    "front": "Tool use / function calling",
+    "back": "A model feature where the model can request that your code execute a defined function and return the result.",
+    "difficulty": "advanced",
+    "tags": ["claude", "ai"]
+  },
+  {
+    "id": "agent-terms-fc-2",
+    "front": "Agent loop",
+    "back": "A cycle of the model reasoning, calling a tool, receiving a result, and reasoning again until a task is complete.",
+    "difficulty": "advanced",
+    "tags": ["claude", "ai"]
+  },
+  {
+    "id": "agent-terms-fc-3",
+    "front": "Step budget",
+    "back": "A hard limit on how many tool calls or reasoning steps an agent can take before being forced to conclude.",
+    "difficulty": "advanced",
+    "tags": ["claude", "ai"]
+  },
+  {
+    "id": "agent-terms-fc-4",
+    "front": "Tool schema",
+    "back": "The formal description (name, purpose, input parameters) of a tool that a model uses to decide when and how to call it.",
+    "difficulty": "advanced",
+    "tags": ["claude", "ai"]
+  }
+]

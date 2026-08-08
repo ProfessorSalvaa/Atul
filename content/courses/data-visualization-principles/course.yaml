@@ -1,0 +1,75 @@
+slug: data-visualization-principles
+title: Data Visualization Principles
+subtitle: Choosing the right chart, cutting the noise, and designing visuals that make the right
+  conclusion obvious instead of merely possible.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 100
+tags: &a1
+  - data
+  - analytics
+  - design
+skills:
+  - data-visualization
+  - dashboard-design
+careerPaths:
+  - data-analyst
+  - data-scientist
+category: data-analytics
+premium: true
+objectives:
+  - id: obj-1
+    text: Choose the correct chart type for a given data relationship
+  - id: obj-2
+    text: Remove visual clutter that competes with the actual finding
+  - id: obj-3
+    text: Design a chart that leads a viewer to the correct conclusion without a caption
+prerequisites: []
+instructor:
+  name: Yuki Tanaka
+  title: Design Lead, ex-Notion
+  bio: Yuki Tanaka is Design Lead, ex-Notion, teaching Data Visualization Principles on Curitiq.
+  avatarInitials: YT
+modules:
+  - slug: choosing-chart-types
+    order: 0
+  - slug: designing-for-clarity
+    order: 1
+projectSlugs:
+  - chart-redesign
+assessmentSlugs: []
+resources:
+  - title: Storytelling with Data
+    type: external-link
+    url: https://www.storytellingwithdata.com
+    description: A widely referenced resource on data visualization practice.
+certificate:
+  title: Data Visualization Principles — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the chart redesign
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Data Visualization Principles | Curitiq
+  description:
+    Choosing the right chart, cutting the noise, and designing visuals that make the right
+    conclusion obvious instead of merely possible.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Choosing the right chart, cutting the noise, and designing visuals that make the right
+    conclusion obvious instead of merely possible.
+  keyConcepts:
+    - Choose the correct chart type for a given data relationship
+    - Remove visual clutter that competes with the actual finding
+    - Design a chart that leads a viewer to the correct conclusion without a caption
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

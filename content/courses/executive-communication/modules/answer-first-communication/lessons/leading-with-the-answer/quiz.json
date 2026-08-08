@@ -1,0 +1,40 @@
+[
+  {
+    "id": "leading-with-the-answer-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Leading With the Answer, Not the Journey\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"State the recommendation or conclusion in the first sentence — building up through background and context before the point is a common instinct, but it costs a busy executive's attention before they hear what matters\""
+    ],
+    "explanation": "State the recommendation or conclusion in the first sentence — building up through background and context before the point is a common instinct, but it costs a busy executive's attention before they hear what matters — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "State the recommendation or conclusion in the first sentence — building up through background and context before the point is a common instinct, but it costs a busy executive's attention before they hear what matters"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "leading-with-the-answer-q2",
+    "type": "true-false",
+    "prompt": "True or false: This structure isn't about hiding reasoning — the supporting detail is still there, just placed after the headline for anyone who wants to dig in, not before",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This structure isn't about hiding reasoning — the supporting detail is still there, just placed after the headline for anyone who wants to dig in, not before",
+    "references": [],
+    "correctAnswer": true
+  }
+]

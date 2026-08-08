@@ -1,0 +1,75 @@
+slug: chatgpt-for-everyday-productivity
+title: ChatGPT for Everyday Productivity
+subtitle: A practical, no-hype introduction to using ChatGPT for real work — writing, planning, and
+  research — without the trivia.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - chatgpt
+  - ai
+  - prompting
+skills:
+  - prompt-engineering
+  - chatgpt-workflows
+careerPaths:
+  - ai-practitioner
+category: chatgpt
+premium: false
+objectives:
+  - id: obj-1
+    text: Use ChatGPT effectively for drafting, editing, and summarizing
+  - id: obj-2
+    text: Use custom instructions and memory features to reduce repeated setup
+  - id: obj-3
+    text: Know when ChatGPT's answer needs independent verification
+prerequisites: []
+instructor:
+  name: Priya Nair
+  title: Head of AI Enablement, Fieldstone
+  bio:
+    Priya Nair is Head of AI Enablement, Fieldstone, teaching ChatGPT for Everyday Productivity on
+    Curitiq.
+  avatarInitials: PN
+modules:
+  - slug: core-workflows
+    order: 0
+  - slug: personalizing-chatgpt
+    order: 1
+projectSlugs:
+  - personal-workflow-setup
+assessmentSlugs: []
+resources:
+  - title: OpenAI Help Center
+    type: external-link
+    url: https://help.openai.com
+    description: Official ChatGPT documentation and feature guides.
+certificate:
+  title: ChatGPT for Everyday Productivity — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit your personal workflow setup
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: ChatGPT for Everyday Productivity | Curitiq
+  description: A practical, no-hype introduction to using ChatGPT for real work — writing, planning,
+    and research — without the trivia.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: A practical, no-hype introduction to using ChatGPT for real work — writing, planning, and
+    research — without the trivia.
+  keyConcepts:
+    - Use ChatGPT effectively for drafting, editing, and summarizing
+    - Use custom instructions and memory features to reduce repeated setup
+    - Know when ChatGPT's answer needs independent verification
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

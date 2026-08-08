@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-long-context-matters-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why a Large Context Window Changes What's Possible\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A large context window means you can paste an entire report, contract, or paper in at once — the model reasons over the whole thing rather than a fragment\""
+    ],
+    "explanation": "A large context window means you can paste an entire report, contract, or paper in at once — the model reasons over the whole thing rather than a fragment — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A large context window means you can paste an entire report, contract, or paper in at once — the model reasons over the whole thing rather than a fragment"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-long-context-matters-q2",
+    "type": "true-false",
+    "prompt": "True or false: This makes cross-referencing possible: 'does section 4 contradict what was said in section 1?' is a genuinely useful question only when the model can see both at once",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This makes cross-referencing possible: 'does section 4 contradict what was said in section 1?' is a genuinely useful question only when the model can see both at once",
+    "references": [],
+    "correctAnswer": true
+  }
+]

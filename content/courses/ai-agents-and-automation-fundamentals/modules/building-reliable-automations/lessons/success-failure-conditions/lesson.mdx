@@ -1,0 +1,38 @@
+---
+type: code
+title: Defining Explicit Success and Failure Conditions
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand defining explicit success and failure conditions
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Defining Explicit Success and Failure Conditions."
+  keyConcepts:
+    - Every automated step needs an explicit definition of 'done correctly' that
+      can be checked programmatically, not just 'the model said it worked'
+    - Build in a timeout and a maximum-retry count for every step — an
+      automation with no limits can silently hang or loop indefinitely
+    - On failure, fail loudly (alert, log, halt) rather than silently continuing
+      with a partial or wrong result
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Building Reliable Automations** in _AI Agents and Automation Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Every automated step needs an explicit definition of 'done correctly' that can be checked programmatically, not just 'the model said it worked'
+- Build in a timeout and a maximum-retry count for every step — an automation with no limits can silently hang or loop indefinitely
+- On failure, fail loudly (alert, log, halt) rather than silently continuing with a partial or wrong result
+
+```text
+Step: "Categorize and route incoming support ticket"
+Success condition: category is one of the 5 valid enum values AND confidence score >= 0.7
+Failure condition: anything else
+On failure: route to human queue with a flag, do not auto-close the ticket
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

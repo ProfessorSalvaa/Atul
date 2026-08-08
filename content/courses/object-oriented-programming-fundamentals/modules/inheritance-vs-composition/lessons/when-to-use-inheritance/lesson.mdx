@@ -1,0 +1,46 @@
+---
+type: code
+title: When Inheritance Actually Fits
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand when inheritance actually fits
+free: false
+aiTutorContext:
+  summary: "This lesson covers: When Inheritance Actually Fits."
+  keyConcepts:
+    - Inheritance models a genuine 'is-a' relationship — a `SavingsAccount` is-a
+      `BankAccount` is a reasonable inheritance; a `Car` is-a `Engine` is not,
+      even if a car 'has' an engine
+    - Deep inheritance hierarchies (5+ levels) tend to become fragile and hard
+      to reason about — favor shallow hierarchies or composition once things get
+      complex
+    - Composition ('has-a', building an object out of other objects) is often
+      more flexible than inheritance for combining unrelated behaviors
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Inheritance vs. Composition** in _Object-Oriented Programming Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Inheritance models a genuine 'is-a' relationship — a `SavingsAccount` is-a `BankAccount` is a reasonable inheritance; a `Car` is-a `Engine` is not, even if a car 'has' an engine
+- Deep inheritance hierarchies (5+ levels) tend to become fragile and hard to reason about — favor shallow hierarchies or composition once things get complex
+- Composition ('has-a', building an object out of other objects) is often more flexible than inheritance for combining unrelated behaviors
+
+```python
+class Engine:
+    def start(self):
+        return "Engine started"
+
+class Car:
+    def __init__(self):
+        self.engine = Engine()  # composition: Car HAS an Engine
+
+    def start(self):
+        return self.engine.start()
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

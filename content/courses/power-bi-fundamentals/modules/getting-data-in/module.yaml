@@ -1,0 +1,14 @@
+slug: getting-data-in
+title: Getting Data In and Shaped Correctly
+description: Good dashboards start with good data preparation, not with picking a chart type.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Connecting to Data and Shaping It with Power Query"
+  - id: mo-2
+    text: "Grasp: Data Model Basics: Relationships Between Tables"
+lessons:
+  - slug: connecting-and-shaping-data
+    order: 0
+  - slug: data-model-basics
+    order: 1

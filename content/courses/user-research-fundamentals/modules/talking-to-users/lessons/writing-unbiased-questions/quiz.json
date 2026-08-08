@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-unbiased-questions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Unbiased Interview Questions\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A leading question ('don't you find this feature frustrating?') primes a specific answer — ask neutrally instead ('how do you feel about this feature?') and let the participant's own words reveal the sentiment\""
+    ],
+    "explanation": "A leading question ('don't you find this feature frustrating?') primes a specific answer — ask neutrally instead ('how do you feel about this feature?') and let the participant's own words reveal the sentiment — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A leading question ('don't you find this feature frustrating?') primes a specific answer — ask neutrally instead ('how do you feel about this feature?') and let the participant's own words reveal the sentiment"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-unbiased-questions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask about past behavior, not hypothetical future behavior — 'what did you do the last time you needed to do X' produces far more reliable data than 'would you use a feature that does X'",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask about past behavior, not hypothetical future behavior — 'what did you do the last time you needed to do X' produces far more reliable data than 'would you use a feature that does X'",
+    "references": [],
+    "correctAnswer": true
+  }
+]

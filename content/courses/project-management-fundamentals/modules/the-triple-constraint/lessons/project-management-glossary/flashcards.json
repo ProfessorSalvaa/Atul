@@ -1,0 +1,23 @@
+[
+  {
+    "id": "project-management-glossary-fc-1",
+    "front": "Scope creep",
+    "back": "The gradual, often unnoticed expansion of a project's scope beyond what was originally agreed.",
+    "difficulty": "beginner",
+    "tags": ["project-management"]
+  },
+  {
+    "id": "project-management-glossary-fc-2",
+    "front": "Critical path",
+    "back": "The longest sequence of dependent tasks in a project, determining the minimum possible duration.",
+    "difficulty": "beginner",
+    "tags": ["project-management"]
+  },
+  {
+    "id": "project-management-glossary-fc-3",
+    "front": "Triple constraint",
+    "back": "The interdependence of scope, schedule, and budget — changing one affects the others.",
+    "difficulty": "beginner",
+    "tags": ["project-management"]
+  }
+]

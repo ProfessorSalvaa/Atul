@@ -1,0 +1,40 @@
+[
+  {
+    "id": "images-vs-containers-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Images vs. Containers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An image is a read-only template (application code, dependencies, runtime) — a container is a running instance of that image, with its own writable layer on top\""
+    ],
+    "explanation": "An image is a read-only template (application code, dependencies, runtime) — a container is a running instance of that image, with its own writable layer on top — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An image is a read-only template (application code, dependencies, runtime) — a container is a running instance of that image, with its own writable layer on top"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "images-vs-containers-q2",
+    "type": "true-false",
+    "prompt": "True or false: Multiple containers can run from the same image simultaneously, each isolated from the others — this is what makes containers useful for consistent, repeatable deployment",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Multiple containers can run from the same image simultaneously, each isolated from the others — this is what makes containers useful for consistent, repeatable deployment",
+    "references": [],
+    "correctAnswer": true
+  }
+]

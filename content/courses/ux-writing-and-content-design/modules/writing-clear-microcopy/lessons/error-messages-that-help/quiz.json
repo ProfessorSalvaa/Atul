@@ -1,0 +1,40 @@
+[
+  {
+    "id": "error-messages-that-help-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Error Messages That Actually Help\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A good error message explains what happened, why (if useful), and what to do next — 'Something went wrong' tells the user nothing actionable\""
+    ],
+    "explanation": "A good error message explains what happened, why (if useful), and what to do next — 'Something went wrong' tells the user nothing actionable — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A good error message explains what happened, why (if useful), and what to do next — 'Something went wrong' tells the user nothing actionable"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "error-messages-that-help-q2",
+    "type": "true-false",
+    "prompt": "True or false: Avoid blaming the user or the system in the message tone — state the situation plainly and focus entirely on the path forward",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Avoid blaming the user or the system in the message tone — state the situation plainly and focus entirely on the path forward",
+    "references": [],
+    "correctAnswer": true
+  }
+]

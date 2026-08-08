@@ -1,0 +1,40 @@
+[
+  {
+    "id": "choosing-platforms-by-audience-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Choosing Platforms Based on Audience Fit\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Each platform has a different dominant audience demographic and content culture — choosing a platform because it's popular in general, rather than where your specific audience actually spends attention, wastes effort\""
+    ],
+    "explanation": "Each platform has a different dominant audience demographic and content culture — choosing a platform because it's popular in general, rather than where your specific audience actually spends attention, wastes effort — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Each platform has a different dominant audience demographic and content culture — choosing a platform because it's popular in general, rather than where your specific audience actually spends attention, wastes effort"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "choosing-platforms-by-audience-q2",
+    "type": "true-false",
+    "prompt": "True or false: A B2B audience of enterprise decision-makers behaves very differently on social media than a consumer audience of teenagers — the platform and content strategy should reflect that difference specifically",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A B2B audience of enterprise decision-makers behaves very differently on social media than a consumer audience of teenagers — the platform and content strategy should reflect that difference specifically",
+    "references": [],
+    "correctAnswer": true
+  }
+]

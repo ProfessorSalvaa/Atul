@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rag-terms-fc-1",
+    "front": "Chunking",
+    "back": "Splitting source documents into smaller passages for embedding and retrieval.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "rag-terms-fc-2",
+    "front": "Embedding",
+    "back": "A numeric vector representation of text capturing its semantic meaning, used for similarity search.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "rag-terms-fc-3",
+    "front": "Vector database",
+    "back": "A database optimized for storing embeddings and performing fast similarity search.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "rag-terms-fc-4",
+    "front": "Grounding",
+    "back": "Constraining a model's answer to information present in retrieved source text, reducing hallucination.",
+    "difficulty": "advanced",
+    "tags": ["ai", "generative-ai"]
+  }
+]

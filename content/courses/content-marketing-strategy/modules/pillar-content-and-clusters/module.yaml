@@ -1,0 +1,14 @@
+slug: pillar-content-and-clusters
+title: Pillar Content and Topic Clusters
+description: Structuring content so it reinforces itself instead of existing as scattered, disconnected posts.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Pillar-Cluster Content Model"
+  - id: mo-2
+    text: "Grasp: Tying Content Strategy to Business Outcomes"
+lessons:
+  - slug: the-pillar-cluster-model
+    order: 0
+  - slug: content-tied-to-business-outcomes
+    order: 1

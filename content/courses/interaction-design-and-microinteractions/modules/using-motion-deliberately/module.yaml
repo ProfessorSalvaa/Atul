@@ -1,0 +1,14 @@
+slug: using-motion-deliberately
+title: Using Motion Deliberately
+description: Motion should communicate something, not just decorate.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Motion With Purpose, Not Decoration"
+  - id: mo-2
+    text: "Grasp: Interaction Design Terms Flip Deck"
+lessons:
+  - slug: motion-with-purpose
+    order: 0
+  - slug: interaction-design-glossary
+    order: 1

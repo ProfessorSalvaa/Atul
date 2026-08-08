@@ -1,0 +1,40 @@
+[
+  {
+    "id": "building-a-funnel-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building a Funnel and Finding the Real Bottleneck\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Define each funnel step as a specific, unambiguous event — vague step definitions make drop-off numbers meaningless\""
+    ],
+    "explanation": "Define each funnel step as a specific, unambiguous event — vague step definitions make drop-off numbers meaningless — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Define each funnel step as a specific, unambiguous event — vague step definitions make drop-off numbers meaningless"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "building-a-funnel-q2",
+    "type": "true-false",
+    "prompt": "True or false: Calculate conversion rate step-to-step, not just step-to-first-step — a step with a low overall conversion rate might actually convert fine relative to the step before it, meaning the real problem is upstream",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Calculate conversion rate step-to-step, not just step-to-first-step — a step with a low overall conversion rate might actually convert fine relative to the step before it, meaning the real problem is upstream",
+    "references": [],
+    "correctAnswer": true
+  }
+]

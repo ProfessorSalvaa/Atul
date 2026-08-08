@@ -1,0 +1,40 @@
+---
+type: code
+title: Ranking with ROW_NUMBER, RANK, and DENSE_RANK
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand ranking with row_number, rank, and dense_rank
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Ranking with ROW_NUMBER, RANK, and DENSE_RANK."
+  keyConcepts:
+    - Unlike GROUP BY, window functions calculate a value across a set of
+      related rows without collapsing them into one row — you keep the full
+      detail and add a calculated column
+    - ROW_NUMBER gives strictly sequential numbers even for ties; RANK leaves
+      gaps after ties; DENSE_RANK doesn't — picking the wrong one silently
+      changes what 'top 3' actually means when there are ties
+    - PARTITION BY resets the ranking within each group (e.g. rank customers
+      within each region separately) — forgetting it ranks across the entire
+      result set instead
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Window Functions** in _Advanced SQL: Window Functions and Optimization_. By the end, you should be able to put the following into practice:
+
+- Unlike GROUP BY, window functions calculate a value across a set of related rows without collapsing them into one row — you keep the full detail and add a calculated column
+- ROW_NUMBER gives strictly sequential numbers even for ties; RANK leaves gaps after ties; DENSE_RANK doesn't — picking the wrong one silently changes what 'top 3' actually means when there are ties
+- PARTITION BY resets the ranking within each group (e.g. rank customers within each region separately) — forgetting it ranks across the entire result set instead
+
+```sql
+SELECT customer_id, region, revenue,
+  RANK() OVER (PARTITION BY region ORDER BY revenue DESC) AS rank_in_region
+FROM customer_revenue;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,14 @@
+slug: model-structure
+title: Structuring a Model
+description: The difference between a model that's trustworthy and one that's a tangle of hardcoded numbers.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Separating Inputs, Calculations, and Outputs"
+  - id: mo-2
+    text: "Grasp: Identifying the Key Drivers"
+lessons:
+  - slug: inputs-calculations-outputs
+    order: 0
+  - slug: identifying-key-drivers
+    order: 1

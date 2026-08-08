@@ -1,0 +1,71 @@
+slug: ui-ux-design-foundations
+title: UI/UX Design Foundations
+subtitle: The core difference between UI and UX, and the design principles that separate an
+  interface that works from one that just looks nice.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - ui-design
+skills:
+  - ux-fundamentals
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: false
+objectives:
+  - id: obj-1
+    text: Distinguish UI design from UX design and explain how they relate
+  - id: obj-2
+    text: "Apply core visual design principles: hierarchy, contrast, alignment, proximity"
+  - id: obj-3
+    text: Critique an interface using established usability heuristics
+prerequisites: []
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching UI/UX Design Foundations on Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: ui-vs-ux
+    order: 0
+  - slug: usability-heuristics
+    order: 1
+projectSlugs:
+  - heuristic-evaluation
+assessmentSlugs: []
+resources:
+  - title: "Nielsen Norman Group: 10 Usability Heuristics"
+    type: external-link
+    url: https://www.nngroup.com/articles/ten-usability-heuristics/
+    description: The original, widely referenced usability heuristics.
+certificate:
+  title: UI/UX Design Foundations — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the heuristic evaluation
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: UI/UX Design Foundations | Curitiq
+  description: The core difference between UI and UX, and the design principles that separate an
+    interface that works from one that just looks nice.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The core difference between UI and UX, and the design principles that separate an interface
+    that works from one that just looks nice.
+  keyConcepts:
+    - Distinguish UI design from UX design and explain how they relate
+    - "Apply core visual design principles: hierarchy, contrast, alignment, proximity"
+    - Critique an interface using established usability heuristics
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

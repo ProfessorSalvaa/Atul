@@ -1,0 +1,14 @@
+slug: answer-first-communication
+title: Answer-First Communication
+description: Executives want the conclusion first, and the reasoning only if they ask for it.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Leading With the Answer, Not the Journey"
+  - id: mo-2
+    text: "Grasp: Anticipating the Questions an Executive Will Ask"
+lessons:
+  - slug: leading-with-the-answer
+    order: 0
+  - slug: anticipating-questions
+    order: 1

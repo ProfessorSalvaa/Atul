@@ -1,0 +1,23 @@
+[
+  {
+    "id": "iac-glossary-fc-1",
+    "front": "Configuration drift",
+    "back": "Divergence between actual infrastructure state and its documented/declared definition, usually from manual changes.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "iac-glossary-fc-2",
+    "front": "Declarative infrastructure",
+    "back": "Defining the desired end state of infrastructure, letting the tool determine the steps to achieve it.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "iac-glossary-fc-3",
+    "front": "State locking",
+    "back": "Preventing concurrent infrastructure changes from conflicting by locking the shared state during an operation.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "cloud"]
+  }
+]

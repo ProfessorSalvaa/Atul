@@ -1,0 +1,40 @@
+[
+  {
+    "id": "principle-of-least-privilege-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Principle of Least Privilege\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Grant only the access genuinely needed for a task, nothing more — 'just in case' access is exactly the kind of unused privilege attackers exploit when an account is compromised\""
+    ],
+    "explanation": "Grant only the access genuinely needed for a task, nothing more — 'just in case' access is exactly the kind of unused privilege attackers exploit when an account is compromised — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Grant only the access genuinely needed for a task, nothing more — 'just in case' access is exactly the kind of unused privilege attackers exploit when an account is compromised"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "principle-of-least-privilege-q2",
+    "type": "true-false",
+    "prompt": "True or false: Review and revoke access regularly — access granted for a project that ended six months ago is a lingering, forgotten risk, not a harmless convenience",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Review and revoke access regularly — access granted for a project that ended six months ago is a lingering, forgotten risk, not a harmless convenience",
+    "references": [],
+    "correctAnswer": true
+  }
+]

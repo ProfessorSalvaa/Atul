@@ -1,0 +1,30 @@
+---
+type: reading
+title: Prompting for Correct SQL, Not Just Runnable SQL
+order: 0
+durationMinutes: 15
+objectives:
+  - Understand prompting for correct sql, not just runnable sql
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Prompting for Correct SQL, Not Just Runnable SQL."
+  keyConcepts:
+    - Always include the actual table/column names and types in your prompt — a
+      model guessing at your schema will produce plausible-looking but wrong SQL
+    - State the exact business logic explicitly ('active' means status =
+      'active' AND deleted_at IS NULL) — models will guess at undefined terms,
+      often incorrectly
+    - Ask for the query to be explained back to you in plain English as a check
+      — if the explanation doesn't match your intent, the query is wrong even if
+      it runs
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Generating and Verifying SQL** in _Prompt Engineering for Data Teams_. By the end, you should be able to put the following into practice:
+
+- Always include the actual table/column names and types in your prompt — a model guessing at your schema will produce plausible-looking but wrong SQL
+- State the exact business logic explicitly ('active' means status = 'active' AND deleted_at IS NULL) — models will guess at undefined terms, often incorrectly
+- Ask for the query to be explained back to you in plain English as a check — if the explanation doesn't match your intent, the query is wrong even if it runs
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

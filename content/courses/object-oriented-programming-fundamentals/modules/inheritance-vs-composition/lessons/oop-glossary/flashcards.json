@@ -1,0 +1,23 @@
+[
+  {
+    "id": "oop-glossary-fc-1",
+    "front": "Encapsulation",
+    "back": "Controlling access to an object's internal state through its public methods rather than direct external access.",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "oop-glossary-fc-2",
+    "front": "Inheritance",
+    "back": "A relationship where a class derives shared behavior and structure from a parent class ('is-a' relationship).",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "oop-glossary-fc-3",
+    "front": "Composition",
+    "back": "Building a class out of other objects it owns and delegates to ('has-a' relationship), often more flexible than inheritance.",
+    "difficulty": "intermediate",
+    "tags": ["python", "programming"]
+  }
+]

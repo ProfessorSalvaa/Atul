@@ -1,0 +1,14 @@
+slug: choosing-chart-types
+title: Choosing the Right Chart Type
+description: Matching the visual form to the shape of the question.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Matching Chart Type to the Question Being Asked"
+  - id: mo-2
+    text: "Grasp: Removing Clutter That Competes with the Finding"
+lessons:
+  - slug: matching-chart-to-question
+    order: 0
+  - slug: removing-clutter
+    order: 1

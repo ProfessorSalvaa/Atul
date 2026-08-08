@@ -1,0 +1,14 @@
+slug: the-anatomy-of-feedback
+title: The Anatomy of Feedback
+description: Every interaction has a full lifecycle — most designs only show one frame of it.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Designing Every State of an Interactive Element"
+  - id: mo-2
+    text: "Grasp: The Anatomy of a Microinteraction"
+lessons:
+  - slug: interactive-element-states
+    order: 0
+  - slug: microinteraction-anatomy
+    order: 1

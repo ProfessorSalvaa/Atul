@@ -1,0 +1,14 @@
+slug: personalizing-chatgpt
+title: Personalizing ChatGPT for Less Repeated Setup
+description: Making ChatGPT remember your context so you're not re-explaining yourself every conversation.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Custom Instructions and Memory"
+  - id: mo-2
+    text: "Grasp: ChatGPT Feature Glossary"
+lessons:
+  - slug: custom-instructions
+    order: 0
+  - slug: chatgpt-glossary
+    order: 1

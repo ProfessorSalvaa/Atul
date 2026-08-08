@@ -1,0 +1,40 @@
+[
+  {
+    "id": "paid-owned-earned-media-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Paid, Owned, and Earned Media\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Paid media is anything you pay directly for reach (ads) — fast but stops working the moment budget stops\""
+    ],
+    "explanation": "Paid media is anything you pay directly for reach (ads) — fast but stops working the moment budget stops — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Paid media is anything you pay directly for reach (ads) — fast but stops working the moment budget stops"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "paid-owned-earned-media-q2",
+    "type": "true-false",
+    "prompt": "True or false: Owned media is anything you control directly (your website, your email list, your app) — durable but requires you to already have an audience to reach through it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Owned media is anything you control directly (your website, your email list, your app) — durable but requires you to already have an audience to reach through it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

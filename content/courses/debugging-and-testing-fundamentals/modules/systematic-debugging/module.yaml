@@ -1,0 +1,14 @@
+slug: systematic-debugging
+title: A Systematic Debugging Process
+description: Debugging as a repeatable method, not a random guess-and-check loop.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Isolating the Cause Before Guessing at a Fix"
+  - id: mo-2
+    text: "Grasp: Using a Debugger Instead of Print Statements Everywhere"
+lessons:
+  - slug: isolating-the-cause
+    order: 0
+  - slug: using-a-debugger
+    order: 1

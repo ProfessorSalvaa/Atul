@@ -1,0 +1,30 @@
+---
+type: reading
+title: Resource-Oriented Naming
+order: 0
+durationMinutes: 15
+objectives:
+  - Understand resource-oriented naming
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Resource-Oriented Naming."
+  keyConcepts:
+    - Use plural nouns for collections (`/orders`, not `/order` or `/getOrders`)
+      — the HTTP method already conveys the action, the URL should name the
+      resource
+    - Nest resources to reflect real ownership (`/customers/42/orders`) rather
+      than encoding relationships in query parameters when the relationship is
+      fundamental to the resource
+    - Keep URLs stable — once a client depends on an endpoint's shape, changing
+      it without a version bump breaks them silently
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Designing Endpoints** in _API Design Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Use plural nouns for collections (`/orders`, not `/order` or `/getOrders`) — the HTTP method already conveys the action, the URL should name the resource
+- Nest resources to reflect real ownership (`/customers/42/orders`) rather than encoding relationships in query parameters when the relationship is fundamental to the resource
+- Keep URLs stable — once a client depends on an endpoint's shape, changing it without a version bump breaks them silently
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verify-through-a-separate-channel-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Verifying Requests Through a Separate Channel\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"For any unexpected request involving money, credentials, or sensitive data, verify through a known, separate channel — call the person back on a known number, don't reply to the suspicious message itself\""
+    ],
+    "explanation": "For any unexpected request involving money, credentials, or sensitive data, verify through a known, separate channel — call the person back on a known number, don't reply to the suspicious message itself — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "For any unexpected request involving money, credentials, or sensitive data, verify through a known, separate channel — call the person back on a known number, don't reply to the suspicious message itself"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "verify-through-a-separate-channel-q2",
+    "type": "true-false",
+    "prompt": "True or false: This single habit defeats the overwhelming majority of social engineering attempts, because it breaks the attacker's control over the entire interaction",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This single habit defeats the overwhelming majority of social engineering attempts, because it breaks the attacker's control over the entire interaction",
+    "references": [],
+    "correctAnswer": true
+  }
+]

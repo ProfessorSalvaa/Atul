@@ -1,0 +1,42 @@
+---
+type: code
+title: "Recursion: When It Helps and When It Doesn't"
+order: 0
+durationMinutes: 18
+objectives:
+  - "Understand recursion: when it helps and when it doesn't"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Recursion: When It Helps and When It Doesn't."
+  keyConcepts:
+    - Every recursive function needs a base case (when to stop) and a step that
+      moves toward it — missing either causes infinite recursion and a crash
+    - Recursion is a natural fit for tree-like or nested structures (folder
+      hierarchies, nested JSON); for simple linear iteration, a plain loop is
+      usually clearer and avoids Python's recursion depth limit
+    - If you find yourself debugging a recursive function's depth or state,
+      adding print statements showing the input at each call is often faster
+      than reasoning about it abstractly
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Recursion and Problem-Solving** in _Python Data Structures and Algorithms_. By the end, you should be able to put the following into practice:
+
+- Every recursive function needs a base case (when to stop) and a step that moves toward it — missing either causes infinite recursion and a crash
+- Recursion is a natural fit for tree-like or nested structures (folder hierarchies, nested JSON); for simple linear iteration, a plain loop is usually clearer and avoids Python's recursion depth limit
+- If you find yourself debugging a recursive function's depth or state, adding print statements showing the input at each call is often faster than reasoning about it abstractly
+
+```python
+def sum_nested(data):
+    if isinstance(data, (int, float)):
+        return data
+    return sum(sum_nested(item) for item in data)
+
+print(sum_nested([1, [2, 3, [4, 5]], 6]))  # 21
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

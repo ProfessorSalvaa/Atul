@@ -1,0 +1,40 @@
+[
+  {
+    "id": "bias-and-verification-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Bias, Verification, and Knowing When to Trust It\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Models inherit biases present in their training data — this shows up subtly, in tone, assumed defaults, and whose perspective gets centered\""
+    ],
+    "explanation": "Models inherit biases present in their training data — this shows up subtly, in tone, assumed defaults, and whose perspective gets centered — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Models inherit biases present in their training data — this shows up subtly, in tone, assumed defaults, and whose perspective gets centered"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "bias-and-verification-q2",
+    "type": "true-false",
+    "prompt": "True or false: A simple verification habit: treat any factual claim, statistic, or quote from an LLM as 'unverified' until you've checked it against a real source",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A simple verification habit: treat any factual claim, statistic, or quote from an LLM as 'unverified' until you've checked it against a real source",
+    "references": [],
+    "correctAnswer": true
+  }
+]

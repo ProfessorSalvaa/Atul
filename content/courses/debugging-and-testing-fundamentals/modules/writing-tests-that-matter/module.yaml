@@ -1,0 +1,14 @@
+slug: writing-tests-that-matter
+title: Writing Tests That Actually Matter
+description: The difference between test coverage and test usefulness.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing Unit Tests That Cover Edge Cases"
+  - id: mo-2
+    text: "Grasp: Debugging & Testing Terms"
+lessons:
+  - slug: unit-tests-covering-edge-cases
+    order: 0
+  - slug: debugging-testing-glossary
+    order: 1

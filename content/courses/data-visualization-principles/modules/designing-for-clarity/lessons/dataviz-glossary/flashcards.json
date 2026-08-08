@@ -1,0 +1,23 @@
+[
+  {
+    "id": "dataviz-glossary-fc-1",
+    "front": "Chart junk",
+    "back": "Unnecessary visual elements (excess gridlines, 3D effects, decorative icons) that distract from the actual data.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "dataviz-glossary-fc-2",
+    "front": "Truncated axis",
+    "back": "A chart axis that doesn't start at zero, which can visually exaggerate small differences.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "dataviz-glossary-fc-3",
+    "front": "Pre-attentive attribute",
+    "back": "A visual property (like color or size) the eye notices almost instantly, useful for highlighting the key data point in a chart.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  }
+]

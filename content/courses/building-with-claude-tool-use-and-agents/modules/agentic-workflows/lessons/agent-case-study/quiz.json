@@ -1,0 +1,40 @@
+[
+  {
+    "id": "agent-case-study-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Case Study: An Agent That Wouldn't Stop Calling a Tool\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A support-automation agent was given a 'search_knowledge_base' tool with no limit on how many times it could call it per conversation\""
+    ],
+    "explanation": "A support-automation agent was given a 'search_knowledge_base' tool with no limit on how many times it could call it per conversation — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A support-automation agent was given a 'search_knowledge_base' tool with no limit on how many times it could call it per conversation"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "agent-case-study-q2",
+    "type": "true-false",
+    "prompt": "True or false: On ambiguous questions, the agent would search, get a mediocre result, then search again with a slightly reworded query — sometimes 20+ times in a row",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — On ambiguous questions, the agent would search, get a mediocre result, then search again with a slightly reworded query — sometimes 20+ times in a row",
+    "references": [],
+    "correctAnswer": true
+  }
+]

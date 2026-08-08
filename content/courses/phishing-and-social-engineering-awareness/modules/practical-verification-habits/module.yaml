@@ -1,0 +1,14 @@
+slug: practical-verification-habits
+title: Practical Verification Habits
+description: One simple habit that defeats most social engineering attempts.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Verifying Requests Through a Separate Channel"
+  - id: mo-2
+    text: "Grasp: Phishing Terms Flip Deck"
+lessons:
+  - slug: verify-through-a-separate-channel
+    order: 0
+  - slug: phishing-glossary
+    order: 1

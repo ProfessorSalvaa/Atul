@@ -1,0 +1,31 @@
+---
+type: reading
+title: Synchronous vs. Asynchronous Communication
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand synchronous vs. asynchronous communication
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Synchronous vs. Asynchronous Communication."
+  keyConcepts:
+    - A synchronous call requires the caller to wait for the callee to respond —
+      simple, but the caller is blocked (and can fail) if the callee is slow or
+      down
+    - A queue decouples the producer from the consumer — the producer publishes
+      a message and moves on, and the consumer processes it whenever it's able
+      to, even if temporarily behind or down
+    - Queues are especially valuable for absorbing traffic spikes — messages
+      pile up in the queue rather than overwhelming the downstream service
+      directly, smoothing out load over time
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Why Use a Queue** in _Message Queues and Event-Driven Architecture_. By the end, you should be able to put the following into practice:
+
+- A synchronous call requires the caller to wait for the callee to respond — simple, but the caller is blocked (and can fail) if the callee is slow or down
+- A queue decouples the producer from the consumer — the producer publishes a message and moves on, and the consumer processes it whenever it's able to, even if temporarily behind or down
+- Queues are especially valuable for absorbing traffic spikes — messages pile up in the queue rather than overwhelming the downstream service directly, smoothing out load over time
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,78 @@
+slug: prompt-engineering-for-data-teams
+title: Prompt Engineering for Data Teams
+subtitle: Using LLMs inside analytics workflows — generating SQL, cleaning messy data descriptions,
+  and documenting datasets faster.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - prompting
+  - ai
+  - data
+  - sql
+skills:
+  - prompt-engineering
+  - sql-fundamentals
+careerPaths:
+  - ai-practitioner
+  - data-analyst
+category: prompt-engineering
+premium: true
+objectives:
+  - id: obj-1
+    text: Generate and verify SQL queries from natural-language questions
+  - id: obj-2
+    text: Use LLMs to draft data dictionary entries and documentation from schemas
+  - id: obj-3
+    text: Recognize when a generated query's logic is subtly wrong even if it runs without error
+prerequisites:
+  - courseSlug: prompt-engineering-fundamentals
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio:
+    Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Prompt Engineering for Data Teams on
+    Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: generating-sql
+    order: 0
+  - slug: documenting-data
+    order: 1
+projectSlugs:
+  - sql-generation-verification-pack
+assessmentSlugs: []
+resources:
+  - title: SQL Style Guide
+    type: external-link
+    url: https://www.sqlstyle.guide
+    description: A widely used reference for writing clear, maintainable SQL.
+certificate:
+  title: Prompt Engineering for Data Teams — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the SQL generation + verification pack
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Prompt Engineering for Data Teams | Curitiq
+  description: Using LLMs inside analytics workflows — generating SQL, cleaning messy data
+    descriptions, and documenting datasets faster.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Using LLMs inside analytics workflows — generating SQL, cleaning messy data descriptions,
+    and documenting datasets faster.
+  keyConcepts:
+    - Generate and verify SQL queries from natural-language questions
+    - Use LLMs to draft data dictionary entries and documentation from schemas
+    - Recognize when a generated query's logic is subtly wrong even if it runs without error
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

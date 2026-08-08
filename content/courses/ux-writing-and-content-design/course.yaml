@@ -1,0 +1,72 @@
+slug: ux-writing-and-content-design
+title: UX Writing and Content Design
+subtitle: The words in an interface are part of the design — error messages, button labels, and
+  empty states that either help or confuse.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - ui-design
+skills:
+  - ux-fundamentals
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: false
+objectives:
+  - id: obj-1
+    text: Write clear, concise microcopy for common UI moments
+  - id: obj-2
+    text: Write error messages that explain what happened and what to do next
+  - id: obj-3
+    text: Design empty states that guide rather than just state absence
+prerequisites: []
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching UX Writing and Content Design on
+    Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: writing-clear-microcopy
+    order: 0
+  - slug: designing-empty-states
+    order: 1
+projectSlugs:
+  - content-design-audit
+assessmentSlugs: []
+resources:
+  - title: "Nielsen Norman Group: Microcopy"
+    type: external-link
+    url: https://www.nngroup.com/articles/microcopy/
+    description: NN/g's overview of writing effective microcopy.
+certificate:
+  title: UX Writing and Content Design — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the content design audit
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: UX Writing and Content Design | Curitiq
+  description: The words in an interface are part of the design — error messages, button labels, and
+    empty states that either help or confuse.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The words in an interface are part of the design — error messages, button labels, and empty
+    states that either help or confuse.
+  keyConcepts:
+    - Write clear, concise microcopy for common UI moments
+    - Write error messages that explain what happened and what to do next
+    - Design empty states that guide rather than just state absence
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

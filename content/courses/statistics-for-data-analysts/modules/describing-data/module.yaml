@@ -1,0 +1,14 @@
+slug: describing-data
+title: Describing Data Correctly
+description: The everyday statistics that get misused constantly.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Mean, Median, and When Each One Misleads"
+  - id: mo-2
+    text: "Grasp: Sample Size and Selection Bias"
+lessons:
+  - slug: mean-median-and-when-they-mislead
+    order: 0
+  - slug: sample-size-and-bias
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "agent-loops-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Agent Loop and Where It Breaks\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An agentic loop repeats: model reasons → calls a tool → gets a result → reasons again → calls another tool, until it decides the task is done\""
+    ],
+    "explanation": "An agentic loop repeats: model reasons → calls a tool → gets a result → reasons again → calls another tool, until it decides the task is done — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An agentic loop repeats: model reasons → calls a tool → gets a result → reasons again → calls another tool, until it decides the task is done"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "agent-loops-q2",
+    "type": "true-false",
+    "prompt": "True or false: Failure mode 1: infinite or excessive looping — the model keeps calling tools without converging, usually from an underspecified 'done' condition",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Failure mode 1: infinite or excessive looping — the model keeps calling tools without converging, usually from an underspecified 'done' condition",
+    "references": [],
+    "correctAnswer": true
+  }
+]

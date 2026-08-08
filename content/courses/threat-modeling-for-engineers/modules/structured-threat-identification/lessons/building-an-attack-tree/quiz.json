@@ -1,0 +1,40 @@
+[
+  {
+    "id": "building-an-attack-tree-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building an Attack Tree\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An attack tree starts from a specific goal (e.g. 'access customer payment data') and breaks it down into the different paths an attacker could take to achieve it\""
+    ],
+    "explanation": "An attack tree starts from a specific goal (e.g. 'access customer payment data') and breaks it down into the different paths an attacker could take to achieve it — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An attack tree starts from a specific goal (e.g. 'access customer payment data') and breaks it down into the different paths an attacker could take to achieve it"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "building-an-attack-tree-q2",
+    "type": "true-false",
+    "prompt": "True or false: Each path can be broken down further into sub-steps, revealing which specific weak points would need to hold for the attack to fail",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Each path can be broken down further into sub-steps, revealing which specific weak points would need to hold for the attack to fail",
+    "references": [],
+    "correctAnswer": true
+  }
+]

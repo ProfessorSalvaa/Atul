@@ -1,0 +1,40 @@
+[
+  {
+    "id": "researching-your-range-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Researching a Realistic Range\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use multiple sources (industry salary data, peer conversations, recruiter insight) to build a realistic range — relying on a single data point risks anchoring to an inaccurate number\""
+    ],
+    "explanation": "Use multiple sources (industry salary data, peer conversations, recruiter insight) to build a realistic range — relying on a single data point risks anchoring to an inaccurate number — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use multiple sources (industry salary data, peer conversations, recruiter insight) to build a realistic range — relying on a single data point risks anchoring to an inaccurate number"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "researching-your-range-q2",
+    "type": "true-false",
+    "prompt": "True or false: Your range should reflect the specific role, level, location, and company stage, not a generic industry average — a senior role at a well-funded company and the same title at an early-stage startup can differ substantially",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Your range should reflect the specific role, level, location, and company stage, not a generic industry average — a senior role at a well-funded company and the same title at an early-stage startup can differ substantially",
+    "references": [],
+    "correctAnswer": true
+  }
+]

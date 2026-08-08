@@ -1,0 +1,14 @@
+slug: sustainable-content-production
+title: Sustainable Content Production
+description: Consistency matters, but not at the cost of quality.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Building an Editorial Calendar Without Sacrificing Quality"
+  - id: mo-2
+    text: "Grasp: Content Strategy Terms Flip Deck"
+lessons:
+  - slug: editorial-calendar-and-quality-bar
+    order: 0
+  - slug: content-strategy-glossary
+    order: 1

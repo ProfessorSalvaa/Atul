@@ -1,0 +1,44 @@
+---
+type: code
+title: Loading States and Error Handling in the UI
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand loading states and error handling in the ui
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Loading States and Error Handling in the UI."
+  keyConcepts:
+    - "Every async operation triggered by user action needs 3 UI states
+      considered: loading, success, and error — skipping any one leaves a
+      confusing experience"
+    - Disable the triggering button while a request is in flight to prevent
+      duplicate submissions from an impatient double-click
+    - Show a specific, useful error message where possible ('Email already in
+      use') rather than a generic 'Something went wrong' for every failure case
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+This lesson is part of **Handling Real-World Conditions** in _Building Web Apps with REST APIs_. By the end, you should be able to put the following into practice:
+
+- Every async operation triggered by user action needs 3 UI states considered: loading, success, and error — skipping any one leaves a confusing experience
+- Disable the triggering button while a request is in flight to prevent duplicate submissions from an impatient double-click
+- Show a specific, useful error message where possible ('Email already in use') rather than a generic 'Something went wrong' for every failure case
+
+```javascript
+button.disabled = true;
+try {
+  await createUser(formData);
+  showSuccess();
+} catch (err) {
+  showError(err.message);
+} finally {
+  button.disabled = false;
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

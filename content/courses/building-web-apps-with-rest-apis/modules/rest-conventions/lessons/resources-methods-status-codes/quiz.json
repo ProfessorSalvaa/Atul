@@ -1,0 +1,40 @@
+[
+  {
+    "id": "resources-methods-status-codes-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Resources, HTTP Methods, and Status Codes\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"REST models data as resources with URLs (`/users/42`), acted on via HTTP methods: GET (read), POST (create), PUT/PATCH (update), DELETE (remove)\""
+    ],
+    "explanation": "REST models data as resources with URLs (`/users/42`), acted on via HTTP methods: GET (read), POST (create), PUT/PATCH (update), DELETE (remove) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "REST models data as resources with URLs (`/users/42`), acted on via HTTP methods: GET (read), POST (create), PUT/PATCH (update), DELETE (remove)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "resources-methods-status-codes-q2",
+    "type": "true-false",
+    "prompt": "True or false: 2xx means success, 4xx means the client made a bad request (400 malformed, 401 unauthenticated, 403 forbidden, 404 not found), 5xx means the server failed — checking the status code range tells you who's responsible for the failure",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — 2xx means success, 4xx means the client made a bad request (400 malformed, 401 unauthenticated, 403 forbidden, 404 not found), 5xx means the server failed — checking the status code range tells you who's responsible for the failure",
+    "references": [],
+    "correctAnswer": true
+  }
+]

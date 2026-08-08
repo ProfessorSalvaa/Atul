@@ -1,0 +1,14 @@
+slug: scrum-mechanics
+title: Scrum Mechanics
+description: Roles, artifacts, and ceremonies — the actual structure of Scrum.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Scrum Roles, Artifacts, and Ceremonies"
+  - id: mo-2
+    text: "Grasp: Running Effective Sprint Planning"
+lessons:
+  - slug: roles-artifacts-ceremonies
+    order: 0
+  - slug: running-sprint-planning
+    order: 1

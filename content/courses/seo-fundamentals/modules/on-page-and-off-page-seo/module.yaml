@@ -1,0 +1,14 @@
+slug: on-page-and-off-page-seo
+title: On-Page SEO and Why Backlinks Still Matter
+description: What you can control on the page, and why what other sites say about you still matters.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: On-Page SEO Optimization"
+  - id: mo-2
+    text: "Grasp: Why Backlinks and Content Quality Still Matter Most"
+lessons:
+  - slug: on-page-optimization
+    order: 0
+  - slug: why-backlinks-still-matter
+    order: 1

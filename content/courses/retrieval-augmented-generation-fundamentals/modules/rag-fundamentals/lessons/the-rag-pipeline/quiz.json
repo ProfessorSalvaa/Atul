@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-rag-pipeline-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The RAG Pipeline: Chunk, Embed, Retrieve, Generate\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Chunking: documents are split into smaller passages — chunk size is a real design decision; too small loses context, too large dilutes relevance and wastes context window\""
+    ],
+    "explanation": "Chunking: documents are split into smaller passages — chunk size is a real design decision; too small loses context, too large dilutes relevance and wastes context window — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Chunking: documents are split into smaller passages — chunk size is a real design decision; too small loses context, too large dilutes relevance and wastes context window"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-rag-pipeline-q2",
+    "type": "true-false",
+    "prompt": "True or false: Embedding: each chunk is converted into a vector representation capturing its semantic meaning, stored in a vector database for similarity search",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Embedding: each chunk is converted into a vector representation capturing its semantic meaning, stored in a vector database for similarity search",
+    "references": [],
+    "correctAnswer": true
+  }
+]

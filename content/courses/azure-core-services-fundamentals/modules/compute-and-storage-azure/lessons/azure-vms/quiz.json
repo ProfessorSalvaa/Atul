@@ -1,0 +1,40 @@
+[
+  {
+    "id": "azure-vms-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Azure Virtual Machines and Network Security Groups\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An Azure VM's size (e.g. B1s, D2s) determines CPU, memory, and cost — like AWS, matching size to actual workload avoids both under-provisioning and wasted spend\""
+    ],
+    "explanation": "An Azure VM's size (e.g. B1s, D2s) determines CPU, memory, and cost — like AWS, matching size to actual workload avoids both under-provisioning and wasted spend — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An Azure VM's size (e.g. B1s, D2s) determines CPU, memory, and cost — like AWS, matching size to actual workload avoids both under-provisioning and wasted spend"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "azure-vms-q2",
+    "type": "true-false",
+    "prompt": "True or false: A Network Security Group (NSG) is Azure's equivalent of an AWS security group — a firewall-like rule set controlling inbound/outbound traffic at the subnet or NIC level",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A Network Security Group (NSG) is Azure's equivalent of an AWS security group — a firewall-like rule set controlling inbound/outbound traffic at the subnet or NIC level",
+    "references": [],
+    "correctAnswer": true
+  }
+]

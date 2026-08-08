@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cicd-practice-glossary-fc-1",
+    "front": "Build artifact",
+    "back": "The compiled/packaged output of the build stage, promoted unchanged through subsequent pipeline stages.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "ci-cd"]
+  },
+  {
+    "id": "cicd-practice-glossary-fc-2",
+    "front": "Fail fast",
+    "back": "Ordering pipeline checks so the quickest, most likely to catch problems run first, minimizing wasted time on a doomed build.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "ci-cd"]
+  },
+  {
+    "id": "cicd-practice-glossary-fc-3",
+    "front": "Deployment gate",
+    "back": "A required condition (automated or manual) that must be satisfied before a pipeline proceeds to the next stage.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "ci-cd"]
+  }
+]

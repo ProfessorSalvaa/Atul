@@ -1,0 +1,40 @@
+[
+  {
+    "id": "nielsens-heuristics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Nielsen's 10 Usability Heuristics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Visibility of system status — the interface should always keep users informed about what's happening, through appropriate feedback within reasonable time\""
+    ],
+    "explanation": "Visibility of system status — the interface should always keep users informed about what's happening, through appropriate feedback within reasonable time — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Visibility of system status — the interface should always keep users informed about what's happening, through appropriate feedback within reasonable time"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "nielsens-heuristics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Match between system and the real world — use language and concepts familiar to users, not internal jargon or system-centric terminology",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Match between system and the real world — use language and concepts familiar to users, not internal jargon or system-centric terminology",
+    "references": [],
+    "correctAnswer": true
+  }
+]

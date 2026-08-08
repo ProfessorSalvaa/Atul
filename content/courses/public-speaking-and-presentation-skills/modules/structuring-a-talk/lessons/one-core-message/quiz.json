@@ -1,0 +1,40 @@
+[
+  {
+    "id": "one-core-message-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building Around One Core Message\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Audiences remember one thing, maybe two, from most talks — decide what that one thing is before building any slides, and cut anything that doesn't support it\""
+    ],
+    "explanation": "Audiences remember one thing, maybe two, from most talks — decide what that one thing is before building any slides, and cut anything that doesn't support it — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Audiences remember one thing, maybe two, from most talks — decide what that one thing is before building any slides, and cut anything that doesn't support it"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "one-core-message-q2",
+    "type": "true-false",
+    "prompt": "True or false: State the core message early, not just at the end — don't make the audience wait until the conclusion to learn what the talk is actually about",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — State the core message early, not just at the end — don't make the audience wait until the conclusion to learn what the talk is actually about",
+    "references": [],
+    "correctAnswer": true
+  }
+]

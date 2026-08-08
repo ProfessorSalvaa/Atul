@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-a-class-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing a Class with a Clear Responsibility\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A class should represent one clear concept and own the data and behavior related to it — a class doing too many unrelated things is a sign it should be split\""
+    ],
+    "explanation": "A class should represent one clear concept and own the data and behavior related to it — a class doing too many unrelated things is a sign it should be split — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A class should represent one clear concept and own the data and behavior related to it — a class doing too many unrelated things is a sign it should be split"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-a-class-q2",
+    "type": "true-false",
+    "prompt": "True or false: `__init__` sets up an object's initial state; methods define what it can do — keep methods focused on the object's own responsibility, not unrelated logic",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — `__init__` sets up an object's initial state; methods define what it can do — keep methods focused on the object's own responsibility, not unrelated logic",
+    "references": [],
+    "correctAnswer": true
+  }
+]

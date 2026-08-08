@@ -1,0 +1,40 @@
+[
+  {
+    "id": "working-with-files-and-paths-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Working with Files and Paths Reliably\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use `pathlib` instead of manual string concatenation for file paths — it handles cross-platform path differences (Windows vs. Mac/Linux) automatically\""
+    ],
+    "explanation": "Use `pathlib` instead of manual string concatenation for file paths — it handles cross-platform path differences (Windows vs. Mac/Linux) automatically — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use `pathlib` instead of manual string concatenation for file paths — it handles cross-platform path differences (Windows vs. Mac/Linux) automatically"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "working-with-files-and-paths-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always check whether a file/folder exists before acting on it, and handle the case where it doesn't, rather than letting the script crash",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always check whether a file/folder exists before acting on it, and handle the case where it doesn't, rather than letting the script crash",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,75 @@
+slug: containers-and-docker-fundamentals
+title: Containers and Docker Fundamentals
+subtitle: Packaging an application with everything it needs to run consistently anywhere — the
+  concept behind 'it works on my machine' finally being true everywhere.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - devops
+  - containers
+skills:
+  - containerization
+careerPaths:
+  - cloud-engineer
+  - devops-engineer
+  - software-engineer
+category: devops
+premium: true
+objectives:
+  - id: obj-1
+    text: Write a Dockerfile that builds a small, correct image
+  - id: obj-2
+    text: Explain the difference between an image and a container
+  - id: obj-3
+    text: Avoid the most common Docker image size and security mistakes
+prerequisites: []
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio:
+    Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Containers and Docker Fundamentals on
+    Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: docker-basics
+    order: 0
+  - slug: avoiding-common-mistakes
+    order: 1
+projectSlugs:
+  - dockerized-application
+assessmentSlugs: []
+resources:
+  - title: Docker Documentation
+    type: external-link
+    url: https://docs.docker.com
+    description: Official Docker documentation.
+certificate:
+  title: Containers and Docker Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the containerized application
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Containers and Docker Fundamentals | Curitiq
+  description: Packaging an application with everything it needs to run consistently anywhere — the
+    concept behind 'it works on my machine' finally being true everywhere.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Packaging an application with everything it needs to run consistently anywhere — the
+    concept behind 'it works on my machine' finally being true everywhere.
+  keyConcepts:
+    - Write a Dockerfile that builds a small, correct image
+    - Explain the difference between an image and a container
+    - Avoid the most common Docker image size and security mistakes
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

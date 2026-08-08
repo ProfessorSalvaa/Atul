@@ -1,0 +1,14 @@
+slug: commits-that-make-sense
+title: Commits That Make Sense Later
+description: The habit that makes a project's history actually useful.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: What Makes a Good Commit"
+  - id: mo-2
+    text: "Grasp: Undoing Mistakes Without Panic"
+lessons:
+  - slug: what-makes-a-good-commit
+    order: 0
+  - slug: undoing-mistakes
+    order: 1

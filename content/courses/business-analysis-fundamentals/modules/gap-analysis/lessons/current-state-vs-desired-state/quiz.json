@@ -1,0 +1,40 @@
+[
+  {
+    "id": "current-state-vs-desired-state-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Current State vs. Desired State\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A gap analysis compares the current state (documented via process mapping) against a clearly defined desired state — without both sides defined concretely, the 'gap' stays vague and unactionable\""
+    ],
+    "explanation": "A gap analysis compares the current state (documented via process mapping) against a clearly defined desired state — without both sides defined concretely, the 'gap' stays vague and unactionable — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A gap analysis compares the current state (documented via process mapping) against a clearly defined desired state — without both sides defined concretely, the 'gap' stays vague and unactionable"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "current-state-vs-desired-state-q2",
+    "type": "true-false",
+    "prompt": "True or false: Prioritize gaps by their actual business impact, not just how easy they'd be to fix — an easy fix for a minor gap is less valuable than a harder fix for a major one",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Prioritize gaps by their actual business impact, not just how easy they'd be to fix — an easy fix for a minor gap is less valuable than a harder fix for a major one",
+    "references": [],
+    "correctAnswer": true
+  }
+]

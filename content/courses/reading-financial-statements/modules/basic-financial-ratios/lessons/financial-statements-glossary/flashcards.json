@@ -1,0 +1,23 @@
+[
+  {
+    "id": "financial-statements-glossary-fc-1",
+    "front": "Balance sheet identity",
+    "back": "Assets = Liabilities + Equity, the fundamental equation a balance sheet must always satisfy.",
+    "difficulty": "beginner",
+    "tags": ["finance"]
+  },
+  {
+    "id": "financial-statements-glossary-fc-2",
+    "front": "Gross margin",
+    "back": "Gross profit divided by revenue, showing profitability after direct costs of production.",
+    "difficulty": "beginner",
+    "tags": ["finance"]
+  },
+  {
+    "id": "financial-statements-glossary-fc-3",
+    "front": "Current ratio",
+    "back": "Current assets divided by current liabilities, a measure of short-term liquidity.",
+    "difficulty": "beginner",
+    "tags": ["finance"]
+  }
+]

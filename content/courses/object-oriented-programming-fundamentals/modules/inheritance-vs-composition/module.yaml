@@ -1,0 +1,14 @@
+slug: inheritance-vs-composition
+title: Inheritance vs. Composition
+description: Two ways to reuse and share behavior between classes, and when each is the better call.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: When Inheritance Actually Fits"
+  - id: mo-2
+    text: "Grasp: OOP Terms Flip Deck"
+lessons:
+  - slug: when-to-use-inheritance
+    order: 0
+  - slug: oop-glossary
+    order: 1

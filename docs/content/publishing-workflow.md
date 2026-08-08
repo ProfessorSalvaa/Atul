@@ -20,12 +20,15 @@ draft → in_review → qa → approved → published → archived
 - **approved** — a designated approver (today: the founder; later:
   whoever owns content sign-off) has signed off. Not yet live.
 - **published** — live. **Only `status: published` courses currently
-  render** — the loader doesn't filter on status yet (M2.75 ships with
-  the migrated reference courses all set to `published`), but the field
-  exists specifically so that filter is a one-line change in
-  `loader.ts` (`getAllCourses`/`getAllCourseSlugs`) whenever draft
-  content starts coexisting with live content in the same `content/`
-  tree — which it will, the moment AI generation is turned on.
+  render** — the loader doesn't filter on status yet (both M2.75's 8
+  reference courses and M2.8's 100 launch-library courses ship with
+  `status: published`, so there's no draft content coexisting with live
+  content in `content/` yet), but the field exists specifically so that
+  filter is a one-line change in `loader.ts`
+  (`getAllCourses`/`getAllCourseSlugs`) the moment draft content starts
+  coexisting with live content — which will happen the first time the
+  daily 10-course pipeline (`launch-library.md`) actually runs against
+  a live catalog instead of a pre-launch batch.
 - **archived** — was published, no longer should be. Kept for history/
   version continuity rather than deleted.
 
@@ -59,6 +62,15 @@ What it checks (see `src/lib/content/validate.ts` for the exact rules):
 - Every course has at least one `free: true` lesson.
 - Quiz/flashcard lessons have their corresponding `quiz.json`/
   `flashcards.json` file.
+
+## M2.8: this pipeline, exercised at 100-course scale
+
+M2.8 ran 100 courses through steps equivalent to draft → qa → published
+in five batches of 20, using `pnpm content:validate` as the QA gate
+before each `pnpm build`. See `launch-library.md` for the exact
+generation mechanism (`CourseSpec` → `generate-courses.mts`) and the
+daily ~10-course version of this same pipeline, including where the
+mandatory human-review gate sits.
 
 ## Versioning ties in here
 

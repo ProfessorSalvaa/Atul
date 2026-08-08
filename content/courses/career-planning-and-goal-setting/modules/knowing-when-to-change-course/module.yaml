@@ -1,0 +1,14 @@
+slug: knowing-when-to-change-course
+title: Knowing When to Change Course
+description: Recognizing the signals that a career direction needs reassessment.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Signals It's Time to Reassess"
+  - id: mo-2
+    text: "Grasp: Career Planning Terms Flip Deck"
+lessons:
+  - slug: signals-for-reassessment
+    order: 0
+  - slug: career-planning-glossary
+    order: 1

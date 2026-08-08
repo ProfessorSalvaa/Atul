@@ -1,0 +1,38 @@
+---
+type: code
+title: Measures vs. Calculated Columns
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand measures vs. calculated columns
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Measures vs. Calculated Columns."
+  keyConcepts:
+    - A calculated column is computed once per row and stored — a measure is
+      computed dynamically based on whatever filter context (slicers, visual
+      groupings) is currently applied
+    - Default to measures for anything that should aggregate correctly no matter
+      how the report is sliced — a calculated column summed in a visual can
+      silently give a wrong total
+    - Measures are more memory-efficient too, since they're calculated on demand
+      rather than stored per row
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **DAX Fundamentals** in _Power BI Data Modeling with DAX_. By the end, you should be able to put the following into practice:
+
+- A calculated column is computed once per row and stored — a measure is computed dynamically based on whatever filter context (slicers, visual groupings) is currently applied
+- Default to measures for anything that should aggregate correctly no matter how the report is sliced — a calculated column summed in a visual can silently give a wrong total
+- Measures are more memory-efficient too, since they're calculated on demand rather than stored per row
+
+```text
+Total Revenue = SUM(Sales[Amount])
+// A measure — recalculates correctly whether you're viewing by region, by month, or unfiltered
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

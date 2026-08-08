@@ -1,0 +1,38 @@
+---
+type: code
+title: Generating Formulas from Plain English
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand generating formulas from plain english
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Generating Formulas from Plain English."
+  keyConcepts:
+    - Describe what you want in plain language ('sum column C where column A is
+      2024 and column B is Marketing') and Copilot generates the formula
+    - Always check the generated formula's cell references match your actual
+      layout before applying it broadly — a wrong reference can silently
+      propagate
+    - For anything unfamiliar the formula uses, ask Copilot to explain it in
+      plain English — this builds your own formula literacy over time instead of
+      creating a black box
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Copilot in Excel** in _Microsoft Copilot in Excel and Word_. By the end, you should be able to put the following into practice:
+
+- Describe what you want in plain language ('sum column C where column A is 2024 and column B is Marketing') and Copilot generates the formula
+- Always check the generated formula's cell references match your actual layout before applying it broadly — a wrong reference can silently propagate
+- For anything unfamiliar the formula uses, ask Copilot to explain it in plain English — this builds your own formula literacy over time instead of creating a black box
+
+```text
+Prompt: "Write a formula that sums Column D where Column A = 'Q1' and Column B = 'Marketing', ignoring blank rows."
+Generated: =SUMIFS(D:D, A:A, "Q1", B:B, "Marketing")
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "calculate-and-filter-context-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"CALCULATE and Filter Context\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"CALCULATE is the most important DAX function — it lets you evaluate an expression under a modified filter context, e.g. 'total sales, but only for last year'\""
+    ],
+    "explanation": "CALCULATE is the most important DAX function — it lets you evaluate an expression under a modified filter context, e.g. 'total sales, but only for last year' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "CALCULATE is the most important DAX function — it lets you evaluate an expression under a modified filter context, e.g. 'total sales, but only for last year'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "calculate-and-filter-context-q2",
+    "type": "true-false",
+    "prompt": "True or false: Filter context is everything currently 'filtering' the calculation — slicers, row/column groupings, and any filters inside the visual itself, all combined",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Filter context is everything currently 'filtering' the calculation — slicers, row/column groupings, and any filters inside the visual itself, all combined",
+    "references": [],
+    "correctAnswer": true
+  }
+]

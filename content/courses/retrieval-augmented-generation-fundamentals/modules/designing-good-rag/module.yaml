@@ -1,0 +1,16 @@
+slug: designing-good-rag
+title: Designing RAG That Actually Works Well
+description: The decisions that separate a demo from something reliable in production.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Chunking Strategy in Practice"
+  - id: mo-2
+    text: "Grasp: Case Study: Diagnosing Why a RAG System Gave Wrong Answers"
+lessons:
+  - slug: chunking-strategy
+    order: 0
+  - slug: diagnosing-poor-rag
+    order: 1
+  - slug: rag-terms
+    order: 2

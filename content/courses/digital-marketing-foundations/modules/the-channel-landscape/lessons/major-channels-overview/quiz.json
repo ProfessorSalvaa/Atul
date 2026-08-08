@@ -1,0 +1,40 @@
+[
+  {
+    "id": "major-channels-overview-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Major Digital Marketing Channels\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Search (SEO and paid search) captures existing demand — people already looking for something — while social media largely creates or interrupts attention rather than capturing an active search intent\""
+    ],
+    "explanation": "Search (SEO and paid search) captures existing demand — people already looking for something — while social media largely creates or interrupts attention rather than capturing an active search intent — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Search (SEO and paid search) captures existing demand — people already looking for something — while social media largely creates or interrupts attention rather than capturing an active search intent"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "major-channels-overview-q2",
+    "type": "true-false",
+    "prompt": "True or false: Email marketing is uniquely effective for retention and repeat engagement with people who've already opted in, but does nothing for reaching entirely new audiences",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Email marketing is uniquely effective for retention and repeat engagement with people who've already opted in, but does nothing for reaching entirely new audiences",
+    "references": [],
+    "correctAnswer": true
+  }
+]

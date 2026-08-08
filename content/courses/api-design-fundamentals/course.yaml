@@ -1,0 +1,71 @@
+slug: api-design-fundamentals
+title: API Design Fundamentals
+subtitle: Designing the other side of the API — endpoints, request/response shapes, and versioning
+  decisions that are easy to consume and hard to break.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - web-development
+  - apis
+skills:
+  - api-design
+careerPaths:
+  - software-engineer
+category: web-development
+premium: true
+objectives:
+  - id: obj-1
+    text: Design resource-oriented endpoints with predictable naming
+  - id: obj-2
+    text: Design request/response payloads that are easy to consume and extend
+  - id: obj-3
+    text: Version an API without breaking existing clients
+prerequisites: []
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: Marcus Webb is Senior Software Engineer, ex-Stripe, teaching API Design Fundamentals on Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: designing-endpoints
+    order: 0
+  - slug: versioning-and-evolution
+    order: 1
+projectSlugs:
+  - api-design-spec
+assessmentSlugs: []
+resources:
+  - title: Microsoft REST API Guidelines
+    type: external-link
+    url: https://github.com/microsoft/api-guidelines
+    description: A widely referenced practical guide to REST API design.
+certificate:
+  title: API Design Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the API design spec
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: API Design Fundamentals | Curitiq
+  description: Designing the other side of the API — endpoints, request/response shapes, and
+    versioning decisions that are easy to consume and hard to break.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Designing the other side of the API — endpoints, request/response shapes, and versioning
+    decisions that are easy to consume and hard to break.
+  keyConcepts:
+    - Design resource-oriented endpoints with predictable naming
+    - Design request/response payloads that are easy to consume and extend
+    - Version an API without breaking existing clients
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

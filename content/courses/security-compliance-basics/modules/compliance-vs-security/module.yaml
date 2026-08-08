@@ -1,0 +1,14 @@
+slug: compliance-vs-security
+title: Compliance vs. Actual Security
+description: Passing an audit and being secure are related but not identical.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Compliance Isn't the Same as Security"
+  - id: mo-2
+    text: "Grasp: Security Compliance Terms Flip Deck"
+lessons:
+  - slug: compliance-is-not-security
+    order: 0
+  - slug: compliance-glossary
+    order: 1

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cost-optimization-glossary-fc-1",
+    "front": "Right-sizing",
+    "back": "Adjusting resource allocation (instance type, size) to match actual utilization rather than an overestimated guess.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "cost-optimization-glossary-fc-2",
+    "front": "Reserved/committed pricing",
+    "back": "A discounted cloud pricing model in exchange for committing to a usage level over a fixed term.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "cost-optimization-glossary-fc-3",
+    "front": "Idle resource",
+    "back": "A provisioned cloud resource that's running but not being meaningfully used, quietly accumulating cost.",
+    "difficulty": "intermediate",
+    "tags": ["cloud"]
+  }
+]

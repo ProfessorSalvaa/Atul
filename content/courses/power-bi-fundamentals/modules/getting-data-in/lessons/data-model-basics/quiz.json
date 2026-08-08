@@ -1,0 +1,40 @@
+[
+  {
+    "id": "data-model-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Data Model Basics: Relationships Between Tables\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Power BI works best with multiple related tables (a star schema) rather than one giant flat table — this keeps the model efficient and calculations correct\""
+    ],
+    "explanation": "Power BI works best with multiple related tables (a star schema) rather than one giant flat table — this keeps the model efficient and calculations correct — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Power BI works best with multiple related tables (a star schema) rather than one giant flat table — this keeps the model efficient and calculations correct"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "data-model-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Relationships connect tables via a shared key column (e.g. product ID) — get the relationship direction and cardinality (one-to-many vs. many-to-many) right, or totals will silently miscalculate",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Relationships connect tables via a shared key column (e.g. product ID) — get the relationship direction and cardinality (one-to-many vs. many-to-many) right, or totals will silently miscalculate",
+    "references": [],
+    "correctAnswer": true
+  }
+]

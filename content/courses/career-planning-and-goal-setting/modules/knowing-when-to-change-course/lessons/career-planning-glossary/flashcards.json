@@ -1,0 +1,23 @@
+[
+  {
+    "id": "career-planning-glossary-fc-1",
+    "front": "Skills gap plan",
+    "back": "A specific comparison of current skills against a target role's requirements, prioritized by what blocks progress most.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  },
+  {
+    "id": "career-planning-glossary-fc-2",
+    "front": "Actionable goal",
+    "back": "A career goal specific enough to plan concrete next steps against, unlike a vague aspiration.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  },
+  {
+    "id": "career-planning-glossary-fc-3",
+    "front": "Career reassessment",
+    "back": "A deliberate review of career direction, often triggered by sustained disengagement or a values mismatch.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  }
+]

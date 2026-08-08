@@ -1,0 +1,31 @@
+---
+type: reading
+title: Designing Request and Response Payloads
+order: 1
+durationMinutes: 16
+objectives:
+  - Understand designing request and response payloads
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Designing Request and Response Payloads."
+  keyConcepts:
+    - Return only what the client actually needs by default, with a way to
+      request more (fields parameter, or a dedicated detail endpoint) rather
+      than always returning everything
+    - Use consistent field naming and casing across every endpoint —
+      inconsistency (camelCase in one endpoint, snake_case in another) is a
+      constant source of integration friction
+    - Design error responses with a consistent shape (error code, human-readable
+      message, and enough detail to act on) across every endpoint, not ad hoc
+      per failure
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Designing Endpoints** in _API Design Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Return only what the client actually needs by default, with a way to request more (fields parameter, or a dedicated detail endpoint) rather than always returning everything
+- Use consistent field naming and casing across every endpoint — inconsistency (camelCase in one endpoint, snake_case in another) is a constant source of integration friction
+- Design error responses with a consistent shape (error code, human-readable message, and enough detail to act on) across every endpoint, not ad hoc per failure
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

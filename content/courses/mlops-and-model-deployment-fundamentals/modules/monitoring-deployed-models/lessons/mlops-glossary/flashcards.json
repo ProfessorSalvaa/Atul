@@ -1,0 +1,23 @@
+[
+  {
+    "id": "mlops-glossary-fc-1",
+    "front": "Data drift",
+    "back": "A shift in the real-world input distribution away from what a model was originally trained on.",
+    "difficulty": "advanced",
+    "tags": ["machine-learning", "devops"]
+  },
+  {
+    "id": "mlops-glossary-fc-2",
+    "front": "Real-time serving",
+    "back": "Serving model predictions via a live API for use cases needing an immediate result.",
+    "difficulty": "advanced",
+    "tags": ["machine-learning", "devops"]
+  },
+  {
+    "id": "mlops-glossary-fc-3",
+    "front": "Batch serving",
+    "back": "Running model predictions on a schedule for use cases where precomputed results are acceptable.",
+    "difficulty": "advanced",
+    "tags": ["machine-learning", "devops"]
+  }
+]

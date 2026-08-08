@@ -1,0 +1,23 @@
+[
+  {
+    "id": "data-cleaning-glossary-fc-1",
+    "front": "Data profiling",
+    "back": "A first-pass summary of a dataset's shape, types, and missing values before any cleaning begins.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "data-cleaning-glossary-fc-2",
+    "front": "Near-duplicate",
+    "back": "Records that represent the same real-world entity but differ due to formatting, casing, or typos.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "data-cleaning-glossary-fc-3",
+    "front": "Reproducibility",
+    "back": "The ability for someone else (or future you) to re-run your cleaning process and get the same result.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  }
+]

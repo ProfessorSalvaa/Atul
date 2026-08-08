@@ -1,0 +1,14 @@
+slug: shared-responsibility
+title: The Shared Responsibility Model
+description: The cloud provider secures some things; you're still responsible for the rest.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: What the Provider Secures vs. What You Secure"
+  - id: mo-2
+    text: "Grasp: Common Cloud Misconfigurations"
+lessons:
+  - slug: what-the-provider-secures-vs-you
+    order: 0
+  - slug: common-cloud-misconfigurations
+    order: 1

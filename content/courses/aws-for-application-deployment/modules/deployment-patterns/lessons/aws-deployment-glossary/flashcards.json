@@ -1,0 +1,23 @@
+[
+  {
+    "id": "aws-deployment-glossary-fc-1",
+    "front": "Auto Scaling Group",
+    "back": "An AWS feature that automatically adds or removes EC2 instances based on demand.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "aws"]
+  },
+  {
+    "id": "aws-deployment-glossary-fc-2",
+    "front": "Blue-green deployment",
+    "back": "A deployment strategy running two full environments, switching traffic between them for near-instant rollback.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "aws"]
+  },
+  {
+    "id": "aws-deployment-glossary-fc-3",
+    "front": "Health check",
+    "back": "An automated check confirming an instance is functioning correctly before traffic is routed to it.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "aws"]
+  }
+]

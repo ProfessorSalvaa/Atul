@@ -1,0 +1,31 @@
+---
+type: reading
+title: Feature Scaling
+order: 1
+durationMinutes: 16
+objectives:
+  - Understand feature scaling
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Feature Scaling."
+  keyConcepts:
+    - Features on very different scales (e.g. age in years vs. income in
+      dollars) can cause distance-based or gradient-based algorithms to be
+      dominated by whichever feature happens to have a larger raw numeric range
+    - Standardization (mean 0, standard deviation 1) or min-max scaling puts
+      features on comparable scales — tree-based models are generally unaffected
+      by this and don't require it, but many other algorithms genuinely need it
+    - Fit the scaler only on training data, then apply it to validation/test
+      data — fitting on the full dataset before splitting leaks information from
+      the test set into training, producing an overly optimistic evaluation
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Encoding and Scaling** in _Feature Engineering for Machine Learning_. By the end, you should be able to put the following into practice:
+
+- Features on very different scales (e.g. age in years vs. income in dollars) can cause distance-based or gradient-based algorithms to be dominated by whichever feature happens to have a larger raw numeric range
+- Standardization (mean 0, standard deviation 1) or min-max scaling puts features on comparable scales — tree-based models are generally unaffected by this and don't require it, but many other algorithms genuinely need it
+- Fit the scaler only on training data, then apply it to validation/test data — fitting on the full dataset before splitting leaks information from the test set into training, producing an overly optimistic evaluation
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

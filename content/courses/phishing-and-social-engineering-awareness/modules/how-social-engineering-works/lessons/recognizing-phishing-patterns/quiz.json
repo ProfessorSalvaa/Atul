@@ -1,0 +1,40 @@
+[
+  {
+    "id": "recognizing-phishing-patterns-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Recognizing Common Phishing Patterns\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Mismatched sender domains, generic greetings, and requests to click a link or open an attachment unexpectedly are classic red flags worth pausing on\""
+    ],
+    "explanation": "Mismatched sender domains, generic greetings, and requests to click a link or open an attachment unexpectedly are classic red flags worth pausing on — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Mismatched sender domains, generic greetings, and requests to click a link or open an attachment unexpectedly are classic red flags worth pausing on"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "recognizing-phishing-patterns-q2",
+    "type": "true-false",
+    "prompt": "True or false: A request to bypass normal process ('don't tell finance, just wire this now') is one of the strongest signals of a social engineering attempt, regardless of how the message otherwise looks",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A request to bypass normal process ('don't tell finance, just wire this now') is one of the strongest signals of a social engineering attempt, regardless of how the message otherwise looks",
+    "references": [],
+    "correctAnswer": true
+  }
+]

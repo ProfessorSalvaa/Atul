@@ -1,0 +1,23 @@
+[
+  {
+    "id": "system-design-fundamentals-glossary-fc-1",
+    "front": "Horizontal scaling",
+    "back": "Adding more machines to distribute load, as opposed to making one machine more powerful.",
+    "difficulty": "beginner",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "system-design-fundamentals-glossary-fc-2",
+    "front": "CAP theorem",
+    "back": "A distributed system can guarantee only two of Consistency, Availability, and Partition tolerance during a network partition.",
+    "difficulty": "beginner",
+    "tags": ["system-design"]
+  },
+  {
+    "id": "system-design-fundamentals-glossary-fc-3",
+    "front": "Capacity estimation",
+    "back": "Roughly calculating expected scale (requests/sec, storage) early in a design to ground later decisions.",
+    "difficulty": "beginner",
+    "tags": ["system-design"]
+  }
+]

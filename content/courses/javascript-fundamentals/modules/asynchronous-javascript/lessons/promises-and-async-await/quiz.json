@@ -1,0 +1,40 @@
+[
+  {
+    "id": "promises-and-async-await-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Promises and async/await\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A Promise represents a value that isn't available yet but will be (or will fail) — `async`/`await` is syntax that makes working with Promises read like synchronous code\""
+    ],
+    "explanation": "A Promise represents a value that isn't available yet but will be (or will fail) — `async`/`await` is syntax that makes working with Promises read like synchronous code — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A Promise represents a value that isn't available yet but will be (or will fail) — `async`/`await` is syntax that makes working with Promises read like synchronous code"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "promises-and-async-await-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always handle rejection — an `await`ed call that fails needs a `try`/`catch`, or the error is silently unhandled and hard to trace",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always handle rejection — an `await`ed call that fails needs a `try`/`catch`, or the error is silently unhandled and hard to trace",
+    "references": [],
+    "correctAnswer": true
+  }
+]

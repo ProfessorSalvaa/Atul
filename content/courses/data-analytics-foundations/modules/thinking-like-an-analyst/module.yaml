@@ -1,0 +1,14 @@
+slug: thinking-like-an-analyst
+title: Thinking Like an Analyst
+description: The mental habits that matter more than any specific tool.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Framing a Vague Ask as an Answerable Question"
+  - id: mo-2
+    text: "Grasp: Correlation vs. Causation, in Practice"
+lessons:
+  - slug: framing-the-question
+    order: 0
+  - slug: correlation-vs-causation
+    order: 1

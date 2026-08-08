@@ -1,0 +1,40 @@
+[
+  {
+    "id": "validating-between-steps-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Validating Output Between Steps\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Validate each step's output programmatically before passing it to the next step — a malformed JSON or an empty result should halt the chain, not be silently passed forward\""
+    ],
+    "explanation": "Validate each step's output programmatically before passing it to the next step — a malformed JSON or an empty result should halt the chain, not be silently passed forward — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Validate each step's output programmatically before passing it to the next step — a malformed JSON or an empty result should halt the chain, not be silently passed forward"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "validating-between-steps-q2",
+    "type": "true-false",
+    "prompt": "True or false: Decide per-step whether a failure should halt the whole chain, retry that step, or fall back to a simpler default — this is a design decision, not an afterthought",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Decide per-step whether a failure should halt the whole chain, retry that step, or fall back to a simpler default — this is a design decision, not an afterthought",
+    "references": [],
+    "correctAnswer": true
+  }
+]

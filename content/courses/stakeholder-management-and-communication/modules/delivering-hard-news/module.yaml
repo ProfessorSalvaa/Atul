@@ -1,0 +1,14 @@
+slug: delivering-hard-news
+title: Delivering Hard News and Managing Conflict
+description: The moments that actually test stakeholder management skill.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Delivering Bad News Early and Clearly"
+  - id: mo-2
+    text: "Grasp: Stakeholder Management Terms Flip Deck"
+lessons:
+  - slug: delivering-bad-news-early
+    order: 0
+  - slug: stakeholder-glossary
+    order: 1

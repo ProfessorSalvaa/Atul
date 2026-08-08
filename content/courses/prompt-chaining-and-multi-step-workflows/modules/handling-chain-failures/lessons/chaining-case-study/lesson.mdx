@@ -1,0 +1,41 @@
+---
+type: case-study
+title: "Case Study: A Silent Failure Three Steps Into a Chain"
+order: 1
+durationMinutes: 17
+objectives:
+  - "Understand case study: a silent failure three steps into a chain"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Case Study: A Silent Failure Three Steps Into a Chain."
+  keyConcepts:
+    - A content-generation pipeline chained outline → draft → fact-check →
+      publish, with no validation between steps
+    - The outline step occasionally returned an empty list for obscure topics,
+      which the draft step then 'handled' by inventing a plausible-sounding
+      outline of its own
+    - The fact-check step evaluated the invented content against itself, of
+      course passing, and several factually thin articles were published before
+      anyone noticed
+    - "Root cause: no check that the outline step's output was non-empty and
+      well-formed before letting the chain proceed"
+    - "Fix: added an explicit non-empty validation after the outline step, with
+      the chain halting and alerting a human rather than silently continuing
+      with a downstream model's improvisation"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Handling Failures Mid-Chain** in _Prompt Chaining and Multi-Step Workflows_. By the end, you should be able to put the following into practice:
+
+- A content-generation pipeline chained outline → draft → fact-check → publish, with no validation between steps
+- The outline step occasionally returned an empty list for obscure topics, which the draft step then 'handled' by inventing a plausible-sounding outline of its own
+- The fact-check step evaluated the invented content against itself, of course passing, and several factually thin articles were published before anyone noticed
+- Root cause: no check that the outline step's output was non-empty and well-formed before letting the chain proceed
+- Fix: added an explicit non-empty validation after the outline step, with the chain halting and alerting a human rather than silently continuing with a downstream model's improvisation
+
+## Working through it
+
+Read each point above as a real decision someone had to make — not an abstract rule. The rest of this course builds on the reasoning here, not just the conclusion.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

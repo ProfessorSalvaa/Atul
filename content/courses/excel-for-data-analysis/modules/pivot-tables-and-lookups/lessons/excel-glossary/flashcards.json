@@ -1,0 +1,23 @@
+[
+  {
+    "id": "excel-glossary-fc-1",
+    "front": "Pivot table",
+    "back": "An Excel tool that summarizes and aggregates data by grouping rows and columns interactively.",
+    "difficulty": "beginner",
+    "tags": ["spreadsheets", "excel"]
+  },
+  {
+    "id": "excel-glossary-fc-2",
+    "front": "XLOOKUP",
+    "back": "A modern Excel lookup function that searches a range and returns a matching value, replacing most VLOOKUP use cases.",
+    "difficulty": "beginner",
+    "tags": ["spreadsheets", "excel"]
+  },
+  {
+    "id": "excel-glossary-fc-3",
+    "front": "Data validation",
+    "back": "An Excel feature restricting what values can be entered into a cell, reducing inconsistent data entry.",
+    "difficulty": "beginner",
+    "tags": ["spreadsheets", "excel"]
+  }
+]

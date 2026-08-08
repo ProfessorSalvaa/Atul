@@ -1,0 +1,23 @@
+[
+  {
+    "id": "python-glossary-fc-1",
+    "front": "List comprehension",
+    "back": "A concise Python syntax for creating a list by transforming/filtering another iterable in one line.",
+    "difficulty": "beginner",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "python-glossary-fc-2",
+    "front": "Traceback",
+    "back": "The error report Python prints showing the sequence of calls that led to an exception.",
+    "difficulty": "beginner",
+    "tags": ["python", "programming"]
+  },
+  {
+    "id": "python-glossary-fc-3",
+    "front": "Mutable default argument",
+    "back": "A common Python bug where a default argument (like a list) is shared across all calls instead of being fresh each time.",
+    "difficulty": "beginner",
+    "tags": ["python", "programming"]
+  }
+]

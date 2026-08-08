@@ -1,0 +1,14 @@
+slug: basic-financial-ratios
+title: Basic Financial Ratios
+description: A handful of ratios that quickly summarize a company's financial health.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Key Financial Ratios"
+  - id: mo-2
+    text: "Grasp: Financial Statements Terms Flip Deck"
+lessons:
+  - slug: key-ratios
+    order: 0
+  - slug: financial-statements-glossary
+    order: 1

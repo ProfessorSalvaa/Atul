@@ -1,0 +1,40 @@
+[
+  {
+    "id": "beyond-the-component-library-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Beyond the Component Library\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A design system includes components, but also design tokens (colors, spacing, typography as named values), usage guidelines, and accessibility standards — a component library alone is just one piece\""
+    ],
+    "explanation": "A design system includes components, but also design tokens (colors, spacing, typography as named values), usage guidelines, and accessibility standards — a component library alone is just one piece — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A design system includes components, but also design tokens (colors, spacing, typography as named values), usage guidelines, and accessibility standards — a component library alone is just one piece"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "beyond-the-component-library-q2",
+    "type": "true-false",
+    "prompt": "True or false: The real goal is consistency and speed — designers and engineers stop re-deciding solved problems (what does a warning look like, how much padding does a card need) for every new screen",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The real goal is consistency and speed — designers and engineers stop re-deciding solved problems (what does a warning look like, how much padding does a card need) for every new screen",
+    "references": [],
+    "correctAnswer": true
+  }
+]

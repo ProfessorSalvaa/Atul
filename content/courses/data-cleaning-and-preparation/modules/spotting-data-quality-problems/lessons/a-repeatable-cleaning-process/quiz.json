@@ -1,0 +1,40 @@
+[
+  {
+    "id": "a-repeatable-cleaning-process-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"A Repeatable Cleaning Process\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Step 1: profile the data first — row/column counts, types, and a summary of missing values per column, before changing anything\""
+    ],
+    "explanation": "Step 1: profile the data first — row/column counts, types, and a summary of missing values per column, before changing anything — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Step 1: profile the data first — row/column counts, types, and a summary of missing values per column, before changing anything"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "a-repeatable-cleaning-process-q2",
+    "type": "true-false",
+    "prompt": "True or false: Step 2: decide and document a rule for each problem found (e.g. 'missing region defaults to Unknown, not dropped') rather than making silent ad hoc fixes as you go",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Step 2: decide and document a rule for each problem found (e.g. 'missing region defaults to Unknown, not dropped') rather than making silent ad hoc fixes as you go",
+    "references": [],
+    "correctAnswer": true
+  }
+]

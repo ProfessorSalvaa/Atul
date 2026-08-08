@@ -1,0 +1,40 @@
+[
+  {
+    "id": "deployment-slots-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Deployment Slots for Safer Releases\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A deployment slot is a separate, live environment (e.g. 'staging') sharing the same App Service — you can deploy and fully test a new version before it's live\""
+    ],
+    "explanation": "A deployment slot is a separate, live environment (e.g. 'staging') sharing the same App Service — you can deploy and fully test a new version before it's live — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A deployment slot is a separate, live environment (e.g. 'staging') sharing the same App Service — you can deploy and fully test a new version before it's live"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "deployment-slots-q2",
+    "type": "true-false",
+    "prompt": "True or false: Slot swapping moves the staging version into production near-instantly, and can be reversed by swapping back if something's wrong",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Slot swapping moves the staging version into production near-instantly, and can be reversed by swapping back if something's wrong",
+    "references": [],
+    "correctAnswer": true
+  }
+]

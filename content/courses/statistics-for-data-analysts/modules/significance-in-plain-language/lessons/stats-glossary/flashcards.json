@@ -1,0 +1,30 @@
+[
+  {
+    "id": "stats-glossary-fc-1",
+    "front": "Standard deviation",
+    "back": "A measure of how spread out values are around the mean.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "stats-glossary-fc-2",
+    "front": "Selection bias",
+    "back": "A systematic error where the sample analyzed isn't representative of the population being studied.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "stats-glossary-fc-3",
+    "front": "P-value",
+    "back": "The probability of observing a result at least this extreme if the null hypothesis (no real effect) were true.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "stats-glossary-fc-4",
+    "front": "Statistical vs. practical significance",
+    "back": "A result can be statistically significant (unlikely due to chance) while still being too small to matter practically.",
+    "difficulty": "intermediate",
+    "tags": ["data", "analytics"]
+  }
+]

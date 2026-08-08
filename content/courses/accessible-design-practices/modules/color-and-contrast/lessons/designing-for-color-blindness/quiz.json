@@ -1,0 +1,40 @@
+[
+  {
+    "id": "designing-for-color-blindness-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing for Color Blindness\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Roughly 1 in 12 men and 1 in 200 women have some form of color vision deficiency — this is a large enough population that designing around it is a baseline requirement, not an edge case\""
+    ],
+    "explanation": "Roughly 1 in 12 men and 1 in 200 women have some form of color vision deficiency — this is a large enough population that designing around it is a baseline requirement, not an edge case — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Roughly 1 in 12 men and 1 in 200 women have some form of color vision deficiency — this is a large enough population that designing around it is a baseline requirement, not an edge case"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "designing-for-color-blindness-q2",
+    "type": "true-false",
+    "prompt": "True or false: Simulate common types of color blindness (deuteranopia, protanopia) on your actual designs — this quickly reveals where color-only distinctions genuinely fail",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Simulate common types of color blindness (deuteranopia, protanopia) on your actual designs — this quickly reveals where color-only distinctions genuinely fail",
+    "references": [],
+    "correctAnswer": true
+  }
+]

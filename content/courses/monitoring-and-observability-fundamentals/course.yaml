@@ -1,0 +1,74 @@
+slug: monitoring-and-observability-fundamentals
+title: Monitoring and Observability Fundamentals
+subtitle: Knowing what's actually happening in a running system — metrics, logs, and traces — before
+  an outage forces you to find out the hard way.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 130
+tags: &a1
+  - devops
+  - cloud
+skills:
+  - monitoring-and-observability
+careerPaths:
+  - cloud-engineer
+  - devops-engineer
+category: devops
+premium: true
+objectives:
+  - id: obj-1
+    text: Distinguish metrics, logs, and traces and know when each is the right tool
+  - id: obj-2
+    text: Set alerts that reduce noise instead of causing alert fatigue
+  - id: obj-3
+    text: Use a trace to diagnose latency in a multi-service request
+prerequisites: []
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Monitoring and Observability
+    Fundamentals on Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: the-three-pillars
+    order: 0
+  - slug: alerting-well
+    order: 1
+projectSlugs:
+  - observability-setup-design
+assessmentSlugs: []
+resources:
+  - title: "Google SRE Book: Monitoring Distributed Systems"
+    type: external-link
+    url: https://sre.google/sre-book/monitoring-distributed-systems/
+    description: A widely referenced chapter on production monitoring practices.
+certificate:
+  title: Monitoring and Observability Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the observability setup design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Monitoring and Observability Fundamentals | Curitiq
+  description: Knowing what's actually happening in a running system — metrics, logs, and traces —
+    before an outage forces you to find out the hard way.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Knowing what's actually happening in a running system — metrics, logs, and traces — before
+    an outage forces you to find out the hard way.
+  keyConcepts:
+    - Distinguish metrics, logs, and traces and know when each is the right tool
+    - Set alerts that reduce noise instead of causing alert fatigue
+    - Use a trace to diagnose latency in a multi-service request
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

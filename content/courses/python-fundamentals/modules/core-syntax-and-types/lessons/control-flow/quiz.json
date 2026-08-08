@@ -1,0 +1,40 @@
+[
+  {
+    "id": "control-flow-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Control Flow: Conditionals and Loops\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Python uses indentation, not braces, to define code blocks — inconsistent indentation is a syntax error, not just a style issue\""
+    ],
+    "explanation": "Python uses indentation, not braces, to define code blocks — inconsistent indentation is a syntax error, not just a style issue — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Python uses indentation, not braces, to define code blocks — inconsistent indentation is a syntax error, not just a style issue"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "control-flow-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use a `for` loop when iterating over a known collection; use `while` when looping until a condition changes, not based on a fixed collection",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use a `for` loop when iterating over a known collection; use `while` when looping until a condition changes, not based on a fixed collection",
+    "references": [],
+    "correctAnswer": true
+  }
+]

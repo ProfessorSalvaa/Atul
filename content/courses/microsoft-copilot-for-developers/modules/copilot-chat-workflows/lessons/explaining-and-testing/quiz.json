@@ -1,0 +1,40 @@
+[
+  {
+    "id": "explaining-and-testing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Explaining Unfamiliar Code and Generating Tests\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Ask Copilot Chat to explain an unfamiliar function before you modify it — faster than tracing through it manually, especially in an unfamiliar codebase\""
+    ],
+    "explanation": "Ask Copilot Chat to explain an unfamiliar function before you modify it — faster than tracing through it manually, especially in an unfamiliar codebase — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask Copilot Chat to explain an unfamiliar function before you modify it — faster than tracing through it manually, especially in an unfamiliar codebase"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "explaining-and-testing-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask for tests covering edge cases explicitly, not just the happy path — a generic 'write tests for this' prompt tends to skip the interesting failure cases",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask for tests covering edge cases explicitly, not just the happy path — a generic 'write tests for this' prompt tends to skip the interesting failure cases",
+    "references": [],
+    "correctAnswer": true
+  }
+]

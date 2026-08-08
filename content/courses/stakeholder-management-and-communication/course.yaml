@@ -1,0 +1,76 @@
+slug: stakeholder-management-and-communication
+title: Stakeholder Management and Communication
+subtitle: Keeping the right people informed and aligned at the right level of detail — the skill
+  that determines whether a well-run project still feels chaotic to outsiders.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 105
+tags: &a1
+  - project-management
+  - communication
+skills:
+  - stakeholder-management
+careerPaths:
+  - project-manager
+  - business-analyst
+category: project-management
+premium: true
+objectives:
+  - id: obj-1
+    text: Map stakeholders by influence and interest to prioritize communication effort
+  - id: obj-2
+    text: Deliver a clear, honest status update including bad news
+  - id: obj-3
+    text: Manage conflicting stakeholder priorities without letting the project drift
+prerequisites:
+  - courseSlug: project-management-fundamentals
+instructor:
+  name: Diane Foster
+  title: Senior Program Manager, ex-Deloitte
+  bio: Diane Foster is Senior Program Manager, ex-Deloitte, teaching Stakeholder Management and
+    Communication on Curitiq.
+  avatarInitials: DF
+modules:
+  - slug: mapping-and-prioritizing-stakeholders
+    order: 0
+  - slug: delivering-hard-news
+    order: 1
+projectSlugs:
+  - stakeholder-map-and-status-update
+assessmentSlugs: []
+resources:
+  - title: "PMI: Stakeholder Engagement"
+    type: external-link
+    url: https://www.pmi.org/learning/library/stakeholder-engagement-planning-model-9591
+    description: PMI's guidance on stakeholder engagement planning.
+certificate:
+  title: Stakeholder Management and Communication — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the stakeholder map and status update
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Stakeholder Management and Communication | Curitiq
+  description:
+    Keeping the right people informed and aligned at the right level of detail — the skill
+    that determines whether a well-run project still feels chaotic to ou
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Keeping the right people informed and aligned at the right level of detail — the skill that
+    determines whether a well-run project still feels chaotic to outsiders.
+  keyConcepts:
+    - Map stakeholders by influence and interest to prioritize communication effort
+    - Deliver a clear, honest status update including bad news
+    - Manage conflicting stakeholder priorities without letting the project drift
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

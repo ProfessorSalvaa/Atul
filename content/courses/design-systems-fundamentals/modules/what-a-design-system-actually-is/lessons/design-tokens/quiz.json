@@ -1,0 +1,40 @@
+[
+  {
+    "id": "design-tokens-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Design Tokens\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A design token is a named, reusable value (e.g. `color-primary`, `space-md`) referenced by components instead of a hardcoded value — changing the token updates every component that references it\""
+    ],
+    "explanation": "A design token is a named, reusable value (e.g. `color-primary`, `space-md`) referenced by components instead of a hardcoded value — changing the token updates every component that references it — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A design token is a named, reusable value (e.g. `color-primary`, `space-md`) referenced by components instead of a hardcoded value — changing the token updates every component that references it"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "design-tokens-q2",
+    "type": "true-false",
+    "prompt": "True or false: Tokens should be organized in tiers — primitive values (raw hex codes, pixel numbers) feeding semantic tokens (color-primary, color-danger) that components actually reference, insulating components from raw value changes",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Tokens should be organized in tiers — primitive values (raw hex codes, pixel numbers) feeding semantic tokens (color-primary, color-danger) that components actually reference, insulating components from raw value changes",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "loading-and-error-states-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Loading States and Error Handling in the UI\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every async operation triggered by user action needs 3 UI states considered: loading, success, and error — skipping any one leaves a confusing experience\""
+    ],
+    "explanation": "Every async operation triggered by user action needs 3 UI states considered: loading, success, and error — skipping any one leaves a confusing experience — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every async operation triggered by user action needs 3 UI states considered: loading, success, and error — skipping any one leaves a confusing experience"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "loading-and-error-states-q2",
+    "type": "true-false",
+    "prompt": "True or false: Disable the triggering button while a request is in flight to prevent duplicate submissions from an impatient double-click",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Disable the triggering button while a request is in flight to prevent duplicate submissions from an impatient double-click",
+    "references": [],
+    "correctAnswer": true
+  }
+]

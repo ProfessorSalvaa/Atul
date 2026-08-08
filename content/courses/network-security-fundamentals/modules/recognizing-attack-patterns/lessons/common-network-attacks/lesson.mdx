@@ -1,0 +1,40 @@
+---
+type: code
+title: Common Network Attack Patterns
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand common network attack patterns
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Common Network Attack Patterns."
+  keyConcepts:
+    - A denial-of-service (DoS) attack floods a target with traffic or requests
+      to exhaust its resources — a distributed version (DDoS) uses many sources
+      at once, making it harder to block by simply blocking one IP
+    - Man-in-the-middle attacks intercept communication between two parties —
+      TLS/HTTPS exists specifically to make this much harder by encrypting
+      traffic and verifying identity
+    - Port scanning is reconnaissance — an attacker probing which ports are open
+      to find an entry point — seeing scan attempts in logs is a signal worth
+      monitoring, not necessarily an active breach yet
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Recognizing Network Attack Patterns** in _Network Security Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A denial-of-service (DoS) attack floods a target with traffic or requests to exhaust its resources — a distributed version (DDoS) uses many sources at once, making it harder to block by simply blocking one IP
+- Man-in-the-middle attacks intercept communication between two parties — TLS/HTTPS exists specifically to make this much harder by encrypting traffic and verifying identity
+- Port scanning is reconnaissance — an attacker probing which ports are open to find an entry point — seeing scan attempts in logs is a signal worth monitoring, not necessarily an active breach yet
+
+```text
+Signal in logs: repeated connection attempts across a wide range of ports from one source IP
+Likely interpretation: port scanning / reconnaissance
+Reasonable response: rate-limit or block the source, review for further suspicious activity
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

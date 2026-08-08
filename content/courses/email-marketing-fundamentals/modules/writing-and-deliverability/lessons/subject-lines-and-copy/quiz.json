@@ -1,0 +1,40 @@
+[
+  {
+    "id": "subject-lines-and-copy-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Subject Lines and Email Copy\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A specific, relevant subject line consistently outperforms a vague or clickbait one — clickbait subject lines might drive opens short-term but damage trust and hurt long-term engagement\""
+    ],
+    "explanation": "A specific, relevant subject line consistently outperforms a vague or clickbait one — clickbait subject lines might drive opens short-term but damage trust and hurt long-term engagement — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A specific, relevant subject line consistently outperforms a vague or clickbait one — clickbait subject lines might drive opens short-term but damage trust and hurt long-term engagement"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "subject-lines-and-copy-q2",
+    "type": "true-false",
+    "prompt": "True or false: Personalization beyond just a first name (referencing actual behavior or interest) tends to meaningfully improve engagement, when done accurately — inaccurate personalization is worse than none at all",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Personalization beyond just a first name (referencing actual behavior or interest) tends to meaningfully improve engagement, when done accurately — inaccurate personalization is worse than none at all",
+    "references": [],
+    "correctAnswer": true
+  }
+]

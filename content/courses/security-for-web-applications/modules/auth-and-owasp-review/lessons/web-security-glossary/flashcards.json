@@ -1,0 +1,23 @@
+[
+  {
+    "id": "web-security-glossary-fc-1",
+    "front": "Parameterized query",
+    "back": "A query where input is passed as data, not concatenated into the query string, preventing SQL injection.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "web-development"]
+  },
+  {
+    "id": "web-security-glossary-fc-2",
+    "front": "Stored XSS",
+    "back": "Cross-site scripting where malicious input is saved and served to other users, affecting any visitor.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "web-development"]
+  },
+  {
+    "id": "web-security-glossary-fc-3",
+    "front": "Session fixation",
+    "back": "An attack exploiting a session token that isn't regenerated after login, letting an attacker pre-set a victim's session.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity", "web-development"]
+  }
+]

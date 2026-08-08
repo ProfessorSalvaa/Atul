@@ -1,0 +1,40 @@
+[
+  {
+    "id": "microinteraction-anatomy-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Anatomy of a Microinteraction\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A microinteraction has four parts: a trigger (what starts it), rules (what happens), feedback (how the user perceives it happened), and loops/modes (what happens on repeat or edge cases)\""
+    ],
+    "explanation": "A microinteraction has four parts: a trigger (what starts it), rules (what happens), feedback (how the user perceives it happened), and loops/modes (what happens on repeat or edge cases) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A microinteraction has four parts: a trigger (what starts it), rules (what happens), feedback (how the user perceives it happened), and loops/modes (what happens on repeat or edge cases)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "microinteraction-anatomy-q2",
+    "type": "true-false",
+    "prompt": "True or false: Good feedback is immediate — even a 100ms delay before showing any response to a user's tap or click starts to feel unresponsive",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Good feedback is immediate — even a 100ms delay before showing any response to a user's tap or click starts to feel unresponsive",
+    "references": [],
+    "correctAnswer": true
+  }
+]

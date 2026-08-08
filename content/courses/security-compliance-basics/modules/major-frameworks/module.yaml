@@ -1,0 +1,14 @@
+slug: major-frameworks
+title: Major Compliance Frameworks
+description: What these frameworks are actually asking for, in plain terms.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: SOC 2 and ISO 27001"
+  - id: mo-2
+    text: "Grasp: GDPR Basics"
+lessons:
+  - slug: soc2-and-iso27001
+    order: 0
+  - slug: gdpr-basics
+    order: 1

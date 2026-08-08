@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dax-glossary-fc-1",
+    "front": "Measure",
+    "back": "A DAX calculation evaluated dynamically based on the current filter context, rather than stored per row.",
+    "difficulty": "intermediate",
+    "tags": ["dashboards", "data"]
+  },
+  {
+    "id": "dax-glossary-fc-2",
+    "front": "Filter context",
+    "back": "The combination of all active filters (slicers, groupings, visual filters) affecting a DAX calculation.",
+    "difficulty": "intermediate",
+    "tags": ["dashboards", "data"]
+  },
+  {
+    "id": "dax-glossary-fc-3",
+    "front": "CALCULATE",
+    "back": "The core DAX function used to evaluate an expression under a modified filter context.",
+    "difficulty": "intermediate",
+    "tags": ["dashboards", "data"]
+  },
+  {
+    "id": "dax-glossary-fc-4",
+    "front": "Date table",
+    "back": "A dedicated, continuous table of dates used to enable correct time-intelligence calculations.",
+    "difficulty": "intermediate",
+    "tags": ["dashboards", "data"]
+  }
+]

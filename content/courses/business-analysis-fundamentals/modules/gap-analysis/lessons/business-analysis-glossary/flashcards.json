@@ -1,0 +1,23 @@
+[
+  {
+    "id": "business-analysis-glossary-fc-1",
+    "front": "Five Whys",
+    "back": "A technique of repeatedly asking 'why' to trace a stated problem back to its root cause.",
+    "difficulty": "beginner",
+    "tags": ["business"]
+  },
+  {
+    "id": "business-analysis-glossary-fc-2",
+    "front": "Current-state process map",
+    "back": "A documented view of how a process actually works today, including real exceptions and handoffs.",
+    "difficulty": "beginner",
+    "tags": ["business"]
+  },
+  {
+    "id": "business-analysis-glossary-fc-3",
+    "front": "Gap analysis",
+    "back": "A structured comparison between current state and desired state to identify specific, prioritized gaps.",
+    "difficulty": "beginner",
+    "tags": ["business"]
+  }
+]

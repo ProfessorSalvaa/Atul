@@ -1,0 +1,70 @@
+slug: executive-communication
+title: Executive Communication
+subtitle: Communicating up — getting to the point fast, anticipating the questions a senior
+  stakeholder will actually ask, and earning trust through clarity.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 100
+tags: &a1
+  - communication
+skills:
+  - executive-communication
+careerPaths: []
+category: communication
+premium: true
+objectives:
+  - id: obj-1
+    text: Structure a message using the 'answer first' principle
+  - id: obj-2
+    text: Anticipate and preempt the questions an executive is likely to ask
+  - id: obj-3
+    text: Write a concise executive summary that stands on its own
+prerequisites:
+  - courseSlug: difficult-conversations-at-work
+instructor:
+  name: James Okonkwo
+  title: Executive Communication Coach
+  bio: James Okonkwo is Executive Communication Coach, teaching Executive Communication on Curitiq.
+  avatarInitials: JO
+modules:
+  - slug: answer-first-communication
+    order: 0
+  - slug: writing-concise-summaries
+    order: 1
+projectSlugs:
+  - executive-summary-and-qa-prep
+assessmentSlugs: []
+resources:
+  - title: "Harvard Business Review: Executive Communication"
+    type: external-link
+    url: https://hbr.org/topic/subject/business-communication
+    description: HBR's collection on effective business and executive communication.
+certificate:
+  title: Executive Communication — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the executive summary and Q&A prep
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Executive Communication | Curitiq
+  description: Communicating up — getting to the point fast, anticipating the questions a senior
+    stakeholder will actually ask, and earning trust through clarity.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Communicating up — getting to the point fast, anticipating the questions a senior
+    stakeholder will actually ask, and earning trust through clarity.
+  keyConcepts:
+    - Structure a message using the 'answer first' principle
+    - Anticipate and preempt the questions an executive is likely to ask
+    - Write a concise executive summary that stands on its own
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

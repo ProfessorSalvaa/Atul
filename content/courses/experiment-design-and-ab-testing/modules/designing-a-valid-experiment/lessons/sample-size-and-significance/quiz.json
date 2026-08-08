@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sample-size-and-significance-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Sample Size and Statistical Significance\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Calculate the required sample size before running a test, based on the minimum effect size you actually care about detecting — an underpowered test can fail to detect a real effect simply because it didn't collect enough data\""
+    ],
+    "explanation": "Calculate the required sample size before running a test, based on the minimum effect size you actually care about detecting — an underpowered test can fail to detect a real effect simply because it didn't collect enough data — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Calculate the required sample size before running a test, based on the minimum effect size you actually care about detecting — an underpowered test can fail to detect a real effect simply because it didn't collect enough data"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "sample-size-and-significance-q2",
+    "type": "true-false",
+    "prompt": "True or false: Statistical significance (typically p < 0.05) indicates the observed effect is unlikely to be due to random chance alone — it doesn't by itself indicate the effect is large or practically important",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Statistical significance (typically p < 0.05) indicates the observed effect is unlikely to be due to random chance alone — it doesn't by itself indicate the effect is large or practically important",
+    "references": [],
+    "correctAnswer": true
+  }
+]

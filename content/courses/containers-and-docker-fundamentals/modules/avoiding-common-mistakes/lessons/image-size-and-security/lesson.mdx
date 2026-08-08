@@ -1,0 +1,30 @@
+---
+type: reading
+title: Keeping Images Small and Secure
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand keeping images small and secure
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Keeping Images Small and Secure."
+  keyConcepts:
+    - A bloated image (unnecessary build tools, cached package files, unused
+      dependencies) is slower to pull, slower to start, and has a larger attack
+      surface — clean up in the same layer you install, not a later one
+    - Never run a container's main process as root unless there's a specific
+      reason to — create and switch to a non-root user in the Dockerfile
+    - Don't bake secrets (API keys, passwords) directly into an image — they
+      persist in image layers even if 'removed' in a later step; use environment
+      variables or a secrets manager instead
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Avoiding Common Docker Mistakes** in _Containers and Docker Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A bloated image (unnecessary build tools, cached package files, unused dependencies) is slower to pull, slower to start, and has a larger attack surface — clean up in the same layer you install, not a later one
+- Never run a container's main process as root unless there's a specific reason to — create and switch to a non-root user in the Dockerfile
+- Don't bake secrets (API keys, passwords) directly into an image — they persist in image layers even if 'removed' in a later step; use environment variables or a secrets manager instead
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

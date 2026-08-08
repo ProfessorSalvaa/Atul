@@ -1,0 +1,71 @@
+slug: data-science-workflow-and-tooling
+title: Data Science Workflow and Tooling
+subtitle: How a data science project actually moves from a vague business question to a
+  decision-ready answer — and the tools that support each stage.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 105
+tags: &a1
+  - data-science
+skills:
+  - data-storytelling
+careerPaths:
+  - data-scientist
+category: data-science
+premium: false
+objectives:
+  - id: obj-1
+    text: Translate a vague business question into a well-scoped analytical question
+  - id: obj-2
+    text: Describe the standard data science project lifecycle
+  - id: obj-3
+    text: Communicate a data science finding to a non-technical audience effectively
+prerequisites: []
+instructor:
+  name: Hana Kobayashi
+  title: ML Engineer, ex-DeepMind
+  bio: Hana Kobayashi is ML Engineer, ex-DeepMind, teaching Data Science Workflow and Tooling on
+    Curitiq.
+  avatarInitials: HK
+modules:
+  - slug: from-question-to-analysis
+    order: 0
+  - slug: communicating-findings
+    order: 1
+projectSlugs:
+  - scoped-analysis-and-summary
+assessmentSlugs: []
+resources:
+  - title: "Harvard Business Review: Data Science and the Art of Persuasion"
+    type: external-link
+    url: https://hbr.org/2020/01/data-science-and-the-art-of-persuasion
+    description: An HBR article on communicating data science findings effectively.
+certificate:
+  title: Data Science Workflow and Tooling — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the scoped analysis and summary
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Data Science Workflow and Tooling | Curitiq
+  description: How a data science project actually moves from a vague business question to a
+    decision-ready answer — and the tools that support each stage.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: How a data science project actually moves from a vague business question to a
+    decision-ready answer — and the tools that support each stage.
+  keyConcepts:
+    - Translate a vague business question into a well-scoped analytical question
+    - Describe the standard data science project lifecycle
+    - Communicate a data science finding to a non-technical audience effectively
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

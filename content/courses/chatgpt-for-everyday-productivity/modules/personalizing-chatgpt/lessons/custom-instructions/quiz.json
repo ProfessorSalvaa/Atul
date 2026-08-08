@@ -1,0 +1,40 @@
+[
+  {
+    "id": "custom-instructions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Custom Instructions and Memory\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Custom instructions let you set persistent context (your role, your preferred tone, formatting preferences) that applies to every new conversation automatically\""
+    ],
+    "explanation": "Custom instructions let you set persistent context (your role, your preferred tone, formatting preferences) that applies to every new conversation automatically — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Custom instructions let you set persistent context (your role, your preferred tone, formatting preferences) that applies to every new conversation automatically"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "custom-instructions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Memory (where available) lets ChatGPT retain specific facts across sessions — useful for ongoing projects, but worth periodically reviewing what's been remembered",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Memory (where available) lets ChatGPT retain specific facts across sessions — useful for ongoing projects, but worth periodically reviewing what's been remembered",
+    "references": [],
+    "correctAnswer": true
+  }
+]

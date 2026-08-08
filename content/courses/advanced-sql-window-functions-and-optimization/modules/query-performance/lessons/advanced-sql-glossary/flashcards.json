@@ -1,0 +1,30 @@
+[
+  {
+    "id": "advanced-sql-glossary-fc-1",
+    "front": "Window function",
+    "back": "A calculation performed across a set of related rows without collapsing them into a single summary row.",
+    "difficulty": "advanced",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "advanced-sql-glossary-fc-2",
+    "front": "PARTITION BY",
+    "back": "Divides rows into groups within a window function, resetting the calculation for each group.",
+    "difficulty": "advanced",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "advanced-sql-glossary-fc-3",
+    "front": "Execution plan",
+    "back": "A database's explanation of how it will physically execute a query, useful for diagnosing performance issues.",
+    "difficulty": "advanced",
+    "tags": ["sql", "data"]
+  },
+  {
+    "id": "advanced-sql-glossary-fc-4",
+    "front": "Index",
+    "back": "A database structure that speeds up lookups on a specific column, at the cost of extra storage and write overhead.",
+    "difficulty": "advanced",
+    "tags": ["sql", "data"]
+  }
+]

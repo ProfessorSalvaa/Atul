@@ -1,0 +1,73 @@
+slug: web-development-foundations-html-css
+title: "Web Development Foundations: HTML and CSS"
+subtitle: Structuring and styling a real web page from scratch — the foundation every framework and
+  tool sits on top of.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 120
+tags: &a1
+  - web-development
+  - html-css
+skills:
+  - html-css
+  - responsive-design
+careerPaths:
+  - software-engineer
+category: web-development
+premium: false
+objectives:
+  - id: obj-1
+    text: Structure a page semantically with correct HTML elements
+  - id: obj-2
+    text: Style layouts with CSS Flexbox and Grid
+  - id: obj-3
+    text: Make a page responsive across mobile and desktop viewports
+prerequisites: []
+instructor:
+  name: Elena Rossi
+  title: Frontend Engineer, ex-Shopify
+  bio: "Elena Rossi is Frontend Engineer, ex-Shopify, teaching Web Development Foundations: HTML and
+    CSS on Curitiq."
+  avatarInitials: ER
+modules:
+  - slug: semantic-html
+    order: 0
+  - slug: layout-with-css
+    order: 1
+projectSlugs:
+  - responsive-landing-page
+assessmentSlugs: []
+resources:
+  - title: MDN Web Docs
+    type: external-link
+    url: https://developer.mozilla.org
+    description: The definitive reference for HTML, CSS, and web standards.
+certificate:
+  title: "Web Development Foundations: HTML and CSS — Certificate of Completion"
+  criteria:
+    - Complete both modules
+    - Submit the responsive landing page
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: "Web Development Foundations: HTML and CSS | Curitiq"
+  description: Structuring and styling a real web page from scratch — the foundation every framework
+    and tool sits on top of.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Structuring and styling a real web page from scratch — the foundation every framework and
+    tool sits on top of.
+  keyConcepts:
+    - Structure a page semantically with correct HTML elements
+    - Style layouts with CSS Flexbox and Grid
+    - Make a page responsive across mobile and desktop viewports
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

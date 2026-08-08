@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-cleaning-tasks-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Cleaning Tasks: Duplicates, Blanks, and Inconsistent Text\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use TRIM and CLEAN to strip stray whitespace and non-printing characters that make 'identical-looking' text values fail to match\""
+    ],
+    "explanation": "Use TRIM and CLEAN to strip stray whitespace and non-printing characters that make 'identical-looking' text values fail to match — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use TRIM and CLEAN to strip stray whitespace and non-printing characters that make 'identical-looking' text values fail to match"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-cleaning-tasks-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use Remove Duplicates carefully — first sort and eyeball a sample, since 'duplicate' by all columns can miss near-duplicates from formatting differences",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use Remove Duplicates carefully — first sort and eyeball a sample, since 'duplicate' by all columns can miss near-duplicates from formatting differences",
+    "references": [],
+    "correctAnswer": true
+  }
+]

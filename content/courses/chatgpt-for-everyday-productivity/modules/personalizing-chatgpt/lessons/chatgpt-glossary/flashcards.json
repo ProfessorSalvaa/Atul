@@ -1,0 +1,23 @@
+[
+  {
+    "id": "chatgpt-glossary-fc-1",
+    "front": "Custom instructions",
+    "back": "Persistent settings that apply your preferred context/tone to every new ChatGPT conversation.",
+    "difficulty": "beginner",
+    "tags": ["chatgpt", "ai"]
+  },
+  {
+    "id": "chatgpt-glossary-fc-2",
+    "front": "Memory",
+    "back": "A feature where ChatGPT retains specific facts about you across separate conversations.",
+    "difficulty": "beginner",
+    "tags": ["chatgpt", "ai"]
+  },
+  {
+    "id": "chatgpt-glossary-fc-3",
+    "front": "Context window",
+    "back": "How much of the current conversation the model can 'see' at once before older parts drop off.",
+    "difficulty": "beginner",
+    "tags": ["chatgpt", "ai"]
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "choosing-the-right-visual-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Choosing the Right Visual for the Question\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Trend over time → line chart. Comparison across categories → bar chart. Part-to-whole → stacked bar or a small number of slices, rarely a pie chart with more than 4-5 categories\""
+    ],
+    "explanation": "Trend over time → line chart. Comparison across categories → bar chart. Part-to-whole → stacked bar or a small number of slices, rarely a pie chart with more than 4-5 categories — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Trend over time → line chart. Comparison across categories → bar chart. Part-to-whole → stacked bar or a small number of slices, rarely a pie chart with more than 4-5 categories"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "choosing-the-right-visual-q2",
+    "type": "true-false",
+    "prompt": "True or false: Every visual should have a one-sentence answer it's designed to give at a glance — if you can't state that sentence, the visual probably needs rethinking",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Every visual should have a one-sentence answer it's designed to give at a glance — if you can't state that sentence, the visual probably needs rethinking",
+    "references": [],
+    "correctAnswer": true
+  }
+]

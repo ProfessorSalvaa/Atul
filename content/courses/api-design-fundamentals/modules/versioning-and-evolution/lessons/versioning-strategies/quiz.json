@@ -1,0 +1,40 @@
+[
+  {
+    "id": "versioning-strategies-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Versioning Strategies\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"URL versioning (`/v1/orders`, `/v2/orders`) is explicit and simple for clients to understand, at the cost of duplicating routes over time\""
+    ],
+    "explanation": "URL versioning (`/v1/orders`, `/v2/orders`) is explicit and simple for clients to understand, at the cost of duplicating routes over time — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "URL versioning (`/v1/orders`, `/v2/orders`) is explicit and simple for clients to understand, at the cost of duplicating routes over time"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "versioning-strategies-q2",
+    "type": "true-false",
+    "prompt": "True or false: Additive changes (new optional fields) are usually safe without a version bump; removing or renaming a field, or changing its type, is a breaking change requiring one",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Additive changes (new optional fields) are usually safe without a version bump; removing or renaming a field, or changing its type, is a breaking change requiring one",
+    "references": [],
+    "correctAnswer": true
+  }
+]

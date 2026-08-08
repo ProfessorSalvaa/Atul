@@ -1,0 +1,38 @@
+---
+type: code
+title: "Common Cleaning Tasks: Duplicates, Blanks, and Inconsistent Text"
+order: 1
+durationMinutes: 17
+objectives:
+  - "Understand common cleaning tasks: duplicates, blanks, and inconsistent text"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Common Cleaning Tasks: Duplicates, Blanks, and
+    Inconsistent Text."
+  keyConcepts:
+    - Use TRIM and CLEAN to strip stray whitespace and non-printing characters
+      that make 'identical-looking' text values fail to match
+    - Use Remove Duplicates carefully — first sort and eyeball a sample, since
+      'duplicate' by all columns can miss near-duplicates from formatting
+      differences
+    - Use Data Validation to catch inconsistent category text at entry time,
+      rather than cleaning it up after the fact repeatedly
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Cleaning Data in Excel** in _Excel for Data Analysis_. By the end, you should be able to put the following into practice:
+
+- Use TRIM and CLEAN to strip stray whitespace and non-printing characters that make 'identical-looking' text values fail to match
+- Use Remove Duplicates carefully — first sort and eyeball a sample, since 'duplicate' by all columns can miss near-duplicates from formatting differences
+- Use Data Validation to catch inconsistent category text at entry time, rather than cleaning it up after the fact repeatedly
+
+```text
+=TRIM(CLEAN(A2))   // strips leading/trailing spaces and non-printing characters
+=IF(COUNTIF($A$2:A2,A2)>1,"duplicate","unique")   // flags duplicates as you scan down
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

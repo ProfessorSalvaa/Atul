@@ -1,0 +1,14 @@
+slug: keyboard-and-screen-reader-support
+title: Keyboard Navigation and Screen Reader Support
+description: Designing for people who don't use a mouse or can't see the screen at all.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Designing for Keyboard-Only Navigation"
+  - id: mo-2
+    text: "Grasp: Accessible Design Terms Flip Deck"
+lessons:
+  - slug: designing-for-keyboard-navigation
+    order: 0
+  - slug: accessible-design-glossary
+    order: 1

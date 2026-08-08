@@ -1,0 +1,14 @@
+slug: reading-paid-ad-metrics
+title: Reading Paid Ad Metrics
+description: CPC, CTR, CPA, ROAS — knowing which one tells you what.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Core Paid Advertising Metrics"
+  - id: mo-2
+    text: "Grasp: Paid Advertising Terms Flip Deck"
+lessons:
+  - slug: core-paid-metrics
+    order: 0
+  - slug: paid-advertising-glossary
+    order: 1

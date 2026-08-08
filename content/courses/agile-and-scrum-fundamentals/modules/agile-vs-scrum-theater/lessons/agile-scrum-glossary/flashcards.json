@@ -1,0 +1,23 @@
+[
+  {
+    "id": "agile-scrum-glossary-fc-1",
+    "front": "Sprint backlog",
+    "back": "The specific set of work items the team has committed to complete during the current sprint.",
+    "difficulty": "beginner",
+    "tags": ["project-management", "agile"]
+  },
+  {
+    "id": "agile-scrum-glossary-fc-2",
+    "front": "Retrospective",
+    "back": "A recurring Scrum ceremony where the team reflects on how it worked and identifies concrete improvements.",
+    "difficulty": "beginner",
+    "tags": ["project-management", "agile"]
+  },
+  {
+    "id": "agile-scrum-glossary-fc-3",
+    "front": "Scrum theater",
+    "back": "Running Scrum ceremonies precisely while missing their actual purpose of adaptive, effective teamwork.",
+    "difficulty": "beginner",
+    "tags": ["project-management", "agile"]
+  }
+]

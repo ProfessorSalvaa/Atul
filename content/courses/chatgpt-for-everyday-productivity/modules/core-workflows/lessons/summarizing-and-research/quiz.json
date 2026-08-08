@@ -1,0 +1,40 @@
+[
+  {
+    "id": "summarizing-and-research-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Summarizing Long Content and Early-Stage Research\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Summarization is one of the most reliable use cases — paste the source text directly rather than a link when possible, since the model can't reliably browse unless that feature is explicitly enabled\""
+    ],
+    "explanation": "Summarization is one of the most reliable use cases — paste the source text directly rather than a link when possible, since the model can't reliably browse unless that feature is explicitly enabled — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Summarization is one of the most reliable use cases — paste the source text directly rather than a link when possible, since the model can't reliably browse unless that feature is explicitly enabled"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "summarizing-and-research-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask for a summary structured by what you'll actually use it for: 'summarize as 3 action items' vs. 'summarize as an executive overview' produce very different, both useful, results",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask for a summary structured by what you'll actually use it for: 'summarize as 3 action items' vs. 'summarize as an executive overview' produce very different, both useful, results",
+    "references": [],
+    "correctAnswer": true
+  }
+]

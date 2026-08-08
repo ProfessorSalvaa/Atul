@@ -1,0 +1,40 @@
+[
+  {
+    "id": "vlookup-and-xlookup-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"VLOOKUP and XLOOKUP\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"VLOOKUP only searches left-to-right and breaks if columns are inserted — XLOOKUP is more flexible and is the better default in modern Excel\""
+    ],
+    "explanation": "VLOOKUP only searches left-to-right and breaks if columns are inserted — XLOOKUP is more flexible and is the better default in modern Excel — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "VLOOKUP only searches left-to-right and breaks if columns are inserted — XLOOKUP is more flexible and is the better default in modern Excel"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "vlookup-and-xlookup-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always use an exact match (the 4th argument FALSE in VLOOKUP, or XLOOKUP's default) unless you specifically intend an approximate match — approximate match is the most common silent-wrong-answer bug",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always use an exact match (the 4th argument FALSE in VLOOKUP, or XLOOKUP's default) unless you specifically intend an approximate match — approximate match is the most common silent-wrong-answer bug",
+    "references": [],
+    "correctAnswer": true
+  }
+]

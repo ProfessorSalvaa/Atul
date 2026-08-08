@@ -1,0 +1,74 @@
+slug: project-management-fundamentals
+title: Project Management Fundamentals
+subtitle: The core discipline of getting a defined piece of work done — scope, schedule, budget, and
+  the tradeoffs between them that every project eventually faces.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - project-management
+skills:
+  - scope-management
+  - gantt-scheduling
+careerPaths:
+  - project-manager
+category: project-management
+premium: false
+objectives:
+  - id: obj-1
+    text: Define a project's scope clearly enough to recognize scope creep when it happens
+  - id: obj-2
+    text: Build a basic project schedule with dependencies identified
+  - id: obj-3
+    text: Navigate the triple constraint of scope, schedule, and budget
+prerequisites: []
+instructor:
+  name: Diane Foster
+  title: Senior Program Manager, ex-Deloitte
+  bio: Diane Foster is Senior Program Manager, ex-Deloitte, teaching Project Management Fundamentals
+    on Curitiq.
+  avatarInitials: DF
+modules:
+  - slug: defining-scope-and-schedule
+    order: 0
+  - slug: the-triple-constraint
+    order: 1
+projectSlugs:
+  - project-plan-with-schedule
+assessmentSlugs: []
+resources:
+  - title: "PMI: Project Management Body of Knowledge Overview"
+    type: external-link
+    url: https://www.pmi.org/pmbok-guide-standards
+    description: The Project Management Institute's overview of PMBOK.
+certificate:
+  title: Project Management Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the project plan with schedule
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Project Management Fundamentals | Curitiq
+  description:
+    The core discipline of getting a defined piece of work done — scope, schedule, budget,
+    and the tradeoffs between them that every project eventually faces.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The core discipline of getting a defined piece of work done — scope, schedule, budget, and
+    the tradeoffs between them that every project eventually faces.
+  keyConcepts:
+    - Define a project's scope clearly enough to recognize scope creep when it happens
+    - Build a basic project schedule with dependencies identified
+    - Navigate the triple constraint of scope, schedule, and budget
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

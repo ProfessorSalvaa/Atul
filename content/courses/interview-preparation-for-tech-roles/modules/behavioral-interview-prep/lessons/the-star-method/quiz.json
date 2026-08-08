@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-star-method-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The STAR Method\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"STAR — Situation, Task, Action, Result — structures a behavioral answer so it stays specific and concrete instead of drifting into generalities\""
+    ],
+    "explanation": "STAR — Situation, Task, Action, Result — structures a behavioral answer so it stays specific and concrete instead of drifting into generalities — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "STAR — Situation, Task, Action, Result — structures a behavioral answer so it stays specific and concrete instead of drifting into generalities"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-star-method-q2",
+    "type": "true-false",
+    "prompt": "True or false: The 'Action' section deserves the most detail — this is where the interviewer learns what you specifically did, not what 'the team' did collectively",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The 'Action' section deserves the most detail — this is where the interviewer learns what you specifically did, not what 'the team' did collectively",
+    "references": [],
+    "correctAnswer": true
+  }
+]

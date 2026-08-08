@@ -1,0 +1,40 @@
+[
+  {
+    "id": "human-in-the-loop-checkpoints-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing Human-in-the-Loop Checkpoints\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Any irreversible action (sending an email, charging a card, deleting data) should have a human-approval checkpoint before execution, at least until the system has a long track record\""
+    ],
+    "explanation": "Any irreversible action (sending an email, charging a card, deleting data) should have a human-approval checkpoint before execution, at least until the system has a long track record — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Any irreversible action (sending an email, charging a card, deleting data) should have a human-approval checkpoint before execution, at least until the system has a long track record"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "human-in-the-loop-checkpoints-q2",
+    "type": "true-false",
+    "prompt": "True or false: Design the checkpoint to show the human exactly what will happen and why, not just an approve/reject button with no context",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Design the checkpoint to show the human exactly what will happen and why, not just an approve/reject button with no context",
+    "references": [],
+    "correctAnswer": true
+  }
+]

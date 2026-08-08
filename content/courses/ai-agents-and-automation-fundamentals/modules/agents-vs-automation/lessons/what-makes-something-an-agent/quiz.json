@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-makes-something-an-agent-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What Actually Makes Something an Agent\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A fixed pipeline (step 1 always leads to step 2) is automation, not an agent — no decision-making happens about what to do next\""
+    ],
+    "explanation": "A fixed pipeline (step 1 always leads to step 2) is automation, not an agent — no decision-making happens about what to do next — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A fixed pipeline (step 1 always leads to step 2) is automation, not an agent — no decision-making happens about what to do next"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-makes-something-an-agent-q2",
+    "type": "true-false",
+    "prompt": "True or false: An agent makes decisions: given the current state, it chooses which tool to use next, and can adapt its plan based on intermediate results",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — An agent makes decisions: given the current state, it chooses which tool to use next, and can adapt its plan based on intermediate results",
+    "references": [],
+    "correctAnswer": true
+  }
+]

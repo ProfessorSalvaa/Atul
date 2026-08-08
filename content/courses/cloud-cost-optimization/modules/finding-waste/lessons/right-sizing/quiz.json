@@ -1,0 +1,40 @@
+[
+  {
+    "id": "right-sizing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Right-Sizing Based on Real Utilization\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use actual CPU/memory utilization metrics over a representative time window (not a single snapshot) to decide if an instance is over- or under-provisioned\""
+    ],
+    "explanation": "Use actual CPU/memory utilization metrics over a representative time window (not a single snapshot) to decide if an instance is over- or under-provisioned — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use actual CPU/memory utilization metrics over a representative time window (not a single snapshot) to decide if an instance is over- or under-provisioned"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "right-sizing-q2",
+    "type": "true-false",
+    "prompt": "True or false: Right-sizing down too aggressively risks performance problems during traffic spikes — leave reasonable headroom rather than optimizing purely for the average case",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Right-sizing down too aggressively risks performance problems during traffic spikes — leave reasonable headroom rather than optimizing purely for the average case",
+    "references": [],
+    "correctAnswer": true
+  }
+]

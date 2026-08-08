@@ -1,0 +1,23 @@
+[
+  {
+    "id": "difficult-conversations-glossary-fc-1",
+    "front": "Observation vs. interpretation",
+    "back": "Distinguishing a specific observable fact from the meaning or motive layered on top of it.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  },
+  {
+    "id": "difficult-conversations-glossary-fc-2",
+    "front": "Impact statement",
+    "back": "Explaining the effect of a behavior, not just describing the behavior itself, to help someone understand why it matters.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  },
+  {
+    "id": "difficult-conversations-glossary-fc-3",
+    "front": "De-escalation",
+    "back": "Techniques used to reduce emotional intensity in a tense conversation so it can stay constructive.",
+    "difficulty": "intermediate",
+    "tags": ["communication"]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "public-speaking-glossary-fc-1",
+    "front": "Core message",
+    "back": "The single main point a presentation is built to communicate and have the audience remember.",
+    "difficulty": "beginner",
+    "tags": ["communication"]
+  },
+  {
+    "id": "public-speaking-glossary-fc-2",
+    "front": "Signposting",
+    "back": "Explicitly telling the audience where they are in a talk's structure during transitions.",
+    "difficulty": "beginner",
+    "tags": ["communication"]
+  },
+  {
+    "id": "public-speaking-glossary-fc-3",
+    "front": "Rehearsing out loud",
+    "back": "Practicing a talk by actually speaking it, which builds more genuine readiness than silent review.",
+    "difficulty": "beginner",
+    "tags": ["communication"]
+  }
+]

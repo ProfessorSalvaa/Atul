@@ -1,0 +1,76 @@
+slug: python-for-automation-and-scripting
+title: Python for Automation and Scripting
+subtitle: Using Python to automate repetitive file, spreadsheet, and web tasks that would otherwise
+  eat hours every week.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 125
+tags: &a1
+  - python
+  - programming
+  - workflow
+skills:
+  - automation-scripting
+  - python-fundamentals
+careerPaths:
+  - software-engineer
+  - data-analyst
+category: python
+premium: true
+objectives:
+  - id: obj-1
+    text: Automate file and folder operations reliably
+  - id: obj-2
+    text: Read and write CSV/Excel data programmatically
+  - id: obj-3
+    text: Schedule and log an automation so failures are visible, not silent
+prerequisites:
+  - courseSlug: python-fundamentals
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Python for Automation and
+    Scripting on Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: file-automation
+    order: 0
+  - slug: reliable-automations
+    order: 1
+projectSlugs:
+  - weekly-report-automation
+assessmentSlugs: []
+resources:
+  - title: Automate the Boring Stuff with Python
+    type: external-link
+    url: https://automatetheboringstuff.com
+    description: A widely used free resource for practical Python automation.
+certificate:
+  title: Python for Automation and Scripting — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the reporting automation project
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Python for Automation and Scripting | Curitiq
+  description: Using Python to automate repetitive file, spreadsheet, and web tasks that would
+    otherwise eat hours every week.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Using Python to automate repetitive file, spreadsheet, and web tasks that would otherwise
+    eat hours every week.
+  keyConcepts:
+    - Automate file and folder operations reliably
+    - Read and write CSV/Excel data programmatically
+    - Schedule and log an automation so failures are visible, not silent
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

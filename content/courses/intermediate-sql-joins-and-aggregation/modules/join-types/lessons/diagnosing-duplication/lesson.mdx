@@ -1,0 +1,31 @@
+---
+type: reading
+title: Diagnosing Row-Duplication from Joins
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand diagnosing row-duplication from joins
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Diagnosing Row-Duplication from Joins."
+  keyConcepts:
+    - If a join matches on a column that isn't unique on one side (e.g. joining
+      orders to a table with multiple rows per order), each match multiplies the
+      original rows — a classic silent double-count
+    - Before trusting a joined query's totals, check the row count before and
+      after the join against what you'd expect — an unexpected jump signals a
+      one-to-many join fanning out
+    - Aggregate before joining when possible (pre-summarize the many-side table)
+      — this avoids fan-out entirely rather than trying to de-duplicate after
+      the fact
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **JOIN Types and When to Use Each** in _Intermediate SQL: Joins and Aggregation_. By the end, you should be able to put the following into practice:
+
+- If a join matches on a column that isn't unique on one side (e.g. joining orders to a table with multiple rows per order), each match multiplies the original rows — a classic silent double-count
+- Before trusting a joined query's totals, check the row count before and after the join against what you'd expect — an unexpected jump signals a one-to-many join fanning out
+- Aggregate before joining when possible (pre-summarize the many-side table) — this avoids fan-out entirely rather than trying to de-duplicate after the fact
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

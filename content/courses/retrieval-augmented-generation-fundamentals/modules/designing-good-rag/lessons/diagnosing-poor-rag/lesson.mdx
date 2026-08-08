@@ -1,0 +1,40 @@
+---
+type: case-study
+title: "Case Study: Diagnosing Why a RAG System Gave Wrong Answers"
+order: 1
+durationMinutes: 17
+objectives:
+  - "Understand case study: diagnosing why a rag system gave wrong answers"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Case Study: Diagnosing Why a RAG System Gave Wrong
+    Answers."
+  keyConcepts:
+    - A team's internal-docs assistant gave confidently wrong answers to a small
+      but noticeable percentage of questions about their refund policy
+    - Investigation showed retrieval was returning the correct document but the
+      wrong section — the policy document had multiple similarly-worded sections
+      (domestic vs. international refunds) and retrieval couldn't distinguish
+      them well
+    - "Root cause: chunks lacked section-title metadata in the embedded text
+      itself, so semantically similar-but-wrong chunks scored almost as high as
+      the right one"
+    - "Fix: prepending section titles to each chunk before embedding sharpened
+      retrieval significantly, and adding a 'cite your source section'
+      instruction let the team catch remaining errors faster"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Designing RAG That Actually Works Well** in _Retrieval-Augmented Generation Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A team's internal-docs assistant gave confidently wrong answers to a small but noticeable percentage of questions about their refund policy
+- Investigation showed retrieval was returning the correct document but the wrong section — the policy document had multiple similarly-worded sections (domestic vs. international refunds) and retrieval couldn't distinguish them well
+- Root cause: chunks lacked section-title metadata in the embedded text itself, so semantically similar-but-wrong chunks scored almost as high as the right one
+- Fix: prepending section titles to each chunk before embedding sharpened retrieval significantly, and adding a 'cite your source section' instruction let the team catch remaining errors faster
+
+## Working through it
+
+Read each point above as a real decision someone had to make — not an abstract rule. The rest of this course builds on the reasoning here, not just the conclusion.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

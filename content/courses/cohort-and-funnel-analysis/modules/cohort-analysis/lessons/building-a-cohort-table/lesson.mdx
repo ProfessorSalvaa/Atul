@@ -1,0 +1,43 @@
+---
+type: code
+title: Building a Cohort Retention Table
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand building a cohort retention table
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Building a Cohort Retention Table."
+  keyConcepts:
+    - A cohort groups users by a shared starting point (e.g. signup month), then
+      tracks a behavior (e.g. still active) over subsequent periods since that
+      start
+    - The classic triangular retention table format (cohort month down the side,
+      periods-since-signup across the top) makes it easy to compare cohorts of
+      different ages fairly
+    - Comparing raw counts across cohorts of different sizes is misleading —
+      always convert to a percentage of the original cohort size
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Cohort Analysis** in _Cohort and Funnel Analysis_. By the end, you should be able to put the following into practice:
+
+- A cohort groups users by a shared starting point (e.g. signup month), then tracks a behavior (e.g. still active) over subsequent periods since that start
+- The classic triangular retention table format (cohort month down the side, periods-since-signup across the top) makes it easy to compare cohorts of different ages fairly
+- Comparing raw counts across cohorts of different sizes is misleading — always convert to a percentage of the original cohort size
+
+```sql
+SELECT
+  DATE_TRUNC('month', u.signup_date) AS cohort_month,
+  DATE_PART('month', AGE(a.activity_date, u.signup_date)) AS months_since_signup,
+  COUNT(DISTINCT a.user_id) AS active_users
+FROM users u
+JOIN activity a ON a.user_id = u.user_id
+GROUP BY 1, 2;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

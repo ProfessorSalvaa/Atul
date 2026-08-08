@@ -1,0 +1,40 @@
+[
+  {
+    "id": "elasticity-and-pricing-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Elasticity and Pay-As-You-Go Pricing\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Elasticity means resources scale up or down automatically with demand — this is what makes it economically viable to handle a traffic spike without permanently over-provisioning hardware\""
+    ],
+    "explanation": "Elasticity means resources scale up or down automatically with demand — this is what makes it economically viable to handle a traffic spike without permanently over-provisioning hardware — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Elasticity means resources scale up or down automatically with demand — this is what makes it economically viable to handle a traffic spike without permanently over-provisioning hardware"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "elasticity-and-pricing-q2",
+    "type": "true-false",
+    "prompt": "True or false: Pay-as-you-go pricing shifts infrastructure from a large upfront capital cost to an ongoing operational cost proportional to actual usage",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Pay-as-you-go pricing shifts infrastructure from a large upfront capital cost to an ongoing operational cost proportional to actual usage",
+    "references": [],
+    "correctAnswer": true
+  }
+]

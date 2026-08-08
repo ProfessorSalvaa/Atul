@@ -1,0 +1,40 @@
+[
+  {
+    "id": "interpreting-cohort-tables-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Interpreting What a Cohort Table Actually Shows\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A declining diagonal (each cohort retaining worse than the last) usually signals a product or acquisition-quality problem worth investigating, not just normal churn\""
+    ],
+    "explanation": "A declining diagonal (each cohort retaining worse than the last) usually signals a product or acquisition-quality problem worth investigating, not just normal churn — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A declining diagonal (each cohort retaining worse than the last) usually signals a product or acquisition-quality problem worth investigating, not just normal churn"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "interpreting-cohort-tables-q2",
+    "type": "true-false",
+    "prompt": "True or false: Newer cohorts naturally have fewer data points (you can't measure month-6 retention for a cohort that signed up 2 months ago) — don't compare incomplete cohorts to complete ones as if they were equivalent",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Newer cohorts naturally have fewer data points (you can't measure month-6 retention for a cohort that signed up 2 months ago) — don't compare incomplete cohorts to complete ones as if they were equivalent",
+    "references": [],
+    "correctAnswer": true
+  }
+]

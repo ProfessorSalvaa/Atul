@@ -1,0 +1,14 @@
+slug: handling-real-world-conditions
+title: Handling Real-World Conditions
+description: Loading states, errors, and authentication — the parts that make an app feel production-ready.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Loading States and Error Handling in the UI"
+  - id: mo-2
+    text: "Grasp: REST API Terms Flip Deck"
+lessons:
+  - slug: loading-and-error-states
+    order: 0
+  - slug: api-glossary
+    order: 1

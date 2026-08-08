@@ -1,0 +1,40 @@
+[
+  {
+    "id": "csv-and-excel-automation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reading and Writing CSV and Excel Data\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The `csv` module handles CSV reading/writing without external dependencies; `openpyxl` or `pandas` handle Excel files, including multiple sheets\""
+    ],
+    "explanation": "The `csv` module handles CSV reading/writing without external dependencies; `openpyxl` or `pandas` handle Excel files, including multiple sheets — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The `csv` module handles CSV reading/writing without external dependencies; `openpyxl` or `pandas` handle Excel files, including multiple sheets"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "csv-and-excel-automation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always specify encoding explicitly when reading files from unknown sources — silent encoding mismatches cause garbled text that's confusing to debug later",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always specify encoding explicitly when reading files from unknown sources — silent encoding mismatches cause garbled text that's confusing to debug later",
+    "references": [],
+    "correctAnswer": true
+  }
+]

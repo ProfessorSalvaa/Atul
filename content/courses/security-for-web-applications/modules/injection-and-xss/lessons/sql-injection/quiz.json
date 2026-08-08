@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sql-injection-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"SQL Injection: Cause and Prevention\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"SQL injection happens when untrusted input is concatenated directly into a query string, letting an attacker inject their own SQL logic — this has been a known, preventable issue for decades and still appears constantly\""
+    ],
+    "explanation": "SQL injection happens when untrusted input is concatenated directly into a query string, letting an attacker inject their own SQL logic — this has been a known, preventable issue for decades and still appears constantly — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "SQL injection happens when untrusted input is concatenated directly into a query string, letting an attacker inject their own SQL logic — this has been a known, preventable issue for decades and still appears constantly"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "sql-injection-q2",
+    "type": "true-false",
+    "prompt": "True or false: Parameterized queries (prepared statements) are the correct fix — the database treats input strictly as data, never as executable query logic, regardless of what the input contains",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Parameterized queries (prepared statements) are the correct fix — the database treats input strictly as data, never as executable query logic, regardless of what the input contains",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "rolling-forecasts-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Rolling Forecasts\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A rolling forecast updates continuously (e.g. always projecting the next 12 months) rather than being fixed once a year and left stale as conditions change\""
+    ],
+    "explanation": "A rolling forecast updates continuously (e.g. always projecting the next 12 months) rather than being fixed once a year and left stale as conditions change — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A rolling forecast updates continuously (e.g. always projecting the next 12 months) rather than being fixed once a year and left stale as conditions change"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "rolling-forecasts-q2",
+    "type": "true-false",
+    "prompt": "True or false: Update the forecast with actual results as they come in, not just at quarter-end — the more current the input data, the more useful the forecast is for actual decision-making",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Update the forecast with actual results as they come in, not just at quarter-end — the more current the input data, the more useful the forecast is for actual decision-making",
+    "references": [],
+    "correctAnswer": true
+  }
+]

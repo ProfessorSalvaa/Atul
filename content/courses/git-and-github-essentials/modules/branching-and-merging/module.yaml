@@ -1,0 +1,16 @@
+slug: branching-and-merging
+title: Branching and Merging
+description: Working on changes in isolation, then bringing them together safely.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Branching Basics"
+  - id: mo-2
+    text: "Grasp: Resolving a Simple Merge Conflict"
+lessons:
+  - slug: branching-basics
+    order: 0
+  - slug: resolving-merge-conflicts
+    order: 1
+  - slug: git-glossary
+    order: 2

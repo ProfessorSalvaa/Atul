@@ -1,0 +1,75 @@
+slug: intermediate-sql-joins-and-aggregation
+title: "Intermediate SQL: Joins and Aggregation"
+subtitle: Combining data across multiple tables correctly — the single most common source of wrong
+  numbers in real-world SQL.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - sql
+  - data
+  - analytics
+skills:
+  - sql-joins
+  - database-design
+careerPaths:
+  - data-analyst
+category: sql
+premium: true
+objectives:
+  - id: obj-1
+    text: Choose the correct JOIN type for a given question
+  - id: obj-2
+    text: Diagnose and fix row-duplication bugs caused by incorrect joins
+  - id: obj-3
+    text: Combine joins with aggregation correctly at the right grain
+prerequisites:
+  - courseSlug: sql-fundamentals-for-analysts
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: "Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Intermediate SQL: Joins and
+    Aggregation on Curitiq."
+  avatarInitials: DO
+modules:
+  - slug: join-types
+    order: 0
+  - slug: joins-with-aggregation
+    order: 1
+projectSlugs:
+  - multi-table-analysis
+assessmentSlugs: []
+resources:
+  - title: Use the Index, Luke — SQL Joins
+    type: external-link
+    url: https://use-the-index-luke.com/sql/join
+    description: A deep, practical reference on how SQL joins actually work.
+certificate:
+  title: "Intermediate SQL: Joins and Aggregation — Certificate of Completion"
+  criteria:
+    - Complete both modules
+    - Submit the multi-table analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: "Intermediate SQL: Joins and Aggregation | Curitiq"
+  description: Combining data across multiple tables correctly — the single most common source of
+    wrong numbers in real-world SQL.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Combining data across multiple tables correctly — the single most common source of wrong
+    numbers in real-world SQL.
+  keyConcepts:
+    - Choose the correct JOIN type for a given question
+    - Diagnose and fix row-duplication bugs caused by incorrect joins
+    - Combine joins with aggregation correctly at the right grain
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

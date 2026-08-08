@@ -1,0 +1,23 @@
+[
+  {
+    "id": "supervised-learning-glossary-fc-1",
+    "front": "Baseline model",
+    "back": "A simple model establishing a performance floor before investing in more complex approaches.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "supervised-learning-glossary-fc-2",
+    "front": "Bias-variance tradeoff",
+    "back": "The tension between a model being too simple (high bias) or too sensitive to training noise (high variance).",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "supervised-learning-glossary-fc-3",
+    "front": "Regularization",
+    "back": "A technique constraining model complexity to reduce variance and fight overfitting.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  }
+]

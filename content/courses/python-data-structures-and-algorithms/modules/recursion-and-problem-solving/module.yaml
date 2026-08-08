@@ -1,0 +1,14 @@
+slug: recursion-and-problem-solving
+title: Recursion and Problem-Solving
+description: When breaking a problem into smaller versions of itself actually helps.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Recursion: When It Helps and When It Doesn't"
+  - id: mo-2
+    text: "Grasp: Data Structures & Algorithms Terms"
+lessons:
+  - slug: recursion-basics
+    order: 0
+  - slug: dsa-glossary
+    order: 1

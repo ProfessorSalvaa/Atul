@@ -1,0 +1,23 @@
+[
+  {
+    "id": "aws-glossary-fc-1",
+    "front": "Security group",
+    "back": "A virtual firewall controlling inbound and outbound traffic to an AWS EC2 instance.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "aws"]
+  },
+  {
+    "id": "aws-glossary-fc-2",
+    "front": "IAM role",
+    "back": "An AWS identity with specific permissions, assumable by users or services, using temporary credentials.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "aws"]
+  },
+  {
+    "id": "aws-glossary-fc-3",
+    "front": "Least privilege",
+    "back": "The security principle of granting only the minimum permissions necessary to perform a task.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "aws"]
+  }
+]

@@ -1,0 +1,14 @@
+slug: starting-the-conversation-well
+title: Starting the Conversation Well
+description: How you open a hard conversation shapes everything that follows.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Separating Observation From Interpretation"
+  - id: mo-2
+    text: "Grasp: Giving Direct, Specific Feedback"
+lessons:
+  - slug: observation-vs-interpretation
+    order: 0
+  - slug: giving-direct-feedback
+    order: 1

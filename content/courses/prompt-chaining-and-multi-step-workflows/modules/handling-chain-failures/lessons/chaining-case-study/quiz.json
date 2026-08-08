@@ -1,0 +1,40 @@
+[
+  {
+    "id": "chaining-case-study-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Case Study: A Silent Failure Three Steps Into a Chain\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A content-generation pipeline chained outline → draft → fact-check → publish, with no validation between steps\""
+    ],
+    "explanation": "A content-generation pipeline chained outline → draft → fact-check → publish, with no validation between steps — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A content-generation pipeline chained outline → draft → fact-check → publish, with no validation between steps"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "chaining-case-study-q2",
+    "type": "true-false",
+    "prompt": "True or false: The outline step occasionally returned an empty list for obscure topics, which the draft step then 'handled' by inventing a plausible-sounding outline of its own",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The outline step occasionally returned an empty list for obscure topics, which the draft step then 'handled' by inventing a plausible-sounding outline of its own",
+    "references": [],
+    "correctAnswer": true
+  }
+]

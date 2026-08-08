@@ -1,0 +1,14 @@
+slug: usability-testing-and-synthesis
+title: Usability Testing and Synthesis
+description: Watching someone actually use the thing, then turning that into decisions.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Planning and Running a Usability Test"
+  - id: mo-2
+    text: "Grasp: Synthesizing Research Into Actionable Insights"
+lessons:
+  - slug: running-a-usability-test
+    order: 0
+  - slug: synthesizing-research-notes
+    order: 1

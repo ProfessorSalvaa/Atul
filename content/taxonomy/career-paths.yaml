@@ -8,3 +8,21 @@
   label: Product Designer
 - slug: product-manager
   label: Product Manager
+- slug: ai-practitioner
+  label: AI Practitioner
+- slug: ux-designer
+  label: UX Designer
+- slug: digital-marketer
+  label: Digital Marketer
+- slug: cloud-engineer
+  label: Cloud Engineer
+- slug: cybersecurity-analyst
+  label: Cybersecurity Analyst
+- slug: data-scientist
+  label: Data Scientist
+- slug: project-manager
+  label: Project Manager
+- slug: business-analyst
+  label: Business Analyst
+- slug: devops-engineer
+  label: DevOps Engineer

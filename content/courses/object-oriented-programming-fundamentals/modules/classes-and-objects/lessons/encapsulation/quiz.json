@@ -1,0 +1,40 @@
+[
+  {
+    "id": "encapsulation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Encapsulation: What It Prevents\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Encapsulation means an object controls access to its own internal state, rather than letting external code reach in and modify it directly and unpredictably\""
+    ],
+    "explanation": "Encapsulation means an object controls access to its own internal state, rather than letting external code reach in and modify it directly and unpredictably — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Encapsulation means an object controls access to its own internal state, rather than letting external code reach in and modify it directly and unpredictably"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "encapsulation-q2",
+    "type": "true-false",
+    "prompt": "True or false: In Python, a leading underscore (`_balance`) signals 'internal, don't touch directly' by convention, even though Python doesn't strictly enforce it like some languages",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — In Python, a leading underscore (`_balance`) signals 'internal, don't touch directly' by convention, even though Python doesn't strictly enforce it like some languages",
+    "references": [],
+    "correctAnswer": true
+  }
+]

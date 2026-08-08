@@ -1,0 +1,40 @@
+[
+  {
+    "id": "governance-and-contribution-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Governance and Contribution Models\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A design system needs an owner and a clear process for proposing changes — without governance, components drift into inconsistent, undocumented variants across different teams\""
+    ],
+    "explanation": "A design system needs an owner and a clear process for proposing changes — without governance, components drift into inconsistent, undocumented variants across different teams — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A design system needs an owner and a clear process for proposing changes — without governance, components drift into inconsistent, undocumented variants across different teams"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "governance-and-contribution-q2",
+    "type": "true-false",
+    "prompt": "True or false: A contribution model (who can propose a new component, how it gets reviewed) balances speed (teams shouldn't be blocked waiting for a central team) against consistency (unreviewed additions fragment the system)",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A contribution model (who can propose a new component, how it gets reviewed) balances speed (teams shouldn't be blocked waiting for a central team) against consistency (unreviewed additions fragment the system)",
+    "references": [],
+    "correctAnswer": true
+  }
+]

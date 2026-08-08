@@ -1,0 +1,14 @@
+slug: choosing-compute-options-azure
+title: Choosing the Right Compute Option
+description: App Service, Container Apps, or VMs — matching the option to the workload.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: App Service vs. Container Apps vs. VMs"
+  - id: mo-2
+    text: "Grasp: Azure Deployment Terms Flip Deck"
+lessons:
+  - slug: app-service-vs-containers-vs-vms
+    order: 0
+  - slug: azure-deployment-glossary
+    order: 1

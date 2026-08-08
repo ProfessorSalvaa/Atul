@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-start-low-fidelity-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Start Low-Fidelity\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Low-fidelity wireframes (boxes, gray tones, placeholder text) deliberately avoid visual polish so feedback stays focused on structure and flow, not color choices or font preferences\""
+    ],
+    "explanation": "Low-fidelity wireframes (boxes, gray tones, placeholder text) deliberately avoid visual polish so feedback stays focused on structure and flow, not color choices or font preferences — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Low-fidelity wireframes (boxes, gray tones, placeholder text) deliberately avoid visual polish so feedback stays focused on structure and flow, not color choices or font preferences"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-start-low-fidelity-q2",
+    "type": "true-false",
+    "prompt": "True or false: Stakeholders give more honest, structural feedback on a rough wireframe than a polished mockup — a polished screen unconsciously signals 'this is final,' discouraging people from raising fundamental concerns",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Stakeholders give more honest, structural feedback on a rough wireframe than a polished mockup — a polished screen unconsciously signals 'this is final,' discouraging people from raising fundamental concerns",
+    "references": [],
+    "correctAnswer": true
+  }
+]

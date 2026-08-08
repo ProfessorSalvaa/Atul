@@ -1,0 +1,40 @@
+[
+  {
+    "id": "iam-in-practice-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"IAM Best Practices\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use roles with narrowly scoped permissions instead of broad admin access wherever possible — grant exactly what a specific task needs\""
+    ],
+    "explanation": "Use roles with narrowly scoped permissions instead of broad admin access wherever possible — grant exactly what a specific task needs — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use roles with narrowly scoped permissions instead of broad admin access wherever possible — grant exactly what a specific task needs"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "iam-in-practice-q2",
+    "type": "true-false",
+    "prompt": "True or false: Enable multi-factor authentication for all accounts, especially privileged ones — this single control blocks a huge share of credential-based attacks even when a password is compromised",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Enable multi-factor authentication for all accounts, especially privileged ones — this single control blocks a huge share of credential-based attacks even when a password is compromised",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-good-functions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Functions with Clear Inputs and Outputs\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A function should do one clear thing — if you can't summarize what it does in one sentence without 'and', it's probably doing too much\""
+    ],
+    "explanation": "A function should do one clear thing — if you can't summarize what it does in one sentence without 'and', it's probably doing too much — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A function should do one clear thing — if you can't summarize what it does in one sentence without 'and', it's probably doing too much"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-good-functions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use default arguments for optional parameters, but avoid mutable default arguments (like `def f(x, items=[])`) — this is a classic Python gotcha that causes shared state bugs",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use default arguments for optional parameters, but avoid mutable default arguments (like `def f(x, items=[])`) — this is a classic Python gotcha that causes shared state bugs",
+    "references": [],
+    "correctAnswer": true
+  }
+]

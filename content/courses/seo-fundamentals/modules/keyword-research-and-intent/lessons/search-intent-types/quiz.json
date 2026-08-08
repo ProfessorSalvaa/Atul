@@ -1,0 +1,40 @@
+[
+  {
+    "id": "search-intent-types-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Types of Search Intent\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Informational intent ('how does X work') wants an explanation — navigational intent ('X login') wants a specific known destination — transactional intent ('buy X') wants to complete a purchase or action\""
+    ],
+    "explanation": "Informational intent ('how does X work') wants an explanation — navigational intent ('X login') wants a specific known destination — transactional intent ('buy X') wants to complete a purchase or action — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Informational intent ('how does X work') wants an explanation — navigational intent ('X login') wants a specific known destination — transactional intent ('buy X') wants to complete a purchase or action"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "search-intent-types-q2",
+    "type": "true-false",
+    "prompt": "True or false: Matching content type to intent matters as much as matching the keyword — a product page targeting an informational-intent keyword will underperform an in-depth guide, regardless of keyword targeting accuracy",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Matching content type to intent matters as much as matching the keyword — a product page targeting an informational-intent keyword will underperform an in-depth guide, regardless of keyword targeting accuracy",
+    "references": [],
+    "correctAnswer": true
+  }
+]

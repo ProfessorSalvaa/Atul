@@ -1,0 +1,40 @@
+[
+  {
+    "id": "navigating-tradeoffs-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Navigating Scope, Schedule, and Budget Tradeoffs\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"You generally can't hold all three (scope, schedule, budget) fixed while something changes — reduce scope, extend the schedule, or add resources/budget when new information emerges\""
+    ],
+    "explanation": "You generally can't hold all three (scope, schedule, budget) fixed while something changes — reduce scope, extend the schedule, or add resources/budget when new information emerges — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "You generally can't hold all three (scope, schedule, budget) fixed while something changes — reduce scope, extend the schedule, or add resources/budget when new information emerges"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "navigating-tradeoffs-q2",
+    "type": "true-false",
+    "prompt": "True or false: Silently absorbing pressure on all three simultaneously (more scope, same deadline, same budget) is how projects quietly become impossible to deliver well",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Silently absorbing pressure on all three simultaneously (more scope, same deadline, same budget) is how projects quietly become impossible to deliver well",
+    "references": [],
+    "correctAnswer": true
+  }
+]

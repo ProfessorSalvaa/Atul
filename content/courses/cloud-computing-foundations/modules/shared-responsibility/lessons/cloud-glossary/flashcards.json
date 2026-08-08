@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cloud-glossary-fc-1",
+    "front": "IaaS",
+    "back": "Infrastructure as a Service — renting raw compute, storage, and networking, managing the OS and above yourself.",
+    "difficulty": "beginner",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "cloud-glossary-fc-2",
+    "front": "Elasticity",
+    "back": "The ability of a cloud system to automatically scale resources up or down to match demand.",
+    "difficulty": "beginner",
+    "tags": ["cloud"]
+  },
+  {
+    "id": "cloud-glossary-fc-3",
+    "front": "Shared responsibility model",
+    "back": "The division of security responsibilities between a cloud provider and its customers.",
+    "difficulty": "beginner",
+    "tags": ["cloud"]
+  }
+]

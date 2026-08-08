@@ -1,0 +1,75 @@
+slug: paid-advertising-fundamentals
+title: Paid Advertising Fundamentals
+subtitle: How paid search and social ads actually work under the hood — auctions, targeting, and the
+  metrics that tell you whether spend is working.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - marketing
+skills:
+  - analytics-and-attribution
+careerPaths:
+  - digital-marketer
+category: digital-marketing
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain how ad auctions determine cost and placement
+  - id: obj-2
+    text: Build audience targeting appropriate to a campaign goal
+  - id: obj-3
+    text: Read core paid ad metrics (CPC, CTR, CPA, ROAS) and know what each actually indicates
+prerequisites:
+  - courseSlug: digital-marketing-foundations
+instructor:
+  name: Rosa Delgado
+  title: Head of Growth Marketing, ex-HubSpot
+  bio:
+    Rosa Delgado is Head of Growth Marketing, ex-HubSpot, teaching Paid Advertising Fundamentals on
+    Curitiq.
+  avatarInitials: RD
+modules:
+  - slug: how-ad-auctions-work
+    order: 0
+  - slug: reading-paid-ad-metrics
+    order: 1
+projectSlugs:
+  - paid-campaign-plan
+assessmentSlugs: []
+resources:
+  - title: "Google Ads Help: How Auctions Work"
+    type: external-link
+    url: https://support.google.com/google-ads/answer/6366577
+    description: Google's official explanation of ad auction mechanics.
+certificate:
+  title: Paid Advertising Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the paid campaign plan
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Paid Advertising Fundamentals | Curitiq
+  description:
+    How paid search and social ads actually work under the hood — auctions, targeting, and
+    the metrics that tell you whether spend is working.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    How paid search and social ads actually work under the hood — auctions, targeting, and the
+    metrics that tell you whether spend is working.
+  keyConcepts:
+    - Explain how ad auctions determine cost and placement
+    - Build audience targeting appropriate to a campaign goal
+    - Read core paid ad metrics (CPC, CTR, CPA, ROAS) and know what each actually indicates
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

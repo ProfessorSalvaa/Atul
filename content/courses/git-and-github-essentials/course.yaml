@@ -1,0 +1,74 @@
+slug: git-and-github-essentials
+title: Git and GitHub Essentials
+subtitle: The version control workflow every developer uses daily — commits, branches, and not
+  losing work, explained without the jargon overload.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - git
+  - github
+  - version-control
+skills:
+  - git-fundamentals
+careerPaths:
+  - software-engineer
+category: git-github
+premium: false
+objectives:
+  - id: obj-1
+    text: Make clear, well-scoped commits with useful messages
+  - id: obj-2
+    text: Use branches to work on changes without disrupting the main codebase
+  - id: obj-3
+    text: Resolve a simple merge conflict without panic
+prerequisites: []
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Git and GitHub Essentials on
+    Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: commits-that-make-sense
+    order: 0
+  - slug: branching-and-merging
+    order: 1
+projectSlugs:
+  - git-workflow-practice
+assessmentSlugs: []
+resources:
+  - title: Git Documentation
+    type: external-link
+    url: https://git-scm.com/doc
+    description: Official Git documentation and reference.
+certificate:
+  title: Git and GitHub Essentials — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the git workflow project
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Git and GitHub Essentials | Curitiq
+  description: The version control workflow every developer uses daily — commits, branches, and not
+    losing work, explained without the jargon overload.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The version control workflow every developer uses daily — commits, branches, and not losing
+    work, explained without the jargon overload.
+  keyConcepts:
+    - Make clear, well-scoped commits with useful messages
+    - Use branches to work on changes without disrupting the main codebase
+    - Resolve a simple merge conflict without panic
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

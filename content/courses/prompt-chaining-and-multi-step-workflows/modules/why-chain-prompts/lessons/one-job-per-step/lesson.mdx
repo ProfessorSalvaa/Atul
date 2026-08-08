@@ -1,0 +1,34 @@
+---
+type: reading
+title: One Job Per Step
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand one job per step
+free: true
+aiTutorContext:
+  summary: "This lesson covers: One Job Per Step."
+  keyConcepts:
+    - A single giant prompt asking a model to research, analyze, and format all
+      at once tends to do all three worse than three focused prompts done in
+      sequence
+    - Chaining works well when a later step genuinely depends on a structured,
+      verifiable output from an earlier step — not just as a way to 'organize'
+      an otherwise simple task
+    - Each step in a chain should have its own clear success condition, so a bad
+      output can be caught before it poisons every step downstream
+    - "The cost of chaining is real: more latency, more API calls, more places
+      for something to go subtly wrong — don't chain a task that a single
+      well-written prompt already handles reliably"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Why Chain Prompts At All** in _Prompt Chaining and Multi-Step Workflows_. By the end, you should be able to put the following into practice:
+
+- A single giant prompt asking a model to research, analyze, and format all at once tends to do all three worse than three focused prompts done in sequence
+- Chaining works well when a later step genuinely depends on a structured, verifiable output from an earlier step — not just as a way to 'organize' an otherwise simple task
+- Each step in a chain should have its own clear success condition, so a bad output can be caught before it poisons every step downstream
+- The cost of chaining is real: more latency, more API calls, more places for something to go subtly wrong — don't chain a task that a single well-written prompt already handles reliably
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

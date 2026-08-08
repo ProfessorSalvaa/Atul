@@ -1,0 +1,40 @@
+[
+  {
+    "id": "formula-generation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Generating Formulas from Plain English\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Describe what you want in plain language ('sum column C where column A is 2024 and column B is Marketing') and Copilot generates the formula\""
+    ],
+    "explanation": "Describe what you want in plain language ('sum column C where column A is 2024 and column B is Marketing') and Copilot generates the formula — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Describe what you want in plain language ('sum column C where column A is 2024 and column B is Marketing') and Copilot generates the formula"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "formula-generation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Always check the generated formula's cell references match your actual layout before applying it broadly — a wrong reference can silently propagate",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Always check the generated formula's cell references match your actual layout before applying it broadly — a wrong reference can silently propagate",
+    "references": [],
+    "correctAnswer": true
+  }
+]

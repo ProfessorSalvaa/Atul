@@ -1,0 +1,40 @@
+[
+  {
+    "id": "precision-and-recall-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Precision and Recall\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Precision answers 'of everything the model flagged as positive, how much was actually positive' — recall answers 'of everything that was actually positive, how much did the model catch'\""
+    ],
+    "explanation": "Precision answers 'of everything the model flagged as positive, how much was actually positive' — recall answers 'of everything that was actually positive, how much did the model catch' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Precision answers 'of everything the model flagged as positive, how much was actually positive' — recall answers 'of everything that was actually positive, how much did the model catch'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "precision-and-recall-q2",
+    "type": "true-false",
+    "prompt": "True or false: The right metric to prioritize depends on the actual cost of each error type — a spam filter prioritizes precision (a false positive means losing a real email), while a cancer screening test prioritizes recall (a false negative means missing a real case)",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The right metric to prioritize depends on the actual cost of each error type — a spam filter prioritizes precision (a false positive means losing a real email), while a cancer screening test prioritizes recall (a false negative means missing a real case)",
+    "references": [],
+    "correctAnswer": true
+  }
+]

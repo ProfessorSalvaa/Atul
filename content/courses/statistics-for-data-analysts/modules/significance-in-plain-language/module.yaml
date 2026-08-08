@@ -1,0 +1,14 @@
+slug: significance-in-plain-language
+title: Statistical Significance in Plain Language
+description: What a p-value actually tells you, and what it doesn't.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: What 'Statistically Significant' Actually Means"
+  - id: mo-2
+    text: "Grasp: Statistics Terms Flip Deck"
+lessons:
+  - slug: what-significance-means
+    order: 0
+  - slug: stats-glossary
+    order: 1

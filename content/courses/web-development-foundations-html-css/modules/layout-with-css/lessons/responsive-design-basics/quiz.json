@@ -1,0 +1,40 @@
+[
+  {
+    "id": "responsive-design-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Responsive Design Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Design mobile-first (base styles for small screens, then add complexity with media queries for larger ones) — this tends to produce simpler, more robust CSS than the reverse approach\""
+    ],
+    "explanation": "Design mobile-first (base styles for small screens, then add complexity with media queries for larger ones) — this tends to produce simpler, more robust CSS than the reverse approach — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Design mobile-first (base styles for small screens, then add complexity with media queries for larger ones) — this tends to produce simpler, more robust CSS than the reverse approach"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "responsive-design-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use relative units (rem, %, viewport units) instead of fixed pixels for anything that should scale with the user's settings or screen size",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use relative units (rem, %, viewport units) instead of fixed pixels for anything that should scale with the user's settings or screen size",
+    "references": [],
+    "correctAnswer": true
+  }
+]

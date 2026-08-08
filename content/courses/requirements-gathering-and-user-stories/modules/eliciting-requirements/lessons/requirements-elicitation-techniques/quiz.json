@@ -1,0 +1,40 @@
+[
+  {
+    "id": "requirements-elicitation-techniques-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Requirements Elicitation Techniques\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"One-on-one interviews surface individual perspective and detail — workshops with multiple stakeholders surface disagreement and conflicting priorities that a series of separate interviews would miss entirely\""
+    ],
+    "explanation": "One-on-one interviews surface individual perspective and detail — workshops with multiple stakeholders surface disagreement and conflicting priorities that a series of separate interviews would miss entirely — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "One-on-one interviews surface individual perspective and detail — workshops with multiple stakeholders surface disagreement and conflicting priorities that a series of separate interviews would miss entirely"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "requirements-elicitation-techniques-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask about edge cases and exceptions explicitly, not just the happy path — stakeholders default to describing the normal case unless specifically prompted for exceptions",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask about edge cases and exceptions explicitly, not just the happy path — stakeholders default to describing the normal case unless specifically prompted for exceptions",
+    "references": [],
+    "correctAnswer": true
+  }
+]

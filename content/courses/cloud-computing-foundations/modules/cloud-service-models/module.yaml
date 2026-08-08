@@ -1,0 +1,14 @@
+slug: cloud-service-models
+title: Cloud Service Models
+description: IaaS, PaaS, SaaS — what you're actually responsible for at each layer.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: IaaS, PaaS, and SaaS Explained with Real Examples"
+  - id: mo-2
+    text: "Grasp: Elasticity and Pay-As-You-Go Pricing"
+lessons:
+  - slug: iaas-paas-saas
+    order: 0
+  - slug: elasticity-and-pricing
+    order: 1

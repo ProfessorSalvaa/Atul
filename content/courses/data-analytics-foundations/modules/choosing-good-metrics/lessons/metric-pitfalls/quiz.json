@@ -1,0 +1,40 @@
+[
+  {
+    "id": "metric-pitfalls-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Metric Pitfalls\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Vanity metrics (total signups) can rise while the metric that actually matters (active, paying users) falls — always ask what decision a metric is meant to drive\""
+    ],
+    "explanation": "Vanity metrics (total signups) can rise while the metric that actually matters (active, paying users) falls — always ask what decision a metric is meant to drive — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Vanity metrics (total signups) can rise while the metric that actually matters (active, paying users) falls — always ask what decision a metric is meant to drive"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "metric-pitfalls-q2",
+    "type": "true-false",
+    "prompt": "True or false: Averages hide distribution — a rising average order value can mask a shrinking number of orders; check the underlying counts, not just the summary stat",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Averages hide distribution — a rising average order value can mask a shrinking number of orders; check the underlying counts, not just the summary stat",
+    "references": [],
+    "correctAnswer": true
+  }
+]

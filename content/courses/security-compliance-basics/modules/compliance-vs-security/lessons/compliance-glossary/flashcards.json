@@ -1,0 +1,23 @@
+[
+  {
+    "id": "compliance-glossary-fc-1",
+    "front": "SOC 2",
+    "back": "An attestation evaluating a service organization's controls against five trust principles, produced by an independent auditor.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "compliance-glossary-fc-2",
+    "front": "ISO 27001",
+    "back": "An international standard certifying a systematic information security management process.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "compliance-glossary-fc-3",
+    "front": "Right to be forgotten",
+    "back": "A GDPR data subject right requiring an organization to delete personal data upon a valid request.",
+    "difficulty": "beginner",
+    "tags": ["cybersecurity"]
+  }
+]

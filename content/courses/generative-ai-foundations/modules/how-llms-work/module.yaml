@@ -1,0 +1,14 @@
+slug: how-llms-work
+title: How Large Language Models Actually Work
+description: Enough of the mechanism to build accurate intuitions, without the math.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: It's All Next-Token Prediction"
+  - id: mo-2
+    text: "Grasp: What LLMs Are Good At — and What They Aren't"
+lessons:
+  - slug: next-token-prediction
+    order: 0
+  - slug: what-llms-are-good-and-bad-at
+    order: 1

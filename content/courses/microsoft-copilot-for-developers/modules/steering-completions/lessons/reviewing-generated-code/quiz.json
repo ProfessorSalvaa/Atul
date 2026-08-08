@@ -1,0 +1,40 @@
+[
+  {
+    "id": "reviewing-generated-code-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reviewing Copilot-Generated Code Like a Real PR\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Accepted-but-unread code is the single biggest risk of AI pair programming — read every suggestion before accepting, especially for logic you didn't already have in mind\""
+    ],
+    "explanation": "Accepted-but-unread code is the single biggest risk of AI pair programming — read every suggestion before accepting, especially for logic you didn't already have in mind — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Accepted-but-unread code is the single biggest risk of AI pair programming — read every suggestion before accepting, especially for logic you didn't already have in mind"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "reviewing-generated-code-q2",
+    "type": "true-false",
+    "prompt": "True or false: Check edge cases explicitly: empty inputs, off-by-one boundaries, and error handling are the most common gaps in generated code",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Check edge cases explicitly: empty inputs, off-by-one boundaries, and error handling are the most common gaps in generated code",
+    "references": [],
+    "correctAnswer": true
+  }
+]

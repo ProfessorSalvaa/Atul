@@ -1,0 +1,23 @@
+[
+  {
+    "id": "interaction-design-glossary-fc-1",
+    "front": "Microinteraction",
+    "back": "A small, focused interaction with a trigger, rules, feedback, and loop, like a toggle or a like button.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "interaction-design-glossary-fc-2",
+    "front": "Focus state",
+    "back": "The visual indication an element is currently selected via keyboard navigation, essential for accessibility.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  },
+  {
+    "id": "interaction-design-glossary-fc-3",
+    "front": "prefers-reduced-motion",
+    "back": "A user accessibility preference the interface should respect by minimizing or removing animation.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design"]
+  }
+]

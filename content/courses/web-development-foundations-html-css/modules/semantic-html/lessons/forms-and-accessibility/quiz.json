@@ -1,0 +1,40 @@
+[
+  {
+    "id": "forms-and-accessibility-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Forms and Basic Accessibility\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every form input needs an associated `<label>` — clicking the label should focus the input, and screen readers depend on this association\""
+    ],
+    "explanation": "Every form input needs an associated `<label>` — clicking the label should focus the input, and screen readers depend on this association — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every form input needs an associated `<label>` — clicking the label should focus the input, and screen readers depend on this association"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "forms-and-accessibility-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use the correct input type (`email`, `number`, `tel`) — this improves mobile keyboards and gives free basic validation",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use the correct input type (`email`, `number`, `tel`) — this improves mobile keyboards and gives free basic validation",
+    "references": [],
+    "correctAnswer": true
+  }
+]

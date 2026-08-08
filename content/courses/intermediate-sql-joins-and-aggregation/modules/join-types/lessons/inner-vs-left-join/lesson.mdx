@@ -1,0 +1,41 @@
+---
+type: code
+title: INNER JOIN vs. LEFT JOIN
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand inner join vs. left join
+free: true
+aiTutorContext:
+  summary: "This lesson covers: INNER JOIN vs. LEFT JOIN."
+  keyConcepts:
+    - INNER JOIN returns only rows with a match in both tables — rows that don't
+      match on either side are silently dropped
+    - LEFT JOIN keeps every row from the left table, filling in NULLs for
+      unmatched right-table columns — use this when you need 'all customers,
+      even those with zero orders'
+    - "A common bug: using INNER JOIN when you actually needed LEFT JOIN,
+      silently excluding exactly the rows (e.g. customers with no orders) that
+      mattered most to the analysis"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **JOIN Types and When to Use Each** in _Intermediate SQL: Joins and Aggregation_. By the end, you should be able to put the following into practice:
+
+- INNER JOIN returns only rows with a match in both tables — rows that don't match on either side are silently dropped
+- LEFT JOIN keeps every row from the left table, filling in NULLs for unmatched right-table columns — use this when you need 'all customers, even those with zero orders'
+- A common bug: using INNER JOIN when you actually needed LEFT JOIN, silently excluding exactly the rows (e.g. customers with no orders) that mattered most to the analysis
+
+```sql
+-- All customers, including those with zero orders:
+SELECT c.customer_id, COUNT(o.order_id) AS order_count
+FROM customers c
+LEFT JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

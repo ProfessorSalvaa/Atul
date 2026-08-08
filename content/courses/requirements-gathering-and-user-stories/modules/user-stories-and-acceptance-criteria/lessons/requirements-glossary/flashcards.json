@@ -1,0 +1,23 @@
+[
+  {
+    "id": "requirements-glossary-fc-1",
+    "front": "Elicitation",
+    "back": "The structured process of drawing out requirements from stakeholders through interviews, workshops, or observation.",
+    "difficulty": "intermediate",
+    "tags": ["business"]
+  },
+  {
+    "id": "requirements-glossary-fc-2",
+    "front": "INVEST",
+    "back": "A checklist for good user stories: Independent, Negotiable, Valuable, Estimable, Small, Testable.",
+    "difficulty": "intermediate",
+    "tags": ["business"]
+  },
+  {
+    "id": "requirements-glossary-fc-3",
+    "front": "Acceptance criteria",
+    "back": "Specific, testable conditions that must be true for a requirement or story to be considered complete.",
+    "difficulty": "intermediate",
+    "tags": ["business"]
+  }
+]

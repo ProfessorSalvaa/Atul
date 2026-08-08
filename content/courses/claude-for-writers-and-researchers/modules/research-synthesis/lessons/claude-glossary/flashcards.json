@@ -1,0 +1,23 @@
+[
+  {
+    "id": "claude-glossary-fc-1",
+    "front": "Context window",
+    "back": "The total amount of text (input plus generated output) a model can process in one exchange.",
+    "difficulty": "beginner",
+    "tags": ["claude", "ai"]
+  },
+  {
+    "id": "claude-glossary-fc-2",
+    "front": "Source attribution",
+    "back": "Explicitly tracing which claim in a summary came from which original source.",
+    "difficulty": "beginner",
+    "tags": ["claude", "ai"]
+  },
+  {
+    "id": "claude-glossary-fc-3",
+    "front": "Steelmanning",
+    "back": "Asking a model to argue the strongest possible version of an opposing view, to pressure-test your own reasoning.",
+    "difficulty": "beginner",
+    "tags": ["claude", "ai"]
+  }
+]

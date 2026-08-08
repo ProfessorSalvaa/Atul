@@ -1,0 +1,14 @@
+slug: window-functions
+title: Window Functions
+description: Calculations that see other rows without collapsing them away.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Ranking with ROW_NUMBER, RANK, and DENSE_RANK"
+  - id: mo-2
+    text: "Grasp: Running Totals with SUM() OVER, and LAG/LEAD"
+lessons:
+  - slug: ranking-with-window-functions
+    order: 0
+  - slug: running-totals-and-lag-lead
+    order: 1

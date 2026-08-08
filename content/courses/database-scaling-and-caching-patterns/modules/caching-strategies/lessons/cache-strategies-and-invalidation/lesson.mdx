@@ -1,0 +1,41 @@
+---
+type: code
+title: Cache Strategies and Invalidation
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand cache strategies and invalidation
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Cache Strategies and Invalidation."
+  keyConcepts:
+    - Cache-aside (application checks cache, falls back to database on a miss,
+      then populates the cache) is the most common pattern and gives the
+      application full control over caching logic
+    - Write-through (writes go to the cache and database together) keeps the
+      cache always current at the cost of slightly slower writes — appropriate
+      when read freshness matters most
+    - "'There are only two hard things in computer science: cache invalidation
+      and naming things' is a well-known joke for a reason — deciding when
+      cached data is stale enough to refresh is genuinely difficult, and a wrong
+      TTL either serves stale data or defeats the cache's purpose with excessive
+      misses"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Caching Strategies** in _Database Scaling and Caching Patterns_. By the end, you should be able to put the following into practice:
+
+- Cache-aside (application checks cache, falls back to database on a miss, then populates the cache) is the most common pattern and gives the application full control over caching logic
+- Write-through (writes go to the cache and database together) keeps the cache always current at the cost of slightly slower writes — appropriate when read freshness matters most
+- 'There are only two hard things in computer science: cache invalidation and naming things' is a well-known joke for a reason — deciding when cached data is stale enough to refresh is genuinely difficult, and a wrong TTL either serves stale data or defeats the cache's purpose with excessive misses
+
+```text
+Cache-aside read: check cache -> miss -> read DB -> write result to cache -> return
+Cache-aside write: write DB -> invalidate (or update) the corresponding cache entry
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,44 @@
+---
+type: code
+title: Building a Funnel and Finding the Real Bottleneck
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand building a funnel and finding the real bottleneck
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Building a Funnel and Finding the Real Bottleneck."
+  keyConcepts:
+    - Define each funnel step as a specific, unambiguous event — vague step
+      definitions make drop-off numbers meaningless
+    - Calculate conversion rate step-to-step, not just step-to-first-step — a
+      step with a low overall conversion rate might actually convert fine
+      relative to the step before it, meaning the real problem is upstream
+    - Segment the funnel by acquisition source or user type — an aggregate
+      funnel can hide that one segment is converting fine while another is
+      failing badly
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Funnel Analysis** in _Cohort and Funnel Analysis_. By the end, you should be able to put the following into practice:
+
+- Define each funnel step as a specific, unambiguous event — vague step definitions make drop-off numbers meaningless
+- Calculate conversion rate step-to-step, not just step-to-first-step — a step with a low overall conversion rate might actually convert fine relative to the step before it, meaning the real problem is upstream
+- Segment the funnel by acquisition source or user type — an aggregate funnel can hide that one segment is converting fine while another is failing badly
+
+```sql
+WITH funnel AS (
+  SELECT user_id,
+    MAX(CASE WHEN event = 'viewed_pricing' THEN 1 ELSE 0 END) AS step1,
+    MAX(CASE WHEN event = 'started_signup' THEN 1 ELSE 0 END) AS step2,
+    MAX(CASE WHEN event = 'completed_signup' THEN 1 ELSE 0 END) AS step3
+  FROM events GROUP BY user_id
+)
+SELECT SUM(step1) AS viewed, SUM(step2) AS started, SUM(step3) AS completed FROM funnel;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

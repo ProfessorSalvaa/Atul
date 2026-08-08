@@ -1,0 +1,44 @@
+---
+type: code
+title: Writing a Dockerfile
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand writing a dockerfile
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Writing a Dockerfile."
+  keyConcepts:
+    - Each instruction in a Dockerfile creates a new layer — ordering
+      instructions from least-to-most-frequently-changing (dependencies before
+      application code) lets Docker's build cache skip unchanged layers on
+      rebuild
+    - Use a specific base image tag (e.g. `python:3.12-slim`), not `latest` —
+      `latest` is a moving target that can silently change your build's behavior
+      over time
+    - Multi-stage builds let you compile/build in one stage and copy only the
+      final artifact into a smaller final image, avoiding shipping build tools
+      you don't need at runtime
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: dockerfile
+---
+
+This lesson is part of **Docker Basics** in _Containers and Docker Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Each instruction in a Dockerfile creates a new layer — ordering instructions from least-to-most-frequently-changing (dependencies before application code) lets Docker's build cache skip unchanged layers on rebuild
+- Use a specific base image tag (e.g. `python:3.12-slim`), not `latest` — `latest` is a moving target that can silently change your build's behavior over time
+- Multi-stage builds let you compile/build in one stage and copy only the final artifact into a smaller final image, avoiding shipping build tools you don't need at runtime
+
+```dockerfile
+FROM python:3.12-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+CMD ["python", "app.py"]
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "key-ratios-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Key Financial Ratios\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Gross margin (gross profit / revenue) shows how much is left after direct costs of producing what you sell, before overhead\""
+    ],
+    "explanation": "Gross margin (gross profit / revenue) shows how much is left after direct costs of producing what you sell, before overhead — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Gross margin (gross profit / revenue) shows how much is left after direct costs of producing what you sell, before overhead"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "key-ratios-q2",
+    "type": "true-false",
+    "prompt": "True or false: Current ratio (current assets / current liabilities) indicates short-term liquidity — a ratio well below 1 signals a company may struggle to cover near-term obligations",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Current ratio (current assets / current liabilities) indicates short-term liquidity — a ratio well below 1 signals a company may struggle to cover near-term obligations",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,16 @@
+slug: handling-chain-failures
+title: Handling Failures Mid-Chain
+description: What happens when step 2 of 4 goes wrong — and how to keep it from silently corrupting the rest.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Validating Output Between Steps"
+  - id: mo-2
+    text: "Grasp: Case Study: A Silent Failure Three Steps Into a Chain"
+lessons:
+  - slug: validating-between-steps
+    order: 0
+  - slug: chaining-case-study
+    order: 1
+  - slug: chaining-glossary
+    order: 2

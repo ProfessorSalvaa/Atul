@@ -1,0 +1,14 @@
+slug: clickable-prototypes
+title: Building Clickable Prototypes
+description: Testing a flow feels differently before it's real code — get there fast.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Prototyping to Test a Flow"
+  - id: mo-2
+    text: "Grasp: Wireframing Terms Flip Deck"
+lessons:
+  - slug: prototyping-for-testing
+    order: 0
+  - slug: wireframing-glossary
+    order: 1

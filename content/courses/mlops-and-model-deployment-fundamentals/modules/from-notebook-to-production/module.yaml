@@ -1,0 +1,14 @@
+slug: from-notebook-to-production
+title: From Notebook to Production
+description: A model that works in a notebook is a prototype, not a deployed system.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Gap Between a Notebook and a Production System"
+  - id: mo-2
+    text: "Grasp: Model Serving Approaches"
+lessons:
+  - slug: the-notebook-to-production-gap
+    order: 0
+  - slug: model-serving-approaches
+    order: 1

@@ -1,0 +1,14 @@
+slug: copilot-in-excel
+title: Copilot in Excel
+description: Getting formula help and plain-English data summaries.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Generating Formulas from Plain English"
+  - id: mo-2
+    text: "Grasp: Copilot in Excel Glossary"
+lessons:
+  - slug: formula-generation
+    order: 0
+  - slug: copilot-excel-glossary
+    order: 1

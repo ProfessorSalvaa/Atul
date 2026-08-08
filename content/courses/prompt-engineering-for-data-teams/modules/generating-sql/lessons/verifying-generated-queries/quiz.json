@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verifying-generated-queries-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Verifying a Generated Query's Logic\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A query that runs without error can still be logically wrong — wrong JOIN type, wrong aggregation grain, or an off-by-one date filter are the most common silent errors\""
+    ],
+    "explanation": "A query that runs without error can still be logically wrong — wrong JOIN type, wrong aggregation grain, or an off-by-one date filter are the most common silent errors — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A query that runs without error can still be logically wrong — wrong JOIN type, wrong aggregation grain, or an off-by-one date filter are the most common silent errors"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "verifying-generated-queries-q2",
+    "type": "true-false",
+    "prompt": "True or false: Test against a known small subset where you can manually verify the expected result before trusting it on the full dataset",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Test against a known small subset where you can manually verify the expected result before trusting it on the full dataset",
+    "references": [],
+    "correctAnswer": true
+  }
+]

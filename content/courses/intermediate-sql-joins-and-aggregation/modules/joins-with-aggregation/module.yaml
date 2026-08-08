@@ -1,0 +1,14 @@
+slug: joins-with-aggregation
+title: Combining Joins with Aggregation
+description: Getting the grain right when both joining and summarizing.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Getting the Aggregation Grain Right"
+  - id: mo-2
+    text: "Grasp: Joins & Aggregation Terms"
+lessons:
+  - slug: correct-grain-with-joins
+    order: 0
+  - slug: join-glossary
+    order: 1

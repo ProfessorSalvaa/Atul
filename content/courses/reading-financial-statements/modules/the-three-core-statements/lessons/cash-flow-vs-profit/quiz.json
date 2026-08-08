@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cash-flow-vs-profit-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Cash Flow and Profit Diverge\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A company can be profitable on paper (income statement) while running out of actual cash — if customers haven't paid yet (accounts receivable) or inventory is tied up, profit doesn't equal cash in the bank\""
+    ],
+    "explanation": "A company can be profitable on paper (income statement) while running out of actual cash — if customers haven't paid yet (accounts receivable) or inventory is tied up, profit doesn't equal cash in the bank — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A company can be profitable on paper (income statement) while running out of actual cash — if customers haven't paid yet (accounts receivable) or inventory is tied up, profit doesn't equal cash in the bank"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "cash-flow-vs-profit-q2",
+    "type": "true-false",
+    "prompt": "True or false: The cash flow statement tracks actual cash moving in and out, split into operating, investing, and financing activities — this is what actually determines whether a company can pay its bills",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The cash flow statement tracks actual cash moving in and out, split into operating, investing, and financing activities — this is what actually determines whether a company can pay its bills",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: structuring-a-talk
+title: Structuring a Talk
+description: One clear message, supported clearly, beats a talk trying to cover everything.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Building Around One Core Message"
+  - id: mo-2
+    text: "Grasp: Structuring Supporting Content"
+lessons:
+  - slug: one-core-message
+    order: 0
+  - slug: structuring-supporting-content
+    order: 1

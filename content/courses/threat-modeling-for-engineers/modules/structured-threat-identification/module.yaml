@@ -1,0 +1,14 @@
+slug: structured-threat-identification
+title: Structured Threat Identification
+description: Moving from 'something could go wrong' to a specific, actionable list.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The STRIDE Framework"
+  - id: mo-2
+    text: "Grasp: Building an Attack Tree"
+lessons:
+  - slug: stride-framework
+    order: 0
+  - slug: building-an-attack-tree
+    order: 1

@@ -1,0 +1,14 @@
+slug: select-filter-sort
+title: SELECT, Filter, and Sort
+description: The core building blocks every other query is built from.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Your First SELECT Statement"
+  - id: mo-2
+    text: "Grasp: GROUP BY and Aggregate Functions"
+lessons:
+  - slug: your-first-select
+    order: 0
+  - slug: grouping-and-aggregating
+    order: 1

@@ -1,0 +1,15 @@
+slug: matching-goals-to-channels
+title: Matching Goals to Channels
+description: Not every channel fits every goal — a common early-career marketing mistake is treating
+  them interchangeably.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Selecting Channels by Marketing Goal"
+  - id: mo-2
+    text: "Grasp: Digital Marketing Terms Flip Deck"
+lessons:
+  - slug: channel-selection-by-goal
+    order: 0
+  - slug: digital-marketing-glossary
+    order: 1

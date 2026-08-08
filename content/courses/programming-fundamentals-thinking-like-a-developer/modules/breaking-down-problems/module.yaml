@@ -1,0 +1,14 @@
+slug: breaking-down-problems
+title: Breaking Down Problems
+description: The habit that matters more than any specific syntax.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Decomposing an Ambiguous Problem"
+  - id: mo-2
+    text: "Grasp: Thinking Through Edge Cases Before You Code"
+lessons:
+  - slug: decomposing-a-problem
+    order: 0
+  - slug: thinking-through-edge-cases
+    order: 1

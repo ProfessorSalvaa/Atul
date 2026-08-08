@@ -1,0 +1,75 @@
+slug: microsoft-copilot-in-excel-and-word
+title: Microsoft Copilot in Excel and Word
+subtitle: Using Copilot inside the Microsoft 365 apps you already use daily to draft faster and
+  analyze spreadsheets without writing formulas from scratch.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 95
+tags: &a1
+  - copilot
+  - ai
+  - spreadsheets
+  - excel
+skills:
+  - copilot-workflows
+  - excel-formulas
+careerPaths:
+  - ai-practitioner
+category: microsoft-copilot
+premium: false
+objectives:
+  - id: obj-1
+    text: Use Copilot in Word to draft and revise documents faster
+  - id: obj-2
+    text: Use Copilot in Excel to generate formulas and summarize data in plain English
+  - id: obj-3
+    text: Know which Copilot suggestions to trust directly and which to double-check
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Microsoft Copilot in Excel and Word
+    on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: copilot-in-word
+    order: 0
+  - slug: copilot-in-excel
+    order: 1
+projectSlugs:
+  - copilot-productivity-pack
+assessmentSlugs: []
+resources:
+  - title: Microsoft Copilot Documentation
+    type: external-link
+    url: https://support.microsoft.com/copilot
+    description: Official Microsoft Copilot help and documentation.
+certificate:
+  title: Microsoft Copilot in Excel and Word — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the Copilot productivity pack
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Microsoft Copilot in Excel and Word | Curitiq
+  description: Using Copilot inside the Microsoft 365 apps you already use daily to draft faster and
+    analyze spreadsheets without writing formulas from scratch.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Using Copilot inside the Microsoft 365 apps you already use daily to draft faster and
+    analyze spreadsheets without writing formulas from scratch.
+  keyConcepts:
+    - Use Copilot in Word to draft and revise documents faster
+    - Use Copilot in Excel to generate formulas and summarize data in plain English
+    - Know which Copilot suggestions to trust directly and which to double-check
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

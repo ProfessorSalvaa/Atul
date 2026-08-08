@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-ds-project-lifecycle-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Data Science Project Lifecycle\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A typical lifecycle: scope the question, gather and clean data, explore and analyze, build a model or answer if needed, and communicate findings — communication is a distinct, often underweighted final stage, not an afterthought\""
+    ],
+    "explanation": "A typical lifecycle: scope the question, gather and clean data, explore and analyze, build a model or answer if needed, and communicate findings — communication is a distinct, often underweighted final stage, not an afterthought — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A typical lifecycle: scope the question, gather and clean data, explore and analyze, build a model or answer if needed, and communicate findings — communication is a distinct, often underweighted final stage, not an afterthought"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-ds-project-lifecycle-q2",
+    "type": "true-false",
+    "prompt": "True or false: Exploratory analysis frequently reveals the original question needs to be refined or the available data doesn't support the original plan — looping back and re-scoping is normal, not a sign of a failed process",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Exploratory analysis frequently reveals the original question needs to be refined or the available data doesn't support the original plan — looping back and re-scoping is normal, not a sign of a failed process",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "content-tied-to-business-outcomes-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Tying Content Strategy to Business Outcomes\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Content produced with no clear connection to a business outcome (awareness, lead generation, retention) tends to accumulate as unfocused volume rather than driving results\""
+    ],
+    "explanation": "Content produced with no clear connection to a business outcome (awareness, lead generation, retention) tends to accumulate as unfocused volume rather than driving results — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Content produced with no clear connection to a business outcome (awareness, lead generation, retention) tends to accumulate as unfocused volume rather than driving results"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "content-tied-to-business-outcomes-q2",
+    "type": "true-false",
+    "prompt": "True or false: Map content types to the funnel stage they serve — top-of-funnel educational content builds awareness, bottom-of-funnel comparison or case study content supports a near-decision buyer",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Map content types to the funnel stage they serve — top-of-funnel educational content builds awareness, bottom-of-funnel comparison or case study content supports a near-decision buyer",
+    "references": [],
+    "correctAnswer": true
+  }
+]

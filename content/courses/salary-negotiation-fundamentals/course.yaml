@@ -1,0 +1,70 @@
+slug: salary-negotiation-fundamentals
+title: Salary Negotiation Fundamentals
+subtitle: Negotiating an offer without burning the relationship — research, anchoring, and handling
+  the moments that feel the most uncomfortable.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 95
+tags: &a1
+  - career
+skills:
+  - salary-negotiation
+careerPaths: []
+category: career-growth
+premium: true
+objectives:
+  - id: obj-1
+    text: Research a realistic salary range before entering a negotiation
+  - id: obj-2
+    text: Use anchoring effectively without overreaching
+  - id: obj-3
+    text: Handle common negotiation moments, including a firm 'no' from the employer
+prerequisites: []
+instructor:
+  name: Priya Shah
+  title: Career Coach, ex-LinkedIn Talent Solutions
+  bio: Priya Shah is Career Coach, ex-LinkedIn Talent Solutions, teaching Salary Negotiation
+    Fundamentals on Curitiq.
+  avatarInitials: PS
+modules:
+  - slug: preparing-to-negotiate
+    order: 0
+  - slug: handling-the-conversation
+    order: 1
+projectSlugs:
+  - negotiation-prep-plan
+assessmentSlugs: []
+resources:
+  - title: Levels.fyi
+    type: external-link
+    url: https://www.levels.fyi/
+    description: A widely used source for compensation data by role, level, and company.
+certificate:
+  title: Salary Negotiation Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the negotiation prep plan
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Salary Negotiation Fundamentals | Curitiq
+  description: Negotiating an offer without burning the relationship — research, anchoring, and
+    handling the moments that feel the most uncomfortable.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Negotiating an offer without burning the relationship — research, anchoring, and handling
+    the moments that feel the most uncomfortable.
+  keyConcepts:
+    - Research a realistic salary range before entering a negotiation
+    - Use anchoring effectively without overreaching
+    - Handle common negotiation moments, including a firm 'no' from the employer
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,14 @@
+slug: app-service-and-scaling
+title: App Service and Scaling
+description: Azure's managed hosting option, and how it scales with demand.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Azure App Service Basics"
+  - id: mo-2
+    text: "Grasp: Deployment Slots for Safer Releases"
+lessons:
+  - slug: app-service-basics
+    order: 0
+  - slug: deployment-slots
+    order: 1

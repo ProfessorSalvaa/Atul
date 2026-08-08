@@ -1,0 +1,40 @@
+[
+  {
+    "id": "resource-naming-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Resource-Oriented Naming\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use plural nouns for collections (`/orders`, not `/order` or `/getOrders`) — the HTTP method already conveys the action, the URL should name the resource\""
+    ],
+    "explanation": "Use plural nouns for collections (`/orders`, not `/order` or `/getOrders`) — the HTTP method already conveys the action, the URL should name the resource — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use plural nouns for collections (`/orders`, not `/order` or `/getOrders`) — the HTTP method already conveys the action, the URL should name the resource"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "resource-naming-q2",
+    "type": "true-false",
+    "prompt": "True or false: Nest resources to reflect real ownership (`/customers/42/orders`) rather than encoding relationships in query parameters when the relationship is fundamental to the resource",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Nest resources to reflect real ownership (`/customers/42/orders`) rather than encoding relationships in query parameters when the relationship is fundamental to the resource",
+    "references": [],
+    "correctAnswer": true
+  }
+]

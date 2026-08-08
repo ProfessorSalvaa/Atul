@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ranking-with-window-functions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Ranking with ROW_NUMBER, RANK, and DENSE_RANK\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Unlike GROUP BY, window functions calculate a value across a set of related rows without collapsing them into one row — you keep the full detail and add a calculated column\""
+    ],
+    "explanation": "Unlike GROUP BY, window functions calculate a value across a set of related rows without collapsing them into one row — you keep the full detail and add a calculated column — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Unlike GROUP BY, window functions calculate a value across a set of related rows without collapsing them into one row — you keep the full detail and add a calculated column"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "ranking-with-window-functions-q2",
+    "type": "true-false",
+    "prompt": "True or false: ROW_NUMBER gives strictly sequential numbers even for ties; RANK leaves gaps after ties; DENSE_RANK doesn't — picking the wrong one silently changes what 'top 3' actually means when there are ties",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — ROW_NUMBER gives strictly sequential numbers even for ties; RANK leaves gaps after ties; DENSE_RANK doesn't — picking the wrong one silently changes what 'top 3' actually means when there are ties",
+    "references": [],
+    "correctAnswer": true
+  }
+]

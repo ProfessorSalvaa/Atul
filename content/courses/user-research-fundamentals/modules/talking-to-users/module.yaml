@@ -1,0 +1,14 @@
+slug: talking-to-users
+title: Talking to Users Without Leading Them
+description: The interview questions you write shape the answers you get — for better or worse.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing Unbiased Interview Questions"
+  - id: mo-2
+    text: "Grasp: Running a User Interview"
+lessons:
+  - slug: writing-unbiased-questions
+    order: 0
+  - slug: running-interviews
+    order: 1

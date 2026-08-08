@@ -1,0 +1,40 @@
+[
+  {
+    "id": "roadmap-for-different-audiences-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Presenting a Roadmap to Different Audiences\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Executives want to know the roadmap serves the business strategy — lead with outcomes and business impact, not feature-level detail\""
+    ],
+    "explanation": "Executives want to know the roadmap serves the business strategy — lead with outcomes and business impact, not feature-level detail — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Executives want to know the roadmap serves the business strategy — lead with outcomes and business impact, not feature-level detail"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "roadmap-for-different-audiences-q2",
+    "type": "true-false",
+    "prompt": "True or false: Engineering wants specificity and sequencing logic — they need enough detail to plan technical work and flag dependencies or risks early",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Engineering wants specificity and sequencing logic — they need enough detail to plan technical work and flag dependencies or risks early",
+    "references": [],
+    "correctAnswer": true
+  }
+]

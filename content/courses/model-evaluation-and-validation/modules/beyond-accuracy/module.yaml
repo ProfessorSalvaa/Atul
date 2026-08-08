@@ -1,0 +1,14 @@
+slug: beyond-accuracy
+title: Beyond Accuracy
+description: A single number that can hide a model that's actually useless.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: The Accuracy Trap on Imbalanced Data"
+  - id: mo-2
+    text: "Grasp: Precision and Recall"
+lessons:
+  - slug: the-accuracy-trap
+    order: 0
+  - slug: precision-and-recall
+    order: 1

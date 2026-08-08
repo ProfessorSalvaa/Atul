@@ -1,0 +1,40 @@
+[
+  {
+    "id": "image-size-and-security-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Keeping Images Small and Secure\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A bloated image (unnecessary build tools, cached package files, unused dependencies) is slower to pull, slower to start, and has a larger attack surface — clean up in the same layer you install, not a later one\""
+    ],
+    "explanation": "A bloated image (unnecessary build tools, cached package files, unused dependencies) is slower to pull, slower to start, and has a larger attack surface — clean up in the same layer you install, not a later one — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A bloated image (unnecessary build tools, cached package files, unused dependencies) is slower to pull, slower to start, and has a larger attack surface — clean up in the same layer you install, not a later one"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "image-size-and-security-q2",
+    "type": "true-false",
+    "prompt": "True or false: Never run a container's main process as root unless there's a specific reason to — create and switch to a non-root user in the Dockerfile",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Never run a container's main process as root unless there's a specific reason to — create and switch to a non-root user in the Dockerfile",
+    "references": [],
+    "correctAnswer": true
+  }
+]

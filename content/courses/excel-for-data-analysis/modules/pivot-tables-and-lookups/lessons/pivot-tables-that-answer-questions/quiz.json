@@ -1,0 +1,40 @@
+[
+  {
+    "id": "pivot-tables-that-answer-questions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Building Pivot Tables That Answer a Specific Question\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Start from the question, not the data — decide what you're grouping by (rows) and what you're measuring (values) before opening the Pivot Table dialog\""
+    ],
+    "explanation": "Start from the question, not the data — decide what you're grouping by (rows) and what you're measuring (values) before opening the Pivot Table dialog — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Start from the question, not the data — decide what you're grouping by (rows) and what you're measuring (values) before opening the Pivot Table dialog"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "pivot-tables-that-answer-questions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use Value Field Settings to switch from Sum to Average or Count as appropriate — the default Sum is wrong more often than people assume",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use Value Field Settings to switch from Sum to Average or Count as appropriate — the default Sum is wrong more often than people assume",
+    "references": [],
+    "correctAnswer": true
+  }
+]

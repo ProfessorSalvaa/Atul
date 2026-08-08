@@ -1,0 +1,40 @@
+[
+  {
+    "id": "components-and-variants-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Components and Variants\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A component is a reusable, master element — instances of it update automatically when the master component changes, keeping a design system consistent without manually editing every copy\""
+    ],
+    "explanation": "A component is a reusable, master element — instances of it update automatically when the master component changes, keeping a design system consistent without manually editing every copy — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A component is a reusable, master element — instances of it update automatically when the master component changes, keeping a design system consistent without manually editing every copy"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "components-and-variants-q2",
+    "type": "true-false",
+    "prompt": "True or false: Variants group related versions of a component (e.g. a button's primary/secondary/disabled states) into one switchable component, rather than scattering separate unrelated components",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Variants group related versions of a component (e.g. a button's primary/secondary/disabled states) into one switchable component, rather than scattering separate unrelated components",
+    "references": [],
+    "correctAnswer": true
+  }
+]

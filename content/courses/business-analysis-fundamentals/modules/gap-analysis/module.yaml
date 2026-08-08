@@ -1,0 +1,14 @@
+slug: gap-analysis
+title: Gap Analysis
+description: Comparing where things are to where they need to be.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Current State vs. Desired State"
+  - id: mo-2
+    text: "Grasp: Business Analysis Terms Flip Deck"
+lessons:
+  - slug: current-state-vs-desired-state
+    order: 0
+  - slug: business-analysis-glossary
+    order: 1

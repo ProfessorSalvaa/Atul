@@ -1,0 +1,73 @@
+slug: database-scaling-and-caching-patterns
+title: Database Scaling and Caching Patterns
+subtitle: What actually happens when a single database can't keep up — replication, sharding, and
+  caching strategies, with their real tradeoffs.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - system-design
+skills:
+  - caching-strategy
+careerPaths:
+  - software-engineer
+category: system-design
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain replication and sharding, and the tradeoffs each introduces
+  - id: obj-2
+    text: Choose an appropriate caching strategy for a given access pattern
+  - id: obj-3
+    text: Reason about cache invalidation, the hardest part of caching in practice
+prerequisites:
+  - courseSlug: system-design-interview-fundamentals
+instructor:
+  name: Tomasz Wilk
+  title: Staff Engineer, ex-Uber
+  bio: Tomasz Wilk is Staff Engineer, ex-Uber, teaching Database Scaling and Caching Patterns on
+    Curitiq.
+  avatarInitials: TW
+modules:
+  - slug: scaling-a-database
+    order: 0
+  - slug: caching-strategies
+    order: 1
+projectSlugs:
+  - scaling-and-caching-design
+assessmentSlugs: []
+resources:
+  - title: "AWS: Database Caching Strategies"
+    type: external-link
+    url: https://aws.amazon.com/caching/database-caching/
+    description: An overview of common database caching strategies.
+certificate:
+  title: Database Scaling and Caching Patterns — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the scaling and caching design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Database Scaling and Caching Patterns | Curitiq
+  description:
+    What actually happens when a single database can't keep up — replication, sharding, and
+    caching strategies, with their real tradeoffs.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: What actually happens when a single database can't keep up — replication, sharding, and
+    caching strategies, with their real tradeoffs.
+  keyConcepts:
+    - Explain replication and sharding, and the tradeoffs each introduces
+    - Choose an appropriate caching strategy for a given access pattern
+    - Reason about cache invalidation, the hardest part of caching in practice
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,14 @@
+slug: iterating-on-prompts
+title: Iterating When the First Answer Isn't Right
+description: Prompting as a debugging loop, not a one-shot guess.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Diagnosing Why an Output Went Wrong"
+  - id: mo-2
+    text: "Grasp: Prompting Terms Flip Deck"
+lessons:
+  - slug: diagnosing-bad-output
+    order: 0
+  - slug: prompting-terms
+    order: 1

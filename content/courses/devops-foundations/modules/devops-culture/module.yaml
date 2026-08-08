@@ -1,0 +1,14 @@
+slug: devops-culture
+title: DevOps as Culture, Not Just Tooling
+description: "The practices exist because of what they actually reduce: risk and feedback delay."
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Small, Frequent Releases Reduce Risk"
+  - id: mo-2
+    text: "Grasp: Breaking Down the Dev/Ops Silo"
+lessons:
+  - slug: why-small-releases-reduce-risk
+    order: 0
+  - slug: breaking-down-silos
+    order: 1

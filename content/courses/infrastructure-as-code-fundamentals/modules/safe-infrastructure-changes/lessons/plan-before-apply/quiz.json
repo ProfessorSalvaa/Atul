@@ -1,0 +1,40 @@
+[
+  {
+    "id": "plan-before-apply-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Reviewing a Plan Before Applying It\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Most IaC tools separate 'plan' (show what would change) from 'apply' (actually make the change) — always review the plan output before applying, especially for anything touching production\""
+    ],
+    "explanation": "Most IaC tools separate 'plan' (show what would change) from 'apply' (actually make the change) — always review the plan output before applying, especially for anything touching production — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Most IaC tools separate 'plan' (show what would change) from 'apply' (actually make the change) — always review the plan output before applying, especially for anything touching production"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "plan-before-apply-q2",
+    "type": "true-false",
+    "prompt": "True or false: A plan showing an unexpected resource deletion or replacement is a signal to stop and investigate before proceeding, not to apply and hope",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A plan showing an unexpected resource deletion or replacement is a signal to stop and investigate before proceeding, not to apply and hope",
+    "references": [],
+    "correctAnswer": true
+  }
+]

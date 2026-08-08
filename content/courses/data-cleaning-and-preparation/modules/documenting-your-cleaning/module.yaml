@@ -1,0 +1,14 @@
+slug: documenting-your-cleaning
+title: Documenting Cleaning Decisions
+description: The step most people skip, and the one that saves the most time later.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Every Cleaning Decision Needs a Written Reason"
+  - id: mo-2
+    text: "Grasp: Data Cleaning Terms Flip Deck"
+lessons:
+  - slug: why-document-cleaning
+    order: 0
+  - slug: data-cleaning-glossary
+    order: 1

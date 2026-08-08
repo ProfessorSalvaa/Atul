@@ -1,0 +1,32 @@
+---
+type: reading
+title: Database Sharding
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand database sharding
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Database Sharding."
+  keyConcepts:
+    - Sharding splits data across multiple databases based on a shard key (e.g.
+      user ID range) — this scales write capacity, which replication alone
+      doesn't address
+    - Choosing a good shard key matters enormously — a poor choice creates hot
+      shards (uneven load) where some shards handle disproportionately more
+      traffic than others
+    - Cross-shard queries (needing data from multiple shards at once) become
+      significantly harder after sharding — this is a real cost that should
+      factor into the decision to shard in the first place, not just be
+      discovered afterward
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Scaling a Database** in _Database Scaling and Caching Patterns_. By the end, you should be able to put the following into practice:
+
+- Sharding splits data across multiple databases based on a shard key (e.g. user ID range) — this scales write capacity, which replication alone doesn't address
+- Choosing a good shard key matters enormously — a poor choice creates hot shards (uneven load) where some shards handle disproportionately more traffic than others
+- Cross-shard queries (needing data from multiple shards at once) become significantly harder after sharding — this is a real cost that should factor into the decision to shard in the first place, not just be discovered afterward
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

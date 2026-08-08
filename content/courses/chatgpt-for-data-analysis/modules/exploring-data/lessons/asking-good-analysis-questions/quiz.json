@@ -1,0 +1,40 @@
+[
+  {
+    "id": "asking-good-analysis-questions-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Asking Questions That Produce Checkable Answers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Vague: 'what's interesting in this data?' — Specific: 'what are the top 5 categories by total revenue, and what percent of total revenue does each represent?'\""
+    ],
+    "explanation": "Vague: 'what's interesting in this data?' — Specific: 'what are the top 5 categories by total revenue, and what percent of total revenue does each represent?' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Vague: 'what's interesting in this data?' — Specific: 'what are the top 5 categories by total revenue, and what percent of total revenue does each represent?'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "asking-good-analysis-questions-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask for the answer AND the method — 'show me the groupby/aggregation you used' — so you can spot a wrong assumption before it becomes a wrong conclusion",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask for the answer AND the method — 'show me the groupby/aggregation you used' — so you can spot a wrong assumption before it becomes a wrong conclusion",
+    "references": [],
+    "correctAnswer": true
+  }
+]

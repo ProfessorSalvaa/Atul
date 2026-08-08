@@ -1,0 +1,14 @@
+slug: steering-completions
+title: Steering Copilot's Completions
+description: Getting useful suggestions instead of fighting autocomplete.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Writing Code That Steers Copilot Well"
+  - id: mo-2
+    text: "Grasp: Reviewing Copilot-Generated Code Like a Real PR"
+lessons:
+  - slug: writing-steerable-code
+    order: 0
+  - slug: reviewing-generated-code
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "deriving-useful-features-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Deriving Features That Expose Signal\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A raw timestamp is rarely as useful as derived features from it — day of week, hour of day, or time since a relevant event often carry far more predictive signal than the raw datetime value\""
+    ],
+    "explanation": "A raw timestamp is rarely as useful as derived features from it — day of week, hour of day, or time since a relevant event often carry far more predictive signal than the raw datetime value — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A raw timestamp is rarely as useful as derived features from it — day of week, hour of day, or time since a relevant event often carry far more predictive signal than the raw datetime value"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "deriving-useful-features-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ratios and interactions between existing features (e.g. price per square foot, rather than price and square footage separately) can expose a relationship a model would otherwise have to learn indirectly and imperfectly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ratios and interactions between existing features (e.g. price per square foot, rather than price and square footage separately) can expose a relationship a model would otherwise have to learn indirectly and imperfectly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

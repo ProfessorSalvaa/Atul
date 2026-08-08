@@ -1,0 +1,37 @@
+[
+  {
+    "id": "genai-glossary-fc-1",
+    "front": "Hallucination",
+    "back": "A confident, fluent, but factually incorrect model output.",
+    "difficulty": "beginner",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "genai-glossary-fc-2",
+    "front": "Context window",
+    "back": "The maximum amount of text (prompt + reply history) a model can process at once.",
+    "difficulty": "beginner",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "genai-glossary-fc-3",
+    "front": "Fine-tuning",
+    "back": "Further training a pre-trained model on a narrower, task-specific dataset.",
+    "difficulty": "beginner",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "genai-glossary-fc-4",
+    "front": "Temperature",
+    "back": "A setting controlling output randomness — low temperature is more deterministic, high is more varied.",
+    "difficulty": "beginner",
+    "tags": ["ai", "generative-ai"]
+  },
+  {
+    "id": "genai-glossary-fc-5",
+    "front": "Grounding",
+    "back": "Connecting a model's output to a verified external source of truth, reducing hallucination risk.",
+    "difficulty": "beginner",
+    "tags": ["ai", "generative-ai"]
+  }
+]

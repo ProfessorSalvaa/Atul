@@ -1,0 +1,39 @@
+---
+type: code
+title: Cold Starts and How to Mitigate Them
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand cold starts and how to mitigate them
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Cold Starts and How to Mitigate Them."
+  keyConcepts:
+    - A cold start is the extra latency incurred when a new function instance
+      has to initialize before handling its first request, especially noticeable
+      in latency-sensitive user-facing paths
+    - Smaller deployment packages and fewer heavy dependencies loaded at startup
+      reduce cold start time meaningfully
+    - Provisioned concurrency (keeping a set number of instances warm) trades
+      some of the cost benefit for consistently low latency, appropriate for
+      latency-critical endpoints
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Designing Around Serverless Limits** in _Serverless Computing Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A cold start is the extra latency incurred when a new function instance has to initialize before handling its first request, especially noticeable in latency-sensitive user-facing paths
+- Smaller deployment packages and fewer heavy dependencies loaded at startup reduce cold start time meaningfully
+- Provisioned concurrency (keeping a set number of instances warm) trades some of the cost benefit for consistently low latency, appropriate for latency-critical endpoints
+
+```text
+Symptom: p99 latency spikes on a low-traffic endpoint
+Likely cause: cold starts on an infrequently-invoked function
+Fix options: reduce package size, or configure provisioned concurrency for that specific function
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

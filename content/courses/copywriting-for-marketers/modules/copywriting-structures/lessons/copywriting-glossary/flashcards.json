@@ -1,0 +1,23 @@
+[
+  {
+    "id": "copywriting-glossary-fc-1",
+    "front": "Value proposition",
+    "back": "A clear statement of what you offer, who it's for, and why it's better than the alternative.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "writing"]
+  },
+  {
+    "id": "copywriting-glossary-fc-2",
+    "front": "AIDA",
+    "back": "A copywriting structure: Attention, Interest, Desire, Action.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "writing"]
+  },
+  {
+    "id": "copywriting-glossary-fc-3",
+    "front": "PAS",
+    "back": "A copywriting structure: Problem, Agitate, Solution.",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "writing"]
+  }
+]

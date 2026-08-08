@@ -1,0 +1,40 @@
+[
+  {
+    "id": "anchoring-effectively-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Anchoring Effectively\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The first number stated in a negotiation tends to anchor the entire remaining conversation — this is why avoiding stating a number first, when possible, can be advantageous, and why an employer's first offer isn't automatically the ceiling\""
+    ],
+    "explanation": "The first number stated in a negotiation tends to anchor the entire remaining conversation — this is why avoiding stating a number first, when possible, can be advantageous, and why an employer's first offer isn't automatically the ceiling — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The first number stated in a negotiation tends to anchor the entire remaining conversation — this is why avoiding stating a number first, when possible, can be advantageous, and why an employer's first offer isn't automatically the ceiling"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "anchoring-effectively-q2",
+    "type": "true-false",
+    "prompt": "True or false: If asked for a number, give a range with the low end at what you'd genuinely be satisfied with — the top end can be ambitious, but the range should still be grounded in real research, not made up",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — If asked for a number, give a range with the low end at what you'd genuinely be satisfied with — the top end can be ambitious, but the range should still be grounded in real research, not made up",
+    "references": [],
+    "correctAnswer": true
+  }
+]

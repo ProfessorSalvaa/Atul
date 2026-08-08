@@ -1,0 +1,40 @@
+---
+type: code
+title: Bias-Variance Tradeoff in Practice
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand bias-variance tradeoff in practice
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Bias-Variance Tradeoff in Practice."
+  keyConcepts:
+    - High bias means a model is too simple to capture real patterns
+      (underfitting) — high variance means a model is too sensitive to the
+      specific training data's noise (overfitting)
+    - Increasing model complexity typically reduces bias but increases variance
+      — the goal is finding the complexity level that minimizes total error, not
+      simply maximizing or minimizing either one
+    - Regularization techniques deliberately constrain a model to reduce
+      variance at a small cost to bias — this is a common, practical way to
+      fight overfitting without changing the model architecture itself
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **The Bias-Variance Tradeoff** in _Supervised Learning in Practice_. By the end, you should be able to put the following into practice:
+
+- High bias means a model is too simple to capture real patterns (underfitting) — high variance means a model is too sensitive to the specific training data's noise (overfitting)
+- Increasing model complexity typically reduces bias but increases variance — the goal is finding the complexity level that minimizes total error, not simply maximizing or minimizing either one
+- Regularization techniques deliberately constrain a model to reduce variance at a small cost to bias — this is a common, practical way to fight overfitting without changing the model architecture itself
+
+```text
+Too simple (high bias): straight line through clearly curved data -> underfits both train and test
+Too complex (high variance): a wiggly curve hitting every training point exactly -> overfits, fails on new data
+Goal: complexity that generalizes well to held-out data
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

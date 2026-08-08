@@ -1,0 +1,75 @@
+slug: cohort-and-funnel-analysis
+title: Cohort and Funnel Analysis
+subtitle: Analyzing how groups of users behave over time and where they drop off in a process — the
+  analysis behind most real retention and conversion decisions.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 130
+tags: &a1
+  - data
+  - analytics
+  - sql
+skills:
+  - cohort-analysis
+  - funnel-analysis
+careerPaths:
+  - data-analyst
+category: data-analytics
+premium: true
+objectives:
+  - id: obj-1
+    text: Build a cohort retention table and interpret what it actually shows
+  - id: obj-2
+    text: Build a funnel analysis and identify the highest-leverage drop-off point
+  - id: obj-3
+    text: Avoid the most common statistical traps in cohort and funnel analysis
+prerequisites:
+  - courseSlug: data-analytics-foundations
+  - courseSlug: intermediate-sql-joins-and-aggregation
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Cohort and Funnel Analysis on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: cohort-analysis
+    order: 0
+  - slug: funnel-analysis
+    order: 1
+projectSlugs:
+  - retention-and-conversion-analysis
+assessmentSlugs: []
+resources:
+  - title: "Reforge: Retention & Engagement"
+    type: external-link
+    url: https://www.reforge.com
+    description: A reference for growth and retention analysis frameworks.
+certificate:
+  title: Cohort and Funnel Analysis — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the retention and conversion analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Cohort and Funnel Analysis | Curitiq
+  description: Analyzing how groups of users behave over time and where they drop off in a process —
+    the analysis behind most real retention and conversion decisions.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Analyzing how groups of users behave over time and where they drop off in a process — the
+    analysis behind most real retention and conversion decisions.
+  keyConcepts:
+    - Build a cohort retention table and interpret what it actually shows
+    - Build a funnel analysis and identify the highest-leverage drop-off point
+    - Avoid the most common statistical traps in cohort and funnel analysis
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

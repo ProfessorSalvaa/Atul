@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-small-releases-reduce-risk-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Small, Frequent Releases Reduce Risk\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A small release changes little, so if something breaks, the cause is easy to isolate — a large, infrequent release bundles many changes together, making the cause of any failure much harder to pin down\""
+    ],
+    "explanation": "A small release changes little, so if something breaks, the cause is easy to isolate — a large, infrequent release bundles many changes together, making the cause of any failure much harder to pin down — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A small release changes little, so if something breaks, the cause is easy to isolate — a large, infrequent release bundles many changes together, making the cause of any failure much harder to pin down"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-small-releases-reduce-risk-q2",
+    "type": "true-false",
+    "prompt": "True or false: Frequent releases mean feedback (from monitoring, from users) arrives faster, so problems are caught and fixed sooner rather than compounding silently for weeks",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Frequent releases mean feedback (from monitoring, from users) arrives faster, so problems are caught and fixed sooner rather than compounding silently for weeks",
+    "references": [],
+    "correctAnswer": true
+  }
+]

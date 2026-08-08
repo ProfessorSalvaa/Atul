@@ -1,0 +1,40 @@
+[
+  {
+    "id": "risk-response-strategies-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Risk Response Strategies\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Avoid (change the plan to eliminate the risk), mitigate (reduce probability or impact), transfer (shift the risk, e.g. via insurance or a vendor contract), or accept (consciously decide the risk is tolerable) — four standard strategies, chosen deliberately for each risk\""
+    ],
+    "explanation": "Avoid (change the plan to eliminate the risk), mitigate (reduce probability or impact), transfer (shift the risk, e.g. via insurance or a vendor contract), or accept (consciously decide the risk is tolerable) — four standard strategies, chosen deliberately for each risk — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Avoid (change the plan to eliminate the risk), mitigate (reduce probability or impact), transfer (shift the risk, e.g. via insurance or a vendor contract), or accept (consciously decide the risk is tolerable) — four standard strategies, chosen deliberately for each risk"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "risk-response-strategies-q2",
+    "type": "true-false",
+    "prompt": "True or false: 'Accept' is a legitimate strategy for low-priority risks — the mistake isn't accepting a risk, it's accepting it silently without ever having consciously decided to",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — 'Accept' is a legitimate strategy for low-priority risks — the mistake isn't accepting a risk, it's accepting it silently without ever having consciously decided to",
+    "references": [],
+    "correctAnswer": true
+  }
+]

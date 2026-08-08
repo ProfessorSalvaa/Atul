@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cross-site-scripting-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Cross-Site Scripting (XSS)\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"XSS happens when untrusted input is rendered into a page without proper escaping, letting an attacker inject a script that runs in another user's browser session\""
+    ],
+    "explanation": "XSS happens when untrusted input is rendered into a page without proper escaping, letting an attacker inject a script that runs in another user's browser session — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "XSS happens when untrusted input is rendered into a page without proper escaping, letting an attacker inject a script that runs in another user's browser session"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "cross-site-scripting-q2",
+    "type": "true-false",
+    "prompt": "True or false: Stored XSS (malicious input saved and served to other users) is generally more dangerous than reflected XSS (requiring a crafted link to be clicked), since it affects any visitor without extra action",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Stored XSS (malicious input saved and served to other users) is generally more dangerous than reflected XSS (requiring a crafted link to be clicked), since it affects any visitor without extra action",
+    "references": [],
+    "correctAnswer": true
+  }
+]

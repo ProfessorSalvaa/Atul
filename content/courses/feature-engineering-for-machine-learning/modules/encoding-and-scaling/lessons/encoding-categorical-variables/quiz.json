@@ -1,0 +1,40 @@
+[
+  {
+    "id": "encoding-categorical-variables-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Encoding Categorical Variables\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"One-hot encoding creates a separate binary column per category — works well for algorithms without an assumption of ordering, but can create many columns for a high-cardinality feature\""
+    ],
+    "explanation": "One-hot encoding creates a separate binary column per category — works well for algorithms without an assumption of ordering, but can create many columns for a high-cardinality feature — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "One-hot encoding creates a separate binary column per category — works well for algorithms without an assumption of ordering, but can create many columns for a high-cardinality feature"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "encoding-categorical-variables-q2",
+    "type": "true-false",
+    "prompt": "True or false: Label encoding assigns each category an integer — appropriate for tree-based models, but risky for algorithms like linear regression that would incorrectly interpret the numbers as having a meaningful order or magnitude",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Label encoding assigns each category an integer — appropriate for tree-based models, but risky for algorithms like linear regression that would incorrectly interpret the numbers as having a meaningful order or magnitude",
+    "references": [],
+    "correctAnswer": true
+  }
+]

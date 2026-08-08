@@ -1,0 +1,40 @@
+[
+  {
+    "id": "load-balancing-and-auto-scaling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Load Balancing and Auto Scaling\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An Application Load Balancer distributes incoming traffic across multiple instances, and health checks automatically stop routing to instances that are failing\""
+    ],
+    "explanation": "An Application Load Balancer distributes incoming traffic across multiple instances, and health checks automatically stop routing to instances that are failing — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An Application Load Balancer distributes incoming traffic across multiple instances, and health checks automatically stop routing to instances that are failing"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "load-balancing-and-auto-scaling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Auto Scaling Groups add or remove instances based on demand (e.g. CPU utilization), so capacity roughly matches actual load instead of being fixed at a guessed peak",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Auto Scaling Groups add or remove instances based on demand (e.g. CPU utilization), so capacity roughly matches actual load instead of being fixed at a guessed peak",
+    "references": [],
+    "correctAnswer": true
+  }
+]

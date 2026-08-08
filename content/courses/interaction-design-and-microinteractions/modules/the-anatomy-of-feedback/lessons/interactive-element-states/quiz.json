@@ -1,0 +1,40 @@
+[
+  {
+    "id": "interactive-element-states-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Designing Every State of an Interactive Element\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A button isn't one state — it's default, hover, active/pressed, focus, loading, disabled, and error, each needing a deliberate design, not just a color swap left to a developer's guess\""
+    ],
+    "explanation": "A button isn't one state — it's default, hover, active/pressed, focus, loading, disabled, and error, each needing a deliberate design, not just a color swap left to a developer's guess — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A button isn't one state — it's default, hover, active/pressed, focus, loading, disabled, and error, each needing a deliberate design, not just a color swap left to a developer's guess"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "interactive-element-states-q2",
+    "type": "true-false",
+    "prompt": "True or false: Missing states are one of the most common gaps between a design file and a shipped product — an undesigned loading state gets implemented as a jarring blank screen or nothing at all",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Missing states are one of the most common gaps between a design file and a shipped product — an undesigned loading state gets implemented as a jarring blank screen or nothing at all",
+    "references": [],
+    "correctAnswer": true
+  }
+]

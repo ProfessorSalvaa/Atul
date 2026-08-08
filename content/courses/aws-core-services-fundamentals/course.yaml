@@ -1,0 +1,74 @@
+slug: aws-core-services-fundamentals
+title: AWS Core Services Fundamentals
+subtitle: The handful of AWS services (EC2, S3, IAM, VPC) that underpin almost everything else, and
+  how they fit together.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 120
+tags: &a1
+  - cloud
+  - aws
+skills:
+  - aws-core-services
+  - iam-and-security
+careerPaths:
+  - cloud-engineer
+category: aws
+premium: false
+objectives:
+  - id: obj-1
+    text: Launch and configure a basic EC2 instance with appropriate security settings
+  - id: obj-2
+    text: Store and manage objects in S3 with correct access controls
+  - id: obj-3
+    text: Apply least-privilege IAM policies instead of broad, risky permissions
+prerequisites:
+  - courseSlug: cloud-computing-foundations
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching AWS Core Services Fundamentals on
+    Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: compute-and-storage
+    order: 0
+  - slug: identity-and-access
+    order: 1
+projectSlugs:
+  - secure-aws-environment-design
+assessmentSlugs: []
+resources:
+  - title: AWS Well-Architected Framework
+    type: external-link
+    url: https://aws.amazon.com/architecture/well-architected/
+    description: Official AWS best-practices framework.
+certificate:
+  title: AWS Core Services Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the secure AWS environment design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: AWS Core Services Fundamentals | Curitiq
+  description: The handful of AWS services (EC2, S3, IAM, VPC) that underpin almost everything else,
+    and how they fit together.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The handful of AWS services (EC2, S3, IAM, VPC) that underpin almost everything else, and
+    how they fit together.
+  keyConcepts:
+    - Launch and configure a basic EC2 instance with appropriate security settings
+    - Store and manage objects in S3 with correct access controls
+    - Apply least-privilege IAM policies instead of broad, risky permissions
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

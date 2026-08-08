@@ -1,0 +1,23 @@
+[
+  {
+    "id": "chatgpt-analysis-terms-fc-1",
+    "front": "Data profiling",
+    "back": "A first-pass summary of a dataset's shape: row/column counts, types, and missing values.",
+    "difficulty": "intermediate",
+    "tags": ["chatgpt", "ai"]
+  },
+  {
+    "id": "chatgpt-analysis-terms-fc-2",
+    "front": "Aggregation grain",
+    "back": "The level of detail a summary is calculated at (e.g. per-order vs. per-customer) — getting this wrong causes silent double-counting.",
+    "difficulty": "intermediate",
+    "tags": ["chatgpt", "ai"]
+  },
+  {
+    "id": "chatgpt-analysis-terms-fc-3",
+    "front": "Code interpreter",
+    "back": "A ChatGPT feature that lets the model write and run code (e.g. Python/pandas) against uploaded files.",
+    "difficulty": "intermediate",
+    "tags": ["chatgpt", "ai"]
+  }
+]

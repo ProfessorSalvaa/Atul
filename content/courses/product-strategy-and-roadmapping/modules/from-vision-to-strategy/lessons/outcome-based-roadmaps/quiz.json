@@ -1,0 +1,40 @@
+[
+  {
+    "id": "outcome-based-roadmaps-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Outcome-Based Roadmaps\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A feature-and-date roadmap ('Ship X by Q3') optimizes for shipping things, not for whether those things actually work — an outcome-based roadmap organizes around goals ('reduce onboarding drop-off by 20%') with features as hypotheses to test\""
+    ],
+    "explanation": "A feature-and-date roadmap ('Ship X by Q3') optimizes for shipping things, not for whether those things actually work — an outcome-based roadmap organizes around goals ('reduce onboarding drop-off by 20%') with features as hypotheses to test — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A feature-and-date roadmap ('Ship X by Q3') optimizes for shipping things, not for whether those things actually work — an outcome-based roadmap organizes around goals ('reduce onboarding drop-off by 20%') with features as hypotheses to test"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "outcome-based-roadmaps-q2",
+    "type": "true-false",
+    "prompt": "True or false: Outcome-based roadmaps handle uncertainty more honestly — they don't pretend to know in month 1 exactly which feature will achieve the goal by month 6",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Outcome-based roadmaps handle uncertainty more honestly — they don't pretend to know in month 1 exactly which feature will achieve the goal by month 6",
+    "references": [],
+    "correctAnswer": true
+  }
+]

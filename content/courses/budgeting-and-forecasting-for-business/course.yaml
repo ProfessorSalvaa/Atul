@@ -1,0 +1,73 @@
+slug: budgeting-and-forecasting-for-business
+title: Budgeting and Forecasting for Business
+subtitle: Building a budget that's a genuine planning tool, not a document assembled once a year and
+  ignored — plus a rolling forecast that stays honest as the year unfolds.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 105
+tags: &a1
+  - finance
+  - budgeting
+skills:
+  - budgeting-forecasting
+careerPaths: []
+category: finance
+premium: false
+objectives:
+  - id: obj-1
+    text: Distinguish top-down and bottom-up budgeting approaches
+  - id: obj-2
+    text: Build a rolling forecast that updates as actuals come in
+  - id: obj-3
+    text: Analyze budget variance to explain what actually drove a deviation
+prerequisites: []
+instructor:
+  name: Nadia Okafor
+  title: FP&A Director, ex-Goldman Sachs
+  bio: Nadia Okafor is FP&A Director, ex-Goldman Sachs, teaching Budgeting and Forecasting for
+    Business on Curitiq.
+  avatarInitials: NO
+modules:
+  - slug: building-a-budget
+    order: 0
+  - slug: variance-analysis
+    order: 1
+projectSlugs:
+  - budget-and-variance-report
+assessmentSlugs: []
+resources:
+  - title: "CFI: Budgeting and Forecasting"
+    type: external-link
+    url: https://corporatefinanceinstitute.com/resources/fpa/budgeting-and-forecasting/
+    description: An overview of budgeting and forecasting methods in FP&A.
+certificate:
+  title: Budgeting and Forecasting for Business — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the budget and variance report
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Budgeting and Forecasting for Business | Curitiq
+  description:
+    "Building a budget that's a genuine planning tool, not a document assembled once a year
+    and ignored — plus a rolling forecast that stays honest as the year "
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Building a budget that's a genuine planning tool, not a document assembled once a year and
+    ignored — plus a rolling forecast that stays honest as the year unfolds.
+  keyConcepts:
+    - Distinguish top-down and bottom-up budgeting approaches
+    - Build a rolling forecast that updates as actuals come in
+    - Analyze budget variance to explain what actually drove a deviation
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

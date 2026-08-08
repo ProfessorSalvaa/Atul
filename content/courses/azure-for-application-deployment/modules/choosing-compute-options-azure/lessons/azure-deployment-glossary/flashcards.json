@@ -1,0 +1,23 @@
+[
+  {
+    "id": "azure-deployment-glossary-fc-1",
+    "front": "App Service Plan",
+    "back": "The underlying compute resources and pricing tier that determine an Azure App Service's capabilities.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "azure"]
+  },
+  {
+    "id": "azure-deployment-glossary-fc-2",
+    "front": "Deployment slot",
+    "back": "A separate live environment sharing an App Service, used to stage and safely swap in new versions.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "azure"]
+  },
+  {
+    "id": "azure-deployment-glossary-fc-3",
+    "front": "Autoscale rule",
+    "back": "A configured condition (metric-based or scheduled) that triggers Azure to add or remove instances.",
+    "difficulty": "intermediate",
+    "tags": ["cloud", "azure"]
+  }
+]

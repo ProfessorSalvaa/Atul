@@ -1,0 +1,45 @@
+---
+type: code
+title: Designing a Class with a Clear Responsibility
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand designing a class with a clear responsibility
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Designing a Class with a Clear Responsibility."
+  keyConcepts:
+    - A class should represent one clear concept and own the data and behavior
+      related to it — a class doing too many unrelated things is a sign it
+      should be split
+    - "`__init__` sets up an object's initial state; methods define what it can
+      do — keep methods focused on the object's own responsibility, not
+      unrelated logic"
+    - Use `self` consistently to refer to the instance's own data — forgetting
+      `self` on an attribute is one of the most common beginner OOP bugs
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Classes and Objects** in _Object-Oriented Programming Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A class should represent one clear concept and own the data and behavior related to it — a class doing too many unrelated things is a sign it should be split
+- `__init__` sets up an object's initial state; methods define what it can do — keep methods focused on the object's own responsibility, not unrelated logic
+- Use `self` consistently to refer to the instance's own data — forgetting `self` on an attribute is one of the most common beginner OOP bugs
+
+```python
+class ShoppingCart:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, name, price):
+        self.items.append({"name": name, "price": price})
+
+    def total(self):
+        return sum(item["price"] for item in self.items)
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

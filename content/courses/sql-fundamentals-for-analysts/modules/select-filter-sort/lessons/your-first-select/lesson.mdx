@@ -1,0 +1,40 @@
+---
+type: code
+title: Your First SELECT Statement
+order: 0
+durationMinutes: 14
+objectives:
+  - Understand your first select statement
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Your First SELECT Statement."
+  keyConcepts:
+    - SELECT chooses which columns to return, FROM specifies the table, WHERE
+      filters rows before any aggregation happens
+    - Use SELECT * only for quick exploration — in real queries, name your
+      columns explicitly so the query stays predictable if the table's structure
+      changes
+    - String and date comparisons in WHERE need quotes; numeric comparisons
+      don't — a very common early mistake is quoting a number or forgetting to
+      quote a string
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **SELECT, Filter, and Sort** in _SQL Fundamentals for Analysts_. By the end, you should be able to put the following into practice:
+
+- SELECT chooses which columns to return, FROM specifies the table, WHERE filters rows before any aggregation happens
+- Use SELECT \* only for quick exploration — in real queries, name your columns explicitly so the query stays predictable if the table's structure changes
+- String and date comparisons in WHERE need quotes; numeric comparisons don't — a very common early mistake is quoting a number or forgetting to quote a string
+
+```sql
+SELECT order_id, customer_id, order_date, total
+FROM orders
+WHERE order_date >= '2024-01-01'
+ORDER BY total DESC;
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

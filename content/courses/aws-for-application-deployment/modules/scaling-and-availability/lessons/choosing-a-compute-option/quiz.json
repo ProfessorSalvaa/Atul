@@ -1,0 +1,40 @@
+[
+  {
+    "id": "choosing-a-compute-option-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Choosing Between EC2, ECS, and Elastic Beanstalk\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"EC2 gives full control over the server — appropriate when you need OS-level customization or are running something that doesn't fit a container model well\""
+    ],
+    "explanation": "EC2 gives full control over the server — appropriate when you need OS-level customization or are running something that doesn't fit a container model well — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "EC2 gives full control over the server — appropriate when you need OS-level customization or are running something that doesn't fit a container model well"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "choosing-a-compute-option-q2",
+    "type": "true-false",
+    "prompt": "True or false: ECS (container orchestration) fits teams already using Docker who want more control over deployment than a fully managed PaaS, without managing raw servers directly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — ECS (container orchestration) fits teams already using Docker who want more control over deployment than a fully managed PaaS, without managing raw servers directly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

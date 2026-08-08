@@ -1,0 +1,14 @@
+slug: types-of-machine-learning
+title: Types of Machine Learning
+description: Three fundamentally different problem setups, often confused with each other.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Supervised, Unsupervised, and Reinforcement Learning"
+  - id: mo-2
+    text: "Grasp: The Standard ML Workflow"
+lessons:
+  - slug: supervised-unsupervised-reinforcement
+    order: 0
+  - slug: the-standard-ml-workflow
+    order: 1

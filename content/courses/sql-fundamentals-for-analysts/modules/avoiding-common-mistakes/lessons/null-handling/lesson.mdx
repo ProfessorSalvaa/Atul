@@ -1,0 +1,30 @@
+---
+type: reading
+title: NULL Handling and Off-By-Default Mistakes
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand null handling and off-by-default mistakes
+free: false
+aiTutorContext:
+  summary: "This lesson covers: NULL Handling and Off-By-Default Mistakes."
+  keyConcepts:
+    - NULL means 'unknown', not zero or empty string — comparisons like `= NULL`
+      never match anything; use `IS NULL` / `IS NOT NULL` instead
+    - COUNT(*) counts all rows including NULLs; COUNT(column_name) only counts
+      non-null values in that column — mixing these up silently changes your
+      denominator
+    - Aggregate functions (SUM, AVG) ignore NULLs by default, which can be
+      exactly right or exactly wrong depending on what the NULL represents in
+      your data — always ask what a NULL means before aggregating over it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Avoiding Common Beginner Mistakes** in _SQL Fundamentals for Analysts_. By the end, you should be able to put the following into practice:
+
+- NULL means 'unknown', not zero or empty string — comparisons like `= NULL` never match anything; use `IS NULL` / `IS NOT NULL` instead
+- COUNT(\*) counts all rows including NULLs; COUNT(column_name) only counts non-null values in that column — mixing these up silently changes your denominator
+- Aggregate functions (SUM, AVG) ignore NULLs by default, which can be exactly right or exactly wrong depending on what the NULL represents in your data — always ask what a NULL means before aggregating over it
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

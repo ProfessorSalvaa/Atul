@@ -1,0 +1,40 @@
+[
+  {
+    "id": "at-least-once-and-idempotency-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"At-Least-Once Delivery and Idempotent Handling\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Most real message queues guarantee at-least-once delivery, not exactly-once — a message can be delivered more than once (e.g. if a consumer crashes after processing but before acknowledging)\""
+    ],
+    "explanation": "Most real message queues guarantee at-least-once delivery, not exactly-once — a message can be delivered more than once (e.g. if a consumer crashes after processing but before acknowledging) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Most real message queues guarantee at-least-once delivery, not exactly-once — a message can be delivered more than once (e.g. if a consumer crashes after processing but before acknowledging)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "at-least-once-and-idempotency-q2",
+    "type": "true-false",
+    "prompt": "True or false: Design message handlers to be idempotent — processing the same message twice should produce the same result as processing it once, typically by checking whether the effect (e.g. an order) already exists before applying it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Design message handlers to be idempotent — processing the same message twice should produce the same result as processing it once, typically by checking whether the effect (e.g. an order) already exists before applying it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

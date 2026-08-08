@@ -1,0 +1,40 @@
+[
+  {
+    "id": "audience-targeting-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Audience Targeting Approaches\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Demographic and interest targeting reaches people matching defined criteria — retargeting reaches people who've already interacted with you, generally converting at a much higher rate since intent is already established\""
+    ],
+    "explanation": "Demographic and interest targeting reaches people matching defined criteria — retargeting reaches people who've already interacted with you, generally converting at a much higher rate since intent is already established — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Demographic and interest targeting reaches people matching defined criteria — retargeting reaches people who've already interacted with you, generally converting at a much higher rate since intent is already established"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "audience-targeting-q2",
+    "type": "true-false",
+    "prompt": "True or false: Lookalike/similar audiences use an existing high-value audience (like past customers) as a template to find new people with similar characteristics — often more effective than broad interest targeting alone",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Lookalike/similar audiences use an existing high-value audience (like past customers) as a template to find new people with similar characteristics — often more effective than broad interest targeting alone",
+    "references": [],
+    "correctAnswer": true
+  }
+]

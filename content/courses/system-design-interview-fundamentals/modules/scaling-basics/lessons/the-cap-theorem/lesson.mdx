@@ -1,0 +1,34 @@
+---
+type: reading
+title: The CAP Theorem
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand the cap theorem
+free: false
+aiTutorContext:
+  summary: "This lesson covers: The CAP Theorem."
+  keyConcepts:
+    - "CAP theorem states a distributed system can only guarantee two of three
+      properties during a network partition: Consistency (everyone sees the same
+      data), Availability (every request gets a response), and Partition
+      tolerance (the system keeps working despite network failures)"
+    - Since network partitions are unavoidable in any real distributed system,
+      the actual choice in practice is between consistency and availability
+      during a partition — this is the real tradeoff CAP forces you to reason
+      about
+    - A system doesn't have to make the same choice everywhere — different parts
+      of the same system (e.g. inventory count vs. product description) can
+      reasonably make different consistency/availability tradeoffs based on what
+      actually matters for that data
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Scaling Basics** in _System Design Interview Fundamentals_. By the end, you should be able to put the following into practice:
+
+- CAP theorem states a distributed system can only guarantee two of three properties during a network partition: Consistency (everyone sees the same data), Availability (every request gets a response), and Partition tolerance (the system keeps working despite network failures)
+- Since network partitions are unavoidable in any real distributed system, the actual choice in practice is between consistency and availability during a partition — this is the real tradeoff CAP forces you to reason about
+- A system doesn't have to make the same choice everywhere — different parts of the same system (e.g. inventory count vs. product description) can reasonably make different consistency/availability tradeoffs based on what actually matters for that data
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

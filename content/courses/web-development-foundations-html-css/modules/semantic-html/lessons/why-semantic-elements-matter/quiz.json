@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-semantic-elements-matter-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Semantic Elements Matter\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use `<nav>`, `<header>`, `<main>`, `<article>`, and `<footer>` instead of generic `<div>`s wherever the meaning fits — this helps screen readers, search engines, and future developers all at once\""
+    ],
+    "explanation": "Use `<nav>`, `<header>`, `<main>`, `<article>`, and `<footer>` instead of generic `<div>`s wherever the meaning fits — this helps screen readers, search engines, and future developers all at once — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use `<nav>`, `<header>`, `<main>`, `<article>`, and `<footer>` instead of generic `<div>`s wherever the meaning fits — this helps screen readers, search engines, and future developers all at once"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-semantic-elements-matter-q2",
+    "type": "true-false",
+    "prompt": "True or false: Every image needs meaningful `alt` text describing its content or purpose — this is both an accessibility requirement and one of the easiest wins for SEO",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Every image needs meaningful `alt` text describing its content or purpose — this is both an accessibility requirement and one of the easiest wins for SEO",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "feature-scaling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Feature Scaling\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Features on very different scales (e.g. age in years vs. income in dollars) can cause distance-based or gradient-based algorithms to be dominated by whichever feature happens to have a larger raw numeric range\""
+    ],
+    "explanation": "Features on very different scales (e.g. age in years vs. income in dollars) can cause distance-based or gradient-based algorithms to be dominated by whichever feature happens to have a larger raw numeric range — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Features on very different scales (e.g. age in years vs. income in dollars) can cause distance-based or gradient-based algorithms to be dominated by whichever feature happens to have a larger raw numeric range"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "feature-scaling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Standardization (mean 0, standard deviation 1) or min-max scaling puts features on comparable scales — tree-based models are generally unaffected by this and don't require it, but many other algorithms genuinely need it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Standardization (mean 0, standard deviation 1) or min-max scaling puts features on comparable scales — tree-based models are generally unaffected by this and don't require it, but many other algorithms genuinely need it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

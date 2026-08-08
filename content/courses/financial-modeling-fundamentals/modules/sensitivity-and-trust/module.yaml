@@ -1,0 +1,14 @@
+slug: sensitivity-and-trust
+title: Sensitivity Analysis and Trusting the Output
+description: Knowing how much to actually believe the number a model produces.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Running Sensitivity Analysis"
+  - id: mo-2
+    text: "Grasp: Financial Modeling Terms Flip Deck"
+lessons:
+  - slug: sensitivity-analysis
+    order: 0
+  - slug: financial-modeling-glossary
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "inputs-calculations-outputs-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Separating Inputs, Calculations, and Outputs\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Assumptions (growth rate, churn, price) should live in clearly labeled input cells, never buried inside a formula — a formula with a hardcoded '1.05' hides an assumption that should be easy to find and change\""
+    ],
+    "explanation": "Assumptions (growth rate, churn, price) should live in clearly labeled input cells, never buried inside a formula — a formula with a hardcoded '1.05' hides an assumption that should be easy to find and change — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Assumptions (growth rate, churn, price) should live in clearly labeled input cells, never buried inside a formula — a formula with a hardcoded '1.05' hides an assumption that should be easy to find and change"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "inputs-calculations-outputs-q2",
+    "type": "true-false",
+    "prompt": "True or false: Calculations should flow in one consistent direction (e.g. left to right, top to bottom) — a model where formulas reference cells scattered unpredictably is hard to audit and prone to hidden errors",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Calculations should flow in one consistent direction (e.g. left to right, top to bottom) — a model where formulas reference cells scattered unpredictably is hard to audit and prone to hidden errors",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "horizontal-vs-vertical-scaling-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Horizontal vs. Vertical Scaling\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Vertical scaling means making a single machine more powerful (more CPU, RAM) — simple, but has a hard physical and cost ceiling, and creates a single point of failure\""
+    ],
+    "explanation": "Vertical scaling means making a single machine more powerful (more CPU, RAM) — simple, but has a hard physical and cost ceiling, and creates a single point of failure — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Vertical scaling means making a single machine more powerful (more CPU, RAM) — simple, but has a hard physical and cost ceiling, and creates a single point of failure"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "horizontal-vs-vertical-scaling-q2",
+    "type": "true-false",
+    "prompt": "True or false: Horizontal scaling means adding more machines and distributing load across them — has effectively no ceiling, but introduces real complexity around coordination, data consistency, and network communication between nodes",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Horizontal scaling means adding more machines and distributing load across them — has effectively no ceiling, but introduces real complexity around coordination, data consistency, and network communication between nodes",
+    "references": [],
+    "correctAnswer": true
+  }
+]

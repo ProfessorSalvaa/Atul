@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-significance-means-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What 'Statistically Significant' Actually Means\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A p-value estimates the probability of seeing a result this extreme (or more) if there were truly no effect — it is not the probability that your hypothesis is correct\""
+    ],
+    "explanation": "A p-value estimates the probability of seeing a result this extreme (or more) if there were truly no effect — it is not the probability that your hypothesis is correct — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A p-value estimates the probability of seeing a result this extreme (or more) if there were truly no effect — it is not the probability that your hypothesis is correct"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-significance-means-q2",
+    "type": "true-false",
+    "prompt": "True or false: 'Statistically significant' does not mean 'practically important' — with a large enough sample, even a tiny, meaningless difference can become statistically significant",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — 'Statistically significant' does not mean 'practically important' — with a large enough sample, even a tiny, meaningless difference can become statistically significant",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "running-sprint-planning-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Running Effective Sprint Planning\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Sprint planning should answer two questions: what can be delivered this sprint, and how will the team deliver it — skipping the second question leads to a sprint backlog that looks committed but isn't actually planned\""
+    ],
+    "explanation": "Sprint planning should answer two questions: what can be delivered this sprint, and how will the team deliver it — skipping the second question leads to a sprint backlog that looks committed but isn't actually planned — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Sprint planning should answer two questions: what can be delivered this sprint, and how will the team deliver it — skipping the second question leads to a sprint backlog that looks committed but isn't actually planned"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "running-sprint-planning-q2",
+    "type": "true-false",
+    "prompt": "True or false: A backlog that isn't refined (estimated, clarified) before planning turns the planning meeting into an ad hoc discovery session, wasting the whole team's time",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A backlog that isn't refined (estimated, clarified) before planning turns the planning meeting into an ad hoc discovery session, wasting the whole team's time",
+    "references": [],
+    "correctAnswer": true
+  }
+]

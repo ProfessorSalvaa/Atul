@@ -1,0 +1,23 @@
+[
+  {
+    "id": "email-marketing-glossary-fc-1",
+    "front": "Triggered email",
+    "back": "An automated email sent in response to a specific recipient action, generally more effective than a broadcast.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "email-marketing-glossary-fc-2",
+    "front": "List segmentation",
+    "back": "Dividing an email list into groups based on behavior or characteristics to send more relevant messages.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  },
+  {
+    "id": "email-marketing-glossary-fc-3",
+    "front": "Deliverability",
+    "back": "The likelihood an email actually reaches the recipient's inbox rather than being filtered as spam.",
+    "difficulty": "beginner",
+    "tags": ["marketing"]
+  }
+]

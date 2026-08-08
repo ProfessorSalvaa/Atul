@@ -1,0 +1,14 @@
+slug: what-a-design-system-actually-is
+title: What a Design System Actually Is
+description: More than a component library — a shared language between design and engineering.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Beyond the Component Library"
+  - id: mo-2
+    text: "Grasp: Design Tokens"
+lessons:
+  - slug: beyond-the-component-library
+    order: 0
+  - slug: design-tokens
+    order: 1

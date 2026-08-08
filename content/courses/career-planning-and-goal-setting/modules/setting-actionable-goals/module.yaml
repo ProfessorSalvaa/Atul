@@ -1,0 +1,14 @@
+slug: setting-actionable-goals
+title: Setting Actionable Career Goals
+description: A vague goal like 'grow my career' doesn't actually guide any decision.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Specific Goals vs. Vague Aspirations"
+  - id: mo-2
+    text: "Grasp: Building a Skills Gap Plan"
+lessons:
+  - slug: specific-vs-vague-goals
+    order: 0
+  - slug: skills-gap-planning
+    order: 1

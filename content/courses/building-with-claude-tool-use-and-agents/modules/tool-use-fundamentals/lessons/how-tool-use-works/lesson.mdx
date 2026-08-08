@@ -1,0 +1,35 @@
+---
+type: reading
+title: How Tool Use Actually Works
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand how tool use actually works
+free: true
+aiTutorContext:
+  summary: "This lesson covers: How Tool Use Actually Works."
+  keyConcepts:
+    - You describe available tools (name, description, input schema) to the
+      model; the model decides when to call one and with what arguments, based
+      on the conversation
+    - The model doesn't execute the tool itself — your code receives the tool
+      call request, runs it, and sends the result back for the model to continue
+      reasoning with
+    - Good tool descriptions matter as much as good prompts — an ambiguous tool
+      description leads to the model calling the wrong tool or passing malformed
+      arguments
+    - Tool use turns a chat model into the reasoning layer of a larger system —
+      the reliability of the whole system depends on the tools around it, not
+      just the model
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Tool Use Fundamentals** in _Building with Claude: Tool Use and Agents_. By the end, you should be able to put the following into practice:
+
+- You describe available tools (name, description, input schema) to the model; the model decides when to call one and with what arguments, based on the conversation
+- The model doesn't execute the tool itself — your code receives the tool call request, runs it, and sends the result back for the model to continue reasoning with
+- Good tool descriptions matter as much as good prompts — an ambiguous tool description leads to the model calling the wrong tool or passing malformed arguments
+- Tool use turns a chat model into the reasoning layer of a larger system — the reliability of the whole system depends on the tools around it, not just the model
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

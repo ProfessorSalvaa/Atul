@@ -1,0 +1,74 @@
+slug: risk-management-for-projects
+title: Risk Management for Projects
+subtitle: Identifying what could go wrong before it does, and building a response plan instead of
+  reacting in the moment.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 105
+tags: &a1
+  - project-management
+skills:
+  - risk-management
+careerPaths:
+  - project-manager
+  - business-analyst
+category: project-management
+premium: true
+objectives:
+  - id: obj-1
+    text: Identify project risks systematically, not just the obvious ones
+  - id: obj-2
+    text: Score risks by probability and impact to prioritize response effort
+  - id: obj-3
+    text: Build response plans for the highest-priority risks before they occur
+prerequisites:
+  - courseSlug: project-management-fundamentals
+instructor:
+  name: Diane Foster
+  title: Senior Program Manager, ex-Deloitte
+  bio: Diane Foster is Senior Program Manager, ex-Deloitte, teaching Risk Management for Projects on
+    Curitiq.
+  avatarInitials: DF
+modules:
+  - slug: identifying-and-scoring-risk
+    order: 0
+  - slug: responding-to-risk
+    order: 1
+projectSlugs:
+  - risk-register-and-response-plan
+assessmentSlugs: []
+resources:
+  - title: "PMI: Project Risk Management Overview"
+    type: external-link
+    url: https://www.pmi.org/learning/library/risk-management-project-success-7482
+    description: PMI's overview of risk management in project delivery.
+certificate:
+  title: Risk Management for Projects — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the risk register and response plans
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Risk Management for Projects | Curitiq
+  description:
+    Identifying what could go wrong before it does, and building a response plan instead of
+    reacting in the moment.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Identifying what could go wrong before it does, and building a response plan instead of
+    reacting in the moment.
+  keyConcepts:
+    - Identify project risks systematically, not just the obvious ones
+    - Score risks by probability and impact to prioritize response effort
+    - Build response plans for the highest-priority risks before they occur
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

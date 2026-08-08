@@ -1,0 +1,40 @@
+[
+  {
+    "id": "diagnosing-poor-rag-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Case Study: Diagnosing Why a RAG System Gave Wrong Answers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A team's internal-docs assistant gave confidently wrong answers to a small but noticeable percentage of questions about their refund policy\""
+    ],
+    "explanation": "A team's internal-docs assistant gave confidently wrong answers to a small but noticeable percentage of questions about their refund policy — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A team's internal-docs assistant gave confidently wrong answers to a small but noticeable percentage of questions about their refund policy"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "diagnosing-poor-rag-q2",
+    "type": "true-false",
+    "prompt": "True or false: Investigation showed retrieval was returning the correct document but the wrong section — the policy document had multiple similarly-worded sections (domestic vs. international refunds) and retrieval couldn't distinguish them well",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Investigation showed retrieval was returning the correct document but the wrong section — the policy document had multiple similarly-worded sections (domestic vs. international refunds) and retrieval couldn't distinguish them well",
+    "references": [],
+    "correctAnswer": true
+  }
+]

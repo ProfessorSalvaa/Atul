@@ -1,0 +1,40 @@
+---
+type: code
+title: Chunking Strategy in Practice
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand chunking strategy in practice
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Chunking Strategy in Practice."
+  keyConcepts:
+    - Chunk by semantic boundary (paragraph, section) rather than a fixed
+      character count when possible — arbitrary cuts mid-sentence hurt retrieval
+      quality
+    - Overlapping chunks (e.g. 10-20% overlap between consecutive chunks) reduce
+      the risk of splitting a key fact exactly at a chunk boundary
+    - Store metadata with each chunk (source document, section title, date) so
+      retrieved answers can cite exactly where they came from
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Designing RAG That Actually Works Well** in _Retrieval-Augmented Generation Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Chunk by semantic boundary (paragraph, section) rather than a fixed character count when possible — arbitrary cuts mid-sentence hurt retrieval quality
+- Overlapping chunks (e.g. 10-20% overlap between consecutive chunks) reduce the risk of splitting a key fact exactly at a chunk boundary
+- Store metadata with each chunk (source document, section title, date) so retrieved answers can cite exactly where they came from
+
+```text
+Example chunking config for a policy-document RAG system:
+chunk_size: 500 tokens
+chunk_overlap: 75 tokens
+split_on: ["\n\n", ". "]  # prefer paragraph, fall back to sentence
+metadata: { source_doc, section_title, last_updated }
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "devops-glossary-fc-1",
+    "front": "Continuous Integration (CI)",
+    "back": "The practice of frequently merging code changes with automated build and test verification on each change.",
+    "difficulty": "beginner",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "devops-glossary-fc-2",
+    "front": "Continuous Deployment (CD)",
+    "back": "Automatically deploying every change that passes all automated checks, with no manual approval gate.",
+    "difficulty": "beginner",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "devops-glossary-fc-3",
+    "front": "Blast radius",
+    "back": "The scope of impact if a given change or failure goes wrong — a core concept behind favoring small, incremental releases.",
+    "difficulty": "beginner",
+    "tags": ["devops", "cloud"]
+  }
+]

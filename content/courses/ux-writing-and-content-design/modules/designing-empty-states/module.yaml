@@ -1,0 +1,14 @@
+slug: designing-empty-states
+title: Designing Empty States
+description: The moment before there's any content — an opportunity, not just a blank screen.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Empty States That Guide Instead of Just Stating Absence"
+  - id: mo-2
+    text: "Grasp: UX Writing Terms Flip Deck"
+lessons:
+  - slug: empty-states-that-guide
+    order: 0
+  - slug: ux-writing-glossary
+    order: 1

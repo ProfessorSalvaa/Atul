@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-a-value-proposition-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing a Clear Value Proposition\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A value proposition should answer, in one clear statement, what you offer, who it's for, and why it's better than the alternative — vague or clever value propositions that don't communicate this clearly fail at their basic job\""
+    ],
+    "explanation": "A value proposition should answer, in one clear statement, what you offer, who it's for, and why it's better than the alternative — vague or clever value propositions that don't communicate this clearly fail at their basic job — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A value proposition should answer, in one clear statement, what you offer, who it's for, and why it's better than the alternative — vague or clever value propositions that don't communicate this clearly fail at their basic job"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-a-value-proposition-q2",
+    "type": "true-false",
+    "prompt": "True or false: Test a value proposition by asking whether someone unfamiliar with the product could repeat back what it does and why they'd want it — if they can't, it's not clear enough yet",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Test a value proposition by asking whether someone unfamiliar with the product could repeat back what it does and why they'd want it — if they can't, it's not clear enough yet",
+    "references": [],
+    "correctAnswer": true
+  }
+]

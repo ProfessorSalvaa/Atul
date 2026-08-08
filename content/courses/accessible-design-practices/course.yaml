@@ -1,0 +1,73 @@
+slug: accessible-design-practices
+title: Accessible Design Practices
+subtitle: Designing interfaces that genuinely work for people with different abilities — color
+  contrast, keyboard navigation, and screen reader compatibility from the design stage, not bolted
+  on after.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 110
+tags: &a1
+  - ui-design
+skills:
+  - ux-fundamentals
+careerPaths:
+  - ux-designer
+category: ui-ux-design
+premium: true
+objectives:
+  - id: obj-1
+    text: Apply WCAG color contrast requirements when choosing a color palette
+  - id: obj-2
+    text: Design layouts that work for keyboard-only navigation
+  - id: obj-3
+    text: Design content that communicates correctly to screen reader users
+prerequisites:
+  - courseSlug: ui-ux-design-foundations
+instructor:
+  name: Elena Cho
+  title: Senior Product Designer, ex-Airbnb
+  bio: Elena Cho is Senior Product Designer, ex-Airbnb, teaching Accessible Design Practices on Curitiq.
+  avatarInitials: EC
+modules:
+  - slug: color-and-contrast
+    order: 0
+  - slug: keyboard-and-screen-reader-support
+    order: 1
+projectSlugs:
+  - accessibility-audit-and-fixes
+assessmentSlugs: []
+resources:
+  - title: WCAG 2.1 Quick Reference
+    type: external-link
+    url: https://www.w3.org/WAI/WCAG21/quickref/
+    description: The official W3C WCAG 2.1 quick reference.
+certificate:
+  title: Accessible Design Practices — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the accessibility audit and fixes
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Accessible Design Practices | Curitiq
+  description: Designing interfaces that genuinely work for people with different abilities — color
+    contrast, keyboard navigation, and screen reader compatibility from th
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Designing interfaces that genuinely work for people with different abilities — color
+    contrast, keyboard navigation, and screen reader compatibility from the design stage, not bolted
+    on after.
+  keyConcepts:
+    - Apply WCAG color contrast requirements when choosing a color palette
+    - Design layouts that work for keyboard-only navigation
+    - Design content that communicates correctly to screen reader users
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,39 @@
+---
+type: code
+title: What Makes a Good Commit
+order: 0
+durationMinutes: 14
+objectives:
+  - Understand what makes a good commit
+free: true
+aiTutorContext:
+  summary: "This lesson covers: What Makes a Good Commit."
+  keyConcepts:
+    - One commit should represent one logical change — a commit that mixes an
+      unrelated bug fix with a new feature makes history harder to read and
+      harder to revert selectively
+    - Write commit messages in the imperative mood ('Fix login redirect', not
+      'Fixed' or 'Fixes') — this matches Git's own generated messages and is the
+      de facto convention
+    - "`git status` and `git diff` before committing are the two commands that
+      prevent the most accidental commits of unintended changes"
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Commits That Make Sense Later** in _Git and GitHub Essentials_. By the end, you should be able to put the following into practice:
+
+- One commit should represent one logical change — a commit that mixes an unrelated bug fix with a new feature makes history harder to read and harder to revert selectively
+- Write commit messages in the imperative mood ('Fix login redirect', not 'Fixed' or 'Fixes') — this matches Git's own generated messages and is the de facto convention
+- `git status` and `git diff` before committing are the two commands that prevent the most accidental commits of unintended changes
+
+```text
+git add src/auth.py
+git status   # confirm exactly what's staged
+git commit -m "Fix session timeout not clearing on logout"
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,14 @@
+slug: funnel-analysis
+title: Funnel Analysis
+description: Finding exactly where people drop off in a multi-step process.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Building a Funnel and Finding the Real Bottleneck"
+  - id: mo-2
+    text: "Grasp: Cohort & Funnel Terms"
+lessons:
+  - slug: building-a-funnel
+    order: 0
+  - slug: cohort-funnel-glossary
+    order: 1

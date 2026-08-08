@@ -1,0 +1,44 @@
+---
+type: code
+title: Design Tokens
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand design tokens
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Design Tokens."
+  keyConcepts:
+    - A design token is a named, reusable value (e.g. `color-primary`,
+      `space-md`) referenced by components instead of a hardcoded value —
+      changing the token updates every component that references it
+    - Tokens should be organized in tiers — primitive values (raw hex codes,
+      pixel numbers) feeding semantic tokens (color-primary, color-danger) that
+      components actually reference, insulating components from raw value
+      changes
+    - Syncing tokens between design tools and code (rather than manually
+      re-typing values in both places) is what actually prevents design and
+      implementation from drifting apart over time
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: json
+---
+
+This lesson is part of **What a Design System Actually Is** in _Design Systems Fundamentals_. By the end, you should be able to put the following into practice:
+
+- A design token is a named, reusable value (e.g. `color-primary`, `space-md`) referenced by components instead of a hardcoded value — changing the token updates every component that references it
+- Tokens should be organized in tiers — primitive values (raw hex codes, pixel numbers) feeding semantic tokens (color-primary, color-danger) that components actually reference, insulating components from raw value changes
+- Syncing tokens between design tools and code (rather than manually re-typing values in both places) is what actually prevents design and implementation from drifting apart over time
+
+```json
+{
+  "color": {
+    "primitive": { "blue-600": "#2563eb" },
+    "semantic": { "color-primary": "{color.primitive.blue-600}" }
+  }
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

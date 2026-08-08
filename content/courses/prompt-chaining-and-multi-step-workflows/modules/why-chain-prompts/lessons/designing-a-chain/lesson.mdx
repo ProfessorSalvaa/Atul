@@ -1,0 +1,39 @@
+---
+type: code
+title: "Designing a Chain: Research → Draft → Critique"
+order: 1
+durationMinutes: 18
+objectives:
+  - "Understand designing a chain: research → draft → critique"
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Designing a Chain: Research → Draft → Critique."
+  keyConcepts:
+    - "A common effective pattern: one step extracts/structures raw information,
+      a second step drafts from that structured input, a third step critiques
+      the draft against explicit criteria"
+    - Pass structured data (JSON) between steps rather than freeform prose
+      whenever a later step needs to reliably parse the earlier output
+    - Keep the critique step's criteria explicit and specific — a vague 'is this
+      good?' critique step rarely catches anything a first pass didn't already
+      catch
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Why Chain Prompts At All** in _Prompt Chaining and Multi-Step Workflows_. By the end, you should be able to put the following into practice:
+
+- A common effective pattern: one step extracts/structures raw information, a second step drafts from that structured input, a third step critiques the draft against explicit criteria
+- Pass structured data (JSON) between steps rather than freeform prose whenever a later step needs to reliably parse the earlier output
+- Keep the critique step's criteria explicit and specific — a vague 'is this good?' critique step rarely catches anything a first pass didn't already catch
+
+```text
+Step 1 (extract): 'Extract every claim and its source from this article as JSON: [{claim, source}]'
+Step 2 (draft): 'Using this JSON of claims, draft a 200-word summary citing each source inline.'
+Step 3 (critique): 'Check the draft against the original claims JSON — flag any claim that is missing, altered, or unattributed.'
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

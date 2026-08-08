@@ -1,0 +1,40 @@
+[
+  {
+    "id": "metrics-logs-traces-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Metrics, Logs, and Traces — What Each One Answers\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Metrics answer 'what is the overall state right now' — numeric, aggregatable, cheap to store (e.g. request rate, error rate, CPU utilization)\""
+    ],
+    "explanation": "Metrics answer 'what is the overall state right now' — numeric, aggregatable, cheap to store (e.g. request rate, error rate, CPU utilization) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Metrics answer 'what is the overall state right now' — numeric, aggregatable, cheap to store (e.g. request rate, error rate, CPU utilization)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "metrics-logs-traces-q2",
+    "type": "true-false",
+    "prompt": "True or false: Logs answer 'what exactly happened' for a specific event — detailed, but expensive to store and search at high volume without good structure",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Logs answer 'what exactly happened' for a specific event — detailed, but expensive to store and search at high volume without good structure",
+    "references": [],
+    "correctAnswer": true
+  }
+]

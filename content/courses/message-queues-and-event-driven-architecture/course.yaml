@@ -1,0 +1,73 @@
+slug: message-queues-and-event-driven-architecture
+title: Message Queues and Event-Driven Architecture
+subtitle: Decoupling services so they don't all have to be up at once — queues, pub/sub, and the
+  tradeoffs of async communication.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - system-design
+skills:
+  - message-queues
+careerPaths:
+  - software-engineer
+category: system-design
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain when asynchronous, queue-based communication beats a direct synchronous call
+  - id: obj-2
+    text: Distinguish point-to-point queues from publish/subscribe patterns
+  - id: obj-3
+    text: Design for at-least-once delivery and idempotent message handling
+prerequisites:
+  - courseSlug: system-design-interview-fundamentals
+instructor:
+  name: Tomasz Wilk
+  title: Staff Engineer, ex-Uber
+  bio: Tomasz Wilk is Staff Engineer, ex-Uber, teaching Message Queues and Event-Driven Architecture
+    on Curitiq.
+  avatarInitials: TW
+modules:
+  - slug: why-use-a-queue
+    order: 0
+  - slug: delivery-guarantees
+    order: 1
+projectSlugs:
+  - event-driven-design
+assessmentSlugs: []
+resources:
+  - title: "AWS: Message Queuing Concepts"
+    type: external-link
+    url: https://aws.amazon.com/message-queue/
+    description: An overview of message queuing concepts and patterns.
+certificate:
+  title: Message Queues and Event-Driven Architecture — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the event-driven design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Message Queues and Event-Driven Architecture | Curitiq
+  description:
+    Decoupling services so they don't all have to be up at once — queues, pub/sub, and the
+    tradeoffs of async communication.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Decoupling services so they don't all have to be up at once — queues, pub/sub, and the
+    tradeoffs of async communication.
+  keyConcepts:
+    - Explain when asynchronous, queue-based communication beats a direct synchronous call
+    - Distinguish point-to-point queues from publish/subscribe patterns
+    - Design for at-least-once delivery and idempotent message handling
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

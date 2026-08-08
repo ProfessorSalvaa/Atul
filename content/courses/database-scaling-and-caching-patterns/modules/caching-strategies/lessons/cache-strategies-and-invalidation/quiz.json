@@ -1,0 +1,40 @@
+[
+  {
+    "id": "cache-strategies-and-invalidation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Cache Strategies and Invalidation\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Cache-aside (application checks cache, falls back to database on a miss, then populates the cache) is the most common pattern and gives the application full control over caching logic\""
+    ],
+    "explanation": "Cache-aside (application checks cache, falls back to database on a miss, then populates the cache) is the most common pattern and gives the application full control over caching logic — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Cache-aside (application checks cache, falls back to database on a miss, then populates the cache) is the most common pattern and gives the application full control over caching logic"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "cache-strategies-and-invalidation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Write-through (writes go to the cache and database together) keeps the cache always current at the cost of slightly slower writes — appropriate when read freshness matters most",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Write-through (writes go to the cache and database together) keeps the cache always current at the cost of slightly slower writes — appropriate when read freshness matters most",
+    "references": [],
+    "correctAnswer": true
+  }
+]

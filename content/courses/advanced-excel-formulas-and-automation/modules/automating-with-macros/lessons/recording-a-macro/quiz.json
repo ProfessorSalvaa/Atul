@@ -1,0 +1,40 @@
+[
+  {
+    "id": "recording-a-macro-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Recording and Adapting a Basic Macro\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The macro recorder captures your exact clicks as VBA code — record a repeated cleanup/formatting task once, then reuse it with one click\""
+    ],
+    "explanation": "The macro recorder captures your exact clicks as VBA code — record a repeated cleanup/formatting task once, then reuse it with one click — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The macro recorder captures your exact clicks as VBA code — record a repeated cleanup/formatting task once, then reuse it with one click"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "recording-a-macro-q2",
+    "type": "true-false",
+    "prompt": "True or false: Recorded macros are often brittle (hardcoded cell ranges) — open the recorded code and generalize obvious hardcoded ranges before relying on it long-term",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Recorded macros are often brittle (hardcoded cell ranges) — open the recorded code and generalize obvious hardcoded ranges before relying on it long-term",
+    "references": [],
+    "correctAnswer": true
+  }
+]

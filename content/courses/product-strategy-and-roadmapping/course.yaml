@@ -1,0 +1,73 @@
+slug: product-strategy-and-roadmapping
+title: Product Strategy and Roadmapping
+subtitle: Connecting daily prioritization decisions to a coherent longer-term direction — and
+  communicating that direction so a whole team can act on it.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 120
+tags: &a1
+  - product
+skills:
+  - product-strategy
+  - roadmapping
+careerPaths:
+  - product-manager
+category: product-management
+premium: true
+objectives:
+  - id: obj-1
+    text: Write a product strategy that connects vision to concrete near-term bets
+  - id: obj-2
+    text: Build a roadmap organized around outcomes, not just feature dates
+  - id: obj-3
+    text: Communicate a roadmap clearly to different stakeholder audiences
+prerequisites:
+  - courseSlug: product-management-foundations
+instructor:
+  name: Marcus Webb
+  title: Group Product Manager, ex-Stripe
+  bio: Marcus Webb is Group Product Manager, ex-Stripe, teaching Product Strategy and Roadmapping on
+    Curitiq.
+  avatarInitials: MW
+modules:
+  - slug: from-vision-to-strategy
+    order: 0
+  - slug: communicating-the-roadmap
+    order: 1
+projectSlugs:
+  - strategy-and-roadmap
+assessmentSlugs: []
+resources:
+  - title: "Silicon Valley Product Group: Product Strategy"
+    type: external-link
+    url: https://www.svpg.com/category/product-strategy/
+    description: Articles on product strategy from a well-known product leadership consultancy.
+certificate:
+  title: Product Strategy and Roadmapping — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the strategy and roadmap
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Product Strategy and Roadmapping | Curitiq
+  description: Connecting daily prioritization decisions to a coherent longer-term direction — and
+    communicating that direction so a whole team can act on it.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Connecting daily prioritization decisions to a coherent longer-term direction — and
+    communicating that direction so a whole team can act on it.
+  keyConcepts:
+    - Write a product strategy that connects vision to concrete near-term bets
+    - Build a roadmap organized around outcomes, not just feature dates
+    - Communicate a roadmap clearly to different stakeholder audiences
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

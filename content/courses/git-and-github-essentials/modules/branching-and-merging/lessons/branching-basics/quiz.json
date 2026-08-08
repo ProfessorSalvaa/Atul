@@ -1,0 +1,40 @@
+[
+  {
+    "id": "branching-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Branching Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A branch is a lightweight, independent line of development — create one per feature or fix so unrelated work doesn't get tangled together\""
+    ],
+    "explanation": "A branch is a lightweight, independent line of development — create one per feature or fix so unrelated work doesn't get tangled together — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A branch is a lightweight, independent line of development — create one per feature or fix so unrelated work doesn't get tangled together"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "branching-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Keep branches short-lived where possible — a branch that diverges from main for weeks accumulates conflict risk that grows the longer it's open",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Keep branches short-lived where possible — a branch that diverges from main for weeks accumulates conflict risk that grows the longer it's open",
+    "references": [],
+    "correctAnswer": true
+  }
+]

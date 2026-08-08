@@ -1,0 +1,40 @@
+[
+  {
+    "id": "detection-and-containment-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Detection and Containment\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Detection is often the weakest link — many breaches go unnoticed for weeks or months, so investing in detection capability matters as much as prevention\""
+    ],
+    "explanation": "Detection is often the weakest link — many breaches go unnoticed for weeks or months, so investing in detection capability matters as much as prevention — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Detection is often the weakest link — many breaches go unnoticed for weeks or months, so investing in detection capability matters as much as prevention"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "detection-and-containment-q2",
+    "type": "true-false",
+    "prompt": "True or false: Containment decisions trade off speed against evidence preservation — immediately shutting down a compromised system stops the damage but can destroy forensic evidence needed to understand what happened",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Containment decisions trade off speed against evidence preservation — immediately shutting down a compromised system stops the damage but can destroy forensic evidence needed to understand what happened",
+    "references": [],
+    "correctAnswer": true
+  }
+]

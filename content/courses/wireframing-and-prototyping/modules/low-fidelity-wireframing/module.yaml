@@ -1,0 +1,14 @@
+slug: low-fidelity-wireframing
+title: Low-Fidelity Wireframing
+description: Working in gray boxes on purpose — the case for staying rough early.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why Start Low-Fidelity"
+  - id: mo-2
+    text: "Grasp: Information Architecture for Multi-Screen Flows"
+lessons:
+  - slug: why-start-low-fidelity
+    order: 0
+  - slug: information-architecture
+    order: 1

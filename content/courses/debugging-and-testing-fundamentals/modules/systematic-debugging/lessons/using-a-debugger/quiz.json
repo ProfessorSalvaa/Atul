@@ -1,0 +1,40 @@
+[
+  {
+    "id": "using-a-debugger-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Using a Debugger Instead of Print Statements Everywhere\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A breakpoint lets you pause execution and inspect the actual state of variables at that exact point — far more precise than guessing what to print and re-running repeatedly\""
+    ],
+    "explanation": "A breakpoint lets you pause execution and inspect the actual state of variables at that exact point — far more precise than guessing what to print and re-running repeatedly — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A breakpoint lets you pause execution and inspect the actual state of variables at that exact point — far more precise than guessing what to print and re-running repeatedly"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "using-a-debugger-q2",
+    "type": "true-false",
+    "prompt": "True or false: Step-over executes the current line without entering function calls; step-into goes inside them — knowing which to use saves time navigating unfamiliar code",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Step-over executes the current line without entering function calls; step-into goes inside them — knowing which to use saves time navigating unfamiliar code",
+    "references": [],
+    "correctAnswer": true
+  }
+]

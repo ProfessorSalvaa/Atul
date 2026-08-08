@@ -1,0 +1,40 @@
+[
+  {
+    "id": "post-incident-review-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing a Blameless Post-Incident Review\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A blameless post-incident review focuses on what happened and what conditions allowed it, not on assigning individual fault — blame discourages honest reporting in the next incident\""
+    ],
+    "explanation": "A blameless post-incident review focuses on what happened and what conditions allowed it, not on assigning individual fault — blame discourages honest reporting in the next incident — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A blameless post-incident review focuses on what happened and what conditions allowed it, not on assigning individual fault — blame discourages honest reporting in the next incident"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "post-incident-review-q2",
+    "type": "true-false",
+    "prompt": "True or false: A good review includes a clear timeline, root cause, what worked well in the response, and specific, assigned follow-up actions with deadlines",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A good review includes a clear timeline, root cause, what worked well in the response, and specific, assigned follow-up actions with deadlines",
+    "references": [],
+    "correctAnswer": true
+  }
+]

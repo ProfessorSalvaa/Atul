@@ -1,0 +1,14 @@
+slug: mapping-and-prioritizing-stakeholders
+title: Mapping and Prioritizing Stakeholders
+description: Not everyone needs the same level of attention.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Stakeholder Mapping by Influence and Interest"
+  - id: mo-2
+    text: "Grasp: Tailoring Communication to the Audience"
+lessons:
+  - slug: stakeholder-mapping
+    order: 0
+  - slug: tailored-communication
+    order: 1

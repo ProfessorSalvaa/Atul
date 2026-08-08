@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-steerable-code-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Code That Steers Copilot Well\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A specific function name and a one-line comment describing intent produces far better completions than an empty function body\""
+    ],
+    "explanation": "A specific function name and a one-line comment describing intent produces far better completions than an empty function body — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A specific function name and a one-line comment describing intent produces far better completions than an empty function body"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-steerable-code-q2",
+    "type": "true-false",
+    "prompt": "True or false: Existing code in the file is context — Copilot pattern-matches on your project's existing style, so a messy file produces messier suggestions",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Existing code in the file is context — Copilot pattern-matches on your project's existing style, so a messy file produces messier suggestions",
+    "references": [],
+    "correctAnswer": true
+  }
+]

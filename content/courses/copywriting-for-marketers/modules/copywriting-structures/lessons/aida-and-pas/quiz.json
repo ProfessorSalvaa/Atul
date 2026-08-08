@@ -1,0 +1,40 @@
+[
+  {
+    "id": "aida-and-pas-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"AIDA and PAS Frameworks\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"AIDA (Attention, Interest, Desire, Action) structures copy to first grab attention, build interest in the offer, create desire for the specific benefit, then prompt a clear action\""
+    ],
+    "explanation": "AIDA (Attention, Interest, Desire, Action) structures copy to first grab attention, build interest in the offer, create desire for the specific benefit, then prompt a clear action — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "AIDA (Attention, Interest, Desire, Action) structures copy to first grab attention, build interest in the offer, create desire for the specific benefit, then prompt a clear action"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "aida-and-pas-q2",
+    "type": "true-false",
+    "prompt": "True or false: PAS (Problem, Agitate, Solution) opens by naming a real problem the reader has, agitates why it matters/hurts, then presents the offer as the solution — especially effective when the audience already feels the problem acutely",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — PAS (Problem, Agitate, Solution) opens by naming a real problem the reader has, agitates why it matters/hurts, then presents the offer as the solution — especially effective when the audience already feels the problem acutely",
+    "references": [],
+    "correctAnswer": true
+  }
+]

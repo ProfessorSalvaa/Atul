@@ -1,0 +1,40 @@
+[
+  {
+    "id": "explaining-variance-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Explaining Budget Variance\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A variance report stating '$50K over budget' without explanation isn't useful — break the variance into its actual drivers (volume, price, timing) to understand what happened\""
+    ],
+    "explanation": "A variance report stating '$50K over budget' without explanation isn't useful — break the variance into its actual drivers (volume, price, timing) to understand what happened — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A variance report stating '$50K over budget' without explanation isn't useful — break the variance into its actual drivers (volume, price, timing) to understand what happened"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "explaining-variance-q2",
+    "type": "true-false",
+    "prompt": "True or false: Distinguish a timing variance (spending happened but earlier/later than planned, will net out) from a true variance (the total spend is genuinely different than planned) — conflating these leads to wrong conclusions",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Distinguish a timing variance (spending happened but earlier/later than planned, will net out) from a true variance (the total spend is genuinely different than planned) — conflating these leads to wrong conclusions",
+    "references": [],
+    "correctAnswer": true
+  }
+]

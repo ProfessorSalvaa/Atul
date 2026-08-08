@@ -1,0 +1,73 @@
+slug: business-analysis-fundamentals
+title: Business Analysis Fundamentals
+subtitle: The discipline of figuring out what a business actually needs before jumping to a solution
+  — process mapping, gap analysis, and asking the right questions.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 110
+tags: &a1
+  - business
+skills:
+  - process-mapping
+careerPaths:
+  - business-analyst
+category: business-analysis
+premium: false
+objectives:
+  - id: obj-1
+    text: Distinguish a business problem from a proposed solution prematurely assumed
+  - id: obj-2
+    text: Map a current-state process to identify inefficiencies
+  - id: obj-3
+    text: Conduct a basic gap analysis between current and desired state
+prerequisites: []
+instructor:
+  name: Diane Foster
+  title: Senior Program Manager, ex-Deloitte
+  bio:
+    Diane Foster is Senior Program Manager, ex-Deloitte, teaching Business Analysis Fundamentals on
+    Curitiq.
+  avatarInitials: DF
+modules:
+  - slug: problems-vs-solutions
+    order: 0
+  - slug: gap-analysis
+    order: 1
+projectSlugs:
+  - process-map-and-gap-analysis
+assessmentSlugs: []
+resources:
+  - title: "IIBA: Business Analysis Body of Knowledge"
+    type: external-link
+    url: https://www.iiba.org/career-resources/a-business-analysis-professionals-foundation-for-success/babok/
+    description: The International Institute of Business Analysis's core standard reference.
+certificate:
+  title: Business Analysis Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the process map and gap analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Business Analysis Fundamentals | Curitiq
+  description: The discipline of figuring out what a business actually needs before jumping to a
+    solution — process mapping, gap analysis, and asking the right questions.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    The discipline of figuring out what a business actually needs before jumping to a solution
+    — process mapping, gap analysis, and asking the right questions.
+  keyConcepts:
+    - Distinguish a business problem from a proposed solution prematurely assumed
+    - Map a current-state process to identify inefficiencies
+    - Conduct a basic gap analysis between current and desired state
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

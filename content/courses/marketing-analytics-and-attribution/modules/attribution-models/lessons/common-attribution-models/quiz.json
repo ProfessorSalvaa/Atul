@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-attribution-models-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Attribution Models\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Last-click attribution gives 100% credit to the final touchpoint before conversion — simple to implement, but systematically undervalues awareness channels that started the journey\""
+    ],
+    "explanation": "Last-click attribution gives 100% credit to the final touchpoint before conversion — simple to implement, but systematically undervalues awareness channels that started the journey — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Last-click attribution gives 100% credit to the final touchpoint before conversion — simple to implement, but systematically undervalues awareness channels that started the journey"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-attribution-models-q2",
+    "type": "true-false",
+    "prompt": "True or false: First-click attribution gives all credit to the first touchpoint — this overvalues awareness and undervalues the channels that actually closed the conversion",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — First-click attribution gives all credit to the first touchpoint — this overvalues awareness and undervalues the channels that actually closed the conversion",
+    "references": [],
+    "correctAnswer": true
+  }
+]

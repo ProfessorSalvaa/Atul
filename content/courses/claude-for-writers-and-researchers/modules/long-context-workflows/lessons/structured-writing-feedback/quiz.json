@@ -1,0 +1,40 @@
+[
+  {
+    "id": "structured-writing-feedback-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Getting Structured Writing Feedback\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Ask for feedback in specific categories — clarity, structure, tone, and factual claims to double-check — rather than an open-ended 'what do you think?'\""
+    ],
+    "explanation": "Ask for feedback in specific categories — clarity, structure, tone, and factual claims to double-check — rather than an open-ended 'what do you think?' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Ask for feedback in specific categories — clarity, structure, tone, and factual claims to double-check — rather than an open-ended 'what do you think?'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "structured-writing-feedback-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask Claude to quote the specific sentence it's commenting on, so feedback is traceable back to the actual text, not a vague paraphrase",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask Claude to quote the specific sentence it's commenting on, so feedback is traceable back to the actual text, not a vague paraphrase",
+    "references": [],
+    "correctAnswer": true
+  }
+]

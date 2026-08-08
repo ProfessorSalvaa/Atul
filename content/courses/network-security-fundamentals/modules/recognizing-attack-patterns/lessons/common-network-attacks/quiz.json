@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-network-attacks-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Network Attack Patterns\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A denial-of-service (DoS) attack floods a target with traffic or requests to exhaust its resources — a distributed version (DDoS) uses many sources at once, making it harder to block by simply blocking one IP\""
+    ],
+    "explanation": "A denial-of-service (DoS) attack floods a target with traffic or requests to exhaust its resources — a distributed version (DDoS) uses many sources at once, making it harder to block by simply blocking one IP — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A denial-of-service (DoS) attack floods a target with traffic or requests to exhaust its resources — a distributed version (DDoS) uses many sources at once, making it harder to block by simply blocking one IP"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-network-attacks-q2",
+    "type": "true-false",
+    "prompt": "True or false: Man-in-the-middle attacks intercept communication between two parties — TLS/HTTPS exists specifically to make this much harder by encrypting traffic and verifying identity",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Man-in-the-middle attacks intercept communication between two parties — TLS/HTTPS exists specifically to make this much harder by encrypting traffic and verifying identity",
+    "references": [],
+    "correctAnswer": true
+  }
+]

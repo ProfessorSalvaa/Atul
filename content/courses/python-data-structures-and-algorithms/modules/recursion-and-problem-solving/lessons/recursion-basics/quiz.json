@@ -1,0 +1,40 @@
+[
+  {
+    "id": "recursion-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Recursion: When It Helps and When It Doesn't\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every recursive function needs a base case (when to stop) and a step that moves toward it — missing either causes infinite recursion and a crash\""
+    ],
+    "explanation": "Every recursive function needs a base case (when to stop) and a step that moves toward it — missing either causes infinite recursion and a crash — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every recursive function needs a base case (when to stop) and a step that moves toward it — missing either causes infinite recursion and a crash"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "recursion-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Recursion is a natural fit for tree-like or nested structures (folder hierarchies, nested JSON); for simple linear iteration, a plain loop is usually clearer and avoids Python's recursion depth limit",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Recursion is a natural fit for tree-like or nested structures (folder hierarchies, nested JSON); for simple linear iteration, a plain loop is usually clearer and avoids Python's recursion depth limit",
+    "references": [],
+    "correctAnswer": true
+  }
+]

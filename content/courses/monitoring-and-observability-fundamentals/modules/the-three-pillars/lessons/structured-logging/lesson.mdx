@@ -1,0 +1,43 @@
+---
+type: code
+title: Structured Logging
+order: 1
+durationMinutes: 16
+objectives:
+  - Understand structured logging
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Structured Logging."
+  keyConcepts:
+    - Structured logs (JSON with consistent fields) are searchable and
+      filterable in ways plain text log lines aren't — this matters enormously
+      once log volume grows past what a human can scroll through
+    - Include a request/trace ID in every log line related to a single request —
+      this is what lets you reconstruct the full story of one request across
+      multiple services
+    - Log at the right level (debug/info/warn/error) consistently — logging
+      everything at 'error' makes real errors impossible to find in the noise
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: json
+---
+
+This lesson is part of **The Three Pillars: Metrics, Logs, Traces** in _Monitoring and Observability Fundamentals_. By the end, you should be able to put the following into practice:
+
+- Structured logs (JSON with consistent fields) are searchable and filterable in ways plain text log lines aren't — this matters enormously once log volume grows past what a human can scroll through
+- Include a request/trace ID in every log line related to a single request — this is what lets you reconstruct the full story of one request across multiple services
+- Log at the right level (debug/info/warn/error) consistently — logging everything at 'error' makes real errors impossible to find in the noise
+
+```json
+{
+  "level": "error",
+  "trace_id": "a1b2c3",
+  "service": "checkout",
+  "message": "Payment provider timeout",
+  "latency_ms": 5012
+}
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

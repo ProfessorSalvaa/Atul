@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-cap-theorem-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The CAP Theorem\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"CAP theorem states a distributed system can only guarantee two of three properties during a network partition: Consistency (everyone sees the same data), Availability (every request gets a response), and Partition tolerance (the system keeps working despite network failures)\""
+    ],
+    "explanation": "CAP theorem states a distributed system can only guarantee two of three properties during a network partition: Consistency (everyone sees the same data), Availability (every request gets a response), and Partition tolerance (the system keeps working despite network failures) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "CAP theorem states a distributed system can only guarantee two of three properties during a network partition: Consistency (everyone sees the same data), Availability (every request gets a response), and Partition tolerance (the system keeps working despite network failures)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-cap-theorem-q2",
+    "type": "true-false",
+    "prompt": "True or false: Since network partitions are unavoidable in any real distributed system, the actual choice in practice is between consistency and availability during a partition — this is the real tradeoff CAP forces you to reason about",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Since network partitions are unavoidable in any real distributed system, the actual choice in practice is between consistency and availability during a partition — this is the real tradeoff CAP forces you to reason about",
+    "references": [],
+    "correctAnswer": true
+  }
+]

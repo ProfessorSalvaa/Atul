@@ -1,0 +1,40 @@
+[
+  {
+    "id": "core-visual-principles-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Core Visual Design Principles\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Hierarchy guides the eye to what matters most first — achieved through size, weight, color, and position, not just making everything important look loud\""
+    ],
+    "explanation": "Hierarchy guides the eye to what matters most first — achieved through size, weight, color, and position, not just making everything important look loud — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Hierarchy guides the eye to what matters most first — achieved through size, weight, color, and position, not just making everything important look loud"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "core-visual-principles-q2",
+    "type": "true-false",
+    "prompt": "True or false: Contrast makes distinct elements clearly distinct, and similar elements clearly similar — insufficient contrast is one of the most common reasons an interface feels confusing without users being able to say exactly why",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Contrast makes distinct elements clearly distinct, and similar elements clearly similar — insufficient contrast is one of the most common reasons an interface feels confusing without users being able to say exactly why",
+    "references": [],
+    "correctAnswer": true
+  }
+]

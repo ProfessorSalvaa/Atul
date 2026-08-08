@@ -1,0 +1,40 @@
+[
+  {
+    "id": "gdpr-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"GDPR Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"GDPR governs how organizations handling EU residents' personal data must collect, process, store, and protect it — it applies based on whose data you handle, not where your company is based\""
+    ],
+    "explanation": "GDPR governs how organizations handling EU residents' personal data must collect, process, store, and protect it — it applies based on whose data you handle, not where your company is based — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "GDPR governs how organizations handling EU residents' personal data must collect, process, store, and protect it — it applies based on whose data you handle, not where your company is based"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "gdpr-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Data subjects have specific rights under GDPR — access to their data, correction, deletion ('right to be forgotten'), and data portability — a compliant system needs to actually support fulfilling these requests",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Data subjects have specific rights under GDPR — access to their data, correction, deletion ('right to be forgotten'), and data portability — a compliant system needs to actually support fulfilling these requests",
+    "references": [],
+    "correctAnswer": true
+  }
+]

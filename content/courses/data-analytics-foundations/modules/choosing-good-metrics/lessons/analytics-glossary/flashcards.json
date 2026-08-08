@@ -1,0 +1,23 @@
+[
+  {
+    "id": "analytics-glossary-fc-1",
+    "front": "Vanity metric",
+    "back": "A metric that looks good and is easy to move, but doesn't reliably indicate real business health.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "analytics-glossary-fc-2",
+    "front": "Guardrail metric",
+    "back": "A secondary metric tracked alongside a primary one to catch unintended negative side effects.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  },
+  {
+    "id": "analytics-glossary-fc-3",
+    "front": "Confounding variable",
+    "back": "A third factor that influences both variables in an observed correlation, creating a misleading appearance of causation.",
+    "difficulty": "beginner",
+    "tags": ["data", "analytics"]
+  }
+]

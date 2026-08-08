@@ -1,0 +1,14 @@
+slug: segmentation-and-relevance
+title: Segmentation and Relevance
+description: "The single biggest lever in email marketing: sending the right message to the right person."
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Why List Segmentation Matters"
+  - id: mo-2
+    text: "Grasp: Lifecycle and Triggered Emails"
+lessons:
+  - slug: why-segmentation-matters
+    order: 0
+  - slug: lifecycle-and-triggered-emails
+    order: 1

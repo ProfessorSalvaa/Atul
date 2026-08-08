@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-standard-ml-workflow-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Standard ML Workflow\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The typical workflow: collect and clean data, split into train/validation/test sets, train a model on the training set, tune it using validation performance, and finally evaluate once on the held-out test set\""
+    ],
+    "explanation": "The typical workflow: collect and clean data, split into train/validation/test sets, train a model on the training set, tune it using validation performance, and finally evaluate once on the held-out test set — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The typical workflow: collect and clean data, split into train/validation/test sets, train a model on the training set, tune it using validation performance, and finally evaluate once on the held-out test set"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-standard-ml-workflow-q2",
+    "type": "true-false",
+    "prompt": "True or false: The test set should only be used once, at the very end — repeatedly checking test performance and adjusting based on it effectively turns the test set into a second validation set, defeating its purpose as an honest final check",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The test set should only be used once, at the very end — repeatedly checking test performance and adjusting based on it effectively turns the test set into a second validation set, defeating its purpose as an honest final check",
+    "references": [],
+    "correctAnswer": true
+  }
+]

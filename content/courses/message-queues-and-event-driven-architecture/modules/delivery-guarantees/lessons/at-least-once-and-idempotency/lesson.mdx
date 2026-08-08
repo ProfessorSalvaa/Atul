@@ -1,0 +1,41 @@
+---
+type: code
+title: At-Least-Once Delivery and Idempotent Handling
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand at-least-once delivery and idempotent handling
+free: false
+aiTutorContext:
+  summary: "This lesson covers: At-Least-Once Delivery and Idempotent Handling."
+  keyConcepts:
+    - Most real message queues guarantee at-least-once delivery, not
+      exactly-once — a message can be delivered more than once (e.g. if a
+      consumer crashes after processing but before acknowledging)
+    - Design message handlers to be idempotent — processing the same message
+      twice should produce the same result as processing it once, typically by
+      checking whether the effect (e.g. an order) already exists before applying
+      it
+    - Assuming exactly-once delivery without designing for idempotency is a
+      common, costly system design mistake — it eventually causes duplicate
+      processing (double charges, duplicate emails) under real-world failure
+      conditions
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Delivery Guarantees and Idempotency** in _Message Queues and Event-Driven Architecture_. By the end, you should be able to put the following into practice:
+
+- Most real message queues guarantee at-least-once delivery, not exactly-once — a message can be delivered more than once (e.g. if a consumer crashes after processing but before acknowledging)
+- Design message handlers to be idempotent — processing the same message twice should produce the same result as processing it once, typically by checking whether the effect (e.g. an order) already exists before applying it
+- Assuming exactly-once delivery without designing for idempotency is a common, costly system design mistake — it eventually causes duplicate processing (double charges, duplicate emails) under real-world failure conditions
+
+```text
+Non-idempotent handler: on message, always create a new order row  <- duplicate message = duplicate order
+Idempotent handler: on message, check if order with this message_id already exists; skip if so
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

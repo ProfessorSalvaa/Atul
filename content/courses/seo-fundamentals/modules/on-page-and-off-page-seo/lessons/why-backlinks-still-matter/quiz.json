@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-backlinks-still-matter-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Backlinks and Content Quality Still Matter Most\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A backlink from a relevant, trusted site is still one of the strongest ranking signals search engines use — it functions as a vote of credibility from another source\""
+    ],
+    "explanation": "A backlink from a relevant, trusted site is still one of the strongest ranking signals search engines use — it functions as a vote of credibility from another source — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A backlink from a relevant, trusted site is still one of the strongest ranking signals search engines use — it functions as a vote of credibility from another source"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-backlinks-still-matter-q2",
+    "type": "true-false",
+    "prompt": "True or false: Content that's genuinely more useful, comprehensive, or current than competing results tends to earn both rankings and organic backlinks over time — this remains true even as algorithms evolve",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Content that's genuinely more useful, comprehensive, or current than competing results tends to earn both rankings and organic backlinks over time — this remains true even as algorithms evolve",
+    "references": [],
+    "correctAnswer": true
+  }
+]

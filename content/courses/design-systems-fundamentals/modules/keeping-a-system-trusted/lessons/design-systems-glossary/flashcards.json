@@ -1,0 +1,23 @@
+[
+  {
+    "id": "design-systems-glossary-fc-1",
+    "front": "Design token",
+    "back": "A named, reusable design value (color, spacing, type) referenced by components instead of a hardcoded value.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design", "design-systems"]
+  },
+  {
+    "id": "design-systems-glossary-fc-2",
+    "front": "Semantic token",
+    "back": "A design token named by purpose (e.g. color-primary) that references an underlying primitive value.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design", "design-systems"]
+  },
+  {
+    "id": "design-systems-glossary-fc-3",
+    "front": "Governance model",
+    "back": "The defined process for who can propose, review, and approve changes to a design system.",
+    "difficulty": "intermediate",
+    "tags": ["ui-design", "design-systems"]
+  }
+]

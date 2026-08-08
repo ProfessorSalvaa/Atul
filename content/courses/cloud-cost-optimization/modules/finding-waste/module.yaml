@@ -1,0 +1,14 @@
+slug: finding-waste
+title: Finding Where the Money Actually Goes
+description: The usual suspects behind an unexpectedly large cloud bill.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Common Sources of Cloud Waste"
+  - id: mo-2
+    text: "Grasp: Right-Sizing Based on Real Utilization"
+lessons:
+  - slug: common-sources-of-waste
+    order: 0
+  - slug: right-sizing
+    order: 1

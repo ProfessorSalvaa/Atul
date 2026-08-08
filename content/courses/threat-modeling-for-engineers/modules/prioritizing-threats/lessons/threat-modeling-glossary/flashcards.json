@@ -1,0 +1,23 @@
+[
+  {
+    "id": "threat-modeling-glossary-fc-1",
+    "front": "STRIDE",
+    "back": "A threat modeling framework covering Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, and Elevation of privilege.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "threat-modeling-glossary-fc-2",
+    "front": "Attack tree",
+    "back": "A diagram breaking down a specific attacker goal into the possible paths and sub-steps to achieve it.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  },
+  {
+    "id": "threat-modeling-glossary-fc-3",
+    "front": "Residual risk",
+    "back": "A threat that is knowingly and deliberately accepted rather than mitigated, ideally with documented reasoning.",
+    "difficulty": "intermediate",
+    "tags": ["cybersecurity"]
+  }
+]

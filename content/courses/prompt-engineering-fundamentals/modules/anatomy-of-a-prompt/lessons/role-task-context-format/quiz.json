@@ -1,0 +1,40 @@
+[
+  {
+    "id": "role-task-context-format-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Role, Task, Context, Format\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Role: tell the model who it's acting as ('You are a senior copyeditor') — this shifts vocabulary, tone, and priorities appropriately\""
+    ],
+    "explanation": "Role: tell the model who it's acting as ('You are a senior copyeditor') — this shifts vocabulary, tone, and priorities appropriately — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Role: tell the model who it's acting as ('You are a senior copyeditor') — this shifts vocabulary, tone, and priorities appropriately"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "role-task-context-format-q2",
+    "type": "true-false",
+    "prompt": "True or false: Task: state the specific action verb — 'summarize', 'critique', 'rewrite', 'compare' — vague verbs like 'help with' produce vague output",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Task: state the specific action verb — 'summarize', 'critique', 'rewrite', 'compare' — vague verbs like 'help with' produce vague output",
+    "references": [],
+    "correctAnswer": true
+  }
+]

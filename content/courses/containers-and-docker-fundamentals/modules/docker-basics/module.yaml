@@ -1,0 +1,14 @@
+slug: docker-basics
+title: Docker Basics
+description: Images, containers, and the file that defines how one is built.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Images vs. Containers"
+  - id: mo-2
+    text: "Grasp: Writing a Dockerfile"
+lessons:
+  - slug: images-vs-containers
+    order: 0
+  - slug: writing-a-dockerfile
+    order: 1

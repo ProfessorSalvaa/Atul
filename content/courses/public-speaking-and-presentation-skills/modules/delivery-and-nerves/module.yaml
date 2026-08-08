@@ -1,0 +1,14 @@
+slug: delivery-and-nerves
+title: Delivery and Managing Nerves
+description: The parts that no amount of slide-building alone will fix.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Managing Speaking Nerves"
+  - id: mo-2
+    text: "Grasp: Public Speaking Terms Flip Deck"
+lessons:
+  - slug: managing-speaking-nerves
+    order: 0
+  - slug: public-speaking-glossary
+    order: 1

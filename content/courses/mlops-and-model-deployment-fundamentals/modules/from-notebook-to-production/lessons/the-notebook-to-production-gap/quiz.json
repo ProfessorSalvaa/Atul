@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-notebook-to-production-gap-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Gap Between a Notebook and a Production System\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A notebook proves a model can work on a static dataset — production requires reliable serving under real traffic, versioned reproducible training, monitoring, and a plan for what happens when something goes wrong\""
+    ],
+    "explanation": "A notebook proves a model can work on a static dataset — production requires reliable serving under real traffic, versioned reproducible training, monitoring, and a plan for what happens when something goes wrong — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A notebook proves a model can work on a static dataset — production requires reliable serving under real traffic, versioned reproducible training, monitoring, and a plan for what happens when something goes wrong"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-notebook-to-production-gap-q2",
+    "type": "true-false",
+    "prompt": "True or false: Reproducibility matters enormously in production — being able to answer 'exactly which code, data, and parameters produced this specific deployed model' is essential when something needs debugging or rolling back",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Reproducibility matters enormously in production — being able to answer 'exactly which code, data, and parameters produced this specific deployed model' is essential when something needs debugging or rolling back",
+    "references": [],
+    "correctAnswer": true
+  }
+]

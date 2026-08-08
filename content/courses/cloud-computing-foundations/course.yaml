@@ -1,0 +1,70 @@
+slug: cloud-computing-foundations
+title: Cloud Computing Foundations
+subtitle: What 'the cloud' actually is, the core service models, and the vocabulary you need before
+  touching AWS or Azure specifically.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - cloud
+skills:
+  - cloud-fundamentals
+careerPaths:
+  - cloud-engineer
+category: cloud-computing
+premium: false
+objectives:
+  - id: obj-1
+    text: Explain the difference between IaaS, PaaS, and SaaS with concrete examples
+  - id: obj-2
+    text: Explain why elasticity and pay-as-you-go pricing changed infrastructure economics
+  - id: obj-3
+    text: Describe the shared responsibility model for cloud security
+prerequisites: []
+instructor:
+  name: Sam Reyes
+  title: Cloud Solutions Architect, ex-AWS
+  bio: Sam Reyes is Cloud Solutions Architect, ex-AWS, teaching Cloud Computing Foundations on Curitiq.
+  avatarInitials: SR
+modules:
+  - slug: cloud-service-models
+    order: 0
+  - slug: shared-responsibility
+    order: 1
+projectSlugs:
+  - cloud-migration-brief
+assessmentSlugs: []
+resources:
+  - title: "AWS: What Is Cloud Computing?"
+    type: external-link
+    url: https://aws.amazon.com/what-is-cloud-computing/
+    description: A vendor-neutral-ish overview of cloud computing concepts.
+certificate:
+  title: Cloud Computing Foundations — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the cloud migration brief
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Cloud Computing Foundations | Curitiq
+  description: What 'the cloud' actually is, the core service models, and the vocabulary you need
+    before touching AWS or Azure specifically.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: What 'the cloud' actually is, the core service models, and the vocabulary you need before
+    touching AWS or Azure specifically.
+  keyConcepts:
+    - Explain the difference between IaaS, PaaS, and SaaS with concrete examples
+    - Explain why elasticity and pay-as-you-go pricing changed infrastructure economics
+    - Describe the shared responsibility model for cloud security
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

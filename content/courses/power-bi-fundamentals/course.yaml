@@ -1,0 +1,74 @@
+slug: power-bi-fundamentals
+title: Power BI Fundamentals
+subtitle: Connecting to real data sources and building your first genuinely useful dashboard in
+  Power BI, not just a chart gallery.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 115
+tags: &a1
+  - dashboards
+  - data
+  - analytics
+skills:
+  - dashboard-design
+  - power-bi-modeling
+careerPaths:
+  - data-analyst
+category: power-bi
+premium: false
+objectives:
+  - id: obj-1
+    text: Connect Power BI to a data source and shape it with Power Query
+  - id: obj-2
+    text: Build visuals that answer a specific question, not just display data
+  - id: obj-3
+    text: Structure a dashboard around a clear narrative, not a wall of charts
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Power BI Fundamentals on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: getting-data-in
+    order: 0
+  - slug: building-useful-visuals
+    order: 1
+projectSlugs:
+  - first-power-bi-dashboard
+assessmentSlugs: []
+resources:
+  - title: Microsoft Power BI Documentation
+    type: external-link
+    url: https://learn.microsoft.com/power-bi/
+    description: Official Power BI documentation.
+certificate:
+  title: Power BI Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the one-page dashboard
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Power BI Fundamentals | Curitiq
+  description: Connecting to real data sources and building your first genuinely useful dashboard in
+    Power BI, not just a chart gallery.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Connecting to real data sources and building your first genuinely useful dashboard in Power
+    BI, not just a chart gallery.
+  keyConcepts:
+    - Connect Power BI to a data source and shape it with Power Query
+    - Build visuals that answer a specific question, not just display data
+    - Structure a dashboard around a clear narrative, not a wall of charts
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

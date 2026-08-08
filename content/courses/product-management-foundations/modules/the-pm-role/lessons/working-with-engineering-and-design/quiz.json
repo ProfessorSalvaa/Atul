@@ -1,0 +1,40 @@
+[
+  {
+    "id": "working-with-engineering-and-design-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Working With Engineering and Design\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A PM's job is to bring clarity on the problem and constraints, not to specify the exact solution — engineers and designers are the domain experts on how, not just execution of a fully pre-decided plan\""
+    ],
+    "explanation": "A PM's job is to bring clarity on the problem and constraints, not to specify the exact solution — engineers and designers are the domain experts on how, not just execution of a fully pre-decided plan — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A PM's job is to bring clarity on the problem and constraints, not to specify the exact solution — engineers and designers are the domain experts on how, not just execution of a fully pre-decided plan"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "working-with-engineering-and-design-q2",
+    "type": "true-false",
+    "prompt": "True or false: Involve engineering early in discovery, not just at handoff — technical feasibility and effort estimates change what's actually worth prioritizing",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Involve engineering early in discovery, not just at handoff — technical feasibility and effort estimates change what's actually worth prioritizing",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,42 @@
+---
+type: code
+title: Working with Files and Paths Reliably
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand working with files and paths reliably
+free: true
+aiTutorContext:
+  summary: "This lesson covers: Working with Files and Paths Reliably."
+  keyConcepts:
+    - Use `pathlib` instead of manual string concatenation for file paths — it
+      handles cross-platform path differences (Windows vs. Mac/Linux)
+      automatically
+    - Always check whether a file/folder exists before acting on it, and handle
+      the case where it doesn't, rather than letting the script crash
+    - When renaming or moving many files in bulk, do a dry run first (print what
+      would happen) before executing the actual changes — bulk file operations
+      are hard to undo
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **File and Folder Automation** in _Python for Automation and Scripting_. By the end, you should be able to put the following into practice:
+
+- Use `pathlib` instead of manual string concatenation for file paths — it handles cross-platform path differences (Windows vs. Mac/Linux) automatically
+- Always check whether a file/folder exists before acting on it, and handle the case where it doesn't, rather than letting the script crash
+- When renaming or moving many files in bulk, do a dry run first (print what would happen) before executing the actual changes — bulk file operations are hard to undo
+
+```python
+from pathlib import Path
+
+folder = Path("reports")
+for file in folder.glob("*.csv"):
+    new_name = file.with_stem(file.stem.lower().replace(" ", "_"))
+    print(f"Would rename: {file.name} -> {new_name.name}")  # dry run first
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

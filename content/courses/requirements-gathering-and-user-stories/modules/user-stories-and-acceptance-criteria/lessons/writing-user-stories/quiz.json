@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-user-stories-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing User Stories\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The standard format — 'As a [user], I want [goal], so that [benefit]' — forces you to state who benefits and why, not just what to build, which keeps the team focused on the actual value\""
+    ],
+    "explanation": "The standard format — 'As a [user], I want [goal], so that [benefit]' — forces you to state who benefits and why, not just what to build, which keeps the team focused on the actual value — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The standard format — 'As a [user], I want [goal], so that [benefit]' — forces you to state who benefits and why, not just what to build, which keeps the team focused on the actual value"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-user-stories-q2",
+    "type": "true-false",
+    "prompt": "True or false: A story should be small enough to complete within a sprint — a story that's too large ('as a user, I want a dashboard') should be split into smaller, independently valuable stories",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A story should be small enough to complete within a sprint — a story that's too large ('as a user, I want a dashboard') should be split into smaller, independently valuable stories",
+    "references": [],
+    "correctAnswer": true
+  }
+]

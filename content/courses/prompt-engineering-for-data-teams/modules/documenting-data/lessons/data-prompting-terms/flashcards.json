@@ -1,0 +1,23 @@
+[
+  {
+    "id": "data-prompting-terms-fc-1",
+    "front": "Aggregation grain",
+    "back": "The level of detail at which data is summarized — mismatched grain causes silent double-counting in JOINs.",
+    "difficulty": "intermediate",
+    "tags": ["prompting", "ai"]
+  },
+  {
+    "id": "data-prompting-terms-fc-2",
+    "front": "Data dictionary",
+    "back": "Documentation describing each column in a dataset: meaning, type, and known caveats.",
+    "difficulty": "intermediate",
+    "tags": ["prompting", "ai"]
+  },
+  {
+    "id": "data-prompting-terms-fc-3",
+    "front": "Schema grounding",
+    "back": "Providing a model with the actual table/column definitions so it doesn't guess at your data structure.",
+    "difficulty": "intermediate",
+    "tags": ["prompting", "ai"]
+  }
+]

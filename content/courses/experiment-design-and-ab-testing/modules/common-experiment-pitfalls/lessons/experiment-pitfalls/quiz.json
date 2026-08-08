@@ -1,0 +1,40 @@
+[
+  {
+    "id": "experiment-pitfalls-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Pitfalls That Invalidate Experiment Results\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Novelty effects — a change performs well initially simply because it's new and gets extra attention, not because it's genuinely better — can make a short test look more successful than the effect will hold up long-term\""
+    ],
+    "explanation": "Novelty effects — a change performs well initially simply because it's new and gets extra attention, not because it's genuinely better — can make a short test look more successful than the effect will hold up long-term — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Novelty effects — a change performs well initially simply because it's new and gets extra attention, not because it's genuinely better — can make a short test look more successful than the effect will hold up long-term"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "experiment-pitfalls-q2",
+    "type": "true-false",
+    "prompt": "True or false: Contamination between test groups (e.g. users seeing both variants, or word-of-mouth influencing the control group) undermines the clean comparison an experiment depends on",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Contamination between test groups (e.g. users seeing both variants, or word-of-mouth influencing the control group) undermines the clean comparison an experiment depends on",
+    "references": [],
+    "correctAnswer": true
+  }
+]

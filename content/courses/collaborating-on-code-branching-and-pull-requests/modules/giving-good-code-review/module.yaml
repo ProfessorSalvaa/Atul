@@ -1,0 +1,14 @@
+slug: giving-good-code-review
+title: Giving Good Code Review Feedback
+description: Feedback that actually helps, instead of feedback that's just technically correct.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Specific, Actionable, and Kind"
+  - id: mo-2
+    text: "Grasp: Collaboration Terms Flip Deck"
+lessons:
+  - slug: specific-actionable-feedback
+    order: 0
+  - slug: collaboration-glossary
+    order: 1

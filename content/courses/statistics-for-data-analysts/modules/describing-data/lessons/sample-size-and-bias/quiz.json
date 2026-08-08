@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sample-size-and-bias-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Sample Size and Selection Bias\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A small sample can show a dramatic-looking pattern that's just noise — the smaller the sample, the more skeptical you should be of a striking result\""
+    ],
+    "explanation": "A small sample can show a dramatic-looking pattern that's just noise — the smaller the sample, the more skeptical you should be of a striking result — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A small sample can show a dramatic-looking pattern that's just noise — the smaller the sample, the more skeptical you should be of a striking result"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "sample-size-and-bias-q2",
+    "type": "true-false",
+    "prompt": "True or false: Selection bias occurs when the sample you have isn't representative of the population you're trying to conclude something about — e.g. survey respondents who bothered to respond are rarely a random sample",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Selection bias occurs when the sample you have isn't representative of the population you're trying to conclude something about — e.g. survey respondents who bothered to respond are rarely a random sample",
+    "references": [],
+    "correctAnswer": true
+  }
+]

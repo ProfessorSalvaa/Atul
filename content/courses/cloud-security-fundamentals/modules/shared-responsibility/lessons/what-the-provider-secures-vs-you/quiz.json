@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-the-provider-secures-vs-you-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What the Provider Secures vs. What You Secure\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Cloud providers secure the underlying infrastructure (physical data centers, host hardware, network backbone) — this is 'security of the cloud'\""
+    ],
+    "explanation": "Cloud providers secure the underlying infrastructure (physical data centers, host hardware, network backbone) — this is 'security of the cloud' — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Cloud providers secure the underlying infrastructure (physical data centers, host hardware, network backbone) — this is 'security of the cloud'"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-the-provider-secures-vs-you-q2",
+    "type": "true-false",
+    "prompt": "True or false: You remain responsible for 'security in the cloud' — your data, access configuration, application code, and how you configure the services you use",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — You remain responsible for 'security in the cloud' — your data, access configuration, application code, and how you configure the services you use",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "observation-vs-interpretation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Separating Observation From Interpretation\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"'You missed the deadline' is an observation — 'you don't care about this project' is an interpretation layered on top of it, and interpretations are exactly what people get defensive about\""
+    ],
+    "explanation": "'You missed the deadline' is an observation — 'you don't care about this project' is an interpretation layered on top of it, and interpretations are exactly what people get defensive about — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "'You missed the deadline' is an observation — 'you don't care about this project' is an interpretation layered on top of it, and interpretations are exactly what people get defensive about"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "observation-vs-interpretation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Lead with the specific, observable fact, then explain the impact — this keeps the conversation grounded in something the other person can't reasonably dispute, rather than a character judgment they'll want to argue against",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Lead with the specific, observable fact, then explain the impact — this keeps the conversation grounded in something the other person can't reasonably dispute, rather than a character judgment they'll want to argue against",
+    "references": [],
+    "correctAnswer": true
+  }
+]

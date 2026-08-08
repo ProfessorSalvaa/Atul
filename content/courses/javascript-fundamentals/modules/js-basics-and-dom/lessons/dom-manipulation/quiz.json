@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dom-manipulation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Selecting and Updating the DOM\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"`document.querySelector`/`querySelectorAll` are the modern default for selecting elements, using familiar CSS selector syntax\""
+    ],
+    "explanation": "`document.querySelector`/`querySelectorAll` are the modern default for selecting elements, using familiar CSS selector syntax — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "`document.querySelector`/`querySelectorAll` are the modern default for selecting elements, using familiar CSS selector syntax"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "dom-manipulation-q2",
+    "type": "true-false",
+    "prompt": "True or false: Add event listeners with `addEventListener` rather than inline `onclick` attributes — this keeps behavior separate from markup and allows multiple listeners on one element",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Add event listeners with `addEventListener` rather than inline `onclick` attributes — this keeps behavior separate from markup and allows multiple listeners on one element",
+    "references": [],
+    "correctAnswer": true
+  }
+]

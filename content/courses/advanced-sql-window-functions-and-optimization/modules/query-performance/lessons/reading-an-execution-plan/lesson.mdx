@@ -1,0 +1,30 @@
+---
+type: reading
+title: Reading a Query Execution Plan
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand reading a query execution plan
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Reading a Query Execution Plan."
+  keyConcepts:
+    - An execution plan (EXPLAIN in most databases) shows how the database will
+      actually run your query — which tables it scans, in what order, and
+      whether it uses an index
+    - A 'sequential scan' on a large table where you're filtering on a specific
+      column is the most common red flag — it usually means a missing index
+    - Filtering as early as possible (in WHERE, before a join) and only
+      selecting needed columns both reduce the amount of data the database has
+      to move around
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Query Performance Basics** in _Advanced SQL: Window Functions and Optimization_. By the end, you should be able to put the following into practice:
+
+- An execution plan (EXPLAIN in most databases) shows how the database will actually run your query — which tables it scans, in what order, and whether it uses an index
+- A 'sequential scan' on a large table where you're filtering on a specific column is the most common red flag — it usually means a missing index
+- Filtering as early as possible (in WHERE, before a join) and only selecting needed columns both reduce the amount of data the database has to move around
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

@@ -1,0 +1,14 @@
+slug: communicating-findings
+title: Communicating Data Science Findings
+description: Rigor that never reaches a decision-maker doesn't change any decision.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Communicating to Non-Technical Audiences"
+  - id: mo-2
+    text: "Grasp: Data Science Workflow Terms Flip Deck"
+lessons:
+  - slug: communicating-to-non-technical-audiences
+    order: 0
+  - slug: ds-workflow-glossary
+    order: 1

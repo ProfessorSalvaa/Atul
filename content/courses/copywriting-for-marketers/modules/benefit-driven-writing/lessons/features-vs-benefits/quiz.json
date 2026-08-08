@@ -1,0 +1,40 @@
+[
+  {
+    "id": "features-vs-benefits-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Features vs. Benefits\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A feature is what the product has ('256GB storage') — a benefit is what that means for the customer ('never worry about running out of space for your photos') — copy that stops at features leaves the customer to do the translation themselves, and many won't bother\""
+    ],
+    "explanation": "A feature is what the product has ('256GB storage') — a benefit is what that means for the customer ('never worry about running out of space for your photos') — copy that stops at features leaves the customer to do the translation themselves, and many won't bother — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A feature is what the product has ('256GB storage') — a benefit is what that means for the customer ('never worry about running out of space for your photos') — copy that stops at features leaves the customer to do the translation themselves, and many won't bother"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "features-vs-benefits-q2",
+    "type": "true-false",
+    "prompt": "True or false: Ask 'so what?' repeatedly after stating a feature until you reach something the customer genuinely cares about — this simple exercise reliably surfaces the actual benefit",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Ask 'so what?' repeatedly after stating a feature until you reach something the customer genuinely cares about — this simple exercise reliably surfaces the actual benefit",
+    "references": [],
+    "correctAnswer": true
+  }
+]

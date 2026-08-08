@@ -1,0 +1,40 @@
+[
+  {
+    "id": "soc2-and-iso27001-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"SOC 2 and ISO 27001\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"SOC 2 evaluates a service organization's controls against five trust principles (security, availability, processing integrity, confidentiality, privacy) — it's an attestation, not a pass/fail certificate, produced by an independent auditor\""
+    ],
+    "explanation": "SOC 2 evaluates a service organization's controls against five trust principles (security, availability, processing integrity, confidentiality, privacy) — it's an attestation, not a pass/fail certificate, produced by an independent auditor — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "SOC 2 evaluates a service organization's controls against five trust principles (security, availability, processing integrity, confidentiality, privacy) — it's an attestation, not a pass/fail certificate, produced by an independent auditor"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "soc2-and-iso27001-q2",
+    "type": "true-false",
+    "prompt": "True or false: ISO 27001 is an international standard for an information security management system — it certifies that a company has a systematic process for managing security risk, not that every possible vulnerability is fixed",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — ISO 27001 is an international standard for an information security management system — it certifies that a company has a systematic process for managing security risk, not that every possible vulnerability is fixed",
+    "references": [],
+    "correctAnswer": true
+  }
+]

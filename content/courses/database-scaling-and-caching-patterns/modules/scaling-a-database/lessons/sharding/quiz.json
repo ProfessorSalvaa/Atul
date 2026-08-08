@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sharding-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Database Sharding\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Sharding splits data across multiple databases based on a shard key (e.g. user ID range) — this scales write capacity, which replication alone doesn't address\""
+    ],
+    "explanation": "Sharding splits data across multiple databases based on a shard key (e.g. user ID range) — this scales write capacity, which replication alone doesn't address — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Sharding splits data across multiple databases based on a shard key (e.g. user ID range) — this scales write capacity, which replication alone doesn't address"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "sharding-q2",
+    "type": "true-false",
+    "prompt": "True or false: Choosing a good shard key matters enormously — a poor choice creates hot shards (uneven load) where some shards handle disproportionately more traffic than others",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Choosing a good shard key matters enormously — a poor choice creates hot shards (uneven load) where some shards handle disproportionately more traffic than others",
+    "references": [],
+    "correctAnswer": true
+  }
+]

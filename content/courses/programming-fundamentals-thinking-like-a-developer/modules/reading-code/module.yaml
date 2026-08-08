@@ -1,0 +1,14 @@
+slug: reading-code
+title: Reading Other People's Code
+description: A skill that matters as much as writing code, and gets far less deliberate practice.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Understand Before You Change"
+  - id: mo-2
+    text: "Grasp: Programming Fundamentals Terms"
+lessons:
+  - slug: reading-before-changing
+    order: 0
+  - slug: programming-fundamentals-glossary
+    order: 1

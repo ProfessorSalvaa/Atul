@@ -1,0 +1,40 @@
+[
+  {
+    "id": "stakeholder-mapping-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Stakeholder Mapping by Influence and Interest\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Map stakeholders on two axes — influence (how much power they have over the project) and interest (how much they care about the outcome) — to decide the right level of engagement for each\""
+    ],
+    "explanation": "Map stakeholders on two axes — influence (how much power they have over the project) and interest (how much they care about the outcome) — to decide the right level of engagement for each — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Map stakeholders on two axes — influence (how much power they have over the project) and interest (how much they care about the outcome) — to decide the right level of engagement for each"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "stakeholder-mapping-q2",
+    "type": "true-false",
+    "prompt": "True or false: High influence, high interest stakeholders need close, frequent engagement — low influence, low interest stakeholders just need periodic, lightweight updates",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — High influence, high interest stakeholders need close, frequent engagement — low influence, low interest stakeholders just need periodic, lightweight updates",
+    "references": [],
+    "correctAnswer": true
+  }
+]

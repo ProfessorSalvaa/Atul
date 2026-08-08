@@ -1,0 +1,23 @@
+[
+  {
+    "id": "resume-branding-glossary-fc-1",
+    "front": "ATS",
+    "back": "Applicant Tracking System — software that parses and filters resumes before a human reviewer sees them.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  },
+  {
+    "id": "resume-branding-glossary-fc-2",
+    "front": "Impact-driven bullet",
+    "back": "A resume line demonstrating a measurable result, not just a listed responsibility.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  },
+  {
+    "id": "resume-branding-glossary-fc-3",
+    "front": "Personal brand",
+    "back": "The consistent professional story reflected across resume, LinkedIn, and portfolio.",
+    "difficulty": "beginner",
+    "tags": ["career"]
+  }
+]

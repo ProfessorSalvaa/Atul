@@ -1,0 +1,41 @@
+---
+type: code
+title: Reviewing Copilot-Generated Code Like a Real PR
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand reviewing copilot-generated code like a real pr
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Reviewing Copilot-Generated Code Like a Real PR."
+  keyConcepts:
+    - Accepted-but-unread code is the single biggest risk of AI pair programming
+      — read every suggestion before accepting, especially for logic you didn't
+      already have in mind
+    - "Check edge cases explicitly: empty inputs, off-by-one boundaries, and
+      error handling are the most common gaps in generated code"
+    - Run the actual test suite, don't just eyeball it — generated code that
+      'looks right' fails at the same rate as human code that 'looks right'
+      without tests
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: javascript
+---
+
+This lesson is part of **Steering Copilot's Completions** in _Microsoft Copilot for Developers_. By the end, you should be able to put the following into practice:
+
+- Accepted-but-unread code is the single biggest risk of AI pair programming — read every suggestion before accepting, especially for logic you didn't already have in mind
+- Check edge cases explicitly: empty inputs, off-by-one boundaries, and error handling are the most common gaps in generated code
+- Run the actual test suite, don't just eyeball it — generated code that 'looks right' fails at the same rate as human code that 'looks right' without tests
+
+```javascript
+// Copilot suggestion — looks reasonable, but check the edge case:
+function average(nums) {
+  return nums.reduce((a, b) => a + b, 0) / nums.length;
+}
+// What happens when nums is an empty array? NaN, silently — worth an explicit guard.
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

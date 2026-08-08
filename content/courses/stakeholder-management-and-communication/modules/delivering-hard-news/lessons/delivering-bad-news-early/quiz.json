@@ -1,0 +1,40 @@
+[
+  {
+    "id": "delivering-bad-news-early-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Delivering Bad News Early and Clearly\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Bad news delivered early, with a plan, is manageable — bad news discovered late, with no plan, damages trust far more than the news itself\""
+    ],
+    "explanation": "Bad news delivered early, with a plan, is manageable — bad news discovered late, with no plan, damages trust far more than the news itself — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Bad news delivered early, with a plan, is manageable — bad news discovered late, with no plan, damages trust far more than the news itself"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "delivering-bad-news-early-q2",
+    "type": "true-false",
+    "prompt": "True or false: State the situation plainly, its impact, and your proposed path forward — burying a problem in vague language ('some challenges have emerged') reads as evasive even when unintentional",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — State the situation plainly, its impact, and your proposed path forward — burying a problem in vague language ('some challenges have emerged') reads as evasive even when unintentional",
+    "references": [],
+    "correctAnswer": true
+  }
+]

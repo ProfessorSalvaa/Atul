@@ -1,0 +1,14 @@
+slug: dynamic-array-formulas
+title: Dynamic Array Formulas
+description: Formulas that spill and update automatically as data changes.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: FILTER, SORT, and UNIQUE"
+  - id: mo-2
+    text: "Grasp: Combining Functions for Multi-Step Logic"
+lessons:
+  - slug: filter-sort-unique
+    order: 0
+  - slug: nested-logic-formulas
+    order: 1

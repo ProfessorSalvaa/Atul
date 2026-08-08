@@ -1,0 +1,40 @@
+[
+  {
+    "id": "overfitting-and-generalization-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Overfitting and Generalization\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Overfitting happens when a model learns the training data's noise and specific quirks rather than the underlying pattern — it performs great on training data but poorly on new, unseen data\""
+    ],
+    "explanation": "Overfitting happens when a model learns the training data's noise and specific quirks rather than the underlying pattern — it performs great on training data but poorly on new, unseen data — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Overfitting happens when a model learns the training data's noise and specific quirks rather than the underlying pattern — it performs great on training data but poorly on new, unseen data"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "overfitting-and-generalization-q2",
+    "type": "true-false",
+    "prompt": "True or false: Underfitting is the opposite problem — the model is too simple to capture the real pattern, performing poorly even on the training data itself",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Underfitting is the opposite problem — the model is too simple to capture the real pattern, performing poorly even on the training data itself",
+    "references": [],
+    "correctAnswer": true
+  }
+]

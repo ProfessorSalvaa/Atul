@@ -1,0 +1,40 @@
+[
+  {
+    "id": "next-token-prediction-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"It's All Next-Token Prediction\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An LLM is trained to predict the most statistically likely next word (token) given everything before it — that's the entire mechanism underneath every clever-seeming reply\""
+    ],
+    "explanation": "An LLM is trained to predict the most statistically likely next word (token) given everything before it — that's the entire mechanism underneath every clever-seeming reply — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An LLM is trained to predict the most statistically likely next word (token) given everything before it — that's the entire mechanism underneath every clever-seeming reply"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "next-token-prediction-q2",
+    "type": "true-false",
+    "prompt": "True or false: Training happens on massive text corpora; the model never 'looks things up' at answer time unless it's explicitly connected to a search or retrieval tool",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Training happens on massive text corpora; the model never 'looks things up' at answer time unless it's explicitly connected to a search or retrieval tool",
+    "references": [],
+    "correctAnswer": true
+  }
+]

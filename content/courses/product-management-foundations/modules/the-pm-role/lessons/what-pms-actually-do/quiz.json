@@ -1,0 +1,40 @@
+[
+  {
+    "id": "what-pms-actually-do-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"What Product Managers Actually Do\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A PM doesn't manage people (usually) — they align a cross-functional team around what to build and why, without direct authority over engineering or design\""
+    ],
+    "explanation": "A PM doesn't manage people (usually) — they align a cross-functional team around what to build and why, without direct authority over engineering or design — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A PM doesn't manage people (usually) — they align a cross-functional team around what to build and why, without direct authority over engineering or design"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "what-pms-actually-do-q2",
+    "type": "true-false",
+    "prompt": "True or false: The job spans discovery (figuring out what problem is worth solving), delivery (shipping it well), and strategy (making sure it fits the broader product direction) — most PMs spend disproportionate time on delivery even though discovery often determines success",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The job spans discovery (figuring out what problem is worth solving), delivery (shipping it well), and strategy (making sure it fits the broader product direction) — most PMs spend disproportionate time on delivery even though discovery often determines success",
+    "references": [],
+    "correctAnswer": true
+  }
+]

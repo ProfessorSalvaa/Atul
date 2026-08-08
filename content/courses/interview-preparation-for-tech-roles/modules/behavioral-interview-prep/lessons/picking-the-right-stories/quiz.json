@@ -1,0 +1,40 @@
+[
+  {
+    "id": "picking-the-right-stories-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Picking the Right Stories to Prepare\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Choose stories with a genuine, specific result — a story where the outcome is vague or unstated leaves the interviewer without evidence of actual impact\""
+    ],
+    "explanation": "Choose stories with a genuine, specific result — a story where the outcome is vague or unstated leaves the interviewer without evidence of actual impact — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Choose stories with a genuine, specific result — a story where the outcome is vague or unstated leaves the interviewer without evidence of actual impact"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "picking-the-right-stories-q2",
+    "type": "true-false",
+    "prompt": "True or false: Include at least one story about a real failure or mistake, told honestly with what you learned — refusing to acknowledge any real failure often reads as a lack of self-awareness, not as flawlessness",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Include at least one story about a real failure or mistake, told honestly with what you learned — refusing to acknowledge any real failure often reads as a lack of self-awareness, not as flawlessness",
+    "references": [],
+    "correctAnswer": true
+  }
+]

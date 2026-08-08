@@ -1,0 +1,23 @@
+[
+  {
+    "id": "programming-fundamentals-glossary-fc-1",
+    "front": "Edge case",
+    "back": "An input or condition at the extreme boundary of what a program needs to handle, often where bugs hide.",
+    "difficulty": "beginner",
+    "tags": ["programming"]
+  },
+  {
+    "id": "programming-fundamentals-glossary-fc-2",
+    "front": "Decomposition",
+    "back": "Breaking a large, ambiguous problem into smaller, well-defined sub-problems.",
+    "difficulty": "beginner",
+    "tags": ["programming"]
+  },
+  {
+    "id": "programming-fundamentals-glossary-fc-3",
+    "front": "Happy path",
+    "back": "The expected, error-free flow through a program — the case that's easiest to get right and least likely to reveal bugs.",
+    "difficulty": "beginner",
+    "tags": ["programming"]
+  }
+]

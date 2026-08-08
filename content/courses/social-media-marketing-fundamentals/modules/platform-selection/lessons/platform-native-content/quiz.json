@@ -1,0 +1,40 @@
+[
+  {
+    "id": "platform-native-content-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Making Content That Fits Each Platform\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Content repurposed identically across every platform, with no adaptation, usually underperforms content made natively for each one — a format that works on one platform can feel out of place on another\""
+    ],
+    "explanation": "Content repurposed identically across every platform, with no adaptation, usually underperforms content made natively for each one — a format that works on one platform can feel out of place on another — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Content repurposed identically across every platform, with no adaptation, usually underperforms content made natively for each one — a format that works on one platform can feel out of place on another"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "platform-native-content-q2",
+    "type": "true-false",
+    "prompt": "True or false: Understand the platform's dominant content format and unspoken tone norms (short-form video, professional long-form, casual and reactive) before producing content for it",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Understand the platform's dominant content format and unspoken tone norms (short-form video, professional long-form, casual and reactive) before producing content for it",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,74 @@
+slug: excel-for-data-analysis
+title: Excel for Data Analysis
+subtitle: Core Excel skills for real analysis work — cleaning messy data, pivot tables, and formulas
+  that don't silently break when the data changes.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 120
+tags: &a1
+  - spreadsheets
+  - excel
+  - data
+skills:
+  - excel-formulas
+  - pivot-tables
+careerPaths:
+  - data-analyst
+category: excel
+premium: false
+objectives:
+  - id: obj-1
+    text: Clean and structure messy spreadsheet data for analysis
+  - id: obj-2
+    text: Build pivot tables that answer real questions, not just show totals
+  - id: obj-3
+    text: Use lookup formulas (VLOOKUP/XLOOKUP) reliably
+prerequisites: []
+instructor:
+  name: Dana Okafor
+  title: Ex-Head of Analytics, Fieldstone
+  bio: Dana Okafor is Ex-Head of Analytics, Fieldstone, teaching Excel for Data Analysis on Curitiq.
+  avatarInitials: DO
+modules:
+  - slug: cleaning-data-in-excel
+    order: 0
+  - slug: pivot-tables-and-lookups
+    order: 1
+projectSlugs:
+  - messy-data-cleanup
+assessmentSlugs: []
+resources:
+  - title: Microsoft Excel Function Reference
+    type: external-link
+    url: https://support.microsoft.com/en-us/office/excel-functions-by-category-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb
+    description: Official reference for all Excel functions.
+certificate:
+  title: Excel for Data Analysis — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the cleaned dataset + analysis
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Excel for Data Analysis | Curitiq
+  description: Core Excel skills for real analysis work — cleaning messy data, pivot tables, and
+    formulas that don't silently break when the data changes.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Core Excel skills for real analysis work — cleaning messy data, pivot tables, and formulas
+    that don't silently break when the data changes.
+  keyConcepts:
+    - Clean and structure messy spreadsheet data for analysis
+    - Build pivot tables that answer real questions, not just show totals
+    - Use lookup formulas (VLOOKUP/XLOOKUP) reliably
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,79 @@
+slug: ai-agents-and-automation-fundamentals
+title: AI Agents and Automation Fundamentals
+subtitle: Designing multi-step AI-driven automations that are reliable enough to run unattended, and
+  knowing where human review still belongs.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 135
+tags: &a1
+  - ai
+  - generative-ai
+  - workflow
+skills:
+  - ai-agents
+  - llm-integration
+careerPaths:
+  - ai-practitioner
+  - ai-engineer
+category: generative-ai
+premium: true
+objectives:
+  - id: obj-1
+    text: Distinguish a simple automation from a genuine agent with autonomous decision-making
+  - id: obj-2
+    text: Design checkpoints where human review is required before an agent takes an irreversible action
+  - id: obj-3
+    text: Build a basic multi-step automation with explicit success/failure conditions
+prerequisites:
+  - courseSlug: retrieval-augmented-generation-fundamentals
+instructor:
+  name: Dr. Maya Chen
+  title: AI Research Lead, ex-DeepMind
+  bio:
+    Dr. Maya Chen is AI Research Lead, ex-DeepMind, teaching AI Agents and Automation Fundamentals
+    on Curitiq.
+  avatarInitials: MC
+modules:
+  - slug: agents-vs-automation
+    order: 0
+  - slug: building-reliable-automations
+    order: 1
+projectSlugs:
+  - multi-step-automation-design
+assessmentSlugs: []
+resources:
+  - title: "Anthropic: Building Effective Agents"
+    type: external-link
+    url: https://www.anthropic.com/research/building-effective-agents
+    description: Guidance on agent design patterns and when to use them.
+certificate:
+  title: AI Agents and Automation Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the automation design
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: AI Agents and Automation Fundamentals | Curitiq
+  description:
+    Designing multi-step AI-driven automations that are reliable enough to run unattended,
+    and knowing where human review still belongs.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary:
+    Designing multi-step AI-driven automations that are reliable enough to run unattended, and
+    knowing where human review still belongs.
+  keyConcepts:
+    - Distinguish a simple automation from a genuine agent with autonomous decision-making
+    - Design checkpoints where human review is required before an agent takes an irreversible action
+    - Build a basic multi-step automation with explicit success/failure conditions
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

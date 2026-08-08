@@ -1,0 +1,23 @@
+[
+  {
+    "id": "model-evaluation-glossary-fc-1",
+    "front": "Precision",
+    "back": "Of everything predicted positive, the fraction that was actually positive.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "model-evaluation-glossary-fc-2",
+    "front": "Recall",
+    "back": "Of everything actually positive, the fraction the model correctly identified.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "model-evaluation-glossary-fc-3",
+    "front": "K-fold cross-validation",
+    "back": "Splitting data into k parts and rotating training/validation across all combinations for a more robust performance estimate.",
+    "difficulty": "intermediate",
+    "tags": ["machine-learning"]
+  }
+]

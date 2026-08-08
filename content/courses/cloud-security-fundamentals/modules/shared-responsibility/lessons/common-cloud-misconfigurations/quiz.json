@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-cloud-misconfigurations-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Cloud Misconfigurations\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Publicly accessible storage buckets containing sensitive data are one of the most common and damaging cloud misconfigurations, often the result of a default or a copy-pasted permissive policy\""
+    ],
+    "explanation": "Publicly accessible storage buckets containing sensitive data are one of the most common and damaging cloud misconfigurations, often the result of a default or a copy-pasted permissive policy — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Publicly accessible storage buckets containing sensitive data are one of the most common and damaging cloud misconfigurations, often the result of a default or a copy-pasted permissive policy"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-cloud-misconfigurations-q2",
+    "type": "true-false",
+    "prompt": "True or false: Overly permissive IAM policies (wildcard permissions granted 'to make it work') accumulate over time and rarely get cleaned up — audit them regularly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Overly permissive IAM policies (wildcard permissions granted 'to make it work') accumulate over time and rarely get cleaned up — audit them regularly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

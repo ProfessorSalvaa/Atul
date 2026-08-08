@@ -1,0 +1,14 @@
+slug: using-ai-responsibly
+title: Using AI Responsibly
+description: The judgment layer that separates competent AI use from careless AI use.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Bias, Verification, and Knowing When to Trust It"
+  - id: mo-2
+    text: "Grasp: Generative AI Glossary"
+lessons:
+  - slug: bias-and-verification
+    order: 0
+  - slug: genai-glossary
+    order: 1

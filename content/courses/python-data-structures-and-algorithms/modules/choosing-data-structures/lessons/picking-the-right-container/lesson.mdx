@@ -1,0 +1,39 @@
+---
+type: code
+title: Picking the Right Container for the Job
+order: 1
+durationMinutes: 18
+objectives:
+  - Understand picking the right container for the job
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Picking the Right Container for the Job."
+  keyConcepts:
+    - Need fast membership checks ('is this item in the collection?') → use a
+      set, not a list
+    - Need to count occurrences of items → use `collections.Counter` rather than
+      manually building a dict with a loop
+    - Need insertion order preserved with fast lookups → a regular dict already
+      preserves insertion order in modern Python
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: python
+---
+
+This lesson is part of **Choosing the Right Data Structure** in _Python Data Structures and Algorithms_. By the end, you should be able to put the following into practice:
+
+- Need fast membership checks ('is this item in the collection?') → use a set, not a list
+- Need to count occurrences of items → use `collections.Counter` rather than manually building a dict with a loop
+- Need insertion order preserved with fast lookups → a regular dict already preserves insertion order in modern Python
+
+```python
+from collections import Counter
+
+words = "the quick brown fox the lazy fox".split()
+counts = Counter(words)
+print(counts.most_common(2))  # [('the', 2), ('fox', 2)]
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

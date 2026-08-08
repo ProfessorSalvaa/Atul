@@ -1,0 +1,23 @@
+[
+  {
+    "id": "observability-glossary-fc-1",
+    "front": "Trace",
+    "back": "A record of a single request's path through multiple services, showing where time was spent at each hop.",
+    "difficulty": "advanced",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "observability-glossary-fc-2",
+    "front": "Structured logging",
+    "back": "Logging in a consistent, machine-parseable format (like JSON) rather than freeform text.",
+    "difficulty": "advanced",
+    "tags": ["devops", "cloud"]
+  },
+  {
+    "id": "observability-glossary-fc-3",
+    "front": "Alert fatigue",
+    "back": "Desensitization to alerts caused by too many low-value or non-actionable notifications.",
+    "difficulty": "advanced",
+    "tags": ["devops", "cloud"]
+  }
+]

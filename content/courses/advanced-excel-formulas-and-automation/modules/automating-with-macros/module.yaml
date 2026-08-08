@@ -1,0 +1,14 @@
+slug: automating-with-macros
+title: Automating Repeated Tasks
+description: When a task repeats weekly, it's worth automating once.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Recording and Adapting a Basic Macro"
+  - id: mo-2
+    text: "Grasp: Excel Automation Terms"
+lessons:
+  - slug: recording-a-macro
+    order: 0
+  - slug: automation-glossary
+    order: 1

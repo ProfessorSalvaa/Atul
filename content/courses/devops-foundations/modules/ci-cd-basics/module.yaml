@@ -1,0 +1,14 @@
+slug: ci-cd-basics
+title: CI/CD Basics
+description: The pipeline stages that turn a commit into a safely deployed change.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Continuous Integration vs. Continuous Deployment"
+  - id: mo-2
+    text: "Grasp: DevOps Terms Flip Deck"
+lessons:
+  - slug: ci-vs-cd
+    order: 0
+  - slug: devops-glossary
+    order: 1

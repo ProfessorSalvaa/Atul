@@ -1,0 +1,40 @@
+[
+  {
+    "id": "vanity-vs-meaningful-metrics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Vanity Metrics vs. Metrics Tied to Outcomes\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Follower count and likes are easy to track but rarely connect directly to a business outcome — they're worth watching as a general health signal, but shouldn't be the primary success metric\""
+    ],
+    "explanation": "Follower count and likes are easy to track but rarely connect directly to a business outcome — they're worth watching as a general health signal, but shouldn't be the primary success metric — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Follower count and likes are easy to track but rarely connect directly to a business outcome — they're worth watching as a general health signal, but shouldn't be the primary success metric"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "vanity-vs-meaningful-metrics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Engagement rate, click-through to a specific destination, and conversion from social traffic are much stronger signals of actual value, though harder to track and often lower in raw number",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Engagement rate, click-through to a specific destination, and conversion from social traffic are much stronger signals of actual value, though harder to track and often lower in raw number",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: handling-the-conversation
+title: Handling the Actual Conversation
+description: The specific moments that feel hardest, handled with a plan instead of improvised in the moment.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Negotiating Beyond Base Salary"
+  - id: mo-2
+    text: "Grasp: Handling a Firm 'No'"
+lessons:
+  - slug: negotiating-total-compensation
+    order: 0
+  - slug: handling-a-no
+    order: 1

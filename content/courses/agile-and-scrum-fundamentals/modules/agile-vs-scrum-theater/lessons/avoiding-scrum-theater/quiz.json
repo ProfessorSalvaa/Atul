@@ -1,0 +1,40 @@
+[
+  {
+    "id": "avoiding-scrum-theater-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Avoiding Scrum Theater\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Scrum theater is running all the ceremonies precisely while missing the actual point — a standup that's a status report to a manager instead of the team coordinating with each other is theater, not agility\""
+    ],
+    "explanation": "Scrum theater is running all the ceremonies precisely while missing the actual point — a standup that's a status report to a manager instead of the team coordinating with each other is theater, not agility — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Scrum theater is running all the ceremonies precisely while missing the actual point — a standup that's a status report to a manager instead of the team coordinating with each other is theater, not agility"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "avoiding-scrum-theater-q2",
+    "type": "true-false",
+    "prompt": "True or false: The Agile Manifesto values individuals and interactions over processes and tools — a rigid, unquestioned process applied without adaptation contradicts the philosophy it claims to follow",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — The Agile Manifesto values individuals and interactions over processes and tools — a rigid, unquestioned process applied without adaptation contradicts the philosophy it claims to follow",
+    "references": [],
+    "correctAnswer": true
+  }
+]

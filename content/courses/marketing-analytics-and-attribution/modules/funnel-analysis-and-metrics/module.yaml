@@ -1,0 +1,14 @@
+slug: funnel-analysis-and-metrics
+title: Funnel Analysis and Choosing Metrics
+description: Finding where people actually drop off, and what to measure to know if a fix worked.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Analyzing Funnel Drop-Off"
+  - id: mo-2
+    text: "Grasp: Attribution and Analytics Terms Flip Deck"
+lessons:
+  - slug: funnel-drop-off-analysis
+    order: 0
+  - slug: attribution-glossary
+    order: 1

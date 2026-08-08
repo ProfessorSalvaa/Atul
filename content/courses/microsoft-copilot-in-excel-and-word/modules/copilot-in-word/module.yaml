@@ -1,0 +1,14 @@
+slug: copilot-in-word
+title: Copilot in Word
+description: From blank page to first draft, faster.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Drafting and Rewriting in Word"
+  - id: mo-2
+    text: "Grasp: Using Copilot for Review and Feedback"
+lessons:
+  - slug: drafting-in-word
+    order: 0
+  - slug: copilot-review-features
+    order: 1

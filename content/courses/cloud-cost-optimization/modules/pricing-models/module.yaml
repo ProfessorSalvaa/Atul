@@ -1,0 +1,14 @@
+slug: pricing-models
+title: Using Pricing Models Deliberately
+description: Committing to a discount without over-committing to a risk.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Reserved/Committed Pricing vs. On-Demand"
+  - id: mo-2
+    text: "Grasp: Cost Optimization Terms Flip Deck"
+lessons:
+  - slug: reserved-vs-on-demand
+    order: 0
+  - slug: cost-optimization-glossary
+    order: 1

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ci-vs-cd-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Continuous Integration vs. Continuous Deployment\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Continuous Integration (CI) means merging code changes frequently, with automated builds and tests running on every change to catch problems immediately\""
+    ],
+    "explanation": "Continuous Integration (CI) means merging code changes frequently, with automated builds and tests running on every change to catch problems immediately — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Continuous Integration (CI) means merging code changes frequently, with automated builds and tests running on every change to catch problems immediately"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "ci-vs-cd-q2",
+    "type": "true-false",
+    "prompt": "True or false: Continuous Delivery means every change that passes CI is automatically prepared for release, but a human still triggers the actual deployment",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Continuous Delivery means every change that passes CI is automatically prepared for release, but a human still triggers the actual deployment",
+    "references": [],
+    "correctAnswer": true
+  }
+]

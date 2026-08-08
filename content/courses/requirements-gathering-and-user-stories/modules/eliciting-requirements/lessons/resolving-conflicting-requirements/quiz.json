@@ -1,0 +1,40 @@
+[
+  {
+    "id": "resolving-conflicting-requirements-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Resolving Conflicting Stakeholder Requirements\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Conflicting requirements between stakeholders are normal, not a sign something went wrong — surface the conflict explicitly rather than quietly picking one side or trying to satisfy both with a vague compromise\""
+    ],
+    "explanation": "Conflicting requirements between stakeholders are normal, not a sign something went wrong — surface the conflict explicitly rather than quietly picking one side or trying to satisfy both with a vague compromise — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Conflicting requirements between stakeholders are normal, not a sign something went wrong — surface the conflict explicitly rather than quietly picking one side or trying to satisfy both with a vague compromise"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "resolving-conflicting-requirements-q2",
+    "type": "true-false",
+    "prompt": "True or false: Trace conflicting requirements back to underlying goals — two stakeholders often want different things because they're optimizing for different underlying business goals worth surfacing explicitly",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Trace conflicting requirements back to underlying goals — two stakeholders often want different things because they're optimizing for different underlying business goals worth surfacing explicitly",
+    "references": [],
+    "correctAnswer": true
+  }
+]

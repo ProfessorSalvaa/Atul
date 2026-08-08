@@ -1,0 +1,40 @@
+[
+  {
+    "id": "spotting-analysis-errors-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Ways AI Analysis Goes Wrong\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Silent filtering: the model drops nulls or outliers without telling you, changing your denominator without your knowledge\""
+    ],
+    "explanation": "Silent filtering: the model drops nulls or outliers without telling you, changing your denominator without your knowledge — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Silent filtering: the model drops nulls or outliers without telling you, changing your denominator without your knowledge"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "spotting-analysis-errors-q2",
+    "type": "true-false",
+    "prompt": "True or false: Wrong join or aggregation grain: double-counting or under-counting because a groupby was done at the wrong level of detail",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Wrong join or aggregation grain: double-counting or under-counting because a groupby was done at the wrong level of detail",
+    "references": [],
+    "correctAnswer": true
+  }
+]

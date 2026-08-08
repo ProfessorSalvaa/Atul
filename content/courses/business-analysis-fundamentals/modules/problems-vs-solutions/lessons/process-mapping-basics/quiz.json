@@ -1,0 +1,40 @@
+[
+  {
+    "id": "process-mapping-basics-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Process Mapping Basics\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A current-state process map documents how work actually happens today, including the messy exceptions — mapping the idealized version instead of reality misses the actual inefficiencies\""
+    ],
+    "explanation": "A current-state process map documents how work actually happens today, including the messy exceptions — mapping the idealized version instead of reality misses the actual inefficiencies — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A current-state process map documents how work actually happens today, including the messy exceptions — mapping the idealized version instead of reality misses the actual inefficiencies"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "process-mapping-basics-q2",
+    "type": "true-false",
+    "prompt": "True or false: Look specifically for handoffs between people or systems — this is where delays, dropped information, and errors most commonly accumulate in a real process",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Look specifically for handoffs between people or systems — this is where delays, dropped information, and errors most commonly accumulate in a real process",
+    "references": [],
+    "correctAnswer": true
+  }
+]

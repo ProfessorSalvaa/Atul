@@ -1,0 +1,16 @@
+slug: pivot-tables-and-lookups
+title: Pivot Tables and Lookup Formulas
+description: The two skills that unlock most real analysis work in Excel.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Building Pivot Tables That Answer a Specific Question"
+  - id: mo-2
+    text: "Grasp: VLOOKUP and XLOOKUP"
+lessons:
+  - slug: pivot-tables-that-answer-questions
+    order: 0
+  - slug: vlookup-and-xlookup
+    order: 1
+  - slug: excel-glossary
+    order: 2

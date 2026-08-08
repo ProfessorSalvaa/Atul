@@ -1,0 +1,73 @@
+slug: feature-engineering-for-machine-learning
+title: Feature Engineering for Machine Learning
+subtitle: Why the inputs you give a model usually matter more than the algorithm you choose —
+  encoding, scaling, and creating features that actually carry signal.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - machine-learning
+skills:
+  - feature-engineering
+careerPaths:
+  - ai-engineer
+  - data-scientist
+category: machine-learning
+premium: true
+objectives:
+  - id: obj-1
+    text: Encode categorical variables appropriately for a given model type
+  - id: obj-2
+    text: Apply feature scaling where it actually matters
+  - id: obj-3
+    text: Create derived features that expose signal a raw column doesn't
+prerequisites:
+  - courseSlug: machine-learning-fundamentals
+instructor:
+  name: Hana Kobayashi
+  title: ML Engineer, ex-DeepMind
+  bio: Hana Kobayashi is ML Engineer, ex-DeepMind, teaching Feature Engineering for Machine Learning
+    on Curitiq.
+  avatarInitials: HK
+modules:
+  - slug: encoding-and-scaling
+    order: 0
+  - slug: creating-derived-features
+    order: 1
+projectSlugs:
+  - feature-engineering-plan
+assessmentSlugs: []
+resources:
+  - title: "Google: Feature Engineering"
+    type: external-link
+    url: https://developers.google.com/machine-learning/crash-course/representation/feature-engineering
+    description: Google's guidance on feature engineering fundamentals.
+certificate:
+  title: Feature Engineering for Machine Learning — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the feature engineering plan
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Feature Engineering for Machine Learning | Curitiq
+  description: Why the inputs you give a model usually matter more than the algorithm you choose —
+    encoding, scaling, and creating features that actually carry signal.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Why the inputs you give a model usually matter more than the algorithm you choose —
+    encoding, scaling, and creating features that actually carry signal.
+  keyConcepts:
+    - Encode categorical variables appropriately for a given model type
+    - Apply feature scaling where it actually matters
+    - Create derived features that expose signal a raw column doesn't
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

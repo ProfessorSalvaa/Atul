@@ -1,0 +1,40 @@
+[
+  {
+    "id": "the-accuracy-trap-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"The Accuracy Trap on Imbalanced Data\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"On a dataset where 99% of examples belong to one class (e.g. fraud detection, where fraud is rare), a model that always predicts 'not fraud' scores 99% accuracy while being completely useless\""
+    ],
+    "explanation": "On a dataset where 99% of examples belong to one class (e.g. fraud detection, where fraud is rare), a model that always predicts 'not fraud' scores 99% accuracy while being completely useless — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "On a dataset where 99% of examples belong to one class (e.g. fraud detection, where fraud is rare), a model that always predicts 'not fraud' scores 99% accuracy while being completely useless"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "the-accuracy-trap-q2",
+    "type": "true-false",
+    "prompt": "True or false: This is why accuracy alone is a dangerous default metric — it can look excellent while the model has learned nothing useful about the minority class that actually matters",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This is why accuracy alone is a dangerous default metric — it can look excellent while the model has learned nothing useful about the minority class that actually matters",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,70 @@
+slug: difficult-conversations-at-work
+title: Difficult Conversations at Work
+subtitle: Having the conversation you've been avoiding — giving hard feedback, addressing conflict,
+  and staying constructive when it would be easier to stay quiet.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 105
+tags: &a1
+  - communication
+skills:
+  - difficult-conversations
+careerPaths: []
+category: communication
+premium: true
+objectives:
+  - id: obj-1
+    text: Separate observation from interpretation when raising a concern
+  - id: obj-2
+    text: Give direct, specific feedback without softening it into vagueness
+  - id: obj-3
+    text: Stay constructive when a conversation becomes emotionally charged
+prerequisites: []
+instructor:
+  name: James Okonkwo
+  title: Executive Communication Coach
+  bio: James Okonkwo is Executive Communication Coach, teaching Difficult Conversations at Work on
+    Curitiq.
+  avatarInitials: JO
+modules:
+  - slug: starting-the-conversation-well
+    order: 0
+  - slug: staying-constructive-under-tension
+    order: 1
+projectSlugs:
+  - difficult-conversation-script
+assessmentSlugs: []
+resources:
+  - title: "Harvard Business Review: Difficult Conversations"
+    type: external-link
+    url: https://hbr.org/topic/subject/difficult-conversations
+    description: HBR's collection of articles on navigating difficult workplace conversations.
+certificate:
+  title: Difficult Conversations at Work — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the difficult conversation script
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Difficult Conversations at Work | Curitiq
+  description: Having the conversation you've been avoiding — giving hard feedback, addressing
+    conflict, and staying constructive when it would be easier to stay quiet.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Having the conversation you've been avoiding — giving hard feedback, addressing conflict,
+    and staying constructive when it would be easier to stay quiet.
+  keyConcepts:
+    - Separate observation from interpretation when raising a concern
+    - Give direct, specific feedback without softening it into vagueness
+    - Stay constructive when a conversation becomes emotionally charged
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "structuring-supporting-content-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Structuring Supporting Content\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Use a clear structure the audience can follow along with — problem/solution, chronological, or a simple 3-point structure all work; an unstructured ramble doesn't, regardless of content quality\""
+    ],
+    "explanation": "Use a clear structure the audience can follow along with — problem/solution, chronological, or a simple 3-point structure all work; an unstructured ramble doesn't, regardless of content quality — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Use a clear structure the audience can follow along with — problem/solution, chronological, or a simple 3-point structure all work; an unstructured ramble doesn't, regardless of content quality"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "structuring-supporting-content-q2",
+    "type": "true-false",
+    "prompt": "True or false: Signpost transitions explicitly ('now that we've covered X, let's look at Y') — this helps the audience track where they are in the talk, especially in a longer presentation",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Signpost transitions explicitly ('now that we've covered X, let's look at Y') — this helps the audience track where they are in the talk, especially in a longer presentation",
+    "references": [],
+    "correctAnswer": true
+  }
+]

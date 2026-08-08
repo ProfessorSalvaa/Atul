@@ -1,0 +1,30 @@
+---
+type: reading
+title: Caching Dependencies to Keep Builds Fast
+order: 1
+durationMinutes: 16
+objectives:
+  - Understand caching dependencies to keep builds fast
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Caching Dependencies to Keep Builds Fast."
+  keyConcepts:
+    - Re-downloading and reinstalling dependencies on every single pipeline run
+      wastes significant time — cache dependency directories keyed on a lockfile
+      hash
+    - A slow pipeline directly discourages frequent commits and small changes,
+      undermining the whole point of CI — pipeline speed is a real product
+      decision, not just an engineering nicety
+    - Parallelize independent test suites where the pipeline tool supports it,
+      rather than running everything sequentially
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Pipeline Stages** in _CI/CD Pipelines in Practice_. By the end, you should be able to put the following into practice:
+
+- Re-downloading and reinstalling dependencies on every single pipeline run wastes significant time — cache dependency directories keyed on a lockfile hash
+- A slow pipeline directly discourages frequent commits and small changes, undermining the whole point of CI — pipeline speed is a real product decision, not just an engineering nicety
+- Parallelize independent test suites where the pipeline tool supports it, rather than running everything sequentially
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

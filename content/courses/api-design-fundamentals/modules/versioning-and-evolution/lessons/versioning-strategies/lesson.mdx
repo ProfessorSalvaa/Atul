@@ -1,0 +1,30 @@
+---
+type: reading
+title: Versioning Strategies
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand versioning strategies
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Versioning Strategies."
+  keyConcepts:
+    - URL versioning (`/v1/orders`, `/v2/orders`) is explicit and simple for
+      clients to understand, at the cost of duplicating routes over time
+    - Additive changes (new optional fields) are usually safe without a version
+      bump; removing or renaming a field, or changing its type, is a breaking
+      change requiring one
+    - Deprecate old versions with a clear timeline communicated in advance —
+      silently killing an old version without warning breaks every client still
+      depending on it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Versioning and Evolving an API** in _API Design Fundamentals_. By the end, you should be able to put the following into practice:
+
+- URL versioning (`/v1/orders`, `/v2/orders`) is explicit and simple for clients to understand, at the cost of duplicating routes over time
+- Additive changes (new optional fields) are usually safe without a version bump; removing or renaming a field, or changing its type, is a breaking change requiring one
+- Deprecate old versions with a clear timeline communicated in advance — silently killing an old version without warning breaks every client still depending on it
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

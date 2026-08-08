@@ -1,0 +1,36 @@
+---
+type: code
+title: FILTER, SORT, and UNIQUE
+order: 0
+durationMinutes: 18
+objectives:
+  - Understand filter, sort, and unique
+free: true
+aiTutorContext:
+  summary: "This lesson covers: FILTER, SORT, and UNIQUE."
+  keyConcepts:
+    - FILTER returns only rows matching a condition, and 'spills' into as many
+      cells as needed — no more manually copying formulas down as data grows
+    - Combine FILTER with SORT to get, for example, the top 10 by revenue,
+      automatically updating as the source data changes
+    - UNIQUE extracts distinct values from a range — useful for building a clean
+      list of categories without manual deduplication
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: text
+---
+
+This lesson is part of **Dynamic Array Formulas** in _Advanced Excel Formulas and Automation_. By the end, you should be able to put the following into practice:
+
+- FILTER returns only rows matching a condition, and 'spills' into as many cells as needed — no more manually copying formulas down as data grows
+- Combine FILTER with SORT to get, for example, the top 10 by revenue, automatically updating as the source data changes
+- UNIQUE extracts distinct values from a range — useful for building a clean list of categories without manual deduplication
+
+```text
+=SORT(FILTER(A2:C1000, C2:C1000>1000), 3, -1)
+// Returns all rows where column C > 1000, sorted descending by that same column
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

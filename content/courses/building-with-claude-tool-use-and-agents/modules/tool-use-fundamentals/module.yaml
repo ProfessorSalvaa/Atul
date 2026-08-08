@@ -1,0 +1,14 @@
+slug: tool-use-fundamentals
+title: Tool Use Fundamentals
+description: How a model goes from 'generating text' to 'taking an action'.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: How Tool Use Actually Works"
+  - id: mo-2
+    text: "Grasp: Designing a Tool Interface a Model Can Use Reliably"
+lessons:
+  - slug: how-tool-use-works
+    order: 0
+  - slug: designing-a-tool-interface
+    order: 1

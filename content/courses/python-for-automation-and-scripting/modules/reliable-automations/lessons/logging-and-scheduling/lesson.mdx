@@ -1,0 +1,30 @@
+---
+type: reading
+title: Logging Failures and Scheduling Runs
+order: 0
+durationMinutes: 16
+objectives:
+  - Understand logging failures and scheduling runs
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Logging Failures and Scheduling Runs."
+  keyConcepts:
+    - Use Python's `logging` module instead of scattered `print()` statements —
+      logs can be filtered by severity and persisted, unlike print output that
+      disappears
+    - Any scheduled automation (via cron, Task Scheduler, or a workflow tool)
+      needs a way to alert someone on failure — a silently-failing scheduled
+      script is worse than no automation at all
+    - Wrap the risky part of a script in try/except and log the specific
+      exception, rather than a bare except that swallows the real error message
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Making Automations Reliable, Not Just Working** in _Python for Automation and Scripting_. By the end, you should be able to put the following into practice:
+
+- Use Python's `logging` module instead of scattered `print()` statements — logs can be filtered by severity and persisted, unlike print output that disappears
+- Any scheduled automation (via cron, Task Scheduler, or a workflow tool) needs a way to alert someone on failure — a silently-failing scheduled script is worse than no automation at all
+- Wrap the risky part of a script in try/except and log the specific exception, rather than a bare except that swallows the real error message
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

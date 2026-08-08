@@ -1,0 +1,40 @@
+[
+  {
+    "id": "mean-median-and-when-they-mislead-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Mean, Median, and When Each One Misleads\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"The mean is pulled toward outliers; the median is not — for skewed data (like income or order values), the median often represents the 'typical' case far better\""
+    ],
+    "explanation": "The mean is pulled toward outliers; the median is not — for skewed data (like income or order values), the median often represents the 'typical' case far better — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "The mean is pulled toward outliers; the median is not — for skewed data (like income or order values), the median often represents the 'typical' case far better"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "mean-median-and-when-they-mislead-q2",
+    "type": "true-false",
+    "prompt": "True or false: A rising average doesn't necessarily mean a rising typical value — a few very large values can drag the average up while most values stay flat or fall",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A rising average doesn't necessarily mean a rising typical value — a few very large values can drag the average up while most values stay flat or fall",
+    "references": [],
+    "correctAnswer": true
+  }
+]

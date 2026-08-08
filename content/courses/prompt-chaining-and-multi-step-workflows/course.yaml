@@ -1,0 +1,76 @@
+slug: prompt-chaining-and-multi-step-workflows
+title: Prompt Chaining and Multi-Step Workflows
+subtitle: Breaking a complex task into a chain of smaller prompts, each doing one job well, instead
+  of asking one giant prompt to do everything at once.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 130
+tags: &a1
+  - prompting
+  - ai
+  - workflow
+skills:
+  - prompt-engineering
+  - llm-integration
+careerPaths:
+  - ai-practitioner
+  - software-engineer
+category: prompt-engineering
+premium: true
+objectives:
+  - id: obj-1
+    text: Decompose a complex task into a sequence of single-purpose prompt steps
+  - id: obj-2
+    text: Decide when chaining helps versus when it just adds latency and cost for no benefit
+  - id: obj-3
+    text: Handle a failure at one step of a chain without corrupting the whole pipeline
+prerequisites:
+  - courseSlug: prompt-engineering-fundamentals
+instructor:
+  name: Theo Marsh
+  title: Staff Engineer, ex-Vercel
+  bio: Theo Marsh is Staff Engineer, ex-Vercel, teaching Prompt Chaining and Multi-Step Workflows on
+    Curitiq.
+  avatarInitials: TM
+modules:
+  - slug: why-chain-prompts
+    order: 0
+  - slug: handling-chain-failures
+    order: 1
+projectSlugs:
+  - three-step-content-pipeline
+assessmentSlugs: []
+resources:
+  - title: "Anthropic: Chain Complex Prompts"
+    type: external-link
+    url: https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/chain-prompts
+    description: Official guidance on chaining prompts for complex tasks.
+certificate:
+  title: Prompt Chaining and Multi-Step Workflows — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the 3-step prompt chain project
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Prompt Chaining and Multi-Step Workflows | Curitiq
+  description: Breaking a complex task into a chain of smaller prompts, each doing one job well,
+    instead of asking one giant prompt to do everything at once.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Breaking a complex task into a chain of smaller prompts, each doing one job well, instead
+    of asking one giant prompt to do everything at once.
+  keyConcepts:
+    - Decompose a complex task into a sequence of single-purpose prompt steps
+    - Decide when chaining helps versus when it just adds latency and cost for no benefit
+    - Handle a failure at one step of a chain without corrupting the whole pipeline
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

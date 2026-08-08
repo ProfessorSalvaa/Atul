@@ -1,0 +1,40 @@
+[
+  {
+    "id": "correlation-vs-causation-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Correlation vs. Causation, in Practice\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Two metrics moving together doesn't mean one causes the other — both could be driven by a third factor (seasonality is the classic culprit)\""
+    ],
+    "explanation": "Two metrics moving together doesn't mean one causes the other — both could be driven by a third factor (seasonality is the classic culprit) — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Two metrics moving together doesn't mean one causes the other — both could be driven by a third factor (seasonality is the classic culprit)"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "correlation-vs-causation-q2",
+    "type": "true-false",
+    "prompt": "True or false: A simple check: does the proposed cause happen consistently before the effect, and does removing/changing it change the effect? If you can't check this, treat the relationship as a hypothesis, not a conclusion",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — A simple check: does the proposed cause happen consistently before the effect, and does removing/changing it change the effect? If you can't check this, treat the relationship as a hypothesis, not a conclusion",
+    "references": [],
+    "correctAnswer": true
+  }
+]

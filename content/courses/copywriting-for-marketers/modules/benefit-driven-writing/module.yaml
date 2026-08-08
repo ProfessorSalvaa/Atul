@@ -1,0 +1,14 @@
+slug: benefit-driven-writing
+title: Benefit-Driven Writing
+description: Features describe the product; benefits describe why the customer should care.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Features vs. Benefits"
+  - id: mo-2
+    text: "Grasp: Writing a Clear Value Proposition"
+lessons:
+  - slug: features-vs-benefits
+    order: 0
+  - slug: writing-a-value-proposition
+    order: 1

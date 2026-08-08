@@ -1,0 +1,40 @@
+[
+  {
+    "id": "clarity-over-cleverness-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Clarity Over Cleverness\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A button labeled 'Delete account' is clearer than a clever alternative like 'Say goodbye' — clarity about consequences matters more than personality, especially for destructive or important actions\""
+    ],
+    "explanation": "A button labeled 'Delete account' is clearer than a clever alternative like 'Say goodbye' — clarity about consequences matters more than personality, especially for destructive or important actions — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A button labeled 'Delete account' is clearer than a clever alternative like 'Say goodbye' — clarity about consequences matters more than personality, especially for destructive or important actions"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "clarity-over-cleverness-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use verbs that match the actual action — 'Save' for saving, 'Delete' for deleting — vague labels like 'Continue' or 'OK' force users to guess what will actually happen",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use verbs that match the actual action — 'Save' for saving, 'Delete' for deleting — vague labels like 'Continue' or 'OK' force users to guess what will actually happen",
+    "references": [],
+    "correctAnswer": true
+  }
+]

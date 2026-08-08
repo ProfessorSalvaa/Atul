@@ -1,0 +1,23 @@
+[
+  {
+    "id": "financial-modeling-glossary-fc-1",
+    "front": "Key driver",
+    "back": "An input assumption that disproportionately determines a financial model's output.",
+    "difficulty": "intermediate",
+    "tags": ["finance"]
+  },
+  {
+    "id": "financial-modeling-glossary-fc-2",
+    "front": "Sensitivity analysis",
+    "back": "Testing how much a model's output changes as a key input varies across a realistic range.",
+    "difficulty": "intermediate",
+    "tags": ["finance"]
+  },
+  {
+    "id": "financial-modeling-glossary-fc-3",
+    "front": "Base case",
+    "back": "The central, most-likely scenario in a financial model, typically presented alongside best and worst cases.",
+    "difficulty": "intermediate",
+    "tags": ["finance"]
+  }
+]

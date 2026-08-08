@@ -1,0 +1,40 @@
+[
+  {
+    "id": "communicating-to-non-technical-audiences-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Communicating to Non-Technical Audiences\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Lead with the finding and its business implication, not the methodology — a stakeholder generally cares what it means for their decision far more than how the analysis was technically performed\""
+    ],
+    "explanation": "Lead with the finding and its business implication, not the methodology — a stakeholder generally cares what it means for their decision far more than how the analysis was technically performed — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Lead with the finding and its business implication, not the methodology — a stakeholder generally cares what it means for their decision far more than how the analysis was technically performed"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "communicating-to-non-technical-audiences-q2",
+    "type": "true-false",
+    "prompt": "True or false: Use a visualization appropriate to the finding, and be prepared to explain the methodology if specifically asked, rather than front-loading technical detail nobody asked for",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Use a visualization appropriate to the finding, and be prepared to explain the methodology if specifically asked, rather than front-loading technical detail nobody asked for",
+    "references": [],
+    "correctAnswer": true
+  }
+]

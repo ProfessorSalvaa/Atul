@@ -1,0 +1,14 @@
+slug: versioning-and-evolution
+title: Versioning and Evolving an API
+description: Changing an API without breaking the clients already depending on it.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Versioning Strategies"
+  - id: mo-2
+    text: "Grasp: API Design Terms Flip Deck"
+lessons:
+  - slug: versioning-strategies
+    order: 0
+  - slug: api-design-glossary
+    order: 1

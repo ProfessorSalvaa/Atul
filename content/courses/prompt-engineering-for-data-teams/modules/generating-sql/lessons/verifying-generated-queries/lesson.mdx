@@ -1,0 +1,43 @@
+---
+type: code
+title: Verifying a Generated Query's Logic
+order: 1
+durationMinutes: 17
+objectives:
+  - Understand verifying a generated query's logic
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Verifying a Generated Query's Logic."
+  keyConcepts:
+    - A query that runs without error can still be logically wrong — wrong JOIN
+      type, wrong aggregation grain, or an off-by-one date filter are the most
+      common silent errors
+    - Test against a known small subset where you can manually verify the
+      expected result before trusting it on the full dataset
+    - Watch specifically for accidental row duplication from JOINs — a common
+      failure mode where a generated query looks right but silently inflates
+      counts
+  commonMisconceptions: []
+  outOfScopeTopics: []
+language: sql
+---
+
+This lesson is part of **Generating and Verifying SQL** in _Prompt Engineering for Data Teams_. By the end, you should be able to put the following into practice:
+
+- A query that runs without error can still be logically wrong — wrong JOIN type, wrong aggregation grain, or an off-by-one date filter are the most common silent errors
+- Test against a known small subset where you can manually verify the expected result before trusting it on the full dataset
+- Watch specifically for accidental row duplication from JOINs — a common failure mode where a generated query looks right but silently inflates counts
+
+```sql
+-- Generated query — looks reasonable, but check the JOIN:
+SELECT c.customer_id, SUM(o.total)
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id;
+-- If a customer has a refund row AND an order row with the same order_id
+-- due to a data quality issue, this could double-count. Verify against a known customer.
+```
+
+Read this example line by line before moving on. Predict what each part does before checking — that's the habit that actually builds fluency, not passive reading.
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

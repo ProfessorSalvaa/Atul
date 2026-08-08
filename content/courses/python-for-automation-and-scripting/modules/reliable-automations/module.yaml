@@ -1,0 +1,14 @@
+slug: reliable-automations
+title: Making Automations Reliable, Not Just Working
+description: The difference between a script that works once and one you can trust unattended.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Logging Failures and Scheduling Runs"
+  - id: mo-2
+    text: "Grasp: Automation Terms Flip Deck"
+lessons:
+  - slug: logging-and-scheduling
+    order: 0
+  - slug: automation-terms
+    order: 1

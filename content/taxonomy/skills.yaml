@@ -22,10 +22,6 @@
   label: Design Critique
 - slug: interaction-design
   label: Interaction Design
-- slug: prompt-testing
-  label: Prompt Testing
-- slug: llm-integration
-  label: Llm Integration
 - slug: cohort-analysis
   label: Cohort Analysis
 - slug: funnel-analysis
@@ -42,3 +38,181 @@
   label: Scope Management
 - slug: visibility-building
   label: Visibility Building
+- slug: prompt-testing
+  label: Prompt Testing
+- slug: llm-integration
+  label: LLM Integration
+- slug: chatgpt-workflows
+  label: ChatGPT Workflows
+- slug: claude-workflows
+  label: Claude Workflows
+- slug: copilot-workflows
+  label: Copilot Workflows
+- slug: ai-content-review
+  label: AI Content Review
+- slug: retrieval-augmented-generation
+  label: Retrieval-Augmented Generation
+- slug: ai-agents
+  label: AI Agents
+- slug: excel-formulas
+  label: Excel Formulas
+- slug: pivot-tables
+  label: Pivot Tables
+- slug: excel-automation
+  label: Excel Automation (Macros/VBA)
+- slug: power-bi-modeling
+  label: Power BI Data Modeling
+- slug: dax
+  label: DAX
+- slug: dashboard-design
+  label: Dashboard Design
+- slug: sql-joins
+  label: SQL Joins
+- slug: sql-window-functions
+  label: SQL Window Functions
+- slug: database-design
+  label: Database Design
+- slug: python-fundamentals
+  label: Python Fundamentals
+- slug: python-data-structures
+  label: Python Data Structures
+- slug: pandas
+  label: Pandas
+- slug: automation-scripting
+  label: Automation Scripting
+- slug: object-oriented-design
+  label: Object-Oriented Design
+- slug: debugging
+  label: Debugging
+- slug: testing-fundamentals
+  label: Testing Fundamentals
+- slug: html-css
+  label: HTML & CSS
+- slug: javascript-fundamentals
+  label: JavaScript Fundamentals
+- slug: responsive-design
+  label: Responsive Design
+- slug: rest-apis
+  label: REST APIs
+- slug: frontend-frameworks
+  label: Frontend Frameworks
+- slug: git-fundamentals
+  label: Git Fundamentals
+- slug: branching-strategy
+  label: Branching Strategy
+- slug: pull-requests
+  label: Pull Requests
+- slug: cloud-fundamentals
+  label: Cloud Fundamentals
+- slug: aws-core-services
+  label: AWS Core Services
+- slug: azure-core-services
+  label: Azure Core Services
+- slug: iam-and-security
+  label: IAM & Security
+- slug: infrastructure-as-code
+  label: Infrastructure as Code
+- slug: ci-cd-pipelines
+  label: CI/CD Pipelines
+- slug: containerization
+  label: Containerization
+- slug: monitoring-and-observability
+  label: Monitoring & Observability
+- slug: threat-modeling
+  label: Threat Modeling
+- slug: network-security
+  label: Network Security
+- slug: incident-response
+  label: Incident Response
+- slug: security-fundamentals
+  label: Security Fundamentals
+- slug: phishing-awareness
+  label: Phishing Awareness
+- slug: figma-fundamentals
+  label: Figma Fundamentals
+- slug: wireframing
+  label: Wireframing
+- slug: prototyping
+  label: Prototyping
+- slug: usability-testing
+  label: Usability Testing
+- slug: design-systems
+  label: Design Systems
+- slug: product-strategy
+  label: Product Strategy
+- slug: roadmapping
+  label: Roadmapping
+- slug: stakeholder-management
+  label: Stakeholder Management
+- slug: user-story-writing
+  label: User Story Writing
+- slug: agile-fundamentals
+  label: Agile Fundamentals
+- slug: sprint-planning
+  label: Sprint Planning
+- slug: risk-management
+  label: Risk Management
+- slug: gantt-scheduling
+  label: Gantt Scheduling
+- slug: seo-fundamentals
+  label: SEO Fundamentals
+- slug: keyword-research
+  label: Keyword Research
+- slug: content-strategy
+  label: Content Strategy
+- slug: social-media-marketing
+  label: Social Media Marketing
+- slug: email-marketing
+  label: Email Marketing
+- slug: analytics-and-attribution
+  label: Analytics & Attribution
+- slug: requirements-gathering
+  label: Requirements Gathering
+- slug: process-mapping
+  label: Process Mapping
+- slug: financial-modeling
+  label: Financial Modeling
+- slug: budgeting-forecasting
+  label: Budgeting & Forecasting
+- slug: financial-statements
+  label: Financial Statements
+- slug: public-speaking
+  label: Public Speaking
+- slug: difficult-conversations
+  label: Difficult Conversations
+- slug: executive-communication
+  label: Executive Communication
+- slug: resume-writing
+  label: Resume Writing
+- slug: salary-negotiation
+  label: Salary Negotiation
+- slug: personal-branding
+  label: Personal Branding
+- slug: api-design
+  label: API Design
+- slug: load-balancing
+  label: Load Balancing
+- slug: message-queues
+  label: Message Queues
+- slug: ml-fundamentals
+  label: Machine Learning Fundamentals
+- slug: supervised-learning
+  label: Supervised Learning
+- slug: model-evaluation
+  label: Model Evaluation
+- slug: feature-engineering
+  label: Feature Engineering
+- slug: data-visualization
+  label: Data Visualization
+- slug: statistical-inference
+  label: Statistical Inference
+- slug: experiment-design
+  label: Experiment Design (A/B Testing)
+- slug: application-security
+  label: Application Security
+- slug: cloud-security
+  label: Cloud Security
+- slug: ux-fundamentals
+  label: UX Fundamentals
+- slug: user-research
+  label: User Research

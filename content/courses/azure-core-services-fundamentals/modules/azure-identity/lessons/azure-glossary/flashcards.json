@@ -1,0 +1,23 @@
+[
+  {
+    "id": "azure-glossary-fc-1",
+    "front": "Network Security Group (NSG)",
+    "back": "Azure's firewall-like construct controlling inbound and outbound traffic to resources.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "azure"]
+  },
+  {
+    "id": "azure-glossary-fc-2",
+    "front": "Blob storage",
+    "back": "Azure's service for storing unstructured data like files and images, similar to AWS S3.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "azure"]
+  },
+  {
+    "id": "azure-glossary-fc-3",
+    "front": "RBAC",
+    "back": "Role-Based Access Control — assigning scoped permissions to identities based on defined roles.",
+    "difficulty": "beginner",
+    "tags": ["cloud", "azure"]
+  }
+]

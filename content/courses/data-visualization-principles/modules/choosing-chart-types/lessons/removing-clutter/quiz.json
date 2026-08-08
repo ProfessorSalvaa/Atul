@@ -1,0 +1,40 @@
+[
+  {
+    "id": "removing-clutter-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Removing Clutter That Competes with the Finding\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Every gridline, border, and unnecessary label is competing for attention with the actual data — remove anything that isn't earning its place\""
+    ],
+    "explanation": "Every gridline, border, and unnecessary label is competing for attention with the actual data — remove anything that isn't earning its place — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Every gridline, border, and unnecessary label is competing for attention with the actual data — remove anything that isn't earning its place"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "removing-clutter-q2",
+    "type": "true-false",
+    "prompt": "True or false: Direct-label data points instead of relying solely on a legend when there are only a few series — this reduces the back-and-forth eye movement required to read the chart",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Direct-label data points instead of relying solely on a legend when there are only a few series — this reduces the back-and-forth eye movement required to read the chart",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "connecting-and-shaping-data-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Connecting to Data and Shaping It with Power Query\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Power Query is where you clean and reshape data before it hits the report — fixing types, removing unneeded columns, and unpivoting wide tables into long format\""
+    ],
+    "explanation": "Power Query is where you clean and reshape data before it hits the report — fixing types, removing unneeded columns, and unpivoting wide tables into long format — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Power Query is where you clean and reshape data before it hits the report — fixing types, removing unneeded columns, and unpivoting wide tables into long format"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "connecting-and-shaping-data-q2",
+    "type": "true-false",
+    "prompt": "True or false: Every transformation step is recorded and re-runs automatically on refresh — this is what makes Power BI reports stay correct as new data arrives, unlike a one-off manual cleanup",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Every transformation step is recorded and re-runs automatically on refresh — this is what makes Power BI reports stay correct as new data arrives, unlike a one-off manual cleanup",
+    "references": [],
+    "correctAnswer": true
+  }
+]

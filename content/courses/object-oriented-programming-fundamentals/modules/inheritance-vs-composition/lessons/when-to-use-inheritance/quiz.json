@@ -1,0 +1,40 @@
+[
+  {
+    "id": "when-to-use-inheritance-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"When Inheritance Actually Fits\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Inheritance models a genuine 'is-a' relationship — a `SavingsAccount` is-a `BankAccount` is a reasonable inheritance; a `Car` is-a `Engine` is not, even if a car 'has' an engine\""
+    ],
+    "explanation": "Inheritance models a genuine 'is-a' relationship — a `SavingsAccount` is-a `BankAccount` is a reasonable inheritance; a `Car` is-a `Engine` is not, even if a car 'has' an engine — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Inheritance models a genuine 'is-a' relationship — a `SavingsAccount` is-a `BankAccount` is a reasonable inheritance; a `Car` is-a `Engine` is not, even if a car 'has' an engine"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "when-to-use-inheritance-q2",
+    "type": "true-false",
+    "prompt": "True or false: Deep inheritance hierarchies (5+ levels) tend to become fragile and hard to reason about — favor shallow hierarchies or composition once things get complex",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Deep inheritance hierarchies (5+ levels) tend to become fragile and hard to reason about — favor shallow hierarchies or composition once things get complex",
+    "references": [],
+    "correctAnswer": true
+  }
+]

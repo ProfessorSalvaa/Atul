@@ -1,0 +1,72 @@
+slug: programming-fundamentals-thinking-like-a-developer
+title: "Programming Fundamentals: Thinking Like a Developer"
+subtitle: The problem-solving habits underneath any programming language — breaking problems down,
+  naming things well, and reasoning about edge cases before you code.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 100
+tags: &a1
+  - programming
+skills:
+  - debugging
+  - testing-fundamentals
+careerPaths:
+  - software-engineer
+category: programming-fundamentals
+premium: false
+objectives:
+  - id: obj-1
+    text: Break an ambiguous problem into concrete, codeable steps
+  - id: obj-2
+    text: Identify edge cases before writing the first line of code
+  - id: obj-3
+    text: Read someone else's code and describe what it does before changing it
+prerequisites: []
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio: "Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Programming Fundamentals:
+    Thinking Like a Developer on Curitiq."
+  avatarInitials: MW
+modules:
+  - slug: breaking-down-problems
+    order: 0
+  - slug: reading-code
+    order: 1
+projectSlugs:
+  - problem-decomposition-writeup
+assessmentSlugs: []
+resources:
+  - title: How to Solve It (George Pólya) — Summary
+    type: external-link
+    url: https://en.wikipedia.org/wiki/How_to_Solve_It
+    description: A classic reference on problem-solving methodology, applicable to programming.
+certificate:
+  title: "Programming Fundamentals: Thinking Like a Developer — Certificate of Completion"
+  criteria:
+    - Complete both modules
+    - Submit the problem decomposition write-up
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: "Programming Fundamentals: Thinking Like a Developer | Curitiq"
+  description: The problem-solving habits underneath any programming language — breaking problems
+    down, naming things well, and reasoning about edge cases before you code
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: The problem-solving habits underneath any programming language — breaking problems down,
+    naming things well, and reasoning about edge cases before you code.
+  keyConcepts:
+    - Break an ambiguous problem into concrete, codeable steps
+    - Identify edge cases before writing the first line of code
+    - Read someone else's code and describe what it does before changing it
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

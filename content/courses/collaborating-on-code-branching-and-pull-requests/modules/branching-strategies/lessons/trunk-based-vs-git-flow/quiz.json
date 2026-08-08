@@ -1,0 +1,40 @@
+[
+  {
+    "id": "trunk-based-vs-git-flow-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Trunk-Based Development vs. Git Flow\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Trunk-based development keeps branches short-lived (hours to a couple days) and merges to main frequently behind feature flags if needed — this suits fast-moving teams with strong CI\""
+    ],
+    "explanation": "Trunk-based development keeps branches short-lived (hours to a couple days) and merges to main frequently behind feature flags if needed — this suits fast-moving teams with strong CI — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Trunk-based development keeps branches short-lived (hours to a couple days) and merges to main frequently behind feature flags if needed — this suits fast-moving teams with strong CI"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "trunk-based-vs-git-flow-q2",
+    "type": "true-false",
+    "prompt": "True or false: Git Flow uses longer-lived develop/release/feature branches with more structure — this can suit teams with slower, more formal release cycles, at the cost of more merge overhead",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Git Flow uses longer-lived develop/release/feature branches with more structure — this can suit teams with slower, more formal release cycles, at the cost of more merge overhead",
+    "references": [],
+    "correctAnswer": true
+  }
+]

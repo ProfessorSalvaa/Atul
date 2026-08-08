@@ -1,0 +1,71 @@
+slug: seo-fundamentals
+title: SEO Fundamentals
+subtitle: How search engines actually decide what to rank — keyword research, on-page optimization,
+  and why most 'SEO tricks' don't work anymore.
+status: published
+difficulty: beginner
+estimatedDurationMinutes: 115
+tags: &a1
+  - seo
+skills:
+  - seo-fundamentals
+  - keyword-research
+careerPaths:
+  - digital-marketer
+category: seo
+premium: false
+objectives:
+  - id: obj-1
+    text: Conduct keyword research that reflects genuine search intent
+  - id: obj-2
+    text: Apply on-page SEO best practices to a piece of content
+  - id: obj-3
+    text: Explain why backlinks and content quality still matter more than technical tricks
+prerequisites: []
+instructor:
+  name: Rosa Delgado
+  title: Head of Growth Marketing, ex-HubSpot
+  bio: Rosa Delgado is Head of Growth Marketing, ex-HubSpot, teaching SEO Fundamentals on Curitiq.
+  avatarInitials: RD
+modules:
+  - slug: keyword-research-and-intent
+    order: 0
+  - slug: on-page-and-off-page-seo
+    order: 1
+projectSlugs:
+  - seo-content-plan
+assessmentSlugs: []
+resources:
+  - title: "Google Search Central: SEO Starter Guide"
+    type: external-link
+    url: https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+    description: Google's own official SEO starter guide.
+certificate:
+  title: SEO Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the SEO content plan
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: SEO Fundamentals | Curitiq
+  description: How search engines actually decide what to rank — keyword research, on-page
+    optimization, and why most 'SEO tricks' don't work anymore.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: How search engines actually decide what to rank — keyword research, on-page optimization,
+    and why most 'SEO tricks' don't work anymore.
+  keyConcepts:
+    - Conduct keyword research that reflects genuine search intent
+    - Apply on-page SEO best practices to a piece of content
+    - Explain why backlinks and content quality still matter more than technical tricks
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

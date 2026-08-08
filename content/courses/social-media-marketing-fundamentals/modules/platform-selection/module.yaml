@@ -1,0 +1,15 @@
+slug: platform-selection
+title: Platform Selection
+description: Being everywhere is usually worse than being genuinely good on the platforms that
+  matter for your audience.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Choosing Platforms Based on Audience Fit"
+  - id: mo-2
+    text: "Grasp: Making Content That Fits Each Platform"
+lessons:
+  - slug: choosing-platforms-by-audience
+    order: 0
+  - slug: platform-native-content
+    order: 1

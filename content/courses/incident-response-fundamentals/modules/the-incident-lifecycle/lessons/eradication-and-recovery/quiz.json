@@ -1,0 +1,40 @@
+[
+  {
+    "id": "eradication-and-recovery-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Eradication and Recovery\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Eradication means removing the actual root cause, not just the symptom — restoring from backup without fixing the vulnerability that let the attacker in just invites a repeat incident\""
+    ],
+    "explanation": "Eradication means removing the actual root cause, not just the symptom — restoring from backup without fixing the vulnerability that let the attacker in just invites a repeat incident — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Eradication means removing the actual root cause, not just the symptom — restoring from backup without fixing the vulnerability that let the attacker in just invites a repeat incident"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "eradication-and-recovery-q2",
+    "type": "true-false",
+    "prompt": "True or false: Recovery should be gradual and monitored — bringing systems back online with heightened monitoring catches a returning attacker or an incomplete eradication before it becomes a second incident",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Recovery should be gradual and monitored — bringing systems back online with heightened monitoring catches a returning attacker or an incomplete eradication before it becomes a second incident",
+    "references": [],
+    "correctAnswer": true
+  }
+]

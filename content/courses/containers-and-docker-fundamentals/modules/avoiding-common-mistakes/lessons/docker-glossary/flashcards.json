@@ -1,0 +1,23 @@
+[
+  {
+    "id": "docker-glossary-fc-1",
+    "front": "Image layer",
+    "back": "An immutable filesystem change created by each Dockerfile instruction, cached to speed up rebuilds.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "containers"]
+  },
+  {
+    "id": "docker-glossary-fc-2",
+    "front": "Multi-stage build",
+    "back": "A Dockerfile technique using multiple FROM stages to keep the final image small by excluding build-only tools.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "containers"]
+  },
+  {
+    "id": "docker-glossary-fc-3",
+    "front": "Container",
+    "back": "A running, isolated instance of a Docker image with its own writable layer.",
+    "difficulty": "intermediate",
+    "tags": ["devops", "containers"]
+  }
+]

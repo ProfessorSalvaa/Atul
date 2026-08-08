@@ -1,0 +1,16 @@
+slug: agentic-workflows
+title: Agentic Workflows and Their Failure Modes
+description: Chaining tool calls into a loop — and knowing exactly how that loop can go wrong.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: The Agent Loop and Where It Breaks"
+  - id: mo-2
+    text: "Grasp: Case Study: An Agent That Wouldn't Stop Calling a Tool"
+lessons:
+  - slug: agent-loops
+    order: 0
+  - slug: agent-case-study
+    order: 1
+  - slug: agent-terms
+    order: 2

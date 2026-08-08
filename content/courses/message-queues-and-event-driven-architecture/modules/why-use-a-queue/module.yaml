@@ -1,0 +1,14 @@
+slug: why-use-a-queue
+title: Why Use a Queue
+description: Decoupling producers from consumers changes what happens under load or failure.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Synchronous vs. Asynchronous Communication"
+  - id: mo-2
+    text: "Grasp: Point-to-Point Queues vs. Publish/Subscribe"
+lessons:
+  - slug: sync-vs-async-communication
+    order: 0
+  - slug: point-to-point-vs-pubsub
+    order: 1

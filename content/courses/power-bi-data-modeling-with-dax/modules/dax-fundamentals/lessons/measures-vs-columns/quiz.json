@@ -1,0 +1,40 @@
+[
+  {
+    "id": "measures-vs-columns-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Measures vs. Calculated Columns\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A calculated column is computed once per row and stored — a measure is computed dynamically based on whatever filter context (slicers, visual groupings) is currently applied\""
+    ],
+    "explanation": "A calculated column is computed once per row and stored — a measure is computed dynamically based on whatever filter context (slicers, visual groupings) is currently applied — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A calculated column is computed once per row and stored — a measure is computed dynamically based on whatever filter context (slicers, visual groupings) is currently applied"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "measures-vs-columns-q2",
+    "type": "true-false",
+    "prompt": "True or false: Default to measures for anything that should aggregate correctly no matter how the report is sliced — a calculated column summed in a visual can silently give a wrong total",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Default to measures for anything that should aggregate correctly no matter how the report is sliced — a calculated column summed in a visual can silently give a wrong total",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "writing-clear-requirements-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Writing Clear, Testable Requirements\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A good requirement states the user need and the acceptance criteria, not the implementation — 'implementation' decisions belong to engineering, not the requirement doc\""
+    ],
+    "explanation": "A good requirement states the user need and the acceptance criteria, not the implementation — 'implementation' decisions belong to engineering, not the requirement doc — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A good requirement states the user need and the acceptance criteria, not the implementation — 'implementation' decisions belong to engineering, not the requirement doc"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "writing-clear-requirements-q2",
+    "type": "true-false",
+    "prompt": "True or false: Acceptance criteria should be specific enough that anyone (not just the person who wrote it) could verify whether the built feature actually satisfies them",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Acceptance criteria should be specific enough that anyone (not just the person who wrote it) could verify whether the built feature actually satisfies them",
+    "references": [],
+    "correctAnswer": true
+  }
+]

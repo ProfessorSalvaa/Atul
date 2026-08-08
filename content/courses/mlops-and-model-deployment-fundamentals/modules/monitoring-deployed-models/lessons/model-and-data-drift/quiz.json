@@ -1,0 +1,40 @@
+[
+  {
+    "id": "model-and-data-drift-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Detecting Model and Data Drift\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Data drift happens when the real-world input distribution shifts away from what the model was trained on (e.g. new customer behavior post-launch of a competitor) — the model's assumptions quietly become less valid over time\""
+    ],
+    "explanation": "Data drift happens when the real-world input distribution shifts away from what the model was trained on (e.g. new customer behavior post-launch of a competitor) — the model's assumptions quietly become less valid over time — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Data drift happens when the real-world input distribution shifts away from what the model was trained on (e.g. new customer behavior post-launch of a competitor) — the model's assumptions quietly become less valid over time"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "model-and-data-drift-q2",
+    "type": "true-false",
+    "prompt": "True or false: Model performance can degrade even without an obvious code change — this is why production ML needs ongoing performance monitoring, not just a one-time evaluation before deployment",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Model performance can degrade even without an obvious code change — this is why production ML needs ongoing performance monitoring, not just a one-time evaluation before deployment",
+    "references": [],
+    "correctAnswer": true
+  }
+]

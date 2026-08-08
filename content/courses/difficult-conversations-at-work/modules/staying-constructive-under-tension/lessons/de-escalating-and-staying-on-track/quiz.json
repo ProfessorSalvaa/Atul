@@ -1,0 +1,40 @@
+[
+  {
+    "id": "de-escalating-and-staying-on-track-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"De-escalating and Staying on Track\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"When a conversation heats up, naming it explicitly ('I can tell this is frustrating — let's slow down') often does more to de-escalate than continuing to push the original point\""
+    ],
+    "explanation": "When a conversation heats up, naming it explicitly ('I can tell this is frustrating — let's slow down') often does more to de-escalate than continuing to push the original point — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "When a conversation heats up, naming it explicitly ('I can tell this is frustrating — let's slow down') often does more to de-escalate than continuing to push the original point"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "de-escalating-and-staying-on-track-q2",
+    "type": "true-false",
+    "prompt": "True or false: Return to the shared goal when a conversation drifts into blame — reminding both people of what you're both actually trying to achieve reframes the conversation away from who's at fault",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Return to the shared goal when a conversation drifts into blame — reminding both people of what you're both actually trying to achieve reframes the conversation away from who's at fault",
+    "references": [],
+    "correctAnswer": true
+  }
+]

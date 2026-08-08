@@ -1,0 +1,23 @@
+[
+  {
+    "id": "javascript-glossary-fc-1",
+    "front": "Promise",
+    "back": "An object representing the eventual result (or failure) of an asynchronous operation.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "javascript"]
+  },
+  {
+    "id": "javascript-glossary-fc-2",
+    "front": "Event loop",
+    "back": "The mechanism that lets single-threaded JavaScript handle asynchronous operations by interleaving tasks.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "javascript"]
+  },
+  {
+    "id": "javascript-glossary-fc-3",
+    "front": "Destructuring",
+    "back": "JavaScript syntax for extracting values from objects or arrays into individual variables concisely.",
+    "difficulty": "beginner",
+    "tags": ["web-development", "javascript"]
+  }
+]

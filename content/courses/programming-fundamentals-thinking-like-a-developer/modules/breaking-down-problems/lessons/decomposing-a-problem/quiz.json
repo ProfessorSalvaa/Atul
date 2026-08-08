@@ -1,0 +1,40 @@
+[
+  {
+    "id": "decomposing-a-problem-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Decomposing an Ambiguous Problem\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Restate the problem in your own words before coding — if you can't restate it clearly, you don't understand it well enough to solve it yet\""
+    ],
+    "explanation": "Restate the problem in your own words before coding — if you can't restate it clearly, you don't understand it well enough to solve it yet — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Restate the problem in your own words before coding — if you can't restate it clearly, you don't understand it well enough to solve it yet"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "decomposing-a-problem-q2",
+    "type": "true-false",
+    "prompt": "True or false: Break it into the smallest steps that each do one clear thing, in plain language, before translating any of it into code",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Break it into the smallest steps that each do one clear thing, in plain language, before translating any of it into code",
+    "references": [],
+    "correctAnswer": true
+  }
+]

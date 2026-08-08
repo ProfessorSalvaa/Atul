@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ml-fundamentals-glossary-fc-1",
+    "front": "Supervised learning",
+    "back": "Training a model on labeled examples to predict outputs for new, unseen inputs.",
+    "difficulty": "beginner",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "ml-fundamentals-glossary-fc-2",
+    "front": "Overfitting",
+    "back": "When a model learns training data's noise rather than the underlying pattern, hurting generalization.",
+    "difficulty": "beginner",
+    "tags": ["machine-learning"]
+  },
+  {
+    "id": "ml-fundamentals-glossary-fc-3",
+    "front": "Validation set",
+    "back": "A held-out dataset used to tune a model and detect overfitting before the final test evaluation.",
+    "difficulty": "beginner",
+    "tags": ["machine-learning"]
+  }
+]

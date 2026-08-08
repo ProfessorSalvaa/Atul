@@ -1,0 +1,40 @@
+[
+  {
+    "id": "tailored-communication-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Tailoring Communication to the Audience\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"An executive sponsor wants a concise status and clear risks — a working-level stakeholder wants enough detail to coordinate their own team's dependent work\""
+    ],
+    "explanation": "An executive sponsor wants a concise status and clear risks — a working-level stakeholder wants enough detail to coordinate their own team's dependent work — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "An executive sponsor wants a concise status and clear risks — a working-level stakeholder wants enough detail to coordinate their own team's dependent work"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "tailored-communication-q2",
+    "type": "true-false",
+    "prompt": "True or false: Match communication frequency to the stakeholder's actual need, not a single one-size-fits-all cadence — over-communicating to a low-interest stakeholder wastes their attention and yours",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Match communication frequency to the stakeholder's actual need, not a single one-size-fits-all cadence — over-communicating to a low-interest stakeholder wastes their attention and yours",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,14 @@
+slug: getting-a-reliable-estimate
+title: Getting a Reliable Performance Estimate
+description: A single train/test split can mislead you — cross-validation gives a more honest picture.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: Cross-Validation"
+  - id: mo-2
+    text: "Grasp: Model Evaluation Terms Flip Deck"
+lessons:
+  - slug: cross-validation
+    order: 0
+  - slug: model-evaluation-glossary
+    order: 1

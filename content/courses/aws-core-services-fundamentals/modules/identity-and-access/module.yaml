@@ -1,0 +1,14 @@
+slug: identity-and-access
+title: Identity and Access Management
+description: Controlling exactly who and what can do what, and nothing more.
+order: 1
+objectives:
+  - id: mo-1
+    text: "Grasp: IAM and the Principle of Least Privilege"
+  - id: mo-2
+    text: "Grasp: AWS Terms Flip Deck"
+lessons:
+  - slug: iam-least-privilege
+    order: 0
+  - slug: aws-glossary
+    order: 1

@@ -1,0 +1,76 @@
+slug: retrieval-augmented-generation-fundamentals
+title: Retrieval-Augmented Generation Fundamentals
+subtitle: How RAG grounds LLM output in your own documents, and the design decisions that determine
+  whether it actually works.
+status: published
+difficulty: advanced
+estimatedDurationMinutes: 140
+tags: &a1
+  - ai
+  - generative-ai
+  - llm
+skills:
+  - retrieval-augmented-generation
+  - llm-integration
+careerPaths:
+  - ai-practitioner
+  - ai-engineer
+category: generative-ai
+premium: true
+objectives:
+  - id: obj-1
+    text: Explain why RAG reduces hallucination for domain-specific questions
+  - id: obj-2
+    text: Design a chunking and retrieval strategy for a real document set
+  - id: obj-3
+    text: Diagnose the most common causes of poor RAG answer quality
+prerequisites:
+  - courseSlug: generative-ai-foundations
+instructor:
+  name: Dr. Maya Chen
+  title: AI Research Lead, ex-DeepMind
+  bio: Dr. Maya Chen is AI Research Lead, ex-DeepMind, teaching Retrieval-Augmented Generation
+    Fundamentals on Curitiq.
+  avatarInitials: MC
+modules:
+  - slug: rag-fundamentals
+    order: 0
+  - slug: designing-good-rag
+    order: 1
+projectSlugs:
+  - rag-design-doc
+assessmentSlugs: []
+resources:
+  - title: "Anthropic: Contextual Retrieval"
+    type: external-link
+    url: https://www.anthropic.com/news/contextual-retrieval
+    description: A technique for improving RAG retrieval accuracy.
+certificate:
+  title: Retrieval-Augmented Generation Fundamentals — Certificate of Completion
+  criteria:
+    - Complete both modules
+    - Submit the RAG design doc
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: Retrieval-Augmented Generation Fundamentals | Curitiq
+  description: How RAG grounds LLM output in your own documents, and the design decisions that
+    determine whether it actually works.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: How RAG grounds LLM output in your own documents, and the design decisions that determine
+    whether it actually works.
+  keyConcepts:
+    - Explain why RAG reduces hallucination for domain-specific questions
+    - Design a chunking and retrieval strategy for a real document set
+    - Diagnose the most common causes of poor RAG answer quality
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

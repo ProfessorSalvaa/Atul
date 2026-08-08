@@ -1,0 +1,40 @@
+[
+  {
+    "id": "why-rag-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Why Retrieval Beats Relying on Model Memory Alone\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A base LLM's 'knowledge' is frozen at training time and has no access to your private documents — RAG retrieves relevant passages at query time and includes them in the prompt as grounding\""
+    ],
+    "explanation": "A base LLM's 'knowledge' is frozen at training time and has no access to your private documents — RAG retrieves relevant passages at query time and includes them in the prompt as grounding — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A base LLM's 'knowledge' is frozen at training time and has no access to your private documents — RAG retrieves relevant passages at query time and includes them in the prompt as grounding"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "why-rag-q2",
+    "type": "true-false",
+    "prompt": "True or false: This directly reduces hallucination on domain-specific questions, because the model is answering from text it can literally see, not from a fuzzy memory of similar-sounding training data",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — This directly reduces hallucination on domain-specific questions, because the model is answering from text it can literally see, not from a fuzzy memory of similar-sounding training data",
+    "references": [],
+    "correctAnswer": true
+  }
+]

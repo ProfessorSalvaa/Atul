@@ -1,0 +1,40 @@
+[
+  {
+    "id": "inner-vs-left-join-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"INNER JOIN vs. LEFT JOIN\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"INNER JOIN returns only rows with a match in both tables — rows that don't match on either side are silently dropped\""
+    ],
+    "explanation": "INNER JOIN returns only rows with a match in both tables — rows that don't match on either side are silently dropped — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "INNER JOIN returns only rows with a match in both tables — rows that don't match on either side are silently dropped"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "inner-vs-left-join-q2",
+    "type": "true-false",
+    "prompt": "True or false: LEFT JOIN keeps every row from the left table, filling in NULLs for unmatched right-table columns — use this when you need 'all customers, even those with zero orders'",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — LEFT JOIN keeps every row from the left table, filling in NULLs for unmatched right-table columns — use this when you need 'all customers, even those with zero orders'",
+    "references": [],
+    "correctAnswer": true
+  }
+]

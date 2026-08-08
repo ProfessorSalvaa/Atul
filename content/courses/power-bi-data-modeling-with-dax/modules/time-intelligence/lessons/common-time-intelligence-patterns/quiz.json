@@ -1,0 +1,40 @@
+[
+  {
+    "id": "common-time-intelligence-patterns-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Common Time-Intelligence Patterns\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"Time-intelligence functions (SAMEPERIODLASTYEAR, DATEADD, TOTALYTD) require a proper, continuous date table marked as the model's official date table — without this, results silently misbehave\""
+    ],
+    "explanation": "Time-intelligence functions (SAMEPERIODLASTYEAR, DATEADD, TOTALYTD) require a proper, continuous date table marked as the model's official date table — without this, results silently misbehave — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "Time-intelligence functions (SAMEPERIODLASTYEAR, DATEADD, TOTALYTD) require a proper, continuous date table marked as the model's official date table — without this, results silently misbehave"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "common-time-intelligence-patterns-q2",
+    "type": "true-false",
+    "prompt": "True or false: Running totals use a filter that includes 'everything up to and including the current date' rather than an exact-match filter",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Running totals use a filter that includes 'everything up to and including the current date' rather than an exact-match filter",
+    "references": [],
+    "correctAnswer": true
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "automation-glossary-fc-1",
+    "front": "Dynamic array formula",
+    "back": "A formula (like FILTER or SORT) that automatically 'spills' results into multiple cells and updates as source data changes.",
+    "difficulty": "intermediate",
+    "tags": ["spreadsheets", "excel"]
+  },
+  {
+    "id": "automation-glossary-fc-2",
+    "front": "Named range",
+    "back": "A human-readable name assigned to a cell range, used in formulas instead of raw cell references.",
+    "difficulty": "intermediate",
+    "tags": ["spreadsheets", "excel"]
+  },
+  {
+    "id": "automation-glossary-fc-3",
+    "front": "VBA",
+    "back": "Visual Basic for Applications — the programming language behind Excel macros.",
+    "difficulty": "intermediate",
+    "tags": ["spreadsheets", "excel"]
+  }
+]

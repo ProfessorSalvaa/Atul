@@ -1,0 +1,40 @@
+[
+  {
+    "id": "point-to-point-vs-pubsub-q1",
+    "type": "single-choice",
+    "prompt": "Which of these best reflects what \"Point-to-Point Queues vs. Publish/Subscribe\" covers?",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [
+      "Reread the first point of the lesson: \"A point-to-point queue delivers each message to exactly one consumer — appropriate for work distribution, like a pool of workers processing jobs\""
+    ],
+    "explanation": "A point-to-point queue delivers each message to exactly one consumer — appropriate for work distribution, like a pool of workers processing jobs — that's the core idea this lesson builds from.",
+    "references": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "A point-to-point queue delivers each message to exactly one consumer — appropriate for work distribution, like a pool of workers processing jobs"
+      },
+      {
+        "id": "b",
+        "text": "None of the concepts in this lesson apply in practice"
+      },
+      {
+        "id": "c",
+        "text": "This topic has no connection to the rest of the course"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "point-to-point-vs-pubsub-q2",
+    "type": "true-false",
+    "prompt": "True or false: Publish/subscribe delivers each message to every subscriber — appropriate when multiple independent services all need to know about the same event",
+    "difficulty": "beginner",
+    "points": 1,
+    "hints": [],
+    "explanation": "True — Publish/subscribe delivers each message to every subscriber — appropriate when multiple independent services all need to know about the same event",
+    "references": [],
+    "correctAnswer": true
+  }
+]

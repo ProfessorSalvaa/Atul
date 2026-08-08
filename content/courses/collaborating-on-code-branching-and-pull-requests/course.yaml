@@ -1,0 +1,77 @@
+slug: collaborating-on-code-branching-and-pull-requests
+title: "Collaborating on Code: Branching and Pull Requests"
+subtitle: Working on a shared codebase with a team — branching strategy, writing a reviewable pull
+  request, and giving useful code review feedback.
+status: published
+difficulty: intermediate
+estimatedDurationMinutes: 115
+tags: &a1
+  - git
+  - github
+  - version-control
+skills:
+  - branching-strategy
+  - pull-requests
+  - code-review
+careerPaths:
+  - software-engineer
+category: git-github
+premium: true
+objectives:
+  - id: obj-1
+    text: Choose a branching strategy appropriate for a team's size and release cadence
+  - id: obj-2
+    text: Write a pull request that's fast and easy for someone else to review
+  - id: obj-3
+    text: Give code review feedback that's specific and actionable, not just correct
+prerequisites:
+  - courseSlug: git-and-github-essentials
+instructor:
+  name: Marcus Webb
+  title: Senior Software Engineer, ex-Stripe
+  bio:
+    "Marcus Webb is Senior Software Engineer, ex-Stripe, teaching Collaborating on Code: Branching
+    and Pull Requests on Curitiq."
+  avatarInitials: MW
+modules:
+  - slug: branching-strategies
+    order: 0
+  - slug: giving-good-code-review
+    order: 1
+projectSlugs:
+  - team-workflow-simulation
+assessmentSlugs: []
+resources:
+  - title: "GitHub Docs: About Pull Requests"
+    type: external-link
+    url: https://docs.github.com/pull-requests
+    description: Official GitHub documentation on pull requests.
+certificate:
+  title: "Collaborating on Code: Branching and Pull Requests — Certificate of Completion"
+  criteria:
+    - Complete both modules
+    - Submit the PR + review simulation
+  templateId: standard
+relatedCourseSlugs: []
+seo:
+  title: "Collaborating on Code: Branching and Pull Requests | Curitiq"
+  description: Working on a shared codebase with a team — branching strategy, writing a reviewable
+    pull request, and giving useful code review feedback.
+  keywords: *a1
+  noIndex: false
+aiTutorContext:
+  summary: Working on a shared codebase with a team — branching strategy, writing a reviewable pull
+    request, and giving useful code review feedback.
+  keyConcepts:
+    - Choose a branching strategy appropriate for a team's size and release cadence
+    - Write a pull request that's fast and easy for someone else to review
+    - Give code review feedback that's specific and actionable, not just correct
+  commonMisconceptions: []
+  outOfScopeTopics: []
+versionHistory:
+  - version: 1.0.0
+    date: 2026-08-08
+    author: Curitiq Content Team
+    summary: Initial publish as part of the M2.8 launch content library.
+    changeType: created
+publishedDate: 2026-08-08

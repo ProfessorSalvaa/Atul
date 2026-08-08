@@ -1,0 +1,14 @@
+slug: color-and-contrast
+title: Color and Contrast
+description: The most common, and most fixable, accessibility gap in real interfaces.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: WCAG Color Contrast Requirements"
+  - id: mo-2
+    text: "Grasp: Designing for Color Blindness"
+lessons:
+  - slug: wcag-contrast-requirements
+    order: 0
+  - slug: designing-for-color-blindness
+    order: 1

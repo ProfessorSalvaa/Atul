@@ -1,0 +1,30 @@
+---
+type: reading
+title: Common Authentication and Session Mistakes
+order: 0
+durationMinutes: 17
+objectives:
+  - Understand common authentication and session mistakes
+free: false
+aiTutorContext:
+  summary: "This lesson covers: Common Authentication and Session Mistakes."
+  keyConcepts:
+    - Storing passwords in plaintext or with a weak/unsalted hash is a critical,
+      still-too-common mistake — use a purpose-built password hashing algorithm
+      (bcrypt, Argon2), never a general-purpose hash like MD5 or SHA-1 alone
+    - Session tokens should be regenerated after login (to prevent session
+      fixation) and invalidated on logout — a token that persists as valid after
+      logout is a real, exploitable gap
+    - Rate-limit login attempts — without it, an attacker can brute-force
+      credentials at effectively unlimited speed
+  commonMisconceptions: []
+  outOfScopeTopics: []
+---
+
+This lesson is part of **Authentication Mistakes and the OWASP Top Ten** in _Security for Web Applications_. By the end, you should be able to put the following into practice:
+
+- Storing passwords in plaintext or with a weak/unsalted hash is a critical, still-too-common mistake — use a purpose-built password hashing algorithm (bcrypt, Argon2), never a general-purpose hash like MD5 or SHA-1 alone
+- Session tokens should be regenerated after login (to prevent session fixation) and invalidated on logout — a token that persists as valid after logout is a real, exploitable gap
+- Rate-limit login attempts — without it, an attacker can brute-force credentials at effectively unlimited speed
+
+Take your time here. There's no timer and no penalty for pausing mid-lesson — the "Mark complete" button is yours to press whenever this has actually landed.

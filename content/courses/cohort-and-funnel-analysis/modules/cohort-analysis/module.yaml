@@ -1,0 +1,14 @@
+slug: cohort-analysis
+title: Cohort Analysis
+description: Tracking how a group's behavior changes over time since they joined.
+order: 0
+objectives:
+  - id: mo-1
+    text: "Grasp: Building a Cohort Retention Table"
+  - id: mo-2
+    text: "Grasp: Interpreting What a Cohort Table Actually Shows"
+lessons:
+  - slug: building-a-cohort-table
+    order: 0
+  - slug: interpreting-cohort-tables
+    order: 1
