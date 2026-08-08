@@ -2,7 +2,7 @@
 
 Help anyone master modern digital skills through beautifully designed, AI-powered learning experiences.
 
-This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations** is complete: repo, tooling, CI, and project structure. No product features exist yet — those start at M1 (design system) and M2 (data layer).
+This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations**, **M1 — Design System**, and **M2 — Application Shell & Navigation** are complete: repo/tooling/CI, the full token + component library, and every route from the P0 blueprint with realistic sample content and no business logic yet. See `docs/component-inventory.md` and `docs/navigation.md` for what exists. Real data, auth, and business logic start at M3+.
 
 ## Stack (decided in the roadmap, see repo docs)
 
@@ -34,11 +34,19 @@ All five — `lint`, `format:check`, `typecheck`, `test`, `build` — run in CI 
 
 ```
 src/
-  app/          Next.js App Router routes
-  lib/          Shared utilities (framework-agnostic where possible)
+  app/          Next.js App Router routes (7 layouts, 24 routes — see docs/navigation.md)
+  components/
+    ui/         Core design-system components (Button, Input, Modal, ...)
+    learning/   Learning-specific components (CourseCard, AITutorPanel, ...)
+    navigation/ Sidebar, TopNavigation, MobileNavigation, Footer
+    shell/      App-shell wiring (M2) — layout chrome, overlays, hooks-backed nav
+    providers/  Theme provider
+  hooks/        Shared client hooks (useMediaQuery, nav-link click handling)
+  lib/          Utilities, sample-data fixtures, SEO/navigation config
+  styles/tokens/ Design tokens (colors, typography, spacing, ...)
 ```
 
-This will grow milestone by milestone — `src/components`, `src/server`, `src/db` etc. arrive with the milestones that need them (M1, M2). Deliberately not pre-scaffolded now to avoid empty, ungrounded folders.
+`src/server/`, `src/db/` etc. arrive with the milestones that need them (M3+). Deliberately not pre-scaffolded now to avoid empty, ungrounded folders.
 
 ## Environments
 

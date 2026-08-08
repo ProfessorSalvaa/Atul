@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { clamp, cx } from "../utils";
+import { clamp, cx, humanizeSlug } from "../utils";
 
 describe("cx", () => {
   it("joins truthy class names with a space", () => {
@@ -30,5 +30,19 @@ describe("clamp", () => {
 
   it("throws when min is greater than max", () => {
     expect(() => clamp(5, 10, 0)).toThrow(RangeError);
+  });
+});
+
+describe("humanizeSlug", () => {
+  it("title-cases hyphenated slugs", () => {
+    expect(humanizeSlug("intro-to-data-analysis")).toBe("Intro To Data Analysis");
+  });
+
+  it("handles a single word", () => {
+    expect(humanizeSlug("onboarding")).toBe("Onboarding");
+  });
+
+  it("collapses repeated hyphens without producing empty words", () => {
+    expect(humanizeSlug("a--b")).toBe("A B");
   });
 });

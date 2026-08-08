@@ -1,0 +1,53 @@
+.shell {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  height: 100vh;
+}
+
+.sidebarSlot {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .sidebarSlot {
+    display: block;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-6);
+  padding-bottom: calc(var(--space-6) + 64px);
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding-bottom: var(--space-6);
+  }
+}
+
+.content:focus-visible {
+  outline: none;
+}
+
+.mobileNavSlot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-sticky);
+}
+
+@media (min-width: 1024px) {
+  .mobileNavSlot {
+    display: none;
+  }
+}

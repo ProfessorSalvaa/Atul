@@ -1,0 +1,60 @@
+.moduleLabel {
+  margin: 0 0 var(--space-2);
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.title {
+  margin: 0 0 var(--space-6);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-display-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.body {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-body-lg);
+  line-height: 1.75;
+  color: var(--text-primary);
+  margin-bottom: var(--space-10);
+}
+
+.body p {
+  margin: 0 0 var(--space-5);
+}
+
+.footer {
+  display: flex;
+  gap: var(--space-3);
+  padding-top: var(--space-6);
+  border-top: var(--border-width-hairline) solid var(--border-subtle);
+  margin-bottom: var(--space-8);
+}
+
+.pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.pagerLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.pagerLink:hover {
+  color: var(--text-primary);
+}
+
+.pagerNext {
+  margin-left: auto;
+}

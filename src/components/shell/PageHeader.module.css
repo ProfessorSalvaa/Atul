@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0 0 var(--space-1);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-display-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.description {
+  margin: 0;
+  font-size: var(--font-size-body-md);
+  color: var(--text-secondary);
+  max-width: 60ch;
+}

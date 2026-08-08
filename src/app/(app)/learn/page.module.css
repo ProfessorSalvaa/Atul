@@ -1,0 +1,22 @@
+.section {
+  margin-bottom: var(--space-10);
+}
+
+.sectionHeading {
+  margin: 0 0 var(--space-4);
+  font-size: var(--font-size-heading-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

@@ -1,0 +1,41 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 560px;
+}
+
+.card {
+  padding: var(--space-6);
+}
+
+.planDetail {
+  margin: 0 0 var(--space-4);
+  font-size: var(--font-size-body-sm);
+  color: var(--text-secondary);
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-body-sm);
+}
+
+.table th {
+  text-align: left;
+  padding-block: var(--space-2);
+  color: var(--text-tertiary);
+  font-weight: var(--font-weight-medium);
+  border-bottom: var(--border-width-hairline) solid var(--border-subtle);
+}
+
+.table td {
+  padding-block: var(--space-3);
+  border-bottom: var(--border-width-hairline) solid var(--border-subtle);
+  color: var(--text-secondary);
+}

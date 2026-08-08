@@ -21,3 +21,14 @@ export function clamp(value: number, min: number, max: number): number {
   }
   return Math.min(Math.max(value, min), max);
 }
+
+/** "intro-to-data-analysis" -> "Intro To Data Analysis". Used for
+ *  placeholder breadcrumb/title labels until real course/lesson data
+ *  exists (M5+) — pages pass a real title once content is wired up. */
+export function humanizeSlug(slug: string): string {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}

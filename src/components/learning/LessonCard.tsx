@@ -1,3 +1,5 @@
+"use client";
+
 import { Check, Code2, FileText, Lock, Layers } from "lucide-react";
 import { cn } from "@/lib/cn";
 import styles from "./LessonCard.module.css";

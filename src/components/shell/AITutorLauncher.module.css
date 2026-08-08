@@ -1,0 +1,21 @@
+.trigger {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.trigger:hover {
+  background: var(--interactive-hover-overlay);
+  color: var(--accent-primary);
+}
+
+.trigger:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus-ring);
+}

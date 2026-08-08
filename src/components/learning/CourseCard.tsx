@@ -1,3 +1,5 @@
+"use client";
+
 import { Clock, Lock } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { Progress } from "@/components/ui/Progress";

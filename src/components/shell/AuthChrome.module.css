@@ -1,0 +1,32 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-6);
+}
+
+.logo {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-heading-sm);
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-6);
+}
+
+.main:focus-visible {
+  outline: none;
+}

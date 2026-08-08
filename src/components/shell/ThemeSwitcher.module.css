@@ -1,0 +1,36 @@
+.trigger {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.trigger:hover {
+  background: var(--interactive-hover-overlay);
+  color: var(--text-primary);
+}
+
+.trigger:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus-ring);
+}
+
+.placeholder {
+  width: 18px;
+  height: 18px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.item[data-selected] {
+  color: var(--text-brand);
+}

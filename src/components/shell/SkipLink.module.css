@@ -1,0 +1,19 @@
+.link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  z-index: var(--z-toast);
+  padding: var(--space-2) var(--space-4);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: var(--border-width-hairline) solid var(--border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+  font-size: var(--font-size-body-sm);
+  transition: top var(--duration-fast) var(--ease-standard);
+}
+
+.link:focus {
+  top: var(--space-4);
+}

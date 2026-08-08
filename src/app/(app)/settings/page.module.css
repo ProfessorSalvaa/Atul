@@ -1,0 +1,30 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 560px;
+}
+
+.card {
+  padding: var(--space-6);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.save {
+  align-self: flex-start;
+}
+
+.dangerCard {
+  border-color: var(--error-border);
+}
+
+.dangerText {
+  margin: 0 0 var(--space-4);
+  font-size: var(--font-size-body-sm);
+  color: var(--text-secondary);
+}

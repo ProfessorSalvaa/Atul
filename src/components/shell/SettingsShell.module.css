@@ -1,0 +1,11 @@
+.wrap {
+  max-width: 720px;
+}
+
+.heading {
+  margin: 0 0 var(--space-6);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-display-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}

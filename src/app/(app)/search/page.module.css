@@ -1,0 +1,20 @@
+.searchInput {
+  max-width: 480px;
+  margin-bottom: var(--space-8);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.empty {
+  padding-block: var(--space-10);
+}

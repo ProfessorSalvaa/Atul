@@ -1,0 +1,15 @@
+.wrap {
+  padding-block: var(--space-10) var(--space-16);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}

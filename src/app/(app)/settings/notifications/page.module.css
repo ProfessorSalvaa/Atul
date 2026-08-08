@@ -1,0 +1,16 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 560px;
+}
+
+.card {
+  padding: var(--space-6);
+}
+
+.toggleList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}

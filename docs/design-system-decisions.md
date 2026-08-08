@@ -27,3 +27,23 @@ The founder's brief left this as "if it provides long-term value." Call: not yet
 ## Fonts: self-hosted, not CDN
 
 The design system's source `tokens/fonts.css` loads Instrument Sans, Newsreader, and IBM Plex Mono from the Google Fonts CDN. We self-host via `next/font/google` instead (`src/app/fonts.ts`) — one less third-party request at runtime, no FOUT/layout shift, works offline in dev. Token names (`--font-primary`, `--font-secondary`, `--font-mono`) are unchanged, so nothing downstream needed to know this happened.
+
+## M2 addendum: one real bug fixed in the frozen library
+
+M1 was approved and frozen ("do not modify unless a critical bug is
+discovered"). Building M2's actual pages surfaced exactly one: `CourseCard`
+and `LessonCard` render a `role="button"` element with an `onKeyDown`
+handler defined inline in their own JSX, unconditionally — invisible in
+M1 because every test/Storybook-style render is client-side, but a hard
+`next build` failure once real Server Component pages tried to render
+them ("Event handlers cannot be passed to Client Component props"). Next.js
+can't serialize a closure across the Server/Client Component boundary, and
+neither component had a `"use client"` directive.
+
+Fix: added `"use client"` to both files. Nothing else about their public
+API, styling, or behavior changed. No other M1 component has this pattern
+(`grep -rl onKeyDown` confirms only these two attach an inline handler
+without the directive) — Sidebar/MobileNavigation's equivalent `onClick`
+contract stays a plain prop with no inline closure of its own, which is
+why they didn't need the same fix (see `docs/navigation.md` for how their
+routing integration was handled instead, without modifying them).

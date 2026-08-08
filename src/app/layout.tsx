@@ -1,12 +1,32 @@
 import type { Metadata } from "next";
+import { AITutorHost } from "@/components/shell/AITutorHost";
+import { CommandPaletteHost } from "@/components/shell/CommandPaletteHost";
+import { ScrollManager } from "@/components/shell/ScrollManager";
+import { ShellProvider } from "@/components/shell/ShellProvider";
+import { SkipLink } from "@/components/shell/SkipLink";
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { SITE_URL } from "@/lib/seo";
 import { ibmPlexMono, instrumentSans, newsreader } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Curitiq",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Curitiq — Learn Modern Digital Skills",
+    template: "%s · Curitiq",
+  },
   description:
     "Help anyone master modern digital skills through beautifully designed, AI-powered learning experiences.",
+  openGraph: {
+    type: "website",
+    siteName: "Curitiq",
+    title: "Curitiq — Learn Modern Digital Skills",
+    description:
+      "Help anyone master modern digital skills through beautifully designed, AI-powered learning experiences.",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -17,7 +37,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <ShellProvider>
+            <SkipLink />
+            {children}
+            <CommandPaletteHost />
+            <AITutorHost />
+            <ScrollManager />
+          </ShellProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
