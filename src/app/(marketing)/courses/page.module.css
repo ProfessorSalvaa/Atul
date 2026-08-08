@@ -13,3 +13,28 @@
   color: inherit;
   display: block;
 }
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+  padding-inline: var(--space-1);
+  font-size: var(--font-size-caption);
+  color: var(--text-secondary);
+}
+
+.metaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.metaMuted {
+  color: var(--text-tertiary);
+}
+
+.starIcon {
+  color: var(--warning-fg);
+  fill: currentColor;
+}

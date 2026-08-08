@@ -2,10 +2,11 @@
 
 import { Search as SearchIcon } from "lucide-react";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CourseCard } from "@/components/learning/CourseCard";
 import { EmptyState } from "@/components/ui/EmptyState";
 import { Input } from "@/components/ui/Input";
+import { Skeleton } from "@/components/ui/Skeleton";
 import { allLessonsFlat, SAMPLE_COURSES } from "@/lib/sample-data/courses";
 import styles from "./page.module.css";
 
@@ -13,19 +14,30 @@ import styles from "./page.module.css";
  * Fallback full-results page (P0 §11) — Cmd+K is the primary interface;
  * this is for deep queries. Filters the same static course/lesson data
  * client-side; `search.query` (Postgres full-text) replaces this in M5+.
+ * A short artificial debounce drives a skeleton loading state so the page
+ * demonstrates that state rather than always resolving instantly.
  */
 export function SearchResults() {
   const [query, setQuery] = useState("");
+  const [debouncedQuery, setDebouncedQuery] = useState("");
+  const isSearching = query !== debouncedQuery;
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 220);
+    return () => window.clearTimeout(timer);
+  }, [query]);
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = debouncedQuery.trim().toLowerCase();
     if (!q) return SAMPLE_COURSES;
     return SAMPLE_COURSES.filter((course) => {
       if (course.title.toLowerCase().includes(q)) return true;
       if (course.tags.some((t) => t.toLowerCase().includes(q))) return true;
       return allLessonsFlat(course).some((l) => l.title.toLowerCase().includes(q));
     });
-  }, [query]);
+  }, [debouncedQuery]);
 
   return (
     <>
@@ -38,10 +50,21 @@ export function SearchResults() {
         className={styles.searchInput}
       />
 
-      {results.length === 0 ? (
+      {isSearching ? (
+        <div className={styles.grid} aria-live="polite" aria-busy="true">
+          {Array.from({ length: 3 }).map((_, i) => (
+            <div key={i} className={styles.skeletonCard}>
+              <Skeleton height={120} className={styles.skeletonCover} />
+              <Skeleton height={14} width="70%" />
+              <Skeleton height={12} width="90%" />
+              <Skeleton height={12} width="50%" />
+            </div>
+          ))}
+        </div>
+      ) : results.length === 0 ? (
         <EmptyState
           title="No results found"
-          description="Try a different search, or explore a popular course below."
+          description={`Nothing matched “${debouncedQuery}”. Try a different search, or explore a popular course below.`}
           className={styles.empty}
         />
       ) : (

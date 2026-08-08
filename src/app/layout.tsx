@@ -3,7 +3,9 @@ import { AITutorHost } from "@/components/shell/AITutorHost";
 import { CommandPaletteHost } from "@/components/shell/CommandPaletteHost";
 import { ScrollManager } from "@/components/shell/ScrollManager";
 import { ShellProvider } from "@/components/shell/ShellProvider";
+import { ShortcutsHost } from "@/components/shell/ShortcutsHost";
 import { SkipLink } from "@/components/shell/SkipLink";
+import { ToastHost } from "@/components/shell/ToastHost";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { SITE_URL } from "@/lib/seo";
 import { ibmPlexMono, instrumentSans, newsreader } from "./fonts";
@@ -39,11 +41,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <ThemeProvider>
           <ShellProvider>
-            <SkipLink />
-            {children}
-            <CommandPaletteHost />
-            <AITutorHost />
-            <ScrollManager />
+            <ToastHost>
+              <SkipLink />
+              {children}
+              <CommandPaletteHost />
+              <AITutorHost />
+              <ShortcutsHost />
+              <ScrollManager />
+            </ToastHost>
           </ShellProvider>
         </ThemeProvider>
       </body>

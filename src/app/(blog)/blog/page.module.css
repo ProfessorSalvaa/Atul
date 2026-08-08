@@ -39,11 +39,8 @@
 }
 
 .postDate {
-  margin: 0 0 var(--space-2);
   font-size: var(--font-size-caption);
   color: var(--text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
 
 .postTitle {
@@ -57,5 +54,21 @@
 .postExcerpt {
   margin: 0;
   font-size: var(--font-size-body-md);
+  color: var(--text-secondary);
+}
+
+.metaRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  font-size: var(--font-size-body-sm);
   color: var(--text-secondary);
 }

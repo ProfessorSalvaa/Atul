@@ -5,7 +5,7 @@ import buttonStyles from "@/components/ui/Button.module.css";
 import { CourseCard } from "@/components/learning/CourseCard";
 import { Container } from "@/components/shell/Container";
 import { cn } from "@/lib/cn";
-import { TESTIMONIALS } from "@/lib/sample-data/content";
+import { SITE_STATS, TESTIMONIALS } from "@/lib/sample-data/content";
 import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
 import styles from "./page.module.css";
 
@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className={styles.hero}>
         <Container className={styles.heroInner}>
           <Badge tone="brand" className={styles.heroBadge}>
-            Now teaching 5 flagship courses
+            Now teaching {SITE_STATS.coursesCount} flagship courses
           </Badge>
           <h1 className={styles.heroTitle}>
             Master modern digital skills, one well-made lesson at a time.
@@ -60,6 +60,27 @@ export default function HomePage() {
             >
               Sign up free
             </Link>
+          </div>
+        </Container>
+      </section>
+
+      <section aria-label="Curitiq by the numbers" className={styles.statsSection}>
+        <Container className={styles.statsInner}>
+          <div className={styles.statItem}>
+            <p className={styles.statValue}>{SITE_STATS.learners.toLocaleString()}+</p>
+            <p className={styles.statLabel}>Learners</p>
+          </div>
+          <div className={styles.statItem}>
+            <p className={styles.statValue}>{SITE_STATS.avgRating.toFixed(1)}/5</p>
+            <p className={styles.statLabel}>Average course rating</p>
+          </div>
+          <div className={styles.statItem}>
+            <p className={styles.statValue}>{SITE_STATS.coursesCount}</p>
+            <p className={styles.statLabel}>Flagship courses</p>
+          </div>
+          <div className={styles.statItem}>
+            <p className={styles.statValue}>{SITE_STATS.hoursOfContent}+</p>
+            <p className={styles.statLabel}>Hours of content</p>
           </div>
         </Container>
       </section>

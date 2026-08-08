@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
+import { useToast } from "@/components/shell/ToastHost";
 import { Progress } from "@/components/ui/Progress";
 import { RadioGroup, RadioItem } from "@/components/ui/Radio";
 import { cn } from "@/lib/cn";
@@ -66,6 +67,7 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
   const [revealed, setRevealed] = useState(false);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
+  const { notify } = useToast();
 
   const question = QUESTIONS[index];
   const isLast = index === QUESTIONS.length - 1;
@@ -79,7 +81,13 @@ export function QuizFlow({ course, lesson }: { course: SampleCourse; lesson: Sam
 
   function handleNext() {
     if (isLast) {
+      const percent = Math.round((score / QUESTIONS.length) * 100);
       setFinished(true);
+      notify({
+        title: percent >= 70 ? "Quiz passed" : "Quiz not passed — try again anytime",
+        description: `You scored ${percent}%.`,
+        tone: percent >= 70 ? "success" : "warning",
+      });
       return;
     }
     setIndex((i) => i + 1);

@@ -37,3 +37,37 @@
 .timelineCard {
   padding: var(--space-5);
 }
+
+.overview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+@media (min-width: 640px) {
+  .overview {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.overviewItem {
+  padding: var(--space-4);
+  background: var(--bg-surface-raised);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.overviewValue {
+  margin: 0 0 var(--space-1);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-heading-md);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.overviewLabel {
+  margin: 0;
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}

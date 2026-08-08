@@ -1,11 +1,13 @@
 "use client";
 
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Check, ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 import buttonStyles from "@/components/ui/Button.module.css";
 import { Button } from "@/components/ui/Button";
 import { CodeBlock } from "@/components/learning/CodeBlock";
 import { Flashcard } from "@/components/learning/Flashcard";
+import { useToast } from "@/components/shell/ToastHost";
 import { cn } from "@/lib/cn";
 import type { SampleCourse, SampleLesson, SampleModule } from "@/lib/sample-data/courses";
 import { allLessonsFlat } from "@/lib/sample-data/courses";
@@ -29,10 +31,30 @@ export function LessonContent({
   module: SampleModule;
   lesson: SampleLesson;
 }) {
+  const [completed, setCompleted] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const { notify } = useToast();
+
   const flat = allLessonsFlat(course);
   const index = flat.findIndex((l) => l.slug === lesson.slug);
   const prev = index > 0 ? flat[index - 1] : undefined;
   const next = index < flat.length - 1 ? flat[index + 1] : undefined;
+
+  function handleMarkComplete() {
+    if (completed || saving) return;
+    setSaving(true);
+    // Simulated save latency — no `progress.update` call yet (M5+). Keeps
+    // the button's loading state honest about being a UI affordance.
+    window.setTimeout(() => {
+      setSaving(false);
+      setCompleted(true);
+      notify({
+        title: "Lesson marked complete",
+        description: next ? `Up next: ${next.title}` : "That's the last lesson in this module.",
+        tone: "success",
+      });
+    }, 500);
+  }
 
   return (
     <article>
@@ -56,8 +78,8 @@ export function LessonContent({
         ) : lesson.type === "flashcard" ? (
           <>
             <p>
-              A quick flip-review before moving on. No spaced-repetition scheduling yet — just a
-              check.
+              A quick flip-review before moving on — the kind of low-stakes retrieval practice that
+              sticks better than re-reading your notes a third time.
             </p>
             <Flashcard
               front="What’s the fastest way to build trust in a generated diff?"
@@ -72,15 +94,24 @@ export function LessonContent({
               on a quiz.
             </p>
             <p>
-              This is placeholder lesson prose for the M2 application shell milestone. The real
-              authored content (MDX, per P0 §19) ships with the content pipeline milestone.
+              Take your time here. There’s no timer, no streak penalty for pausing mid-lesson, and
+              the “Mark complete” button below is yours to press whenever the idea has actually
+              landed — not just when you’ve scrolled to the bottom.
             </p>
           </>
         )}
       </div>
 
       <div className={styles.footer}>
-        <Button variant="primary">Mark complete</Button>
+        <Button
+          variant={completed ? "outline" : "primary"}
+          onClick={handleMarkComplete}
+          loading={saving}
+          leadingIcon={completed ? <Check size={16} aria-hidden="true" /> : undefined}
+          disabled={completed}
+        >
+          {completed ? "Completed" : "Mark complete"}
+        </Button>
         <Link
           href={`/courses/${course.slug}/${lesson.slug}/quiz`}
           className={cn(buttonStyles.button, buttonStyles.outline, buttonStyles.md)}

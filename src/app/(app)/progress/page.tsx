@@ -3,6 +3,7 @@ import { ProgressTimeline, type TimelineEntry } from "@/components/learning/Prog
 import { Card } from "@/components/ui/Card";
 import { Progress } from "@/components/ui/Progress";
 import { PageHeader } from "@/components/shell/PageHeader";
+import { USER_PROFILE } from "@/lib/sample-data/content";
 import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
 import styles from "./page.module.css";
 
@@ -39,6 +40,25 @@ export default function ProgressPage() {
   return (
     <>
       <PageHeader title="Progress" description="Everything you've accumulated so far." />
+
+      <div className={styles.overview}>
+        <div className={styles.overviewItem}>
+          <p className={styles.overviewValue}>{USER_PROFILE.stats.hoursLearned}</p>
+          <p className={styles.overviewLabel}>Hours learned</p>
+        </div>
+        <div className={styles.overviewItem}>
+          <p className={styles.overviewValue}>{USER_PROFILE.stats.coursesCompleted}</p>
+          <p className={styles.overviewLabel}>Courses completed</p>
+        </div>
+        <div className={styles.overviewItem}>
+          <p className={styles.overviewValue}>{USER_PROFILE.stats.currentStreak}d</p>
+          <p className={styles.overviewLabel}>Current streak</p>
+        </div>
+        <div className={styles.overviewItem}>
+          <p className={styles.overviewValue}>{USER_PROFILE.stats.longestStreak}d</p>
+          <p className={styles.overviewLabel}>Longest streak</p>
+        </div>
+      </div>
 
       <div className={styles.layout}>
         <div>

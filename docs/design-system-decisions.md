@@ -47,3 +47,20 @@ without the directive) — Sidebar/MobileNavigation's equivalent `onClick`
 contract stays a plain prop with no inline closure of its own, which is
 why they didn't need the same fix (see `docs/navigation.md` for how their
 routing integration was handled instead, without modifying them).
+
+## M2.5 addendum: zero further M1 edits
+
+M2.5 (the Founder Demo Build) touched no M1 component internals — the
+freeze held for the whole milestone. Every new bit of richness composes
+the existing library from the outside:
+
+- `AchievementCard` (new, in `components/shell/`) wraps the frozen
+  `AchievementBadge` to add a progress bar / earned-date caption below it,
+  rather than adding an optional `progress` prop to `AchievementBadge`
+  itself.
+- `ToastHost`/`useToast` wrap the frozen `Toast`/`ToastProvider`/
+  `ToastViewport` primitives with a small queue; the primitives'
+  markup/styling/animation are untouched.
+- Form success/error states use `Input`'s existing `invalid`/`helperText`
+  props and `Button`'s existing `loading` prop — both already supported
+  this in M1, they just weren't wired up to real state yet.

@@ -19,3 +19,41 @@
 .save {
   align-self: flex-start;
 }
+
+.avatarHint {
+  margin: var(--space-2) 0 0;
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}
+
+.statsHeader {
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-4);
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  margin: 0;
+}
+
+.stat {
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-surface-raised);
+  border-radius: var(--radius-md);
+}
+
+.statLabel {
+  margin: 0 0 var(--space-1);
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}
+
+.statValue {
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: var(--font-size-heading-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}

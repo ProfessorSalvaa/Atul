@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Avatar } from "@/components/ui/Avatar";
+import { Badge } from "@/components/ui/Badge";
 import { BLOG_POSTS } from "@/lib/sample-data/content";
 import styles from "./page.module.css";
 
@@ -30,15 +32,22 @@ export default async function BlogPostPage({ params }: PageProps) {
 
   return (
     <article className={styles.article}>
-      <p className={styles.date}>
-        {new Date(post.date).toLocaleDateString("en-US", {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-        })}{" "}
-        · {post.readMinutes} min read
-      </p>
+      <div className={styles.metaRow}>
+        <Badge tone="neutral">{post.tag}</Badge>
+        <p className={styles.date}>
+          {new Date(post.date).toLocaleDateString("en-US", {
+            month: "long",
+            day: "numeric",
+            year: "numeric",
+          })}{" "}
+          · {post.readMinutes} min read
+        </p>
+      </div>
       <h1 className={styles.title}>{post.title}</h1>
+      <div className={styles.byline}>
+        <Avatar fallback={post.authorInitials} size="sm" />
+        <span>{post.author}</span>
+      </div>
       <p className={styles.lede}>{post.excerpt}</p>
       <div className={styles.body}>
         <p>
@@ -52,9 +61,9 @@ export default async function BlogPostPage({ params }: PageProps) {
           think the discipline of saying no consistently is the actual product.
         </p>
         <p>
-          This post will get a real, fully-authored version once the content pipeline (roadmap
-          M4/M5) is in place — for now it’s here so the Blog Layout has something real to render
-          against instead of Lorem Ipsum.
+          The tell, for us, is whether a feature survives someone using Curitiq at 11pm after a long
+          day. Streaks that guilt you don’t survive that test. A quiet progress page that just tells
+          you the truth does. That’s the bar every new idea has to clear before it ships.
         </p>
       </div>
     </article>

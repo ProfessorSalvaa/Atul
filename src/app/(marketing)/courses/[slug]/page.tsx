@@ -1,8 +1,10 @@
-import { Clock, Lock } from "lucide-react";
+import { Clock, Lock, Star } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Avatar } from "@/components/ui/Avatar";
 import { Badge } from "@/components/ui/Badge";
+import { Card } from "@/components/ui/Card";
 import buttonStyles from "@/components/ui/Button.module.css";
 import { LessonCard } from "@/components/learning/LessonCard";
 import { ModuleCard } from "@/components/learning/ModuleCard";
@@ -59,6 +61,23 @@ export default async function CourseDetailPage({ params }: PageProps) {
         </div>
         <h1 className={styles.title}>{course.title}</h1>
         <p className={styles.description}>{course.description}</p>
+        <div className={styles.ratingRow}>
+          <span className={styles.ratingScore}>
+            <Star size={14} aria-hidden="true" className={styles.starIcon} />
+            {course.rating.toFixed(1)}
+          </span>
+          <span className={styles.ratingCount}>
+            ({course.reviewCount.toLocaleString()} reviews) ·{" "}
+            {course.enrolledCount.toLocaleString()} learners enrolled
+          </span>
+        </div>
+        <div className={styles.instructorRow}>
+          <Avatar fallback={course.instructor.initials} size="sm" />
+          <div>
+            <p className={styles.instructorName}>{course.instructor.name}</p>
+            <p className={styles.instructorTitle}>{course.instructor.title}</p>
+          </div>
+        </div>
         <div className={styles.metaFooter}>
           <span className={styles.durationRow}>
             <Clock size={14} aria-hidden="true" /> {course.durationHours} hours · {totalLessons}{" "}
@@ -112,6 +131,25 @@ export default async function CourseDetailPage({ params }: PageProps) {
           </ModuleCard>
         ))}
       </div>
+
+      {course.reviews.length > 0 && (
+        <div className={styles.reviews}>
+          <h2 className={styles.outlineHeading}>What learners say</h2>
+          <div className={styles.reviewGrid}>
+            {course.reviews.map((review) => (
+              <Card key={review.name} className={styles.reviewCard}>
+                <div className={styles.reviewStars}>
+                  {Array.from({ length: review.rating }).map((_, i) => (
+                    <Star key={i} size={13} aria-hidden="true" className={styles.starIcon} />
+                  ))}
+                </div>
+                <p className={styles.reviewQuote}>“{review.quote}”</p>
+                <p className={styles.reviewName}>{review.name}</p>
+              </Card>
+            ))}
+          </div>
+        </div>
+      )}
     </Container>
   );
 }

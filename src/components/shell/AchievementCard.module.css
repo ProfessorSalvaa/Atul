@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  width: 120px;
+  text-align: center;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.root:hover {
+  transform: translateY(-2px);
+}
+
+.meta {
+  margin: 0;
+  font-size: 11px;
+  color: var(--text-tertiary);
+}
+
+.progressWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+}
+
+.progress {
+  width: 100%;
+}

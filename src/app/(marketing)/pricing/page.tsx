@@ -12,7 +12,7 @@ import buttonStyles from "@/components/ui/Button.module.css";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/shell/Container";
 import { cn } from "@/lib/cn";
-import { PRICING_FAQ } from "@/lib/sample-data/content";
+import { PRICING_FAQ, SITE_STATS } from "@/lib/sample-data/content";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -37,6 +37,10 @@ export default function PricingPage() {
         <p className={styles.subtitle}>
           One premium plan. Every course’s first module is free — enough to genuinely judge the
           teaching quality before you pay for anything.
+        </p>
+        <p className={styles.trustLine}>
+          Trusted by {SITE_STATS.learners.toLocaleString()}+ learners ·{" "}
+          {SITE_STATS.avgRating.toFixed(1)}/5 average rating
         </p>
       </div>
 

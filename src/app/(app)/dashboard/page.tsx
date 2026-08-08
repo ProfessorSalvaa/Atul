@@ -8,8 +8,14 @@ import buttonStyles from "@/components/ui/Button.module.css";
 import { Card, CardHeader } from "@/components/ui/Card";
 import { PageHeader } from "@/components/shell/PageHeader";
 import { cn } from "@/lib/cn";
-import { ACHIEVEMENTS, DASHBOARD_CONTINUE_LEARNING, STREAK } from "@/lib/sample-data/content";
-import { SAMPLE_COURSES } from "@/lib/sample-data/courses";
+import {
+  ACHIEVEMENTS,
+  DASHBOARD_CONTINUE_LEARNING,
+  DASHBOARD_RECOMMENDED,
+  STREAK,
+  USER_PROFILE,
+} from "@/lib/sample-data/content";
+import { getCourseBySlug, SAMPLE_COURSES } from "@/lib/sample-data/courses";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -18,14 +24,21 @@ export const metadata: Metadata = {
 };
 
 export default function DashboardPage() {
-  const recent = ACHIEVEMENTS.filter((a) => a.earned).slice(0, 3);
+  const recent = ACHIEVEMENTS.filter((a) => a.earned).slice(0, 4);
   const enrolled = SAMPLE_COURSES.slice(0, 2);
+  const recommended = DASHBOARD_RECOMMENDED.map((slug) => getCourseBySlug(slug)).filter(
+    (c) => c !== undefined,
+  );
   const { courseSlug, courseTitle, lessonSlug, lessonTitle, progressPercent } =
     DASHBOARD_CONTINUE_LEARNING;
+  const firstName = USER_PROFILE.name.split(" ")[0];
 
   return (
     <>
-      <PageHeader title="Welcome back" description="Here's where you left off." />
+      <PageHeader
+        title={`Welcome back, ${firstName}`}
+        description={`${USER_PROFILE.stats.hoursLearned} hours learned so far — here's where you left off.`}
+      />
 
       <div className={styles.grid}>
         <Card raised className={styles.continueCard}>
@@ -50,7 +63,9 @@ export default function DashboardPage() {
             <Flame size={20} />
           </span>
           <p className={styles.streakCount}>{STREAK.days}-day streak</p>
-          <p className={styles.streakNote}>Keep it going — learn something today.</p>
+          <p className={styles.streakNote}>
+            Longest streak: {STREAK.longestStreak} days. Keep it going today.
+          </p>
         </Card>
       </div>
 
@@ -77,6 +92,36 @@ export default function DashboardPage() {
           ))}
         </div>
       </section>
+
+      {recommended.length > 0 && (
+        <section className={styles.section}>
+          <CardHeader
+            title="Recommended for you"
+            action={
+              <Link href="/courses" className={styles.sectionLink}>
+                Browse catalog →
+              </Link>
+            }
+          />
+          <div className={styles.courseGrid}>
+            {recommended.map((course) => (
+              <Link
+                key={course.slug}
+                href={`/courses/${course.slug}`}
+                className={styles.courseLink}
+              >
+                <CourseCard
+                  title={course.title}
+                  description={course.description}
+                  level={course.level}
+                  durationLabel={`${course.durationHours} hrs`}
+                  premium={course.premium}
+                />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className={styles.section}>
         <CardHeader

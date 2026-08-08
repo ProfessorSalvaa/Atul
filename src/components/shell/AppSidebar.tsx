@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { Sidebar, type SidebarNavItem } from "@/components/navigation/Sidebar";
+import styles from "./AppSidebar.module.css";
 import { createNavClickHandler } from "@/hooks/use-nav-link-click";
 import { APP_SIDEBAR_LINKS } from "@/lib/navigation/nav-config";
 
@@ -40,6 +41,11 @@ export function AppSidebar() {
         </Link>
       }
       items={items}
+      footer={
+        <p className={styles.shortcutHint}>
+          Press <kbd className={styles.kbd}>?</kbd> for shortcuts
+        </p>
+      }
     />
   );
 }

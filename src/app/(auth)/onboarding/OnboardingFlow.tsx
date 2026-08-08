@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Progress } from "@/components/ui/Progress";
 import { RadioGroup, RadioItem } from "@/components/ui/Radio";
+import { useToast } from "@/components/shell/ToastHost";
 import styles from "./OnboardingFlow.module.css";
 
 const STEPS = [
@@ -34,6 +35,7 @@ const STEPS = [
  *  until the data layer, M5+). "Finish" just routes to /dashboard. */
 export function OnboardingFlow() {
   const router = useRouter();
+  const { notify } = useToast();
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
 
@@ -43,6 +45,7 @@ export function OnboardingFlow() {
 
   function handleNext() {
     if (isLast) {
+      notify({ title: "You're all set", description: "Welcome to Curitiq.", tone: "success" });
       router.push("/dashboard");
       return;
     }

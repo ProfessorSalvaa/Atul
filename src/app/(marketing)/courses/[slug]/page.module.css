@@ -72,3 +72,85 @@
   text-decoration: none;
   color: inherit;
 }
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  font-size: var(--font-size-body-sm);
+}
+
+.ratingScore {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-primary);
+}
+
+.ratingCount {
+  color: var(--text-tertiary);
+}
+
+.starIcon {
+  color: var(--warning-fg);
+  fill: currentColor;
+}
+
+.instructorRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-surface-raised);
+  border-radius: var(--radius-md);
+}
+
+.instructorName {
+  margin: 0;
+  font-size: var(--font-size-body-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+}
+
+.instructorTitle {
+  margin: 2px 0 0;
+  font-size: var(--font-size-caption);
+  color: var(--text-tertiary);
+}
+
+.reviews {
+  margin-top: var(--space-12);
+}
+
+.reviewGrid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.reviewCard {
+  padding: var(--space-5);
+}
+
+.reviewStars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: var(--space-2);
+}
+
+.reviewQuote {
+  margin: 0 0 var(--space-3);
+  font-size: var(--font-size-body-sm);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.reviewName {
+  margin: 0;
+  font-size: var(--font-size-caption);
+  font-weight: var(--font-weight-medium);
+  color: var(--text-primary);
+}

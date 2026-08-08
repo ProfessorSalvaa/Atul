@@ -127,3 +127,40 @@ later is a data-source change, not a sitemap rewrite.
   unit tests cover the new shell pieces; full click-through navigation
   testing is a reasonable ask for a later milestone once routes carry real
   data worth navigating between.
+
+## M2.5 addendum: Founder Demo Build
+
+M2.5 turned the M2 shell into a polished, explorable demo without adding
+any real backend. What changed, by category:
+
+- **Demo data**: `sample-data/courses.ts` grew from 5 to 8 courses, each
+  now carrying `instructor`, `rating`, `reviewCount`, `enrolledCount`, and
+  `reviews`. `sample-data/content.ts` added `SITE_STATS`,
+  `USER_PROFILE`, richer `NOTIFICATIONS`/`ACHIEVEMENTS` (categories,
+  progress, earned dates), and two more `BLOG_POSTS` with author/tag
+  metadata. The app now reads like a product with an install base instead
+  of three placeholder items per list.
+- **Toasts**: `components/shell/ToastHost.tsx` is a new imperative
+  `useToast()` wrapping M1's unmodified Toast primitives — used for lesson
+  completion, quiz results, form saves, notification toggles, and
+  "not wired up yet" disclosures on auth/billing actions that have no
+  backend (M3/M8).
+- **Keyboard shortcuts**: `components/shell/ShortcutsHost.tsx` adds a
+  `?`-triggered reference overlay and Gmail/Linear-style `g`-then-letter
+  navigation (`g d` → dashboard, `g a` → achievements, etc.), on top of
+  M2's Cmd+K. This supersedes the "Keyboard shortcuts are Cmd+K and Escape
+  only" line in M2's "not done" list below.
+- **State coverage**: lesson "Mark complete", quiz pass/fail, profile and
+  settings forms, notification toggles, and all four auth forms
+  (login/signup/forgot-password/reset-password) now have real loading,
+  validation-error, and success states instead of a bare
+  `e.preventDefault()`. Search gained a debounced skeleton-loading state.
+- **Design-system freeze held**: every addition above composes M1
+  components (`Toast`, `Modal`, `Progress`, `AchievementBadge`, `Switch`,
+  etc.) rather than editing them. The one new pattern —
+  `components/shell/AchievementCard.tsx` — wraps `AchievementBadge` to add
+  progress/earned-date detail without touching the frozen component.
+- **Performance**: see `docs/performance.md` for the bundle/TTFB findings
+  and why a full Lighthouse run couldn't be executed in this sandbox.
+
+This supersedes the M2-era note above about a minimal shortcut set.
