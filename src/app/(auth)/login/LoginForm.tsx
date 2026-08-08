@@ -1,37 +1,58 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter, useSearchParams } from "next/navigation";
 import { type FormEvent, useState } from "react";
+import { loginAction } from "@/lib/auth/actions";
+import { Alert } from "@/components/ui/Alert";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Checkbox } from "@/components/ui/Checkbox";
 import { Input } from "@/components/ui/Input";
-import { useToast } from "@/components/shell/ToastHost";
 import styles from "../auth-form.module.css";
 
 export function LoginForm() {
   const [submitting, setSubmitting] = useState(false);
-  const { notify } = useToast();
+  const [error, setError] = useState<string | undefined>();
+  const router = useRouter();
+  const searchParams = useSearchParams();
 
-  function handleSubmit(e: FormEvent) {
-    // UI only — no auth call yet (M3). Simulates latency so the loading
-    // state is real, then discloses honestly that nothing was persisted.
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setError(undefined);
+    const formData = new FormData(e.currentTarget);
+    const email = String(formData.get("email") ?? "");
+    const password = String(formData.get("password") ?? "");
+
     setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      notify({
-        title: "Sign-in isn't wired up yet",
-        description: "Real authentication ships in M3.",
-        tone: "info",
-      });
-    }, 500);
+    const result = await loginAction({ email, password });
+    setSubmitting(false);
+
+    if (!result.ok) {
+      setError(result.error ?? "Something went wrong. Try again.");
+      return;
+    }
+
+    const redirectTo = searchParams.get("redirect");
+    // Only ever follow a same-site relative path — "/dashboard" is fine,
+    // "//evil.com" (browser-parsed as protocol-relative) or an absolute
+    // "https://evil.com" is not. Guards against an open-redirect via a
+    // crafted `?redirect=` query param.
+    const safeRedirect =
+      redirectTo && redirectTo.startsWith("/") && !redirectTo.startsWith("//")
+        ? redirectTo
+        : "/dashboard";
+    router.push(safeRedirect);
+    router.refresh();
   }
 
   return (
     <Card raised className={styles.card}>
       <h1 className={styles.title}>Welcome back</h1>
       <p className={styles.subtitle}>Log in to continue where you left off.</p>
+      {error && (
+        <Alert tone="error" description={error} style={{ marginBottom: "var(--space-4)" }} />
+      )}
       <form className={styles.form} onSubmit={handleSubmit}>
         <Input label="Email" type="email" name="email" autoComplete="email" required />
         <Input

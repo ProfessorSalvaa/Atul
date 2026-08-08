@@ -16,11 +16,15 @@ export function LessonContent({
   module: mod,
   lesson,
   mdxSource,
+  signedIn,
+  initiallyCompleted,
 }: {
   course: Course;
   module: Module;
   lesson: Lesson;
   mdxSource?: string;
+  signedIn: boolean;
+  initiallyCompleted: boolean;
 }) {
   const loaded = loadCourse(course.slug);
   const flat = loaded ? allLessonsFlat(loaded) : [];
@@ -33,7 +37,14 @@ export function LessonContent({
       <p className={styles.moduleLabel}>{mod.title}</p>
       <h1 className={styles.title}>{lesson.title}</h1>
 
-      <LessonInteractive course={course} lesson={lesson} prev={prev} next={next}>
+      <LessonInteractive
+        course={course}
+        lesson={lesson}
+        prev={prev}
+        next={next}
+        signedIn={signedIn}
+        initiallyCompleted={initiallyCompleted}
+      >
         <div className={styles.body}>{mdxSource ? <MDXBody source={mdxSource} /> : null}</div>
       </LessonInteractive>
     </article>

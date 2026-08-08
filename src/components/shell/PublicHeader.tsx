@@ -19,7 +19,7 @@ import styles from "./PublicHeader.module.css";
  * classes rather than nesting a <Link> inside a <button> (invalid HTML —
  * Button isn't polymorphic) or modifying Button.tsx to add `asChild`.
  */
-export function PublicHeader() {
+export function PublicHeader({ signedIn }: { signedIn: boolean }) {
   const pathname = usePathname();
 
   return (
@@ -46,18 +46,29 @@ export function PublicHeader() {
         </nav>
         <div className={styles.actions}>
           <ThemeSwitcher />
-          <Link
-            href="/login"
-            className={cn(buttonStyles.button, buttonStyles.ghost, buttonStyles.sm)}
-          >
-            Log in
-          </Link>
-          <Link
-            href="/signup"
-            className={cn(buttonStyles.button, buttonStyles.primary, buttonStyles.sm)}
-          >
-            Sign up
-          </Link>
+          {signedIn ? (
+            <Link
+              href="/dashboard"
+              className={cn(buttonStyles.button, buttonStyles.primary, buttonStyles.sm)}
+            >
+              Dashboard
+            </Link>
+          ) : (
+            <>
+              <Link
+                href="/login"
+                className={cn(buttonStyles.button, buttonStyles.ghost, buttonStyles.sm)}
+              >
+                Log in
+              </Link>
+              <Link
+                href="/signup"
+                className={cn(buttonStyles.button, buttonStyles.primary, buttonStyles.sm)}
+              >
+                Sign up
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </header>

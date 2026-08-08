@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { requireAuth } from "@/lib/navigation/route-guard";
 import { SettingsBillingActions } from "./SettingsBillingActions";
 
 export const metadata: Metadata = {
@@ -6,6 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false },
 };
 
-export default function SettingsBillingPage() {
-  return <SettingsBillingActions />;
+export default async function SettingsBillingPage() {
+  const user = await requireAuth("/settings/billing");
+  return <SettingsBillingActions plan={user.plan} />;
 }

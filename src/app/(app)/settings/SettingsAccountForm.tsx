@@ -8,18 +8,14 @@ import { Input } from "@/components/ui/Input";
 import { Modal } from "@/components/ui/Modal";
 import { useToast } from "@/components/shell/ToastHost";
 import { cn } from "@/lib/cn";
-import { USER_PROFILE } from "@/lib/sample-data/content";
+import { changePasswordAction, deleteAccountAction, updateProfileAction } from "@/lib/auth/actions";
 import styles from "./page.module.css";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-/** UI only — no `user.update`/`user.delete` calls yet (M5+/M8 for the
- *  compliance-required delete flow). Forms validate client-side and
- *  simulate save latency; delete requires a confirm step but never
- *  actually deletes anything in this preview. */
-export function SettingsAccountForm() {
-  const [name, setName] = useState(USER_PROFILE.name);
-  const [email, setEmail] = useState(USER_PROFILE.email);
+export function SettingsAccountForm({ user }: { user: { name: string; email: string } }) {
+  const [name, setName] = useState(user.name);
+  const [email, setEmail] = useState(user.email);
   const [profileErrors, setProfileErrors] = useState<{ name?: string; email?: string }>({});
   const [savingProfile, setSavingProfile] = useState(false);
 
@@ -29,10 +25,13 @@ export function SettingsAccountForm() {
   const [savingPassword, setSavingPassword] = useState(false);
 
   const [confirmDeleteOpen, setConfirmDeleteOpen] = useState(false);
+  const [deletePassword, setDeletePassword] = useState("");
+  const [deleteError, setDeleteError] = useState<string | undefined>();
+  const [deleting, setDeleting] = useState(false);
 
   const { notify } = useToast();
 
-  function handleProfileSubmit(e: FormEvent) {
+  async function handleProfileSubmit(e: FormEvent) {
     e.preventDefault();
     const errors: { name?: string; email?: string } = {};
     if (name.trim().length === 0) errors.name = "Full name can't be empty.";
@@ -41,13 +40,16 @@ export function SettingsAccountForm() {
     if (Object.keys(errors).length > 0) return;
 
     setSavingProfile(true);
-    window.setTimeout(() => {
-      setSavingProfile(false);
-      notify({ title: "Profile updated", tone: "success" });
-    }, 600);
+    const result = await updateProfileAction({ name: name.trim(), email: email.trim() });
+    setSavingProfile(false);
+    if (!result.ok) {
+      notify({ title: "Couldn't update profile", description: result.error, tone: "error" });
+      return;
+    }
+    notify({ title: result.message ?? "Profile updated", tone: "success" });
   }
 
-  function handlePasswordSubmit(e: FormEvent) {
+  async function handlePasswordSubmit(e: FormEvent) {
     e.preventDefault();
     if (newPassword.length > 0 && newPassword.length < 8) {
       setPasswordError("New password must be at least 8 characters.");
@@ -59,21 +61,32 @@ export function SettingsAccountForm() {
     }
     setPasswordError(undefined);
     setSavingPassword(true);
-    window.setTimeout(() => {
-      setSavingPassword(false);
-      setCurrentPassword("");
-      setNewPassword("");
-      notify({ title: "Password updated", tone: "success" });
-    }, 600);
+    const result = await changePasswordAction({ currentPassword, newPassword });
+    setSavingPassword(false);
+    if (!result.ok) {
+      setPasswordError(result.error);
+      return;
+    }
+    setCurrentPassword("");
+    setNewPassword("");
+    notify({ title: "Password updated", tone: "success" });
   }
 
-  function handleConfirmDelete() {
-    setConfirmDeleteOpen(false);
-    notify({
-      title: "Account deletion is disabled in this preview",
-      description: "This ships with the real account & billing system (M8).",
-      tone: "info",
-    });
+  async function handleConfirmDelete() {
+    if (deletePassword.length === 0) {
+      setDeleteError("Enter your password to confirm.");
+      return;
+    }
+    setDeleteError(undefined);
+    setDeleting(true);
+    const result = await deleteAccountAction(deletePassword);
+    setDeleting(false);
+    // On success, deleteAccountAction redirects server-side and this
+    // component never re-renders with `result` — only the failure path
+    // is reachable here.
+    if (result && !result.ok) {
+      setDeleteError(result.error);
+    }
   }
 
   return (
@@ -145,7 +158,13 @@ export function SettingsAccountForm() {
 
       <Modal
         open={confirmDeleteOpen}
-        onOpenChange={setConfirmDeleteOpen}
+        onOpenChange={(open) => {
+          setConfirmDeleteOpen(open);
+          if (!open) {
+            setDeletePassword("");
+            setDeleteError(undefined);
+          }
+        }}
         title="Delete your account?"
         description="This permanently deletes your account and all learning progress. This can't be undone."
         footer={
@@ -153,12 +172,22 @@ export function SettingsAccountForm() {
             <Button variant="outline" onClick={() => setConfirmDeleteOpen(false)}>
               Cancel
             </Button>
-            <Button variant="danger" onClick={handleConfirmDelete}>
+            <Button variant="danger" onClick={handleConfirmDelete} loading={deleting}>
               Delete account
             </Button>
           </>
         }
-      />
+      >
+        <Input
+          label="Confirm your password"
+          type="password"
+          name="deletePassword"
+          value={deletePassword}
+          onChange={(e) => setDeletePassword(e.target.value)}
+          invalid={Boolean(deleteError)}
+          helperText={deleteError}
+        />
+      </Modal>
     </div>
   );
 }

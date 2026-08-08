@@ -1,29 +1,41 @@
 "use client";
 
+import { useState } from "react";
 import { Card, CardHeader } from "@/components/ui/Card";
 import { Switch } from "@/components/ui/Switch";
 import { useToast } from "@/components/shell/ToastHost";
+import { updatePreferenceAction } from "@/lib/preferences/actions";
+import type { PreferenceKey } from "@/lib/preferences/service";
 import styles from "./page.module.css";
 
-const IN_APP_TOGGLES = [
-  { id: "achievement", label: "Achievement unlocked", defaultChecked: true },
-  { id: "streak-risk", label: "Streak at risk", defaultChecked: true },
-  { id: "content-updated", label: "Course content updated", defaultChecked: false },
+const IN_APP_TOGGLES: { id: PreferenceKey; label: string }[] = [
+  { id: "notifyAchievement", label: "Achievement unlocked" },
+  { id: "notifyStreakRisk", label: "Streak at risk" },
+  { id: "notifyContentUpdated", label: "Course content updated" },
 ];
 
-const EMAIL_TOGGLES = [
-  { id: "weekly-digest", label: "Weekly progress digest", defaultChecked: true },
-  { id: "streak-reminder", label: "Streak-at-risk reminder", defaultChecked: true },
-  { id: "billing", label: "Billing receipts and failures", defaultChecked: true },
+const EMAIL_TOGGLES: { id: PreferenceKey; label: string }[] = [
+  { id: "emailWeeklyDigest", label: "Weekly progress digest" },
+  { id: "emailStreakReminder", label: "Streak-at-risk reminder" },
+  { id: "emailBilling", label: "Billing receipts and failures" },
 ];
 
-/** UI only — no `notification.getPreferences`/`updatePreferences` calls
- *  yet (M5+). Toggling shows a toast so flipping a switch doesn't feel
- *  like it silently did nothing. */
-export function SettingsNotificationsForm() {
+export function SettingsNotificationsForm({
+  preferences,
+}: {
+  preferences: Record<PreferenceKey, boolean>;
+}) {
+  const [values, setValues] = useState(preferences);
   const { notify } = useToast();
 
-  function handleToggle(label: string, checked: boolean) {
+  async function handleToggle(id: PreferenceKey, label: string, checked: boolean) {
+    setValues((v) => ({ ...v, [id]: checked }));
+    const result = await updatePreferenceAction(id, checked);
+    if (!result.ok) {
+      setValues((v) => ({ ...v, [id]: !checked }));
+      notify({ title: "Couldn't save preference", description: result.error, tone: "error" });
+      return;
+    }
     notify({
       title: checked ? `${label} enabled` : `${label} disabled`,
       tone: "neutral",
@@ -39,8 +51,8 @@ export function SettingsNotificationsForm() {
             <Switch
               key={t.id}
               label={t.label}
-              defaultChecked={t.defaultChecked}
-              onCheckedChange={(checked) => handleToggle(t.label, checked)}
+              checked={values[t.id]}
+              onCheckedChange={(checked) => handleToggle(t.id, t.label, checked)}
             />
           ))}
         </div>
@@ -53,8 +65,8 @@ export function SettingsNotificationsForm() {
             <Switch
               key={t.id}
               label={t.label}
-              defaultChecked={t.defaultChecked}
-              onCheckedChange={(checked) => handleToggle(t.label, checked)}
+              checked={values[t.id]}
+              onCheckedChange={(checked) => handleToggle(t.id, t.label, checked)}
             />
           ))}
         </div>

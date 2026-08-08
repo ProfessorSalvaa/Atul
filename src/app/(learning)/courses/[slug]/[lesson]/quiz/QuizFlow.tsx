@@ -11,6 +11,7 @@ import { Progress } from "@/components/ui/Progress";
 import { RadioGroup, RadioItem } from "@/components/ui/Radio";
 import { cn } from "@/lib/cn";
 import type { Course, Lesson, QuizQuestion } from "@/lib/content/schema";
+import { submitQuizAction } from "@/lib/progress/actions";
 import styles from "./page.module.css";
 
 /**
@@ -63,10 +64,12 @@ export function QuizFlow({
   course,
   lesson,
   questions: rawQuestions,
+  signedIn,
 }: {
   course: Course;
   lesson: Lesson;
   questions: QuizQuestion[];
+  signedIn: boolean;
 }) {
   const questions = useMemo(
     () => rawQuestions.map(normalizeQuestion).filter((q): q is RenderableQuestion => q !== null),
@@ -76,8 +79,12 @@ export function QuizFlow({
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
+  const [answers, setAnswers] = useState<Record<string, string>>({});
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [finalPercent, setFinalPercent] = useState(0);
+  const [finalPassed, setFinalPassed] = useState(false);
   const { notify } = useToast();
 
   if (questions.length === 0) {
@@ -99,14 +106,38 @@ export function QuizFlow({
     if (selected === question.correctOptionId) setScore((s) => s + 1);
   }
 
-  function handleNext() {
+  async function handleNext() {
+    const nextAnswers = { ...answers, [question.id]: selected ?? "" };
+    setAnswers(nextAnswers);
+
     if (isLast) {
-      const percent = Math.round((score / questions.length) * 100);
+      if (!signedIn) {
+        const percent = Math.round((score / questions.length) * 100);
+        setFinalPercent(percent);
+        setFinalPassed(percent >= 70);
+        setFinished(true);
+        notify({
+          title: percent >= 70 ? "Quiz passed" : "Quiz not passed — try again anytime",
+          description: `You scored ${percent}%. Sign in to save this result.`,
+          tone: percent >= 70 ? "success" : "warning",
+        });
+        return;
+      }
+
+      setSubmitting(true);
+      const result = await submitQuizAction(course.slug, lesson.slug, nextAnswers);
+      setSubmitting(false);
+      if (!result.ok) {
+        notify({ title: "Couldn't submit quiz", description: result.error, tone: "error" });
+        return;
+      }
+      setFinalPercent(result.scorePercent);
+      setFinalPassed(result.passed);
       setFinished(true);
       notify({
-        title: percent >= 70 ? "Quiz passed" : "Quiz not passed — try again anytime",
-        description: `You scored ${percent}%.`,
-        tone: percent >= 70 ? "success" : "warning",
+        title: result.passed ? "Quiz passed" : "Quiz not passed — try again anytime",
+        description: `You scored ${result.scorePercent}%.`,
+        tone: result.passed ? "success" : "warning",
       });
       return;
     }
@@ -119,25 +150,24 @@ export function QuizFlow({
     setIndex(0);
     setSelected(null);
     setRevealed(false);
+    setAnswers({});
     setScore(0);
     setFinished(false);
   }
 
   if (finished) {
-    const percent = Math.round((score / questions.length) * 100);
-    const passed = percent >= 70;
     return (
       <Card raised className={styles.summaryCard}>
         <span className={styles.summaryIcon}>
-          {passed ? (
+          {finalPassed ? (
             <CheckCircle2 size={32} aria-hidden="true" />
           ) : (
             <XCircle size={32} aria-hidden="true" />
           )}
         </span>
-        <h1 className={styles.summaryTitle}>{percent}%</h1>
+        <h1 className={styles.summaryTitle}>{finalPercent}%</h1>
         <p className={styles.summaryText}>
-          {passed
+          {finalPassed
             ? "Passed — nice work. Your progress on this module has been marked forward."
             : "Not quite there yet — retry anytime, there's no limit and no penalty."}
         </p>
@@ -191,7 +221,9 @@ export function QuizFlow({
               Check answer
             </Button>
           ) : (
-            <Button onClick={handleNext}>{isLast ? "See results" : "Next question"}</Button>
+            <Button onClick={handleNext} loading={isLast && submitting}>
+              {isLast ? "See results" : "Next question"}
+            </Button>
           )}
         </div>
       </Card>

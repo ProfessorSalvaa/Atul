@@ -1,19 +1,19 @@
 /**
- * Navigation guard placeholder — M2 scope.
+ * Route protection (M3).
  *
- * M2 explicitly excludes authentication ("Do NOT implement authentication").
- * This file exists so the shell has one documented, obvious place for real
- * route protection to plug into once M3 (auth) lands, instead of that logic
- * getting scattered across individual page components later.
- *
- * Today `isProtectedRoute` is data (not a security boundary — nothing calls
- * it to actually block anything), and `requireAuth` is a deliberate no-op.
- * M3 should replace `requireAuth`'s body with a real session check
- * (redirect to /login, preserve the intended destination) and this file's
- * job is done — no other file should need to change.
+ * `isProtectedRoute` is the same route-prefix data M2 shipped —
+ * `requireAuth` is no longer a no-op. It's a Server Component/Server
+ * Action helper: call it at the top of a protected layout or action,
+ * and it either returns the signed-in user or redirects to /login
+ * (preserving the intended destination via `?redirect=`), so a call
+ * site never has to handle the "not authenticated" branch itself.
  */
+import "server-only";
+import { redirect } from "next/navigation";
+import type { UserRow } from "@/lib/db/schema";
+import { getCurrentUser } from "@/lib/auth/current-user";
 
-/** Route prefixes that will require a signed-in session once M3 ships. */
+/** Route prefixes that require a signed-in session. */
 export const PROTECTED_ROUTE_PREFIXES = [
   "/onboarding",
   "/dashboard",
@@ -31,11 +31,27 @@ export function isProtectedRoute(pathname: string): boolean {
   );
 }
 
-/**
- * No-op today by design — see file header. Kept async so the eventual real
- * implementation (a server-side session lookup) is a drop-in replacement
- * with no call-site changes.
- */
-export async function requireAuth(): Promise<{ authenticated: true } | never> {
-  return { authenticated: true };
+/** Redirects to /login (preserving `redirectTo` as a return-to param) if
+ *  no session is present. Otherwise returns the signed-in user row. Call
+ *  from a protected layout/page — never from middleware/edge, since it
+ *  does a real database lookup. */
+export async function requireAuth(redirectTo?: string): Promise<UserRow> {
+  const user = await getCurrentUser();
+  if (!user) {
+    const target = redirectTo ? `/login?redirect=${encodeURIComponent(redirectTo)}` : "/login";
+    redirect(target);
+  }
+  return user;
+}
+
+/** Same as requireAuth, but also requires the ADMIN role. Non-admins get
+ *  redirected home rather than seeing a bare 403 — there's no public
+ *  /admin surface yet (M3 scope), so this exists for the authorization
+ *  helper itself to be ready when that surface ships. */
+export async function requireAdmin(): Promise<UserRow> {
+  const user = await requireAuth();
+  if (user.role !== "admin") {
+    redirect("/dashboard");
+  }
+  return user;
 }

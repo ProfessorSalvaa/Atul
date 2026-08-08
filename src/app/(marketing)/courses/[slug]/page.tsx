@@ -5,14 +5,17 @@ import { notFound } from "next/navigation";
 import { Avatar } from "@/components/ui/Avatar";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
-import buttonStyles from "@/components/ui/Button.module.css";
 import { LessonCard } from "@/components/learning/LessonCard";
 import { ModuleCard } from "@/components/learning/ModuleCard";
 import { Container } from "@/components/shell/Container";
-import { cn } from "@/lib/cn";
-import { getAllCourseSlugs, loadCourse } from "@/lib/content/loader";
+import { getAllCourseSlugs, allLessonsFlat, loadCourse } from "@/lib/content/loader";
 import { toCardLessonType } from "@/lib/content/lessonCardAdapter";
 import { courseMetadata } from "@/lib/content/seo";
+import { canAccessLesson, viewerPlan } from "@/lib/access/course-access";
+import { getCurrentUser } from "@/lib/auth/current-user";
+import { getDb } from "@/lib/db/client";
+import * as progressService from "@/lib/progress/service";
+import { EnrollCta } from "./EnrollCta";
 import styles from "./page.module.css";
 
 interface PageProps {
@@ -35,8 +38,9 @@ const levelLabel = { beginner: "Beginner", intermediate: "Intermediate", advance
 /**
  * Public course detail — also the enrolled course view once auth ships
  * (M3+). Per docs/navigation.md, this route deliberately doesn't branch
- * layouts by auth state; the enrolled variant will render richer state
- * (resume CTA, real progress) within this same Marketing Layout page.
+ * layouts by auth state; the enrolled variant renders richer state
+ * (resume CTA, real progress, real per-lesson locking) within this same
+ * Marketing Layout page.
  */
 export default async function CourseDetailPage({ params }: PageProps) {
   const { slug } = await params;
@@ -45,6 +49,25 @@ export default async function CourseDetailPage({ params }: PageProps) {
   const { course, modules, reviews } = loaded;
 
   const totalLessons = modules.reduce((sum, m) => sum + m.lessons.length, 0);
+
+  const user = await getCurrentUser();
+  const plan = viewerPlan(user);
+
+  let enrolled = false;
+  let progressByLesson = new Map<string, { completedAt: Date | null }>();
+  if (user) {
+    const db = getDb();
+    const enrollment = await progressService.getEnrollment(db, user.id, slug);
+    enrolled = Boolean(enrollment);
+    progressByLesson = await progressService.getCourseLessonProgress(db, user.id, slug);
+  }
+
+  const flat = allLessonsFlat(loaded);
+  const firstIncomplete = flat.find((l) => !progressByLesson.get(l.slug)?.completedAt);
+  const resumeLesson = firstIncomplete ?? flat[0];
+  const resumeHref = resumeLesson
+    ? `/courses/${course.slug}/${resumeLesson.slug}`
+    : `/courses/${course.slug}`;
 
   return (
     <Container className={styles.wrap}>
@@ -90,12 +113,12 @@ export default async function CourseDetailPage({ params }: PageProps) {
           </div>
         </div>
         <div className={styles.actions}>
-          <Link
-            href={`/signup`}
-            className={cn(buttonStyles.button, buttonStyles.primary, buttonStyles.lg)}
-          >
-            Enroll — sign up free
-          </Link>
+          <EnrollCta
+            courseSlug={course.slug}
+            signedIn={Boolean(user)}
+            enrolled={enrolled}
+            resumeHref={resumeHref}
+          />
         </div>
       </div>
 
@@ -103,8 +126,13 @@ export default async function CourseDetailPage({ params }: PageProps) {
         <h2 className={styles.outlineHeading}>Course outline</h2>
         {modules.map(({ module: mod, lessons }) => (
           <ModuleCard key={mod.slug} title={mod.title} lessonCount={lessons.length}>
-            {lessons.map(({ lesson }) =>
-              lesson.free ? (
+            {lessons.map(({ lesson }) => {
+              const accessible = canAccessLesson(plan, course, mod, lesson);
+              const completed = Boolean(progressByLesson.get(lesson.slug)?.completedAt);
+              const durationLabel = lesson.free
+                ? `${lesson.durationMinutes} min · Free preview`
+                : `${lesson.durationMinutes} min`;
+              return accessible ? (
                 <Link
                   key={lesson.slug}
                   href={`/courses/${course.slug}/${lesson.slug}`}
@@ -113,7 +141,8 @@ export default async function CourseDetailPage({ params }: PageProps) {
                   <LessonCard
                     title={lesson.title}
                     type={toCardLessonType(lesson.type)}
-                    durationLabel={`${lesson.durationMinutes} min · Free preview`}
+                    durationLabel={durationLabel}
+                    completed={completed}
                   />
                 </Link>
               ) : (
@@ -121,11 +150,11 @@ export default async function CourseDetailPage({ params }: PageProps) {
                   key={lesson.slug}
                   title={lesson.title}
                   type={toCardLessonType(lesson.type)}
-                  durationLabel={`${lesson.durationMinutes} min`}
+                  durationLabel={durationLabel}
                   locked
                 />
-              ),
-            )}
+              );
+            })}
           </ModuleCard>
         ))}
       </div>

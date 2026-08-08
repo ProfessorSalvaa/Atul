@@ -1,38 +1,47 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { type FormEvent, useState } from "react";
+import { registerAction } from "@/lib/auth/actions";
+import { Alert } from "@/components/ui/Alert";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Checkbox } from "@/components/ui/Checkbox";
 import { Input } from "@/components/ui/Input";
-import { useToast } from "@/components/shell/ToastHost";
 import styles from "../auth-form.module.css";
 
 export function SignupForm() {
   const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState<string | undefined>();
+  const [formError, setFormError] = useState<string | undefined>();
   const [submitting, setSubmitting] = useState(false);
-  const { notify } = useToast();
+  const router = useRouter();
 
-  function handleSubmit(e: FormEvent) {
-    // UI only — no auth call yet (M3). Password length is validated
-    // client-side so the error state is real; nothing is persisted.
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setFormError(undefined);
     if (password.length < 8) {
       setPasswordError("Use at least 8 characters.");
       return;
     }
     setPasswordError(undefined);
+
+    const formData = new FormData(e.currentTarget);
+    const name = String(formData.get("name") ?? "");
+    const email = String(formData.get("email") ?? "");
+
     setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      notify({
-        title: "Sign-up isn't wired up yet",
-        description: "Real account creation ships in M3.",
-        tone: "info",
-      });
-    }, 500);
+    const result = await registerAction({ name, email, password });
+    setSubmitting(false);
+
+    if (!result.ok) {
+      setFormError(result.error ?? "Something went wrong. Try again.");
+      return;
+    }
+
+    router.push("/dashboard");
+    router.refresh();
   }
 
   return (
@@ -41,6 +50,9 @@ export function SignupForm() {
       <p className={styles.subtitle}>
         Start with any course’s free first module — no card required.
       </p>
+      {formError && (
+        <Alert tone="error" description={formError} style={{ marginBottom: "var(--space-4)" }} />
+      )}
       <form className={styles.form} onSubmit={handleSubmit} noValidate>
         <Input label="Full name" type="text" name="name" autoComplete="name" required />
         <Input label="Email" type="email" name="email" autoComplete="email" required />

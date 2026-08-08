@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card, CardHeader } from "@/components/ui/Card";
 import { useToast } from "@/components/shell/ToastHost";
+import type { UserPlan } from "@/lib/db/schema";
 import styles from "./page.module.css";
 
 const INVOICES = [
@@ -13,10 +14,12 @@ const INVOICES = [
   { id: "inv_4", date: "Apr 8, 2026", amount: "$19.00", status: "Paid" },
 ];
 
-/** UI only — no `billing.getSubscription`/`billing.createPortalSession`
- *  calls yet (Stripe wiring is a later milestone). Buttons surface a
- *  toast explaining that, instead of doing nothing when clicked. */
-export function SettingsBillingActions() {
+/** `plan` is the real subscription state from the database (M3). No
+ *  payment provider is integrated yet — invoice history and the payment
+ *  method card below stay illustrative placeholders (labeled as such)
+ *  until Stripe wiring ships in a later milestone; the plan badge and
+ *  which cards render are real. */
+export function SettingsBillingActions({ plan }: { plan: UserPlan }) {
   const { notify } = useToast();
 
   function notPreview(feature: string) {
@@ -27,11 +30,30 @@ export function SettingsBillingActions() {
     });
   }
 
+  if (plan === "free") {
+    return (
+      <div className={styles.stack}>
+        <Card className={styles.card}>
+          <CardHeader title="Current plan" action={<Badge tone="neutral">Free</Badge>} />
+          <p className={styles.planDetail}>
+            You have access to the first module of every premium course, plus full access to all
+            free courses.
+          </p>
+          <div className={styles.actions}>
+            <Button variant="outline" size="sm" onClick={() => notPreview("Upgrading")}>
+              Upgrade to Premium
+            </Button>
+          </div>
+        </Card>
+      </div>
+    );
+  }
+
   return (
     <div className={styles.stack}>
       <Card className={styles.card}>
         <CardHeader title="Current plan" action={<Badge tone="brand">Premium</Badge>} />
-        <p className={styles.planDetail}>$19/month · renews Sep 8, 2026</p>
+        <p className={styles.planDetail}>Full course access, AI Tutor, and certificates.</p>
         <div className={styles.actions}>
           <Button variant="outline" size="sm" onClick={() => notPreview("Plan changes")}>
             Change plan
@@ -44,7 +66,7 @@ export function SettingsBillingActions() {
 
       <Card className={styles.card}>
         <CardHeader title="Payment method" />
-        <p className={styles.planDetail}>Visa ending in 4242 · expires 08/28</p>
+        <p className={styles.planDetail}>Preview data — no payment provider connected yet.</p>
         <Button variant="outline" size="sm" onClick={() => notPreview("Payment updates")}>
           Update payment method
         </Button>
@@ -52,6 +74,7 @@ export function SettingsBillingActions() {
 
       <Card className={styles.card}>
         <CardHeader title="Invoice history" />
+        <p className={styles.planDetail}>Preview data — no payment provider connected yet.</p>
         <table className={styles.table}>
           <thead>
             <tr>

@@ -2,12 +2,13 @@
 
 import { Check, ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import buttonStyles from "@/components/ui/Button.module.css";
 import { Button } from "@/components/ui/Button";
 import { useToast } from "@/components/shell/ToastHost";
 import { cn } from "@/lib/cn";
 import type { Course, Lesson } from "@/lib/content/schema";
+import { markLessonCompleteAction, markLessonStartedAction } from "@/lib/progress/actions";
 import styles from "./page.module.css";
 
 export function LessonInteractive({
@@ -15,32 +16,54 @@ export function LessonInteractive({
   lesson,
   prev,
   next,
+  signedIn,
+  initiallyCompleted,
   children,
 }: {
   course: Course;
   lesson: Lesson;
   prev?: Lesson;
   next?: Lesson;
+  signedIn: boolean;
+  initiallyCompleted: boolean;
   children: ReactNode;
 }) {
-  const [completed, setCompleted] = useState(false);
+  const [completed, setCompleted] = useState(initiallyCompleted);
   const [saving, setSaving] = useState(false);
   const { notify } = useToast();
 
-  function handleMarkComplete() {
+  // Marks the lesson "started" once per mount — access has already been
+  // verified server-side (page.tsx redirects otherwise), this just
+  // records the visit. Skipped entirely for anonymous free-preview
+  // viewers, since there's no account to attach progress to.
+  useEffect(() => {
+    if (!signedIn) return;
+    void markLessonStartedAction(course.slug, lesson.slug);
+  }, [course.slug, lesson.slug, signedIn]);
+
+  async function handleMarkComplete() {
     if (completed || saving) return;
-    setSaving(true);
-    // Simulated save latency — no `progress.update` call yet (M5+). Keeps
-    // the button's loading state honest about being a UI affordance.
-    window.setTimeout(() => {
-      setSaving(false);
-      setCompleted(true);
+    if (!signedIn) {
       notify({
-        title: "Lesson marked complete",
-        description: next ? `Up next: ${next.title}` : "That's the last lesson in this module.",
-        tone: "success",
+        title: "Sign in to save progress",
+        description: "Create a free account to track completed lessons.",
+        tone: "info",
       });
-    }, 500);
+      return;
+    }
+    setSaving(true);
+    const result = await markLessonCompleteAction(course.slug, lesson.slug);
+    setSaving(false);
+    if (!result.ok) {
+      notify({ title: "Couldn't save progress", description: result.error, tone: "error" });
+      return;
+    }
+    setCompleted(true);
+    notify({
+      title: "Lesson marked complete",
+      description: next ? `Up next: ${next.title}` : "That's the last lesson in this module.",
+      tone: "success",
+    });
   }
 
   return (

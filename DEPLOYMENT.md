@@ -13,9 +13,10 @@ The repo is live at `github.com/<owner>/curitiq` (private) with the M0 commit pu
 ## 2. Vercel
 
 1. Import the GitHub repo as a new Vercel project (vercel.com → Add New → Project).
-2. Framework preset: Next.js (auto-detected, no `vercel.json` needed for M0).
-3. Add environment variables from `.env.example` as they become real (start with none required for M0 — the app builds and runs without any).
+2. Framework preset: Next.js (auto-detected, no `vercel.json` needed).
+3. As of M3, `DATABASE_URL` and `AUTH_SECRET` are required for the app to run against a real database — see `docs/deployment.md` for the full environment variable reference, what each one needs, and which ones require a human to provision an external account (Neon, Resend) before they can be set.
 4. Every PR gets a Preview deployment automatically; `main` deploys to Production automatically once connected.
+5. Migrations are not run automatically on deploy — run `pnpm db:migrate` manually against each environment's `DATABASE_URL` as part of the release process (see `docs/deployment.md`).
 
 ## 3. Domain (Hostinger → Vercel)
 

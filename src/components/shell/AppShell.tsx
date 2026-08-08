@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import { AppMobileNav } from "./AppMobileNav";
 import { AppSidebar } from "./AppSidebar";
-import { AppTopBar } from "./AppTopBar";
+import { AppTopBar, type AppTopBarUser } from "./AppTopBar";
 import { PageTransition } from "./PageTransition";
 import styles from "./AppShell.module.css";
 
@@ -14,15 +14,18 @@ import styles from "./AppShell.module.css";
  * SkipLink, CommandPaletteHost, AITutorHost, and ScrollManager are mounted
  * once in the root layout (they're global overlays / cross-cutting
  * concerns, not specific to this shell) — see src/app/layout.tsx.
+ *
+ * `user` is the real signed-in user (see (app)/layout.tsx → requireAuth),
+ * threaded down to AppTopBar's profile menu.
  */
-export function AppShell({ children }: { children: ReactNode }) {
+export function AppShell({ children, user }: { children: ReactNode; user: AppTopBarUser }) {
   return (
     <div className={styles.shell}>
       <div className={styles.sidebarSlot}>
         <AppSidebar />
       </div>
       <div className={styles.column}>
-        <AppTopBar />
+        <AppTopBar user={user} />
         <main id="main-content" tabIndex={-1} className={styles.content}>
           <PageTransition>{children}</PageTransition>
         </main>

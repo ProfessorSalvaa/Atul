@@ -7,9 +7,11 @@ import { PageHeader } from "@/components/shell/PageHeader";
 import { getAllCourses } from "@/lib/content/loader";
 import styles from "./page.module.css";
 
+const courseCount = getAllCourses().length;
+
 export const metadata: Metadata = {
   title: "Course Catalog",
-  description: "Eight flagship courses, hand-authored for real depth over catalog size.",
+  description: `${courseCount} flagship courses, hand-authored for real depth over catalog size.`,
   alternates: { canonical: "/courses" },
 };
 

@@ -2,7 +2,7 @@
 
 Help anyone master modern digital skills through beautifully designed, AI-powered learning experiences.
 
-This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations**, **M1 — Design System**, **M2 — Application Shell & Navigation**, **M2.5 — Founder Demo Build**, and **M2.75 — Content Engine** are complete: repo/tooling/CI, the full token + component library, every route from the P0 blueprint with rich, realistic demo data and interaction polish, and — as of M2.75 — a schema-validated content engine (`content/`, `src/lib/content/`) that the application reads from instead of hardcoded fixtures, built to scale to 500+ courses without further application code changes. See `docs/component-inventory.md`, `docs/navigation.md`, `docs/performance.md`, and `docs/content/architecture.md` for what exists. Real data, auth, and business logic start at M3+.
+This repository is the engineering source of truth for Curitiq, built milestone by milestone per the approved roadmap and product blueprint (P0). **M0 — Engineering Foundations** through **M2.8 — Launch Content Library** are complete: repo/tooling/CI, the full token + component library, every route from the P0 blueprint with interaction polish, a schema-validated content engine (`content/`, `src/lib/content/`) built to scale to 500+ courses, and a 108-course launch catalog. **M3 — Authentication + Database Foundation** is also complete: real accounts (PostgreSQL/Neon via Drizzle ORM), DB-backed sessions, email verification, password reset, real enrollment/lesson-completion/quiz-attempt persistence, and free/premium access control — all wired into the existing UI without changing the M1 design system or touching the 108 authored courses. See `docs/component-inventory.md`, `docs/navigation.md`, `docs/performance.md`, `docs/content/architecture.md`, `docs/database.md`, `docs/authentication.md`, `docs/progress-system.md`, and `docs/security.md` for what exists. Payments, AI Tutor, and the full Admin Studio start at M4+.
 
 ## Stack (decided in the roadmap, see repo docs)
 
@@ -18,15 +18,20 @@ pnpm dev
 
 ## Scripts
 
-| Script                         | Purpose                |
-| ------------------------------ | ---------------------- |
-| `pnpm dev`                     | Local dev server       |
-| `pnpm build`                   | Production build       |
-| `pnpm lint`                    | ESLint                 |
-| `pnpm format` / `format:check` | Prettier write / check |
-| `pnpm typecheck`               | `tsc --noEmit`         |
-| `pnpm test`                    | Vitest (single run)    |
-| `pnpm test:watch`              | Vitest watch mode      |
+| Script                         | Purpose                                         |
+| ------------------------------ | ----------------------------------------------- |
+| `pnpm dev`                     | Local dev server                                |
+| `pnpm build`                   | Production build                                |
+| `pnpm lint`                    | ESLint                                          |
+| `pnpm format` / `format:check` | Prettier write / check                          |
+| `pnpm typecheck`               | `tsc --noEmit`                                  |
+| `pnpm test`                    | Vitest (single run)                             |
+| `pnpm test:watch`              | Vitest watch mode                               |
+| `pnpm db:generate`             | Generate a Drizzle migration from `schema.ts`   |
+| `pnpm db:migrate`              | Apply pending migrations to `DATABASE_URL`      |
+| `pnpm db:push`                 | Dev-only: push `schema.ts` straight to the DB   |
+| `pnpm db:studio`               | Open Drizzle Studio against `DATABASE_URL`      |
+| `pnpm db:seed`                 | Seed two demo accounts (see `docs/database.md`) |
 
 All five — `lint`, `format:check`, `typecheck`, `test`, `build` — run in CI on every PR (`.github/workflows/ci.yml`) and must pass before merge.
 
@@ -46,7 +51,7 @@ src/
   styles/tokens/ Design tokens (colors, typography, spacing, ...)
 ```
 
-`src/server/`, `src/db/` etc. arrive with the milestones that need them (M3+). Deliberately not pre-scaffolded now to avoid empty, ungrounded folders.
+As of M3, `src/lib/db/` (Drizzle schema + client), `src/lib/auth/`, `src/lib/progress/`, `src/lib/preferences/`, and `src/lib/access/` hold the database, authentication, and progress-tracking code — see `docs/database.md`, `docs/authentication.md`, and `docs/progress-system.md`. Payment/billing code and the full Admin Studio arrive with the milestones that need them (M4+).
 
 ## Environments
 

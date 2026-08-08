@@ -3,26 +3,30 @@
 import { MailCheck } from "lucide-react";
 import Link from "next/link";
 import { type FormEvent, useState } from "react";
+import { requestPasswordResetAction } from "@/lib/auth/actions";
+import { Alert } from "@/components/ui/Alert";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Input } from "@/components/ui/Input";
 import styles from "../auth-form.module.css";
 
-/** UI only — no email dispatch yet (M3). The "check your email" screen is
- *  a real UI state (not just a toast) since it's the expected pattern for
- *  this flow, even though nothing was actually sent. */
 export function ForgotPasswordForm() {
   const [email, setEmail] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [sent, setSent] = useState(false);
+  const [error, setError] = useState<string | undefined>();
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
+    setError(undefined);
     setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      setSent(true);
-    }, 500);
+    const result = await requestPasswordResetAction(email);
+    setSubmitting(false);
+    if (!result.ok) {
+      setError(result.error ?? "Something went wrong. Try again.");
+      return;
+    }
+    setSent(true);
   }
 
   if (sent) {
@@ -48,6 +52,9 @@ export function ForgotPasswordForm() {
       <p className={styles.subtitle}>
         Enter the email on your account and we’ll send a reset link.
       </p>
+      {error && (
+        <Alert tone="error" description={error} style={{ marginBottom: "var(--space-4)" }} />
+      )}
       <form className={styles.form} onSubmit={handleSubmit}>
         <Input
           label="Email"
